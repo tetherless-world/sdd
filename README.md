@@ -1,2 +1,2 @@
 # tetherless-world.github.io
-Semantic Data Dictionary
+Tetherless World Constellation github Page
