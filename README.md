@@ -1,2 +1,2 @@
-# tetherless.ssd.io
+# sdd
 Semantic Data Dictionary
