@@ -1,0 +1,56 @@
+Column,Code,Label,Class,Comment,Definition
+PEASCST1,1,Complete,,,
+PEASCST1,2,Partial,,,
+PEASCST1,3,Not done,,,
+PEASCST1,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+PEASCTM1,7 to 2868,Range of Values,,,
+PEASCTM1,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+PEASCCT1,1,Safety exclusion,,,
+PEASCCT1,2,SP refusal,,,
+PEASCCT1,3,No time,,,
+PEASCCT1,4,Physical limitation,,,
+PEASCCT1,5,Communication problem,,,
+PEASCCT1,6,Equipment failure,,,
+PEASCCT1,7,SP ill/emergency,,,
+PEASCCT1,56,Came late/left early,,,
+PEASCCT1,72,Error (technician/software/supply),,,
+PEASCCT1,84,SP with child,,,
+PEASCCT1,99,"Other, specify",,,
+PEASCCT1,122,Language barrier,,,
+PEASCCT1,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPXCHR,60 to 178,Range of Values,,,
+BPXCHR,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPXPLS,40 to 180,Range of Values,,,
+BPXPLS,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPXSY1,66 to 228,Range of Values,,,
+BPXSY1,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPXDI1,0 to 122,Range of Values,,,
+BPXDI1,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPAEN1,1,Yes,,,
+BPAEN1,2,No,,,
+BPAEN1,8,Could not obtain,,,
+BPAEN1,.,Missing,,,
+BPXSY2,66 to 230,Range of Values,,,
+BPXSY2,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPXDI2,0 to 116,Range of Values,,,
+BPXDI2,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPAEN2,1,Yes,,,
+BPAEN2,2,No,,,
+BPAEN2,8,Could not obtain,,,
+BPAEN2,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPXSY3,62 to 228,Range of Values,,,
+BPXSY3,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPXDI3,0 to 118,Range of Values,,,
+BPXDI3,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPAEN3,1,Yes,,,
+BPAEN3,2,No,,,
+BPAEN3,8,Could not obtain,,,
+BPAEN3,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPXSY4,80 to 212,Range of Values,,,
+BPXSY4,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPXDI4,0 to 128,Range of Values,,,
+BPXDI4,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BPAEN4,1,Yes,,,
+BPAEN4,2,No,,,
+BPAEN4,8,Could not obtain,,,
+BPAEN4,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"

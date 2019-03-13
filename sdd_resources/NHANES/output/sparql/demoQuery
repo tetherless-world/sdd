@@ -1,0 +1,143 @@
+prefix cmo: <http://purl.obolibrary.org/obo/CMO_> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix hp: <http://purl.obolibrary.org/obo/HP_> 
+prefix chear: <http://hadatac.org/ont/chear#> 
+prefix stato: <http://purl.obolibrary.org/obo/STATO_> 
+prefix uo: <http://purl.obolibrary.org/obo/UO_> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix np: <http://www.nanopub.org/nschema#> 
+prefix sio: <http://semanticscience.org/resource/> 
+prefix nhanes-kb: <http://idea.rpi.edu/heals/kb/nhanes#> 
+
+SELECT DISTINCT ?seqn ?riagendr ?ridageyr ?ridagemn ?ridreth1 ?ridexagm ?dmdborn4 ?dmdcitzn ?dmdyrsus ?dmdeduc3 ?dmdeduc2 ?dmdmartl ?ridexprg ?sialang ?dmdhrgnd ?dmdhrage ?dmdhrbr4 ?dmdhredu ?dmdhrmar ?wtint2yr ?wtmec2yr ?indhhin2 WHERE {
+  ?seqn_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Identifier  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?seqn .
+
+  ?riagendr_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:BiologicalSex  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?riagendr .
+
+  ?ridageyr_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Age  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000036 ;
+    <sio:existsAt>     ?screening_V  ;
+    <http://semanticscience.org/resource/hasValue> ?ridageyr .
+
+  ?ridagemn_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Age  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000035 ;
+    <sio:existsAt>     ?screening_V  ;
+    <http://semanticscience.org/resource/hasValue> ?ridagemn .
+
+  ?ridreth1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Race  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?ridreth1 .
+
+  ?ridexagm_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Age  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000035 ;
+    <sio:existsAt>     ?exam_V  ;
+    <http://semanticscience.org/resource/hasValue> ?ridexagm .
+
+  ?dmdborn4_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Country  ;
+    <sio:existsAt>     ?birth_V  ;
+    sio:isLocationOf ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdborn4 .
+
+  ?dmdcitzn_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:StatusDescriptor  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdcitzn .
+
+  ?dmdyrsus_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdyrsus .
+
+  ?dmdeduc3_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:EducationLevel  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdeduc3 .
+
+  ?dmdeduc2_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:EducationLevel  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdeduc2 .
+
+  ?dmdmartl_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:MaritalStatus  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdmartl .
+
+  ?ridexprg_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:StatusDescriptor  ;
+    <sio:isAttributeOf>    ?pregnancy_V  ;
+    <sio:existsAt>     ?exam_V  ;
+    <sio:inRelationTo>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?ridexprg .
+
+  ?sialang_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Language  ;
+    <sio:isAttributeOf>    ?instrument_V  ;
+    <sio:existsAt>     ?interview_V  ;
+    <sio:inRelationTo>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?sialang .
+
+  ?dmdhrgnd_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:BiologicalSex  ;
+    <sio:isAttributeOf>    ?HHRef_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdhrgnd .
+
+  ?dmdhrage_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Age  ;
+    <sio:isAttributeOf>    ?HHRef_V  ;
+    <sio:hasUnit>    uo:0000036 ;
+    <http://semanticscience.org/resource/hasValue> ?dmdhrage .
+
+  ?dmdhrbr4_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Country  ;
+    <sio:existsAt>     ?birth_V  ;
+    sio:isLocationOf ?HHRef_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdhrbr4 .
+
+  ?dmdhredu_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:EducationLevel  ;
+    <sio:isAttributeOf>    ?HHRef_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdhredu .
+
+  ?dmdhrmar_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:MaritalStatus  ;
+    <sio:isAttributeOf>    ?HHRef_V  ;
+    <http://semanticscience.org/resource/hasValue> ?dmdhrmar .
+
+  ?wtint2yr_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Weight  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:existsAt>     ?interview_V  ;
+    <http://semanticscience.org/resource/hasValue> ?wtint2yr .
+
+  ?wtmec2yr_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Weight  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:existsAt>     ?exam_V  ;
+    <http://semanticscience.org/resource/hasValue> ?wtmec2yr .
+
+  ?indhhin2_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Income  ;
+    <sio:isAttributeOf>    ?household_V  ;
+    <http://semanticscience.org/resource/hasValue> ?indhhin2 .
+
+
+  ?participant_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C29867 , sio:Human  ;
+    <sio:hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:SubjectRole ].
+
+  ?screening_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Screening .
+
+  ?exam_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C131902 .
+
+  ?birth_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Birthing .
+
+  ?pregnancy_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Pregnancy .
+
+  ?interview_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C16751 .
+
+  ?instrument_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C16742 .
+
+  ?household_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Household  ;
+    <sio:inRelationTo>    ?participant_V .
+
+  ?HHRef_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:HeadOfHousehold  ;
+    <sio:inRelationTo>    ?household_V .
+
+}

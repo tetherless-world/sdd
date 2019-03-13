@@ -1,0 +1,86 @@
+---
+title: Welcome
+layout: main
+---
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none"></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{site.baseurl}}/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{site.baseurl}}/documentation">Documentation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{site.baseurl}}/resources">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{site.baseurl}}/tutorial">Tutorial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{site.baseurl}}/demo">Demo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{site.baseurl}}/contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+            <div class="subheading mb-5">Sabbir M. Rashid, James P. McCusker, Paulo Pinheiro, Marcello Bax, Henrique O. Santos, Jeanette A. Stingone, and Deborah L. McGuinness<br/>
+                <b><a href="https://tw.rpi.edu/"> Tetherless World Constellation</a>, <a href="http://rpi.edu/">Rensselaer Polytechnic Institute</a></b>
+            </div>
+
+            <article class="mb-5">
+                <content>
+                    <h3>Publications</h3>
+                    <ul>
+                        <li><strong>The Semantic Data Dictionary Approach to Data Annotation & Integration</strong>, International Semantic Web Conference 2017 Semantic Science (SemSci) <a href="https:http://ceur-ws.org/Vol-1931/paper-07.pdf">workshop paper</a>      
+                        </li>
+                    </ul>
+                 </content>
+             
+            </article>
+            
+            
+            <!-- <h3>Abstract</h3> -->
+            <p class="mb-5">
+            <blockquote>
+                A standard approach to describing datasets is through the
+use of data dictionaries: tables which contain information about the content, description, and format of each data variable. While this approach is helpful for a human readability, it is difficult for a machine to understand the meaning behind the data. Consequently, tasks involving the combination of data from multiple sources, such as data integration or schema merging, are not easily automated. In response, we present the Semantic Data Dictionary (SDD) specification, which allows for extension and integration of data from multiple domains using a common
+metadata standard. We have developed a structure based on the Semanticscience Integrated Ontology’s (SIO) high-level, domain-agnostic conceptualization of scientific data, which is then annotated with more specific terminology from domain-relevant ontologies. The SDD format will make the specification, curation and search of data much easier than direct search of data dictionaries through terminology alignment, but also through the use of “compositional” classes for column descriptions, rather than needing a 1:1 mapping from column to class.
+            </blockquote>
+            </p>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="sdd">
+        <div class="my-auto">
+            <p>The Semantic Data Dictionary is a specification formalizing how to assign a semantic representation of data by annotating dataset variables and their values using concepts from best practice vocabularies and ontologies. It is a collection of individual documents that each play a role in creating a concise and consistent knowledge representation, including the Dictionary Mapping, Codebook, Timeline, and Code Mapping specifications, and the Infosheet, which is used to link these Semantic Data Dictionary elements together. Throughout this website, each of these elements are described.
+            </p>
+        </div>
+    </section>
+
+<div class="post-list">
+    {% for post in site.posts %}
+    
+        <a class="post-title" href="{{site.baseurl}}{{post.url}}"><h2>{{ post.title }}</h2></a>
+        <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p>{{post.excerpt | strip_html}}</p>
+    
+    {% endfor %}
+
+</div>

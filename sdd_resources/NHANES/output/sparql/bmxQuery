@@ -1,0 +1,125 @@
+prefix cmo: <http://purl.obolibrary.org/obo/CMO_> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix hp: <http://purl.obolibrary.org/obo/HP_> 
+prefix chear: <http://hadatac.org/ont/chear#> 
+prefix stato: <http://purl.obolibrary.org/obo/STATO_> 
+prefix uo: <http://purl.obolibrary.org/obo/UO_> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix np: <http://www.nanopub.org/nschema#> 
+prefix sio: <http://semanticscience.org/resource/> 
+prefix nhanes-kb: <http://idea.rpi.edu/heals/kb/nhanes#> 
+
+SELECT DISTINCT ?seqn ?bmxwt ?bmiwt ?bmxrecum ?bmirecum ?bmxhead ?bmihead ?bmxht ?bmiht ?bmxbmi ?bmdbmic ?bmxleg ?bmileg ?bmxarml ?bmiarml ?bmxarmc ?bmiarmc ?bmxwaist ?bmiwaist WHERE {
+  ?seqn_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Identifier  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?seqn .
+
+  ?bmxwt_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Weight  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000009 ;
+    <http://semanticscience.org/resource/hasValue> ?bmxwt .
+
+  ?bmiwt_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <sio:isAttributeOf>    ?bmxwt_E ;
+    <http://semanticscience.org/resource/hasValue> ?bmiwt .
+
+  ?bmxrecum_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Length  ;
+    <sio:isAttributeOf>    ?recumbent_pos_V  ;
+    <sio:hasUnit>    uo:0000015 ;
+    <sio:inRelationTo>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bmxrecum .
+
+  ?bmirecum_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <sio:isAttributeOf>    ?bmxrecum_E ;
+    <http://semanticscience.org/resource/hasValue> ?bmirecum .
+
+  ?bmxhead_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Circumference  ;
+    <sio:isAttributeOf>    ?head_V  ;
+    <sio:hasUnit>    uo:0000015 ;
+    <sio:inRelationTo>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bmxhead .
+
+  ?bmihead_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <sio:isAttributeOf>    ?bmxhead_E ;
+    <http://semanticscience.org/resource/hasValue> ?bmihead .
+
+  ?bmxht_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Height  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000015 ;
+    <http://semanticscience.org/resource/hasValue> ?bmxht .
+
+  ?bmiht_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <sio:isAttributeOf>    ?bmxht_E ;
+    <http://semanticscience.org/resource/hasValue> ?bmiht .
+
+  ?bmxbmi_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:BMI  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000086 ;
+    <http://semanticscience.org/resource/hasValue> ?bmxbmi .
+
+  ?bmdbmic_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Category  ;
+    <sio:isAttributeOf>    ?bmxbmi_E ;
+    <http://semanticscience.org/resource/hasValue> ?bmdbmic .
+
+  ?bmxleg_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Length  ;
+    <sio:isAttributeOf>    ?upper_leg_V  ;
+    <sio:hasUnit>    uo:0000015 ;
+    <sio:inRelationTo>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bmxleg .
+
+  ?bmileg_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <sio:isAttributeOf>    ?bmxleg_E ;
+    <http://semanticscience.org/resource/hasValue> ?bmileg .
+
+  ?bmxarml_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Length  ;
+    <sio:isAttributeOf>    ?upper_arm_V  ;
+    <sio:hasUnit>    uo:0000015 ;
+    <sio:inRelationTo>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bmxarml .
+
+  ?bmiarml_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <sio:isAttributeOf>    ?bmxarml_E ;
+    <http://semanticscience.org/resource/hasValue> ?bmiarml .
+
+  ?bmxarmc_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Circumference  ;
+    <sio:isAttributeOf>    ?arm_V  ;
+    <sio:hasUnit>    uo:0000015 ;
+    <sio:inRelationTo>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bmxarmc .
+
+  ?bmiarmc_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <sio:isAttributeOf>    ?bmxarmc_E ;
+    <http://semanticscience.org/resource/hasValue> ?bmiarmc .
+
+  ?bmxwaist_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Circumference  ;
+    <sio:isAttributeOf>    ?waist_V  ;
+    <sio:hasUnit>    uo:0000015 ;
+    <sio:inRelationTo>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bmxwaist .
+
+  ?bmiwaist_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <sio:isAttributeOf>    ?bmxwaist_E ;
+    <http://semanticscience.org/resource/hasValue> ?bmiwaist .
+
+
+  ?participant_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C29867 , sio:Human  ;
+    <sio:hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:SubjectRole ].
+
+  ?recumbent_pos_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C77532 .
+
+  ?head_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> uberon:0000033 .
+
+  ?upper_leg_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> uberon:0000376 .
+
+  ?upper_arm_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> uberon:0003822 .
+
+  ?arm_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> uberon:0001460 .
+
+  ?waist_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C64192 .
+
+}

@@ -1,0 +1,122 @@
+---
+title: Resources
+layout: main
+---
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none"></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{'' | absolute_url}}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">Top of Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#ont">Ontologies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#source">Source Code</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#semantic">Semantic Annotations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#kg">Knowledge Graph Fragments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#query">SPARQL Queries</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#reasoning">Reasoning Models</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+This page will be updated with the actual resources associated with this project!
+<section id="ont">
+  <h2>Ontologies</h2><br/>
+    <div class="list-group">
+      <!--<a href="http://bioportal.bioontology.org/ontologies/CST" class="list-group-item">Cancer
+                Staging Terms <i class="fa fa-arrow-circle-right"></i> <small>http://bioportal.bioontology.org/ontologies/CST</small></a>
+      <a href="http://bioportal.bioontology.org/ontologies/BCS7" class="list-group-item">Breast Cancer
+                Staging Ontology for the AJCC 7<sup>th</sup> Edition <i class="fa fa-arrow-circle-right"></i> <small>http://bioportal.bioontology.org/ontologies/BCS7</small></a>
+      <a href="http://bioportal.bioontology.org/ontologies/BCS8" class="list-group-item">Breast Cancer
+                Staging Ontology for the AJCC 8<sup>th</sup> Edition <i class="fa fa-arrow-circle-right"></i> <small>http://bioportal.bioontology.org/ontologies/BCS8</small></a>
+      --></div>
+      <br/><br/>
+</section>
+<section id="source">
+      <h2>Source Code</h2><br/>
+         <a href="https://github.com/tetherless-world/SemanticDataDictionary" class="list-group-item">sdd2rdf</a>
+         <!-- <a href="./breast-cancer-staging/ajcc_r8_annotated_guideline_extractor" class="list-group-item">AJCC
+            Guideline Extractor</a>
+         <a href="./breast-cancer-staging/create_owl_axioms.py" class="list-group-item">OWL Axiom Generator</a>
+         <a href="./heals2vis/heals2vis/inferencer.py" class="list-group-item">Whyis Inference Agent</a>
+         <a href="./breast-cancer-staging/inference_rules.txt" class="list-group-item">Custom Inference Rules</a>
+         <a href="./heals2vis" class="list-group-item">Visualization</a>
+       --><br/><br/>
+</section>
+<section id="semantic">
+       <h2>Semantic Annotations</h2><br/>
+        <h3>Dictionary Mappings</h3><br/>
+         <div class="list-group list-group-item"> National Health and Nutrition Examination Survey (NHANES)
+            <a href="sdd_resources/NHANES/input/DM/DEMO_H_Doc-DM.csv" class="list-group-item">Demographics Dictionary
+                Mappings</a>
+            <a href="sdd_resources/NHANES/input/CB/BMX_H_Doc-DM.csv" class="list-group-item">Birth Measures Dictionary
+                Mappings</a>
+            <a href="sdd_resources/NHANES/input/CB/BPX_H_Doc-DM.csv" class="list-group-item">Blood Pressure Dictionary
+                Mappings</a>
+          </div>
+        <h3>Codebooks</h3><br/>
+         <div class="list-group list-group-item"> National Health and Nutrition Examination Survey (NHANES)
+            <a href="sdd_resources/NHANES/input/CB/DEMO_H_Doc-CB.csv" class="list-group-item">Demographics Dictionary
+                Mappings</a>
+            <a href="sdd_resources/NHANES/input/CB/BMX_H_Doc-CB.csv" class="list-group-item">Birth Measures Codebook</a>
+            <a href="sdd_resources/NHANES/input/CB/BPX_H_Doc-CB.csv" class="list-group-item">Blood Pressure Codebook</a>
+          </div>
+          <!--<div class="list-group list-group-item"> CIViC
+             <a href="./RPI-HEALS-Semantic-Data-Dictionaries/CIVIC/civicDM.csv" class="list-group-item">Dictionary
+                Mappings</a>
+             <a href="./RPI-HEALS-Semantic-Data-Dictionaries/CIVIC/civicCB.csv" class="list-group-item">Code
+                Book</a>
+          </div>
+        <br/>
+        <i>
+            For the conversion to RDF using these files, please refer to the <a
+                href="https://github.com/tetherless-world/SemanticDataDictionary">Semantic Data Dictionary
+               specification</a>.
+          </i>
+          --><br/><br/>
+</section>
+<section  id="kg">
+          <h2>Knowledge Graph Fragments</h2><br/>
+         <div class="list-group list-group-item"> National Health and Nutrition Examination Survey (NHANES)
+            <a href="sdd_resources/NHANES/output/trig/demo-kg.trig" class="list-group-item">Demographics KG Fragment</a>
+            <a href="sdd_resources/NHANES/output/trig/bmx-kg.trig" class="list-group-item">Birth Measures KG Fragment</a>
+            <a href="sdd_resources/NHANES/output/trig/bpx-kg.trig" class="list-group-item">Blood Pressure KG Fragment</a>
+          </div>
+</section>
+<section  id="query">
+          <h2>Queries</h2><br/>
+         <div class="list-group list-group-item"> National Health and Nutrition Examination Survey (NHANES)
+            <a href="sdd_resources/NHANES/output/sparql/demoQuery" class="list-group-item">Demographics SPARQL Query</a>
+            <a href="sdd_resources/NHANES/output/sparql/bmxQuery" class="list-group-item">Demographics SPARQL Query</a>
+            <a href="sdd_resources/NHANES/output/sparql/bpxQuery" class="list-group-item">Demographics SPARQL Query</a>
+          </div>
+</section>
+
+<section  id="reasoning">
+          <h2>Reasoning Models</h2><br/>
+         <div class="list-group list-group-item"> National Health and Nutrition Examination Survey (NHANES)
+            <a href="sdd_resources/NHANES/output/sparql/demoSWRL" class="list-group-item">Demographics SWRL Antecedent</a>
+            <a href="sdd_resources/NHANES/output/sparql/bmxSWRL" class="list-group-item">Birth Measures SWRL Antecedent</a>
+            <a href="sdd_resources/NHANES/output/sparql/bpxSWRL" class="list-group-item">Blood Pressure SWRL Antecedent</a>
+          </div>
+</section>

@@ -1,0 +1,47 @@
+Column,Code,Label,Class,Comment,Definition
+BMXWT,3.1 to 222.6,Range of Values,,,
+BMXWT,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMIWT,1,Could not obtain,,,
+BMIWT,2,Exceeds capacity,,,
+BMIWT,3,Clothing,,,
+BMIWT,4,Medical appliance,,,
+BMIWT,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMXRECUM,48.6 to 115.1,Range of Values,,,
+BMXRECUM,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMIRECUM,1,Could not obtain,,,
+BMIRECUM,2,Exceeds capacity,,,
+BMIRECUM,3,Not straight,,,
+BMIRECUM,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMXHEAD,33.8 to 46.8,Range of Values,,,
+BMXHEAD,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMIHEAD,1,Could not obtain,,,
+BMIHEAD,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMXHT,79.7 to 202.6,Range of Values,,,
+BMXHT,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMIHT,1,Could not obtain,,,
+BMIHT,2,Exceeds capacity,,,
+BMIHT,3,Not straight,,,
+BMIHT,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMXBMI,12.1 to 82.9,Range of Values,,,
+BMXBMI,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMDBMIC,1,Underweight,hp:0045082,,"Abnormally decreased weight-to-height squared ratio, calculated by dividing the individual's weight in kilograms by the square of the individual's height in meters and used as an indicator of underweight compared to averages. [def-source: HP]"
+BMDBMIC,2,Normal weight,chear:NormalWeight,,18.5<=BMI<=25 [def-source: CHEAR]
+BMDBMIC,3,Overweight,hp:0025502,,Increased body weight with a body mass index of 25-29.9 kg per square meter. [def-source: HP]
+BMDBMIC,4,Obese,hp:0001513,,Accumulation of substantial excess body fat. [def-source: HP]
+BMDBMIC,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMXLEG,24.4 to 51.9,Range of Values,,,
+BMXLEG,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMILEG,1,Could not obtain,,,
+BMILEG,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMXARML,9.9 to 47.9,Range of Values,,,
+BMXARML,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMIARML,1,Could not obtain,,,
+BMIARML,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMXARMC,10.4 to 59.4,Range of Values,,,
+BMXARMC,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMIARMC,1,Could not obtain,,,
+BMIARMC,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMXWAIST,40.2 to 177.9,Range of Values,,,
+BMXWAIST,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"
+BMIWAIST,1,Could not obtain,,,
+BMIWAIST,.,Missing,ncit:C142610,Missing Data,"Required or expected data that is not present, which may be due to non-completion or corruption. [def-source: NCI]"

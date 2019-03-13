@@ -1,0 +1,136 @@
+prefix cmo: <http://purl.obolibrary.org/obo/CMO_> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix hp: <http://purl.obolibrary.org/obo/HP_> 
+prefix chear: <http://hadatac.org/ont/chear#> 
+prefix stato: <http://purl.obolibrary.org/obo/STATO_> 
+prefix uo: <http://purl.obolibrary.org/obo/UO_> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix np: <http://www.nanopub.org/nschema#> 
+prefix sio: <http://semanticscience.org/resource/> 
+prefix nhanes-kb: <http://idea.rpi.edu/heals/kb/nhanes#> 
+
+SELECT DISTINCT ?seqn ?peascst1 ?peasctm1 ?peascct1 ?bpxchr ?bpxpls ?bpxsy1 ?bpxdi1 ?bpaen1 ?bpxsy2 ?bpxdi2 ?bpaen2 ?bpxsy3 ?bpxdi3 ?bpaen3 ?bpxsy4 ?bpxdi4 ?bpaen4 WHERE {
+  ?seqn_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Identifier  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?seqn .
+
+  ?peascst1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:StatusDescriptor  ;
+    <sio:isAttributeOf>    ?bpm_V  ;
+    <http://semanticscience.org/resource/hasValue> ?peascst1 .
+
+  ?peasctm1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <sio:isAttributeOf>    ?bpm_V  ;
+    <sio:hasUnit>    uo:0000010 ;
+    <http://semanticscience.org/resource/hasValue> ?peasctm1 .
+
+  ?peascct1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <sio:isAttributeOf>    ?bpm_V  ;
+    <http://semanticscience.org/resource/hasValue> ?peascct1 .
+
+  ?bpxchr_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000002  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxchr .
+
+  ?bpxpls_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000294  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxpls .
+
+  ?bpxsy1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000004  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000272 ;
+    <sio:existsAt>     ?first_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxsy1 .
+
+  ?bpxdi1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000005  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000272 ;
+    <sio:existsAt>     ?first_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxdi1 .
+
+  ?bpaen1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C71607  ;
+    <sio:isAttributeOf>    ?first_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpaen1 .
+
+  ?bpxsy2_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000004  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000272 ;
+    <sio:existsAt>     ?second_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxsy2 .
+
+  ?bpxdi2_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000005  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000272 ;
+    <sio:existsAt>     ?second_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxdi2 .
+
+  ?bpaen2_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C71607  ;
+    <sio:isAttributeOf>    ?second_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpaen2 .
+
+  ?bpxsy3_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000004  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000272 ;
+    <sio:existsAt>     ?third_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxsy3 .
+
+  ?bpxdi3_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000005  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000272 ;
+    <sio:existsAt>     ?third_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxdi3 .
+
+  ?bpaen3_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C71607  ;
+    <sio:isAttributeOf>    ?third_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpaen3 .
+
+  ?bpxsy4_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000004  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000272 ;
+    <sio:existsAt>     ?fourth_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxsy4 .
+
+  ?bpxdi4_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000005  ;
+    <sio:isAttributeOf>    ?participant_V  ;
+    <sio:hasUnit>    uo:0000272 ;
+    <sio:existsAt>     ?fourth_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpxdi4 .
+
+  ?bpaen4_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C71607  ;
+    <sio:isAttributeOf>    ?fourth_reading_V  ;
+    <http://semanticscience.org/resource/hasValue> ?bpaen4 .
+
+
+  ?participant_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C29867 , sio:Human  ;
+    <sio:hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:SubjectRole ].
+
+  ?bpm_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> cmo:0000003  ;
+    <sio:isAttributeOf>    ?participant_V .
+
+  ?first_reading_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <sio:isAttributeOf>    ?reading_V  ;
+    <sio:hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25509 ;
+      <sio:inRelationTo>    ?bpm_V  ].
+
+  ?second_reading_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <sio:isAttributeOf>    ?reading_V  ;
+    <sio:hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25666 ;
+      <sio:inRelationTo>    ?bpm_V  ].
+
+  ?third_reading_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <sio:isAttributeOf>    ?reading_V  ;
+    <sio:hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25260 ;
+      <sio:inRelationTo>    ?bpm_V  ].
+
+  ?fourth_reading_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <sio:isAttributeOf>    ?reading_V  ;
+    <sio:hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C54566 ;
+      <sio:inRelationTo>    ?bpm_V  ].
+
+  ?reading_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C48356 .
+
+}
