@@ -232,15 +232,15 @@ See also the list of contributors who participated in this project below.
 ## Acknowledgments
 
 This work is supported by 
-* the National Institute of Environmental Health Sciences (NIEHS) Award 0255-0236-4609 / 1U2CES026555-01, 
-* IBM Research AI through the AI Horizons Network, 
-* the Gates Foundation through the Healthy Birth, Growth, and Development knowledge integration (HBGDki) project, and 
-* the CAPES Foundation Senior Internship Program Award 88881.120772 / 2016-01. 
+* The National Institute of Environmental Health Sciences (NIEHS) Award 0255-0236-4609 / 1U2CES026555-01
+* IBM Research AI through the AI Horizons Network
+* The Gates Foundation through the Healthy Birth, Growth, and Development knowledge integration (HBGDki) project
+* The CAPES Foundation Senior Internship Program Award 88881.120772 / 2016-01
 
 We acknowledge the members of the Tetherless World Constellation (TWC) at Rensellaer Polytechnic Institute (RPI) for their contributions, including 
-* Jason Liang,
-* Yue (Robin) Liu,
-* Katherine Chastain, 
-* Rebecca Cowan, and 
-* Oshani Seneveratne.
+* Jason Liang
+* Yue (Robin) Liu
+* Katherine Chastain
+* Rebecca Cowan
+* Oshani Seneveratne
 
