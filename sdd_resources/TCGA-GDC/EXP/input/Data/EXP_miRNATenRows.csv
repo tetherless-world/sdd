@@ -1,0 +1,11 @@
+miRNA_ID,read_count,reads_per_million_miRNA_mapped,cross-mapped
+hsa-let-7a-1,30869,6051.282112,N
+hsa-let-7a-2,30775,6032.855194,N
+hsa-let-7a-3,30891,6055.594794,N
+hsa-let-7b,16720,3277.638955,N
+hsa-let-7c,4251,833.327942,N
+hsa-let-7d,1904,373.243096,N
+hsa-let-7e,3840,752.759186,N
+hsa-let-7f-1,16371,3209.224123,N
+hsa-let-7f-2,16672,3268.229465,N
+hsa-let-7g,3456,677.483267,N

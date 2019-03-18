@@ -1,0 +1,13 @@
+Column,Attribute,attributeOf,Format,Unit,Time,Entity,Role,Relation,inRelationTo,NewConcept,wasDerivedFrom,wasGeneratedBy,Label,Definition,hasPosition,Comment,Note
+miRNA_ID,sio:Identifier,??gene,,,,,,,,,,,,,,,
+read_count,"sio:Count, stato:0000064",??gene_expression_value,,,,,,,,,,,,,,raw read count,
+reads_per_million_miRNA_mapped,sio:Ratio,??gene_expression_value,,,,,,,,,,,,,,counts normalized to reads per million mapped reads (RPM),
+cross-mapped,xsd:boolean,??overlap,,,,,,,,,,,,,,it's a phenomenon of mi-RNA parts exchanging,ncit:C45254
+isoform_coords,sio:Coordinate,??isoform,,,,,,,,,,,,,,,
+miRNA_region,sio:SpatialRegion,??gene,,,,,,,,,,,,,,,
+??subject,,,,,,sio:Human,sio:SubjectRole,,??study,,,,,,,microRNA,
+??gene_expression_value,,,,,,sio:GeneExpressionValue,,,??gene,,,,,,,,
+??overlap,,,,,,sio:Overlap,,,??gene_expression_value,,,,,,,,
+??gene,,,,,,sio:Gene,,sio:isPartOf,??subject,,,,,,,,
+??study,,,,,,hasco:Study,,,,,,,,,,,
+??isoform,,,,,,heals:Isoform,,,??gene,,,,,,,,

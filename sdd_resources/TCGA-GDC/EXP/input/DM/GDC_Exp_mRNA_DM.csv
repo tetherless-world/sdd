@@ -1,0 +1,9 @@
+Column,Attribute,attributeOf,Format,Unit,Time,Entity,Role,Relation,inRelationTo,NewConcept,wasDerivedFrom,wasGeneratedBy,Label,Definition,hasPosition,Comment
+mRNA Expression,sio:Identifier,??gene,,,,,,,,,,,,,,
+FPKM,sio:Count,??gene_expression_value,,stato:0000172,,,,,,,,,,,,
+FPKM-UQ,sio:Count,??gene_expression_value,,stato:0000172,,,,,,,,taking upper quartile,,,,
+Htseq_count,sio:Count,??gene_expression_value,,stato:0000064,,,,,,,,,,,,
+??gene,,,,,,sio:Gene,,sio:isPartOf,??subject,,,,,,,
+??gene_expression_value,,,,,,sio:GeneExpressionValue,,,??gene,,,,,,,
+??subject,,,,,,sio:Human,sio:SubjectRole,,??study,,,,,,,
+??study,,,,,,hasco:Study,,,,,,,,,,

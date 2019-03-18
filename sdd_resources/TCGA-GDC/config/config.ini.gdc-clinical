@@ -1,0 +1,16 @@
+[Prefixes]
+# Specify a file with the prefixes for existing ontologies used in your translation
+prefixes = TCGA-GDC/config/prefixes.csv
+# Specify the base uri to be associated with all triples minted by the script
+base_uri = tcga-kb
+
+[Source Files]
+dictionary = TCGA-GDC/Clinical/input/DM/GDC_Clinical_DM.csv 
+codebook = TCGA-GDC/Clinical/input/CB/GDC_Clinical_CB.csv
+code_mappings = TCGA-GDC/config/code_mappings.csv
+data_file = TCGA-GDC/Clinical/input/Data/clinicalTenRows.csv
+
+[Output Files]
+out_file = TCGA-GDC/Clinical/output/trig/GDC_Clinical.trig
+query_file = TCGA-GDC/Clinical/output/sparql/GDC_Clinical_Q
+swrl_file = TCGA-GDC/Clinical/output/swrl/GDC_Clinical_SWRL

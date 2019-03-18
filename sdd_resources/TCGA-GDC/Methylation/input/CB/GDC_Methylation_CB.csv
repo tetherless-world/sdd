@@ -1,0 +1,30 @@
+Column,Code,Class,Label
+Chromosome,chr1,ncit:C13204,Chromosome 1
+Chromosome,chr2,ncit:C13215,Chromosome 2
+Chromosome,chr3,ncit:C13219,Chromosome 3
+Chromosome,chr4,ncit:C13220,Chromosome 4
+Chromosome,chr5,ncit:C13221,Chromosome 5
+Chromosome,chr6,ncit:C13222,Chromosome 6
+Chromosome,chr7,ncit:C13223,Chromosome 7
+Chromosome,chr8,ncit:C13224,Chromosome 8
+Chromosome,chr9,ncit:C13225,Chromosome 9
+Chromosome,chr10,ncit:C13205,Chromosome 10
+Chromosome,chr11,ncit:C13206,Chromosome 11
+Chromosome,chr12,ncit:C13207,Chromosome 12
+Chromosome,chr13,ncit:C13208,Chromosome 13
+Chromosome,chr14,ncit:C13209,Chromosome 14
+Chromosome,chr15,ncit:C13210,Chromosome 15
+Chromosome,chr16,ncit:C13211,Chromosome 16
+Chromosome,chr17,ncit:C13212,Chromosome 17
+Chromosome,chr18,ncit:C13213,Chromosome 18
+Chromosome,chr19,ncit:C13214,Chromosome 19
+Chromosome,chr20,ncit:C13216,Chromosome 20
+Chromosome,chr21,ncit:C13217,Chromosome 21
+Chromosome,chr22,ncit:C13218,Chromosome 22
+Chromosome,chrX,ncit:C13285,Chromosome X
+Chromosome,chrY,ncit:C13286,Chromosome Y
+Feature_Type,Island,,Island
+Feature_Type,N_Shore,,N_Shore
+Feature_Type,N_Shelf,,N_Shelf
+Feature_Type,S_Shore,,S_Shore
+Feature_Type,chr1,,S_Shelf

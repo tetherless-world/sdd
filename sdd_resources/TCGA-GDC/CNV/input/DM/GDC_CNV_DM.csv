@@ -1,0 +1,15 @@
+Column,Attribute,attributeOf,Format,Unit,Time,Entity,Role,Relation,inRelationTo,NewConcept,wasDerivedFrom,wasGeneratedBy,Label,Definition,hasPosition,Comment
+Sample,sio:Identifier,??sample,,,,,,,,,,,,,,
+Chromosome,ncit:C13202,??sample,,,,,,,,,,,,,,
+Start,sio:Coordinate,??chromosome_start_position,,,,,,,,,,,,,,
+End,sio:Coordinate,??chromosome_end_position,,,,,,,,,,,,,,
+Num_Probes,sio:Count,??probe,,,,,,,,,,,,,,
+Segment_Mean,sio:Mean,??segment,,,,,,,,,,,,,,Log2 (copy_number/2)
+??chromosome_start_position,,,,,,ncit:C25431,,,??chromosome_positioning,,,,,,,
+??chromosome_end_position,,,,,,ncit:C25496,,,??chromosome_positioning,,,,,,,
+??subject,,,,,,sio:Human,sio:SubjectRole,,??study,,,,,,,
+??study,,,,,,hasco:Study,,,,,,,,,,
+??sample,,,,,,sio:Sample,,,,,??subject,,,,,
+??probe,,,,,,ncit:C43523,,,??sample,,,,,,,
+??segment,,,,,,ncit:C45312,,,??sample,,,,,,,
+??chromosome_positioning,,,,,,go:0051303,,,,,,,,,,

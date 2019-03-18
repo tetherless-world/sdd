@@ -1,0 +1,11 @@
+TARGET USI,Gender,Race,Ethnicity,Age at Diagnosis in Days,First Event,Time to First Event in Days,Vital Status ,Overall Survival Time in Days,Year of Diagnosis,Year of Last Follow Up,Protocol,Disease at diagnosis,Metastasis site,Primary tumor site,Specific tumor site,Specific tumor side,Specific tumor region,Definitive Surgery,Primary site progression,Site of initial relapse,Time to first relapse in days,Time to first enrollment on relapse protocol in days,Time to first SMN in days,Time to death in days,Histologic response,Percent necrosis,Relapse Type,Therapy,Comment
+TARGET-40-PALWWX,Female,White,Not Hispanic or Latino,4464,Censored,2163,Alive,2163,2002,2008,AOST0121,Metastatic,Lung only,Leg/foot,Femur,Right,Distal,Limb sparing,,,,,,,,98,,,
+TARGET-40-PAMEKS,Male,Asian,Not Hispanic or Latino,3942,Relapse,385,Dead,857,2003,2005,AOST0121,Metastatic,Lung only,Leg/foot,Femur,Right,Distal,Limb sparing,,Lung,385,,,857,,50,,,
+TARGET-40-PAMLKS,Female,White,Not Hispanic or Latino,4509,Relapse,71,Dead,180,2003,2004,AOST0121,Metastatic,Bone and lung,Leg/foot,Femur,Right,Distal,,,,71,,,180,,,,,
+TARGET-40-PAMRHD,Female,Unknown,Not Hispanic or Latino,3942,Relapse,39,Dead,74,2003,2003,AOST0121,Metastatic,Bone and lung,Leg/foot,Femur,Right,Distal,,,Lung,39,,,74,,,,,
+TARGET-40-PAMYYJ,Male,White,Not Hispanic or Latino,6477,Relapse,128,Dead,271,2004,2005,AOST0121,Metastatic,Lung only,Leg/foot,Leg NOS,,,,,Lung,128,,,271,,67,,,
+TARGET-40-PANMIG,Male,White,Not Hispanic or Latino,5360,Relapse,513,Dead,776,2005,2007,AOST0121,Metastatic,Lung only,Leg/foot,Tibia,Right,Proximal,Limb sparing,,Lung,513,,,776,,95,,,
+TARGET-40-PANPUM,Male,White,Not Hispanic or Latino,5996,Relapse,46,Dead,295,2005,2006,AOST0121,Metastatic,Lung only,Pelvis,Ilium,Left,,,,,46,,,295,,,,,
+TARGET-40-PANZHX,Female,Asian,Not Hispanic or Latino,5127,Relapse,812,Alive,1323,2005,2009,AOST0121,Metastatic,Bone and lung,Leg/foot,Tibia,Left,,Limb sparing,,"Non-bone, non-lung",812,,,,,70,,,
+TARGET-40-PAPIJR,Female,White,Hispanic or Latino,4597,No event,1719,Alive,1719,2006,2010,AOST0331,Non-metastatic (confirmed),,Leg/foot,Femur,,Distal,Limb sparing,,,,,,,0-90,,,,
+TARGET-40-PAPKWD,Male,White,Not Hispanic or Latino,3478,Relapse,192,Dead,422,2006,2007,AOST0331,Non-metastatic (confirmed),,Leg/foot,Femur,,Distal,Limb sparing,No,"Non-bone, non-lung",192,,,422,0-90,,,,

@@ -1,0 +1,76 @@
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> 
+prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> 
+prefix chear: <http://hadatac.org/ont/chear#> 
+prefix heals-kb: <http://idea.rpi.edu/heals/kb/heals#> 
+prefix heals: <http://idea.rpi.edu/heals/ont/heals#> 
+prefix loinc: <http://purl.bioontology.org/ontology/LNC/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix tcga: <http://idea.rpi.edu/ont/tcga#> 
+prefix envo: <http://purl.obolibrary.org/obo/ENVO_> 
+prefix efo: <http://www.ebi.ac.uk/efo/EFO_> 
+prefix stato: <http://purl.obolibrary.org/obo/STATO_> 
+prefix sio: <http://semanticscience.org/resource/> 
+prefix doid: <http://purl.obolibrary.org/obo/DOID_> 
+prefix tcga-kb: <http://idea.rpi.edu/kb/tcga#> 
+prefix obo: <http://purl.obolibrary.org/obo/> 
+prefix hasco: <http://hadatac.org/ont/hasco#> 
+prefix np: <http://www.nanopub.org/nschema#> 
+prefix rxnorm: <http://purl.bioontology.org/ontology/RXNORM/> 
+prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> 
+prefix snomed-ct: <http://purl.bioontology.org/ontology/SNOMEDCT/> 
+prefix uo: <http://purl.obolibrary.org/obo/UO_> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+SELECT DISTINCT ?sample ?chromosome ?start ?end ?num_probes ?segment_mean WHERE {
+  ?sample_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Identifier  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?sample_V  ;
+    <http://semanticscience.org/resource/hasValue> ?sample .
+
+  ?chromosome_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C13202  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?sample_V  ;
+    <http://semanticscience.org/resource/hasValue> ?chromosome .
+
+  ?start_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Coordinate  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?chromosome_start_position_V  ;
+    <http://semanticscience.org/resource/hasValue> ?start .
+
+  ?end_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Coordinate  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?chromosome_end_position_V  ;
+    <http://semanticscience.org/resource/hasValue> ?end .
+
+  ?num_probes_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Count  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?probe_V  ;
+    <http://semanticscience.org/resource/hasValue> ?num_probes .
+
+  ?segment_mean_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Mean  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?segment_V  ;
+    <http://semanticscience.org/resource/hasValue> ?segment_mean .
+
+
+  ?chromosome_start_position_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25431  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?chromosome_positioning_V .
+
+  ?chromosome_end_position_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25496  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?chromosome_positioning_V .
+
+  ?subject_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Human  ;
+    <http://semanticscience.org/resource/hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:SubjectRole ;
+      <http://semanticscience.org/resource/inRelationTo>    ?study_V  ].
+
+  ?study_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> hasco:Study .
+
+  ?sample_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Sample  ;
+    <http://www.w3.org/ns/prov#wasDerivedFrom>    ?subject_V .
+
+  ?probe_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C43523  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?sample_V .
+
+  ?segment_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C45312  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?sample_V .
+
+  ?chromosome_positioning_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> go:0051303 .
+
+}

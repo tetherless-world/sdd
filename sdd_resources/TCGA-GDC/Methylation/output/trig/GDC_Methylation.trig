@@ -1,0 +1,2172 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> .
+@prefix chear: <http://hadatac.org/ont/chear#> .
+@prefix heals-kb: <http://idea.rpi.edu/heals/kb/heals#> .
+@prefix heals: <http://idea.rpi.edu/heals/ont/heals#> .
+@prefix loinc: <http://purl.bioontology.org/ontology/LNC/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix tcga: <http://idea.rpi.edu/ont/tcga#> .
+@prefix envo: <http://purl.obolibrary.org/obo/ENVO_> .
+@prefix efo: <http://www.ebi.ac.uk/efo/EFO_> .
+@prefix stato: <http://purl.obolibrary.org/obo/STATO_> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix doid: <http://purl.obolibrary.org/obo/DOID_> .
+@prefix tcga-kb: <http://idea.rpi.edu/kb/tcga#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix hasco: <http://hadatac.org/ont/hasco#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rxnorm: <http://purl.bioontology.org/ontology/RXNORM/> .
+@prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> .
+@prefix snomed-ct: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
+@prefix uo: <http://purl.obolibrary.org/obo/UO_> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://idea.rpi.edu/kb/tcga#head-explicit_entry-36482126862ddcf9405030f33b3a6498> { 
+    <http://idea.rpi.edu/kb/tcga#nanoPub-explicit_entry-36482126862ddcf9405030f33b3a6498>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-explicit_entry-36482126862ddcf9405030f33b3a6498> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-explicit_entry-36482126862ddcf9405030f33b3a6498> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-explicit_entry-36482126862ddcf9405030f33b3a6498> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-explicit_entry-36482126862ddcf9405030f33b3a6498> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#End>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    mi:0116 ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-explicit_entry-36482126862ddcf9405030f33b3a6498> {
+    <http://idea.rpi.edu/kb/tcga#assertion-explicit_entry-36482126862ddcf9405030f33b3a6498>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-explicit_entry-36482126862ddcf9405030f33b3a6498> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-explicit_entry-36482126862ddcf9405030f33b3a6498>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+}
+
+<http://idea.rpi.edu/kb/tcga#head-implicit_entry-36482126862ddcf9405030f33b3a6498> { 
+    <http://idea.rpi.edu/kb/tcga#nanoPub-implicit_entry-36482126862ddcf9405030f33b3a6498>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-implicit_entry-36482126862ddcf9405030f33b3a6498> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-implicit_entry-36482126862ddcf9405030f33b3a6498> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-implicit_entry-36482126862ddcf9405030f33b3a6498> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-implicit_entry-36482126862ddcf9405030f33b3a6498> {
+    <http://idea.rpi.edu/kb/tcga#composite_element>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    ncit:C54668 .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    ncit:C25431 ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    ncit:C25496 ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    owl:Class ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#subClassOf>    ncit:C43568 ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-implicit_entry-36482126862ddcf9405030f33b3a6498> {
+    <http://idea.rpi.edu/kb/tcga#assertion-implicit_entry-36482126862ddcf9405030f33b3a6498>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-implicit_entry-36482126862ddcf9405030f33b3a6498> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-implicit_entry-36482126862ddcf9405030f33b3a6498>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+}
+
+<http://idea.rpi.edu/kb/tcga#head-b51a7233b3465f7a1c5b9ebbaa231df0> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-b51a7233b3465f7a1c5b9ebbaa231df0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-b51a7233b3465f7a1c5b9ebbaa231df0> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-b51a7233b3465f7a1c5b9ebbaa231df0> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-b51a7233b3465f7a1c5b9ebbaa231df0> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-b51a7233b3465f7a1c5b9ebbaa231df0> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-ebc87e6e1ec54e8f0c539bfd7ae57d1c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000029"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-c2a216b8533559a0604e850e4af5c543>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "0.226860348918551"^^xsd:float .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-44c35efca4215088d7f5cb42014dd9d7>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13211 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 16"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr16"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-ae6ca2c2b112b5885c20bb6b6c664a7e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-9d410fcb4d314779f3faaaa0143d7018> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa> ;
+        <http://semanticscience.org/resource/hasValue>    "53434200"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-9a02a0f3da3c89ef43b86ca7d82ac7d8>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-2d939748fda09bccc27e34babd2d0109> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa> ;
+        <http://semanticscience.org/resource/hasValue>    "53434201"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-48522d543d5b5b0a680fe142494580be>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-66aebcfb024b4f10d74ac21e31b1ff58> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "RBL2;RBL2;RBL2"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-f6a30f7bd3a0f8350ac541ddda5ad717>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-66aebcfb024b4f10d74ac21e31b1ff58> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "protein_coding;protein_coding;protein_coding"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-5f76a62685afe79cd3a678edec3faf0c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-66aebcfb024b4f10d74ac21e31b1ff58> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ENST00000262133.9;ENST00000544405.5;ENST00000567964.5"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-d87f571c77455a04ee59ab45854e6899>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-66aebcfb024b4f10d74ac21e31b1ff58> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "-221;-1420;222"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-6608036d7323c4ecf1ad1f73e3d5c91c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr16:53434489-53435297"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "N_Shore"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "N_Shore"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-9d410fcb4d314779f3faaaa0143d7018>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-2d939748fda09bccc27e34babd2d0109>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-66aebcfb024b4f10d74ac21e31b1ff58>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-66aebcfb024b4f10d74ac21e31b1ff58> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-b51a7233b3465f7a1c5b9ebbaa231df0> {
+    <http://idea.rpi.edu/kb/tcga#assertion-b51a7233b3465f7a1c5b9ebbaa231df0>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-ebc87e6e1ec54e8f0c539bfd7ae57d1c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-c2a216b8533559a0604e850e4af5c543>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-44c35efca4215088d7f5cb42014dd9d7>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-ae6ca2c2b112b5885c20bb6b6c664a7e>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-9a02a0f3da3c89ef43b86ca7d82ac7d8>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-48522d543d5b5b0a680fe142494580be>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-f6a30f7bd3a0f8350ac541ddda5ad717>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-5f76a62685afe79cd3a678edec3faf0c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-d87f571c77455a04ee59ab45854e6899>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-6608036d7323c4ecf1ad1f73e3d5c91c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-1fa2a3588f5ce80643a2771d7c2f82fa>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-9d410fcb4d314779f3faaaa0143d7018>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-2d939748fda09bccc27e34babd2d0109>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-66aebcfb024b4f10d74ac21e31b1ff58>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-b51a7233b3465f7a1c5b9ebbaa231df0> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-b51a7233b3465f7a1c5b9ebbaa231df0>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-ebc87e6e1ec54e8f0c539bfd7ae57d1c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-c2a216b8533559a0604e850e4af5c543>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-44c35efca4215088d7f5cb42014dd9d7>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-ae6ca2c2b112b5885c20bb6b6c664a7e>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-9a02a0f3da3c89ef43b86ca7d82ac7d8>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-48522d543d5b5b0a680fe142494580be>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-f6a30f7bd3a0f8350ac541ddda5ad717>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-5f76a62685afe79cd3a678edec3faf0c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-d87f571c77455a04ee59ab45854e6899>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-6608036d7323c4ecf1ad1f73e3d5c91c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#head-f31ae9999f7ee62c585e050fa0833e96> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-f31ae9999f7ee62c585e050fa0833e96>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-f31ae9999f7ee62c585e050fa0833e96> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-f31ae9999f7ee62c585e050fa0833e96> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-f31ae9999f7ee62c585e050fa0833e96> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-f31ae9999f7ee62c585e050fa0833e96> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-b1cbb0fbf004aa4e06913387c4be0505>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000108"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-b763ab280ca3aad9c5c2de596718d408>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-b88fcf95b51a6d5df300cbded3a10b80>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13219 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 3"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr3"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-a8edad5770c2d904893ca9ba43f9d18a>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-00baba6e86b0a5621cf69539bec227fc> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70> ;
+        <http://semanticscience.org/resource/hasValue>    "37417715"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-9987010c256fba3fdb670e9a5fe9de09>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-a6947e9a87cfff9a8c10c4cc5ff9b498> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70> ;
+        <http://semanticscience.org/resource/hasValue>    "37417716"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-1d185e0be8d5d667c1bd6730d4190c62>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-d4300830dbc65b5c58749858c95a25d4> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "C3orf35;C3orf35;C3orf35;C3orf35;C3orf35;C3orf35;C3orf35;C3orf35"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-cce82064ecf40b7267e6f2c504fdf477>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-d4300830dbc65b5c58749858c95a25d4> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "lincRNA;lincRNA;lincRNA;lincRNA;lincRNA;lincRNA;lincRNA;lincRNA"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-762f62ba485ddf0d3c02db5fed810511>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-d4300830dbc65b5c58749858c95a25d4> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ENST00000328376.8;ENST00000332506.6;ENST00000425564.2;ENST00000425932.4;ENST00000426078.4;ENST00000452017.3;ENST00000466204.4;ENST00000481400.4"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-4fde2cb43e3a06f9f5936c6702ef3ec2>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-d4300830dbc65b5c58749858c95a25d4> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "18552;18552;6505;31445;18143;447;18552;18552"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-b0d634b1fd5548003dbee7068fee9272>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr3:37451927-37453047"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-0afd797997b59ebcc8b5e9670b5c9b2f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "."^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-00baba6e86b0a5621cf69539bec227fc>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-a6947e9a87cfff9a8c10c4cc5ff9b498>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-d4300830dbc65b5c58749858c95a25d4>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-d4300830dbc65b5c58749858c95a25d4> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-f31ae9999f7ee62c585e050fa0833e96> {
+    <http://idea.rpi.edu/kb/tcga#assertion-f31ae9999f7ee62c585e050fa0833e96>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-b1cbb0fbf004aa4e06913387c4be0505>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-b763ab280ca3aad9c5c2de596718d408>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-b88fcf95b51a6d5df300cbded3a10b80>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-a8edad5770c2d904893ca9ba43f9d18a>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-9987010c256fba3fdb670e9a5fe9de09>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-1d185e0be8d5d667c1bd6730d4190c62>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-cce82064ecf40b7267e6f2c504fdf477>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-762f62ba485ddf0d3c02db5fed810511>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-4fde2cb43e3a06f9f5936c6702ef3ec2>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-b0d634b1fd5548003dbee7068fee9272>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-0afd797997b59ebcc8b5e9670b5c9b2f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-8d816d43d9959c35ea4e1863e5e60b70>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-00baba6e86b0a5621cf69539bec227fc>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-a6947e9a87cfff9a8c10c4cc5ff9b498>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-d4300830dbc65b5c58749858c95a25d4>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-f31ae9999f7ee62c585e050fa0833e96> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-f31ae9999f7ee62c585e050fa0833e96>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-b1cbb0fbf004aa4e06913387c4be0505>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-b763ab280ca3aad9c5c2de596718d408>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-b88fcf95b51a6d5df300cbded3a10b80>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-a8edad5770c2d904893ca9ba43f9d18a>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-9987010c256fba3fdb670e9a5fe9de09>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-1d185e0be8d5d667c1bd6730d4190c62>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-cce82064ecf40b7267e6f2c504fdf477>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-762f62ba485ddf0d3c02db5fed810511>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-4fde2cb43e3a06f9f5936c6702ef3ec2>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-b0d634b1fd5548003dbee7068fee9272>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-0afd797997b59ebcc8b5e9670b5c9b2f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#head-b946998c0d126b1841661e501e5cd287> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-b946998c0d126b1841661e501e5cd287>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-b946998c0d126b1841661e501e5cd287> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-b946998c0d126b1841661e501e5cd287> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-b946998c0d126b1841661e501e5cd287> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-b946998c0d126b1841661e501e5cd287> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-3cc755e73ef5e5a0dd89965e10a3a44f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000109"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-b763ab280ca3aad9c5c2de596718d408>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-b88fcf95b51a6d5df300cbded3a10b80>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13219 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 3"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr3"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-93e37f26ec9a0e215c2704dfdf9cc6ae>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-53b3df6e723fc97d6de38717bc1866e4> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03> ;
+        <http://semanticscience.org/resource/hasValue>    "172198247"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-21f4bd20f1eeca8e71d72f068251ba44>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-3c7cbf9792c359a4d95433f2d53d774c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03> ;
+        <http://semanticscience.org/resource/hasValue>    "172198248"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-0f4aa780a0a3cfe5ffe74e1ed5548b38>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-56a9c71e90d6a6f8ed07ba2c9d2d74aa> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "FNDC3B;FNDC3B;FNDC3B;FNDC3B;FNDC3B;FNDC3B"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-a41050b08f44378fbc96162b097ea25b>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-56a9c71e90d6a6f8ed07ba2c9d2d74aa> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "protein_coding;protein_coding;protein_coding;protein_coding;protein_coding;protein_coding"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-e1b061d7d694bdfa20a8f1cf67fef5cb>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-56a9c71e90d6a6f8ed07ba2c9d2d74aa> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ENST00000336824.7;ENST00000415807.5;ENST00000416957.4;ENST00000443501.1;ENST00000469491.4;ENST00000478016.1"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-a753bb36c877e562553f756ee1ebd027>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-56a9c71e90d6a6f8ed07ba2c9d2d74aa> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "157692;158618;151333;71272;158587;71273"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-51a394fa0befcfdf78f0c03b511e28e7>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr3:172039703-172040934"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-0afd797997b59ebcc8b5e9670b5c9b2f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "."^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-53b3df6e723fc97d6de38717bc1866e4>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-3c7cbf9792c359a4d95433f2d53d774c>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-56a9c71e90d6a6f8ed07ba2c9d2d74aa>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-56a9c71e90d6a6f8ed07ba2c9d2d74aa> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-b946998c0d126b1841661e501e5cd287> {
+    <http://idea.rpi.edu/kb/tcga#assertion-b946998c0d126b1841661e501e5cd287>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-3cc755e73ef5e5a0dd89965e10a3a44f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-b763ab280ca3aad9c5c2de596718d408>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-b88fcf95b51a6d5df300cbded3a10b80>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-93e37f26ec9a0e215c2704dfdf9cc6ae>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-21f4bd20f1eeca8e71d72f068251ba44>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-0f4aa780a0a3cfe5ffe74e1ed5548b38>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-a41050b08f44378fbc96162b097ea25b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-e1b061d7d694bdfa20a8f1cf67fef5cb>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-a753bb36c877e562553f756ee1ebd027>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-51a394fa0befcfdf78f0c03b511e28e7>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-0afd797997b59ebcc8b5e9670b5c9b2f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-5dc3f45e79d8314b1c50bcf783372a03>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-53b3df6e723fc97d6de38717bc1866e4>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-3c7cbf9792c359a4d95433f2d53d774c>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-56a9c71e90d6a6f8ed07ba2c9d2d74aa>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-b946998c0d126b1841661e501e5cd287> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-b946998c0d126b1841661e501e5cd287>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-3cc755e73ef5e5a0dd89965e10a3a44f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-b763ab280ca3aad9c5c2de596718d408>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-b88fcf95b51a6d5df300cbded3a10b80>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-93e37f26ec9a0e215c2704dfdf9cc6ae>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-21f4bd20f1eeca8e71d72f068251ba44>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-0f4aa780a0a3cfe5ffe74e1ed5548b38>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-a41050b08f44378fbc96162b097ea25b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-e1b061d7d694bdfa20a8f1cf67fef5cb>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-a753bb36c877e562553f756ee1ebd027>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-51a394fa0befcfdf78f0c03b511e28e7>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-0afd797997b59ebcc8b5e9670b5c9b2f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#head-20acbcc26192c9998a0a2cfbf2dba564> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-20acbcc26192c9998a0a2cfbf2dba564>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-20acbcc26192c9998a0a2cfbf2dba564> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-20acbcc26192c9998a0a2cfbf2dba564> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-20acbcc26192c9998a0a2cfbf2dba564> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-20acbcc26192c9998a0a2cfbf2dba564> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-e494bd604f7d89871ff333c96f5418d8>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000165"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-624f20754060d7a19374dedef3075bfe>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "0.765092299417116"^^xsd:float .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-a028f2a798c641d9b7bc2d8210188f08>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13204 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 1"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr1"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-f0ddc30108cb7eba1e75c05b2fd9eb14>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-cc6000273f4760954c00cb5a6fcca1a9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd> ;
+        <http://semanticscience.org/resource/hasValue>    "90729117"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-38c423406e679f71dbd238857616c790>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-46a3e59d359668e1683e2570b410a913> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd> ;
+        <http://semanticscience.org/resource/hasValue>    "90729118"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-2df300fd1dbacf24ec34c10286580054>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-3767942a5814c674f70885fc1582db6c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "."^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-bf45c2fe59cd4ee8540dca5a7a3dd48b>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-3767942a5814c674f70885fc1582db6c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "."^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-135430d35e243352c446b31ff731def5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-3767942a5814c674f70885fc1582db6c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "."^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-0e451243b74ddd7aa71d6d88029b7654>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-3767942a5814c674f70885fc1582db6c> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "."^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-d92c81010103b767815b8842b0b17cfa>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr1:90724932-90727247"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-41e338430581b38983c24703ad1d2228>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "S_Shore"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "S_Shore"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-cc6000273f4760954c00cb5a6fcca1a9>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-46a3e59d359668e1683e2570b410a913>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-3767942a5814c674f70885fc1582db6c>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-3767942a5814c674f70885fc1582db6c> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-20acbcc26192c9998a0a2cfbf2dba564> {
+    <http://idea.rpi.edu/kb/tcga#assertion-20acbcc26192c9998a0a2cfbf2dba564>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-e494bd604f7d89871ff333c96f5418d8>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-624f20754060d7a19374dedef3075bfe>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-a028f2a798c641d9b7bc2d8210188f08>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-f0ddc30108cb7eba1e75c05b2fd9eb14>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-38c423406e679f71dbd238857616c790>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-2df300fd1dbacf24ec34c10286580054>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-bf45c2fe59cd4ee8540dca5a7a3dd48b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-135430d35e243352c446b31ff731def5>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-0e451243b74ddd7aa71d6d88029b7654>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-d92c81010103b767815b8842b0b17cfa>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-41e338430581b38983c24703ad1d2228>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-25581946dd7ff90ce51b72270389edcd>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-cc6000273f4760954c00cb5a6fcca1a9>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-46a3e59d359668e1683e2570b410a913>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-3767942a5814c674f70885fc1582db6c>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-20acbcc26192c9998a0a2cfbf2dba564> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-20acbcc26192c9998a0a2cfbf2dba564>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-e494bd604f7d89871ff333c96f5418d8>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-624f20754060d7a19374dedef3075bfe>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-a028f2a798c641d9b7bc2d8210188f08>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-f0ddc30108cb7eba1e75c05b2fd9eb14>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-38c423406e679f71dbd238857616c790>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-2df300fd1dbacf24ec34c10286580054>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-bf45c2fe59cd4ee8540dca5a7a3dd48b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-135430d35e243352c446b31ff731def5>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-0e451243b74ddd7aa71d6d88029b7654>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-d92c81010103b767815b8842b0b17cfa>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-41e338430581b38983c24703ad1d2228>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#head-4001fda760e909f63a9c65eec862267c> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-4001fda760e909f63a9c65eec862267c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-4001fda760e909f63a9c65eec862267c> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-4001fda760e909f63a9c65eec862267c> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-4001fda760e909f63a9c65eec862267c> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-4001fda760e909f63a9c65eec862267c> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-5579278d0c985a931d8418d33e4acb0f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000236"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-3dbb05913ac3826cf7ac44fe14b24a1f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "0.894639883124601"^^xsd:float .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-89edacd1fa035e5100ae00fec935e9de>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13224 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 8"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr8"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-06476e44bc609dd4f02f5e2e28661e90>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-146a808d8f12051b142ddc858c4cc80d> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c> ;
+        <http://semanticscience.org/resource/hasValue>    "42405776"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-91ed0da17a6e6b928c9ad684043a9193>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-ec889f0d6fde3b7c458d4f07476b4235> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c> ;
+        <http://semanticscience.org/resource/hasValue>    "42405777"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-e4146c62712e02eea659f129e25689e1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-ad42e6099b91e6a09db7f0de6124ba17> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "VDAC3"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-4fc2149656440f31f6d222c484c8ba20>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-ad42e6099b91e6a09db7f0de6124ba17> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "protein_coding"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-d802058c3e6afff0ba30af66d8779686>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-ad42e6099b91e6a09db7f0de6124ba17> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ENST00000022615.7"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-58c3ed0635ca32ace06809b2021c5998>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-ad42e6099b91e6a09db7f0de6124ba17> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "13872"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-13add7de457b5623ce07be3755d4fc47>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr8:42410918-42411241"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-0afd797997b59ebcc8b5e9670b5c9b2f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "."^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-146a808d8f12051b142ddc858c4cc80d>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-ec889f0d6fde3b7c458d4f07476b4235>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-ad42e6099b91e6a09db7f0de6124ba17>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-ad42e6099b91e6a09db7f0de6124ba17> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-4001fda760e909f63a9c65eec862267c> {
+    <http://idea.rpi.edu/kb/tcga#assertion-4001fda760e909f63a9c65eec862267c>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-5579278d0c985a931d8418d33e4acb0f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-3dbb05913ac3826cf7ac44fe14b24a1f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-89edacd1fa035e5100ae00fec935e9de>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-06476e44bc609dd4f02f5e2e28661e90>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-91ed0da17a6e6b928c9ad684043a9193>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-e4146c62712e02eea659f129e25689e1>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-4fc2149656440f31f6d222c484c8ba20>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-d802058c3e6afff0ba30af66d8779686>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-58c3ed0635ca32ace06809b2021c5998>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-13add7de457b5623ce07be3755d4fc47>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-0afd797997b59ebcc8b5e9670b5c9b2f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-ec99e5a06feb3571cb4109146302ba6c>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-146a808d8f12051b142ddc858c4cc80d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-ec889f0d6fde3b7c458d4f07476b4235>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-ad42e6099b91e6a09db7f0de6124ba17>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-4001fda760e909f63a9c65eec862267c> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-4001fda760e909f63a9c65eec862267c>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-5579278d0c985a931d8418d33e4acb0f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-3dbb05913ac3826cf7ac44fe14b24a1f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-89edacd1fa035e5100ae00fec935e9de>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-06476e44bc609dd4f02f5e2e28661e90>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-91ed0da17a6e6b928c9ad684043a9193>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-e4146c62712e02eea659f129e25689e1>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-4fc2149656440f31f6d222c484c8ba20>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-d802058c3e6afff0ba30af66d8779686>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-58c3ed0635ca32ace06809b2021c5998>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-13add7de457b5623ce07be3755d4fc47>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-0afd797997b59ebcc8b5e9670b5c9b2f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#head-556fc3037cff7fa7c4c74646575b5970> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-556fc3037cff7fa7c4c74646575b5970>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-556fc3037cff7fa7c4c74646575b5970> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-556fc3037cff7fa7c4c74646575b5970> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-556fc3037cff7fa7c4c74646575b5970> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-556fc3037cff7fa7c4c74646575b5970> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-ddc14c5eb6e277e2bcb1a1803efc63ff>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000289"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-a019e9fa64e567a9440a3a094148e25c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "0.639425851399649"^^xsd:float .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-8ee45b0e4c54fcfa33a191b6351d4e62>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13209 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 14"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr14"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-2f6dcbf44f5766d272d65c49e6e21c77>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-5f862161b9fb1741c02a893516795905> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9> ;
+        <http://semanticscience.org/resource/hasValue>    "68874422"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-8a258aa8bd5cc42fcf42e31e63b3c953>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-6bf4ecce6c1b4c83d7435612da3d7e32> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9> ;
+        <http://semanticscience.org/resource/hasValue>    "68874423"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-61bac879e4d6c5cf293376f989bf9a03>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-f871fc7e4553c6630aa99a037856016d> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ACTN1;ACTN1;ACTN1;ACTN1"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-a2004231b46612fe520c4c92aedeb1de>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-f871fc7e4553c6630aa99a037856016d> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "protein_coding;protein_coding;protein_coding;protein_coding"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-e9033cbd9d46813e4909a23c277d283b>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-f871fc7e4553c6630aa99a037856016d> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ENST00000193403.9;ENST00000394419.7;ENST00000553882.1;ENST00000556083.1"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-bc887ed8da1b10f4a6cd0ec9f358af16>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-f871fc7e4553c6630aa99a037856016d> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "105019;104818;4601;13842"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-160a79536357a9cbf054bca16727e13f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr14:68874710-68875103"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "N_Shore"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "N_Shore"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-5f862161b9fb1741c02a893516795905>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-6bf4ecce6c1b4c83d7435612da3d7e32>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-f871fc7e4553c6630aa99a037856016d>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-f871fc7e4553c6630aa99a037856016d> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-556fc3037cff7fa7c4c74646575b5970> {
+    <http://idea.rpi.edu/kb/tcga#assertion-556fc3037cff7fa7c4c74646575b5970>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-ddc14c5eb6e277e2bcb1a1803efc63ff>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-a019e9fa64e567a9440a3a094148e25c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-8ee45b0e4c54fcfa33a191b6351d4e62>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-2f6dcbf44f5766d272d65c49e6e21c77>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-8a258aa8bd5cc42fcf42e31e63b3c953>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-61bac879e4d6c5cf293376f989bf9a03>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-a2004231b46612fe520c4c92aedeb1de>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-e9033cbd9d46813e4909a23c277d283b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-bc887ed8da1b10f4a6cd0ec9f358af16>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-160a79536357a9cbf054bca16727e13f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-36fa0b4a07dcdb2aeebefd67a78c52e9>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-5f862161b9fb1741c02a893516795905>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-6bf4ecce6c1b4c83d7435612da3d7e32>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-f871fc7e4553c6630aa99a037856016d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-556fc3037cff7fa7c4c74646575b5970> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-556fc3037cff7fa7c4c74646575b5970>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-ddc14c5eb6e277e2bcb1a1803efc63ff>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-a019e9fa64e567a9440a3a094148e25c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-8ee45b0e4c54fcfa33a191b6351d4e62>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-2f6dcbf44f5766d272d65c49e6e21c77>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-8a258aa8bd5cc42fcf42e31e63b3c953>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-61bac879e4d6c5cf293376f989bf9a03>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-a2004231b46612fe520c4c92aedeb1de>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-e9033cbd9d46813e4909a23c277d283b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-bc887ed8da1b10f4a6cd0ec9f358af16>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-160a79536357a9cbf054bca16727e13f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#head-7f3d47ebda81c5bf6708005b2ea6b79f> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-7f3d47ebda81c5bf6708005b2ea6b79f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-7f3d47ebda81c5bf6708005b2ea6b79f> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-7f3d47ebda81c5bf6708005b2ea6b79f> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-7f3d47ebda81c5bf6708005b2ea6b79f> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-7f3d47ebda81c5bf6708005b2ea6b79f> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-601362e6a1f8854fac06371d8091927b>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000292"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-def0da71f3eb83bfedab398ec2753467>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "0.794423205476156"^^xsd:float .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-44c35efca4215088d7f5cb42014dd9d7>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13211 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 16"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr16"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-3fccdf5c0fd2bea148014b2a1185565e>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-366042ef9100fbeaa3f346db66830dad> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed> ;
+        <http://semanticscience.org/resource/hasValue>    "28878779"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-126bdb00eda744fd5721f9ef23d36b2d>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-0a18c42b54d1d0a88af31fa33a5d4f58> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed> ;
+        <http://semanticscience.org/resource/hasValue>    "28878780"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-64ebb6650fae4f529feb899b32923f7f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-25835cb23849f4bc34c84c38af7ec3b9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ATP2A1;ATP2A1;ATP2A1;ATP2A1;ATP2A1"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-74bd7cb5fa1d9ebc17263bf3f40d2a0b>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-25835cb23849f4bc34c84c38af7ec3b9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "protein_coding;protein_coding;protein_coding;protein_coding;protein_coding"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-3aaa8cd5413fce784d9ce088673121c4>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-25835cb23849f4bc34c84c38af7ec3b9> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ENST00000357084.6;ENST00000395503.7;ENST00000536376.4;ENST00000562185.4;ENST00000563975.1"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-4b3f5e4fcae7a8ee68a89fac976f50ba>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-25835cb23849f4bc34c84c38af7ec3b9> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "373;290;-1275;-465;-83"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-ac2931a99a10e7296c7cc30c7c796fd5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr16:28879633-28880547"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "N_Shore"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "N_Shore"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-366042ef9100fbeaa3f346db66830dad>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-0a18c42b54d1d0a88af31fa33a5d4f58>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-25835cb23849f4bc34c84c38af7ec3b9>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-25835cb23849f4bc34c84c38af7ec3b9> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-7f3d47ebda81c5bf6708005b2ea6b79f> {
+    <http://idea.rpi.edu/kb/tcga#assertion-7f3d47ebda81c5bf6708005b2ea6b79f>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-601362e6a1f8854fac06371d8091927b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-def0da71f3eb83bfedab398ec2753467>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-44c35efca4215088d7f5cb42014dd9d7>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-3fccdf5c0fd2bea148014b2a1185565e>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-126bdb00eda744fd5721f9ef23d36b2d>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-64ebb6650fae4f529feb899b32923f7f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-74bd7cb5fa1d9ebc17263bf3f40d2a0b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-3aaa8cd5413fce784d9ce088673121c4>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-4b3f5e4fcae7a8ee68a89fac976f50ba>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-ac2931a99a10e7296c7cc30c7c796fd5>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-4de60de28b1c6dc5fcd5cddf8ab015ed>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-366042ef9100fbeaa3f346db66830dad>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-0a18c42b54d1d0a88af31fa33a5d4f58>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-25835cb23849f4bc34c84c38af7ec3b9>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-7f3d47ebda81c5bf6708005b2ea6b79f> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-7f3d47ebda81c5bf6708005b2ea6b79f>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-601362e6a1f8854fac06371d8091927b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-def0da71f3eb83bfedab398ec2753467>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-44c35efca4215088d7f5cb42014dd9d7>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-3fccdf5c0fd2bea148014b2a1185565e>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-126bdb00eda744fd5721f9ef23d36b2d>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-64ebb6650fae4f529feb899b32923f7f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-74bd7cb5fa1d9ebc17263bf3f40d2a0b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-3aaa8cd5413fce784d9ce088673121c4>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-4b3f5e4fcae7a8ee68a89fac976f50ba>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-ac2931a99a10e7296c7cc30c7c796fd5>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#head-43f1de0fee9fb88a3571f2641ef74001> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-43f1de0fee9fb88a3571f2641ef74001>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-43f1de0fee9fb88a3571f2641ef74001> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-43f1de0fee9fb88a3571f2641ef74001> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-43f1de0fee9fb88a3571f2641ef74001> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-43f1de0fee9fb88a3571f2641ef74001> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-975824e728a7164f90557d6c6a21ac30>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000321"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-34841762b5ce1a73b8e056f00fad20f1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "0.470036806523632"^^xsd:float .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-89edacd1fa035e5100ae00fec935e9de>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13224 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 8"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr8"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-efc4da0b4ff2af98dd8f172bc28670a9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-78809653dfea4266a5f2662e564029ce> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc> ;
+        <http://semanticscience.org/resource/hasValue>    "41310283"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-541a687067a714a4ab6bb726d5a01714>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-1dce2522292f8da2589f1e73c6cfe534> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc> ;
+        <http://semanticscience.org/resource/hasValue>    "41310284"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-5308cff1a524ec7482bac7312eaf6332>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-18b62da054707d8692694347638fc2ea> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "SFRP1"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-4fc2149656440f31f6d222c484c8ba20>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-18b62da054707d8692694347638fc2ea> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "protein_coding"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-e3d544bf597963681aeaf0e3d1328b27>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-18b62da054707d8692694347638fc2ea> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ENST00000220772.6"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-756ee5dd3d7176a5c080c0377c0e07ac>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-18b62da054707d8692694347638fc2ea> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "-785"^^xsd:float .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-f54d09437b632c4a0e7c63aa9330a013>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr8:41308333-41309621"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-41e338430581b38983c24703ad1d2228>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "S_Shore"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "S_Shore"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-78809653dfea4266a5f2662e564029ce>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-1dce2522292f8da2589f1e73c6cfe534>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-18b62da054707d8692694347638fc2ea>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-18b62da054707d8692694347638fc2ea> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-43f1de0fee9fb88a3571f2641ef74001> {
+    <http://idea.rpi.edu/kb/tcga#assertion-43f1de0fee9fb88a3571f2641ef74001>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-975824e728a7164f90557d6c6a21ac30>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-34841762b5ce1a73b8e056f00fad20f1>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-89edacd1fa035e5100ae00fec935e9de>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-efc4da0b4ff2af98dd8f172bc28670a9>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-541a687067a714a4ab6bb726d5a01714>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-5308cff1a524ec7482bac7312eaf6332>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-4fc2149656440f31f6d222c484c8ba20>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-e3d544bf597963681aeaf0e3d1328b27>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-756ee5dd3d7176a5c080c0377c0e07ac>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-f54d09437b632c4a0e7c63aa9330a013>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-41e338430581b38983c24703ad1d2228>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-bb94c62e722dd4ff1afa4378bbf432fc>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-78809653dfea4266a5f2662e564029ce>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-1dce2522292f8da2589f1e73c6cfe534>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-18b62da054707d8692694347638fc2ea>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-43f1de0fee9fb88a3571f2641ef74001> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-43f1de0fee9fb88a3571f2641ef74001>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-975824e728a7164f90557d6c6a21ac30>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-34841762b5ce1a73b8e056f00fad20f1>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-89edacd1fa035e5100ae00fec935e9de>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-efc4da0b4ff2af98dd8f172bc28670a9>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-541a687067a714a4ab6bb726d5a01714>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-5308cff1a524ec7482bac7312eaf6332>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-4fc2149656440f31f6d222c484c8ba20>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-e3d544bf597963681aeaf0e3d1328b27>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-756ee5dd3d7176a5c080c0377c0e07ac>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-f54d09437b632c4a0e7c63aa9330a013>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-41e338430581b38983c24703ad1d2228>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#head-f4cfa17d4a9d939b3f8560eb0368a0c7> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-f4cfa17d4a9d939b3f8560eb0368a0c7>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-f4cfa17d4a9d939b3f8560eb0368a0c7> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-f4cfa17d4a9d939b3f8560eb0368a0c7> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-f4cfa17d4a9d939b3f8560eb0368a0c7> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-f4cfa17d4a9d939b3f8560eb0368a0c7> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-7b0fb8ef1a92167279d6533378b566da>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000363"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-7dd335d4dd46f5eca4fe0a3daad6148c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "0.25191144920989"^^xsd:float .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-a028f2a798c641d9b7bc2d8210188f08>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13204 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 1"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr1"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-0fb90a0c7d21948b180da77093a9e52c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-8aad6d58cc87504451c855a36a1dea1d> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863> ;
+        <http://semanticscience.org/resource/hasValue>    "230425047"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-0b8ad19914647ec399c75b96d19fbdf8>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-57718e5e41ba7915531ac01190a33352> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863> ;
+        <http://semanticscience.org/resource/hasValue>    "230425048"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-9ac44f04e8546f561cf534b377d9a735>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-b21a3702425c7b5e4d5cedbd5bf3d075> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "PGBD5"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-4fc2149656440f31f6d222c484c8ba20>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-b21a3702425c7b5e4d5cedbd5bf3d075> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "protein_coding"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-ea2c53908ab089385f7e07d950a338a2>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-b21a3702425c7b5e4d5cedbd5bf3d075> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ENST00000391860.4"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-a6b2d32accd6844748f4514a0d510848>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-b21a3702425c7b5e4d5cedbd5bf3d075> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "683"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-632165a3720aa87b794edd4beff4de8f>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr1:230425357-230426956"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "N_Shore"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "N_Shore"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-8aad6d58cc87504451c855a36a1dea1d>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-57718e5e41ba7915531ac01190a33352>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-b21a3702425c7b5e4d5cedbd5bf3d075>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-b21a3702425c7b5e4d5cedbd5bf3d075> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-f4cfa17d4a9d939b3f8560eb0368a0c7> {
+    <http://idea.rpi.edu/kb/tcga#assertion-f4cfa17d4a9d939b3f8560eb0368a0c7>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-7b0fb8ef1a92167279d6533378b566da>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-7dd335d4dd46f5eca4fe0a3daad6148c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-a028f2a798c641d9b7bc2d8210188f08>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-0fb90a0c7d21948b180da77093a9e52c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-0b8ad19914647ec399c75b96d19fbdf8>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-9ac44f04e8546f561cf534b377d9a735>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-4fc2149656440f31f6d222c484c8ba20>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-ea2c53908ab089385f7e07d950a338a2>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-a6b2d32accd6844748f4514a0d510848>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-632165a3720aa87b794edd4beff4de8f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-484b738b8c924c76d4f649caca02b863>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-8aad6d58cc87504451c855a36a1dea1d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-57718e5e41ba7915531ac01190a33352>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-b21a3702425c7b5e4d5cedbd5bf3d075>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-f4cfa17d4a9d939b3f8560eb0368a0c7> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-f4cfa17d4a9d939b3f8560eb0368a0c7>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-7b0fb8ef1a92167279d6533378b566da>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-7dd335d4dd46f5eca4fe0a3daad6148c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-a028f2a798c641d9b7bc2d8210188f08>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-0fb90a0c7d21948b180da77093a9e52c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-0b8ad19914647ec399c75b96d19fbdf8>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-9ac44f04e8546f561cf534b377d9a735>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-4fc2149656440f31f6d222c484c8ba20>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-ea2c53908ab089385f7e07d950a338a2>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-a6b2d32accd6844748f4514a0d510848>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-632165a3720aa87b794edd4beff4de8f>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-23618f1cd47b7cecdfce2abdd2020782>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#head-09b64eda9a3e14b49da9f2e28b4f1737> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-09b64eda9a3e14b49da9f2e28b4f1737>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://www.nanopub.org/nschema#Nanopublication> ;
+        <http://www.nanopub.org/nschema#hasAssertion>    <http://idea.rpi.edu/kb/tcga#assertion-09b64eda9a3e14b49da9f2e28b4f1737> ;
+        <http://www.nanopub.org/nschema#hasProvenance>    <http://idea.rpi.edu/kb/tcga#provenance-09b64eda9a3e14b49da9f2e28b4f1737> ;
+        <http://www.nanopub.org/nschema#hasPublicationInfo>    <http://idea.rpi.edu/kb/tcga#pubInfo-09b64eda9a3e14b49da9f2e28b4f1737> .
+}
+
+<http://idea.rpi.edu/kb/tcga#assertion-09b64eda9a3e14b49da9f2e28b4f1737> {
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-ed7e11a2067dfd0d7e7bcaa7c7fa93b6>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Identifier ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element REF"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "cg00000622"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-2346f3245b1216588114d08b96dcc0e1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Beta_value> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    uo:0000190 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Beta Value"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "0.014689056498102"^^xsd:float .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-0aa150d8aa10426c292ab240aa55e566>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Chromosome> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13203 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome"^^xsd:string ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C13210 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome 15"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "chr15"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Start-6681a55a814c3bd6eadcdd0b22e81eac>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Start> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-26da2bce1147ffb6902c7601a4af51f2> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Start"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c> ;
+        <http://semanticscience.org/resource/hasValue>    "22838620"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#End-ed8dd591b0e8515e1d985cbd83c30741>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#End> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Coordinate ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-6fc082d3f7bcde250df11772462b30db> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "End"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c> ;
+        <http://semanticscience.org/resource/hasValue>    "22838621"^^xsd:integer .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-7a7db861c0129607b957f89f13d942ff>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    sio:Symbol ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-c73d05fe0d60a17529736f8853630596> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "NIPA2;NIPA2;NIPA2;NIPA2;NIPA2;NIPA2;NIPA2;NIPA2;NIPA2;NIPA2"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-8a0d0d2f18b55a2939fc81e47d5fe60c>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Gene_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ogg:0000000003 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-c73d05fe0d60a17529736f8853630596> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Type"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "protein_coding;protein_coding;protein_coding;protein_coding;protein_coding;protein_coding;protein_coding;protein_coding;protein_coding;protein_coding"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-c00c80e4064b7bbb2b6e2d53e516e30b>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Transcript_ID> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0005669 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-c73d05fe0d60a17529736f8853630596> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Transcript_ID"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "ENST00000337451.6;ENST00000359727.7;ENST00000398013.6;ENST00000398014.5;ENST00000539711.2;ENST00000559571.1;ENST00000560039.1;ENST00000560205.4;ENST00000560762.4;ENST00000561072.1"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-87a5b1e6a00e271dd34e2eda6cf110c0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Position_to_TSS> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    go:0051303 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#gene_symbol-c73d05fe0d60a17529736f8853630596> ;
+        <http://semanticscience.org/resource/hasUnit>    uo:0000244 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Position to TSS"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "-41;-39;-68;-22;-79;-57;-71;-25;-41;-70"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-a70a768343b8a8a6aeb04bac995da71b>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C44465 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "CGI Coordinate"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "CGI:chr15:22838564-22839134"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-95648c3dbc303ecec64d6fb2d3a10542>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#Feature_Type> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    mi:0116 ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C73619 ;
+        <http://semanticscience.org/resource/isAttributeOf>    <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Feature Type"^^xsd:string ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Island"^^xsd:string ;
+        <http://semanticscience.org/resource/hasValue>    "Island"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#composite_element> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C54668 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Composite Element"^^xsd:string .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-26da2bce1147ffb6902c7601a4af51f2>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_start_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25431 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome start position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-6fc082d3f7bcde250df11772462b30db>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#chromosome_end_position> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C25496 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Chromosome end position"^^xsd:string ;
+        <http://semanticscience.org/resource/inRelationTo>    go:ChromosomePositioning .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-c73d05fe0d60a17529736f8853630596>    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    <http://idea.rpi.edu/kb/tcga#gene_symbol> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>    ncit:C43568 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>    "Gene Symbol"^^xsd:string ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-c73d05fe0d60a17529736f8853630596> ;
+        sio:isPartOf <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c> .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#provenance-09b64eda9a3e14b49da9f2e28b4f1737> {
+    <http://idea.rpi.edu/kb/tcga#assertion-09b64eda9a3e14b49da9f2e28b4f1737>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-ed7e11a2067dfd0d7e7bcaa7c7fa93b6>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-2346f3245b1216588114d08b96dcc0e1>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-0aa150d8aa10426c292ab240aa55e566>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-6681a55a814c3bd6eadcdd0b22e81eac>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-ed8dd591b0e8515e1d985cbd83c30741>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-7a7db861c0129607b957f89f13d942ff>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-8a0d0d2f18b55a2939fc81e47d5fe60c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-c00c80e4064b7bbb2b6e2d53e516e30b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-87a5b1e6a00e271dd34e2eda6cf110c0>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-a70a768343b8a8a6aeb04bac995da71b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-95648c3dbc303ecec64d6fb2d3a10542>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#composite_element-db1f4505511e30f2f985a910c556992c>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_start_position-26da2bce1147ffb6902c7601a4af51f2>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#chromosome_end_position-6fc082d3f7bcde250df11772462b30db>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#gene_symbol-c73d05fe0d60a17529736f8853630596>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+
+<http://idea.rpi.edu/kb/tcga#pubInfo-09b64eda9a3e14b49da9f2e28b4f1737> {
+    <http://idea.rpi.edu/kb/tcga#nanoPub-09b64eda9a3e14b49da9f2e28b4f1737>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Composite_Element_REF-ed7e11a2067dfd0d7e7bcaa7c7fa93b6>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Beta_value-2346f3245b1216588114d08b96dcc0e1>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Chromosome-0aa150d8aa10426c292ab240aa55e566>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Start-6681a55a814c3bd6eadcdd0b22e81eac>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#End-ed8dd591b0e8515e1d985cbd83c30741>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Symbol-7a7db861c0129607b957f89f13d942ff>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Gene_Type-8a0d0d2f18b55a2939fc81e47d5fe60c>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Transcript_ID-c00c80e4064b7bbb2b6e2d53e516e30b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Position_to_TSS-87a5b1e6a00e271dd34e2eda6cf110c0>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#CGI_Coordinate-a70a768343b8a8a6aeb04bac995da71b>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+    <http://idea.rpi.edu/kb/tcga#Feature_Type-95648c3dbc303ecec64d6fb2d3a10542>
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:20Z"^^xsd:dateTime .
+
+}
+

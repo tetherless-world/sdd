@@ -1,0 +1,206 @@
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> 
+prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> 
+prefix chear: <http://hadatac.org/ont/chear#> 
+prefix heals-kb: <http://idea.rpi.edu/heals/kb/heals#> 
+prefix heals: <http://idea.rpi.edu/heals/ont/heals#> 
+prefix loinc: <http://purl.bioontology.org/ontology/LNC/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix tcga: <http://idea.rpi.edu/ont/tcga#> 
+prefix envo: <http://purl.obolibrary.org/obo/ENVO_> 
+prefix efo: <http://www.ebi.ac.uk/efo/EFO_> 
+prefix stato: <http://purl.obolibrary.org/obo/STATO_> 
+prefix sio: <http://semanticscience.org/resource/> 
+prefix doid: <http://purl.obolibrary.org/obo/DOID_> 
+prefix tcga-kb: <http://idea.rpi.edu/kb/tcga#> 
+prefix obo: <http://purl.obolibrary.org/obo/> 
+prefix hasco: <http://hadatac.org/ont/hasco#> 
+prefix np: <http://www.nanopub.org/nschema#> 
+prefix rxnorm: <http://purl.bioontology.org/ontology/RXNORM/> 
+prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> 
+prefix snomed-ct: <http://purl.bioontology.org/ontology/SNOMEDCT/> 
+prefix uo: <http://purl.obolibrary.org/obo/UO_> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+SELECT DISTINCT ?target_usi ?gender ?race ?ethnicity ?age_at_diagnosis_in_days ?first_event ?time_to_first_event_in_days ?vital_status_ ?overall_survival_time_in_days ?year_of_diagnosis ?year_of_last_follow_up ?protocol ?disease_at_diagnosis ?metastasis_site ?primary_tumor_site ?specific_tumor_site ?specific_tumor_side ?specific_tumor_region ?definitive_surgery ?primary_site_progression ?site_of_initial_relapse ?time_to_first_relapse_in_days ?time_to_first_enrollment_on_relapse_protocol_in_days ?time_to_first_smn_in_days ?time_to_death_in_days ?histologic_response ?percent_necrosis ?relapse_type ?therapy ?comment WHERE {
+  ?target_usi_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Identifier  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?target_usi .
+
+  ?gender_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:BiologicalSex  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?gender .
+
+  ?race_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Race  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?race .
+
+  ?ethnicity_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Ethnicity  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?ethnicity .
+
+  ?age_at_diagnosis_in_days_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Age  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasUnit>    sio:Day ;
+    <http://semanticscience.org/resource/existsAt>     ?diagnosis_V  ;
+    <http://semanticscience.org/resource/hasValue> ?age_at_diagnosis_in_days .
+
+  ?first_event_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25499  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/existsAt>     ?first_V  ;
+    <http://semanticscience.org/resource/hasValue> ?first_event .
+
+  ?time_to_first_event_in_days_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?first_event_V  ;
+    <http://semanticscience.org/resource/hasUnit>    sio:Day ;
+    <http://semanticscience.org/resource/hasValue> ?time_to_first_event_in_days .
+
+  ?vital_status__E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:LifeStatus  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?vital_status_ .
+
+  ?overall_survival_time_in_days_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?survival_V  ;
+    <http://semanticscience.org/resource/hasUnit>    sio:Day ;
+    <http://semanticscience.org/resource/hasValue> ?overall_survival_time_in_days .
+
+  ?year_of_diagnosis_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInstant  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?diagnosis_V  ;
+    <http://semanticscience.org/resource/hasUnit>    sio:Year ;
+    <http://semanticscience.org/resource/hasValue> ?year_of_diagnosis .
+
+  ?year_of_last_follow_up_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInstant  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?last_follow_up_V  ;
+    <http://semanticscience.org/resource/hasUnit>    sio:Year ;
+    <http://semanticscience.org/resource/hasValue> ?year_of_last_follow_up .
+
+  ?protocol_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:ExperimentalProtocol  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?protocol .
+
+  ?disease_at_diagnosis_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Disease  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/existsAt>     ?diagnosis_V  ;
+    <http://semanticscience.org/resource/hasValue> ?disease_at_diagnosis .
+
+  ?metastasis_site_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Site  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?metastasis_V  ;
+    <http://semanticscience.org/resource/hasValue> ?metastasis_site .
+
+  ?primary_tumor_site_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Site  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?primary_tumor_V  ;
+    <http://semanticscience.org/resource/hasValue> ?primary_tumor_site .
+
+  ?specific_tumor_site_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Site  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?tumor_V  ;
+    <http://semanticscience.org/resource/hasValue> ?specific_tumor_site .
+
+  ?specific_tumor_side_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25306  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?tumor_V  ;
+    <http://semanticscience.org/resource/hasValue> ?specific_tumor_side .
+
+  ?specific_tumor_region_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:SpatialRegion  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?tumor_V  ;
+    <http://semanticscience.org/resource/hasValue> ?specific_tumor_region .
+
+  ?definitive_surgery_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> oae:0000067  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?definitive_surgery .
+
+  ?primary_site_progression_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C45254  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?primary_tumor_V  ;
+    <http://semanticscience.org/resource/hasValue> ?primary_site_progression .
+
+  ?site_of_initial_relapse_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Site  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?first_relapse_V  ;
+    <http://semanticscience.org/resource/hasValue> ?site_of_initial_relapse .
+
+  ?time_to_first_relapse_in_days_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?first_relapse_V  ;
+    <http://semanticscience.org/resource/hasValue> ?time_to_first_relapse_in_days .
+
+  ?time_to_first_enrollment_on_relapse_protocol_in_days_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?first_enrollment_V  ;
+    <http://semanticscience.org/resource/hasValue> ?time_to_first_enrollment_on_relapse_protocol_in_days .
+
+  ?time_to_first_smn_in_days_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?first_SMN_V  ;
+    <http://semanticscience.org/resource/hasValue> ?time_to_first_smn_in_days .
+
+  ?time_to_death_in_days_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:TimeInterval  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?death_V  ;
+    <http://semanticscience.org/resource/hasValue> ?time_to_death_in_days .
+
+  ?histologic_response_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C38013  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?histologic_response .
+
+  ?percent_necrosis_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C16897  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?primary_tumor_V  ;
+    <http://semanticscience.org/resource/hasUnit>    uo:0000187 ;
+    <http://semanticscience.org/resource/hasValue> ?percent_necrosis .
+
+  ?relapse_type_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C38155  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?relapse_type .
+
+  ?therapy_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C49236  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?therapy .
+
+  ?comment_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Comment  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?comment .
+
+
+  ?subject_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Human  ;
+    <http://semanticscience.org/resource/hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:SubjectRole ;
+      <http://semanticscience.org/resource/inRelationTo>    ?study_V  ].
+
+  ?diagnosis_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Diagnosis  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?subject_V .
+
+  ?last_follow_up_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C16033  ;
+    <http://semanticscience.org/resource/existsAt>     ?last_V  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?subject_V .
+
+  ?metastasis_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C19151  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?subject_V .
+
+  ?tumor_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> hp:0002664 , ncit:C3262  ;
+    sio:isPartOf ?subject_V .
+
+  ?primary_tumor_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C8509  ;
+    sio:isPartOf ?subject_V .
+
+  ?first_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25509 .
+
+  ?survival_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C17177  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?subject_V .
+
+  ?first_relapse_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C38155  ;
+    <http://semanticscience.org/resource/existsAt>     ?first_V  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?subject_V .
+
+  ?first_enrollment_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C37948  ;
+    <http://semanticscience.org/resource/existsAt>     ?first_V  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?subject_V .
+
+  ?first_SMN_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C114435  ;
+    <http://semanticscience.org/resource/existsAt>     ?first_V  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?subject_V .
+
+  ?death_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C28554  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?subject_V .
+
+  ?study_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> hasco:Study .
+
+  ?last_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25551 .
+
+  ?first_event_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25499  ;
+    <http://semanticscience.org/resource/existsAt>     ?first_V  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?subject_V .
+
+}
