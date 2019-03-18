@@ -63,30 +63,30 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-explicit_entry-37f98fd3974f05a3f13306399f47fa8e> {
-    <http://idea.rpi.edu/kb/tcga#assertion-explicit_entry-37f98fd3974f05a3f13306399f47fa8e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-explicit_entry-37f98fd3974f05a3f13306399f47fa8e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#isoform_coords>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_region>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-explicit_entry-37f98fd3974f05a3f13306399f47fa8e> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-explicit_entry-37f98fd3974f05a3f13306399f47fa8e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-explicit_entry-37f98fd3974f05a3f13306399f47fa8e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 }
 
 <http://idea.rpi.edu/kb/tcga#head-implicit_entry-37f98fd3974f05a3f13306399f47fa8e> { 
@@ -131,30 +131,30 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-implicit_entry-37f98fd3974f05a3f13306399f47fa8e> {
-    <http://idea.rpi.edu/kb/tcga#assertion-implicit_entry-37f98fd3974f05a3f13306399f47fa8e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-implicit_entry-37f98fd3974f05a3f13306399f47fa8e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#subject>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#gene_expression_value>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#overlap>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#gene>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#study>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#isoform>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-implicit_entry-37f98fd3974f05a3f13306399f47fa8e> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-implicit_entry-37f98fd3974f05a3f13306399f47fa8e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-implicit_entry-37f98fd3974f05a3f13306399f47fa8e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 }
 
 <http://idea.rpi.edu/kb/tcga#head-cb3c73a1c5893a5d40a61d713f8cfe3a> {
@@ -215,42 +215,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-cb3c73a1c5893a5d40a61d713f8cfe3a> {
-    <http://idea.rpi.edu/kb/tcga#assertion-cb3c73a1c5893a5d40a61d713f8cfe3a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-cb3c73a1c5893a5d40a61d713f8cfe3a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-41b691d1c9c415ee99776a067c8c362a>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-4ab4c1e9d5d47c5040ead42854bd46da>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-eda2fd7a3d665f7c82363ca192745252>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-8a93cfe6ba7e804622e46e27e437ecc2>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-8a93cfe6ba7e804622e46e27e437ecc2>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-3b7151004ebe443446764a54d58e96bb>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-3b7151004ebe443446764a54d58e96bb>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-bb5ea9926751d2d16fceb10c904f4c83>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-bb5ea9926751d2d16fceb10c904f4c83>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-cb3c73a1c5893a5d40a61d713f8cfe3a> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-cb3c73a1c5893a5d40a61d713f8cfe3a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-cb3c73a1c5893a5d40a61d713f8cfe3a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-41b691d1c9c415ee99776a067c8c362a>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-4ab4c1e9d5d47c5040ead42854bd46da>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-eda2fd7a3d665f7c82363ca192745252>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
@@ -312,42 +312,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-7fb4d121401454fed30e2493b4624e13> {
-    <http://idea.rpi.edu/kb/tcga#assertion-7fb4d121401454fed30e2493b4624e13>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-7fb4d121401454fed30e2493b4624e13>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-3703cbc5ec018b0d5a67f6b4bfe5a1e9>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-13fb7342170b36ecb48df4cfd55e06c8>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-e7754cf8491e886dc9dfb59505aaad6c>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-5a0dd7037b6db6d5b348cd927e07c80a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-5a0dd7037b6db6d5b348cd927e07c80a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-76880578fa409ebe1868b235cddc32a5>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-76880578fa409ebe1868b235cddc32a5>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-7ec030662f247936ed82f9289aae7bf2>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-7ec030662f247936ed82f9289aae7bf2>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-7fb4d121401454fed30e2493b4624e13> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-7fb4d121401454fed30e2493b4624e13>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-7fb4d121401454fed30e2493b4624e13>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-3703cbc5ec018b0d5a67f6b4bfe5a1e9>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-13fb7342170b36ecb48df4cfd55e06c8>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-e7754cf8491e886dc9dfb59505aaad6c>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
@@ -409,42 +409,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-962e1e42f3e816f28a6bbea589aa51f9> {
-    <http://idea.rpi.edu/kb/tcga#assertion-962e1e42f3e816f28a6bbea589aa51f9>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-962e1e42f3e816f28a6bbea589aa51f9>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-2104a4878a14d576250c57a1ba968b0e>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-412366d22c40030010fcc04b2821c992>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-5b70d4ef0ab6d9c47956e779d536dcb4>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-044d9dbb41bc11f639502510db6d4941>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-044d9dbb41bc11f639502510db6d4941>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-c8c2033103aee37477139fad5a0ed156>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-c8c2033103aee37477139fad5a0ed156>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-af25b3e612e222624e577934d090ea4d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-af25b3e612e222624e577934d090ea4d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-962e1e42f3e816f28a6bbea589aa51f9> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-962e1e42f3e816f28a6bbea589aa51f9>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-962e1e42f3e816f28a6bbea589aa51f9>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-2104a4878a14d576250c57a1ba968b0e>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-412366d22c40030010fcc04b2821c992>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-5b70d4ef0ab6d9c47956e779d536dcb4>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
@@ -506,42 +506,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-53fb9424eafd2ad0a7243b4199106604> {
-    <http://idea.rpi.edu/kb/tcga#assertion-53fb9424eafd2ad0a7243b4199106604>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-53fb9424eafd2ad0a7243b4199106604>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-32b3edf510fe88d493f8921e44ef7c52>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-6ce9e7243e886f1136ae01503dc8e879>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-3ff530d6edf56ea2b4b15093e63a9e32>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-db0358f6426e76c66ed8fcd1b27c29f5>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-db0358f6426e76c66ed8fcd1b27c29f5>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-0e732b170450aa01b518fa73c769f053>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-0e732b170450aa01b518fa73c769f053>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-4478cf3d6ff35a41189a22053a0aae3d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-4478cf3d6ff35a41189a22053a0aae3d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-53fb9424eafd2ad0a7243b4199106604> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-53fb9424eafd2ad0a7243b4199106604>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-53fb9424eafd2ad0a7243b4199106604>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-32b3edf510fe88d493f8921e44ef7c52>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-6ce9e7243e886f1136ae01503dc8e879>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-3ff530d6edf56ea2b4b15093e63a9e32>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
@@ -603,42 +603,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-35e0971ef83af2661270b25d2b85fd2d> {
-    <http://idea.rpi.edu/kb/tcga#assertion-35e0971ef83af2661270b25d2b85fd2d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-35e0971ef83af2661270b25d2b85fd2d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-0953a3fe565e55dbd5d84c10f90eccb6>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-dbee6f7bff06093ffe438ac83cca9157>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-b07a2ba9f29fa70d25e35b9da50d568c>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-098f0a677a999cecaf62247cc5009e84>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-098f0a677a999cecaf62247cc5009e84>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-613296038cfc8c096c52a36f25b0711e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-613296038cfc8c096c52a36f25b0711e>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-648d778f64a8f1819e5940a3eb15d4e8>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-648d778f64a8f1819e5940a3eb15d4e8>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-35e0971ef83af2661270b25d2b85fd2d> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-35e0971ef83af2661270b25d2b85fd2d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-35e0971ef83af2661270b25d2b85fd2d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-0953a3fe565e55dbd5d84c10f90eccb6>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-dbee6f7bff06093ffe438ac83cca9157>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-b07a2ba9f29fa70d25e35b9da50d568c>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
@@ -700,42 +700,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-50c4e5687c19fee3e608169f11ec79e5> {
-    <http://idea.rpi.edu/kb/tcga#assertion-50c4e5687c19fee3e608169f11ec79e5>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-50c4e5687c19fee3e608169f11ec79e5>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-879d9a9d7a4bebee20806cbf01d9d618>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-a8ebf17c0535a8ed9113366c5474f052>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-d75fef54800738b967f020fd429af9e8>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-ef538673fce57062fe32086c701f7d58>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-ef538673fce57062fe32086c701f7d58>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-06b02577cfcdfa6b3d8a34524018554b>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-06b02577cfcdfa6b3d8a34524018554b>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-4362b291b07957d0a7b55ab68baac589>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-4362b291b07957d0a7b55ab68baac589>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-50c4e5687c19fee3e608169f11ec79e5> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-50c4e5687c19fee3e608169f11ec79e5>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-50c4e5687c19fee3e608169f11ec79e5>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-879d9a9d7a4bebee20806cbf01d9d618>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-a8ebf17c0535a8ed9113366c5474f052>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-d75fef54800738b967f020fd429af9e8>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
@@ -797,42 +797,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-1d3324e4722d656552745ca3b32a7a4a> {
-    <http://idea.rpi.edu/kb/tcga#assertion-1d3324e4722d656552745ca3b32a7a4a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-1d3324e4722d656552745ca3b32a7a4a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-107c6d28e32d9f09cfe257207c4c8c6d>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-4a2e08a50d54acaf526648b0185a0628>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-976547832d13df4119dcd216190ad498>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-f9947f2ecc34c16ce56407765347c8dc>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-f9947f2ecc34c16ce56407765347c8dc>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-83efdd48391045ddc300a075671c3ba8>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-83efdd48391045ddc300a075671c3ba8>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-ac22792754487e2bc9f44d829c52fcd6>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-ac22792754487e2bc9f44d829c52fcd6>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-1d3324e4722d656552745ca3b32a7a4a> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-1d3324e4722d656552745ca3b32a7a4a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-1d3324e4722d656552745ca3b32a7a4a>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-107c6d28e32d9f09cfe257207c4c8c6d>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-4a2e08a50d54acaf526648b0185a0628>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-976547832d13df4119dcd216190ad498>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
@@ -894,42 +894,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-6b853f4d9d66b9500c2e21c93af3fdd1> {
-    <http://idea.rpi.edu/kb/tcga#assertion-6b853f4d9d66b9500c2e21c93af3fdd1>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-6b853f4d9d66b9500c2e21c93af3fdd1>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-a3556b750fa21c3cf2710f56fb4aec01>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-dd904d5b039503a7ab9bab95bdf7af05>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-c0d9ce3d789bbe0ad2ec649741d76e56>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-28bfce7d21a636a95e4929d7113defe9>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-28bfce7d21a636a95e4929d7113defe9>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-50b5a3b998d21f86a789070248ead287>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-50b5a3b998d21f86a789070248ead287>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-5d07d6d292c52eeec8ea845dbc9f4bf6>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-5d07d6d292c52eeec8ea845dbc9f4bf6>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-6b853f4d9d66b9500c2e21c93af3fdd1> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-6b853f4d9d66b9500c2e21c93af3fdd1>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-6b853f4d9d66b9500c2e21c93af3fdd1>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-a3556b750fa21c3cf2710f56fb4aec01>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-dd904d5b039503a7ab9bab95bdf7af05>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-c0d9ce3d789bbe0ad2ec649741d76e56>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
@@ -991,42 +991,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-405ca505994d049cf7e241d142edc7d8> {
-    <http://idea.rpi.edu/kb/tcga#assertion-405ca505994d049cf7e241d142edc7d8>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-405ca505994d049cf7e241d142edc7d8>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-c3f00bab19f0f6aa6fb831502b7d1e25>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-c0f5016785bac793404c6c57923b8486>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-14be4ffa9b936e910d48c114a72c4212>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-96eb8ba1f902c948a8a8fe1cc7651487>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-96eb8ba1f902c948a8a8fe1cc7651487>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-f43275cefe3ef9a06e1c1918352ea3ac>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-f43275cefe3ef9a06e1c1918352ea3ac>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-3e744c7c9d29d95eb43985a90fd0a9d3>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-3e744c7c9d29d95eb43985a90fd0a9d3>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-405ca505994d049cf7e241d142edc7d8> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-405ca505994d049cf7e241d142edc7d8>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-405ca505994d049cf7e241d142edc7d8>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-c3f00bab19f0f6aa6fb831502b7d1e25>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-c0f5016785bac793404c6c57923b8486>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-14be4ffa9b936e910d48c114a72c4212>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
@@ -1088,42 +1088,42 @@
 }
 
 <http://idea.rpi.edu/kb/tcga#provenance-9c50c6f185e0fc75a3c5b262984a2aaa> {
-    <http://idea.rpi.edu/kb/tcga#assertion-9c50c6f185e0fc75a3c5b262984a2aaa>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#assertion-9c50c6f185e0fc75a3c5b262984a2aaa>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-1438c270a9a67b38983efc3182e838eb>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-bfc38ac01697515fcc60434af775f5a1>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-6f3dc62a297594682b34829f1bfc2020>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene-82f9f4fd9544d64195615e9989e7013d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene-82f9f4fd9544d64195615e9989e7013d>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#gene_expression_value-b46531499a687aed1eeaeb40d01cc6f6>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#gene_expression_value-b46531499a687aed1eeaeb40d01cc6f6>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
-    <http://idea.rpi.edu/kb/tcga#overlap-bc39496e681481116e6f30cb0de65e2c>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#overlap-bc39496e681481116e6f30cb0de65e2c>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 
 <http://idea.rpi.edu/kb/tcga#pubInfo-9c50c6f185e0fc75a3c5b262984a2aaa> {
-    <http://idea.rpi.edu/kb/tcga#nanoPub-9c50c6f185e0fc75a3c5b262984a2aaa>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+    <http://idea.rpi.edu/kb/tcga#nanoPub-9c50c6f185e0fc75a3c5b262984a2aaa>    <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#miRNA_ID-1438c270a9a67b38983efc3182e838eb>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#read_count-bfc38ac01697515fcc60434af775f5a1>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#reads_per_million_miRNA_mapped-6f3dc62a297594682b34829f1bfc2020>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
     <http://idea.rpi.edu/kb/tcga#cross-mapped-4a6620b833cdbd1cd0ce81e702db2056>
-        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T18:22:17Z"^^xsd:dateTime .
+        <http://www.w3.org/ns/prov#generatedAtTime>    "2019-03-18T19:22:17Z"^^xsd:dateTime .
 
 }
 

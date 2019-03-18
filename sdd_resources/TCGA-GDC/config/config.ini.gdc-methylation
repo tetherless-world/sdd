@@ -12,5 +12,5 @@ data_file = TCGA-GDC/Methylation/input/Data/methylationTenRows.csv
 
 [Output Files]
 out_file = TCGA-GDC/Methylation/output/trig/GDC_Methylation.trig
-query_file = TCGA-GDC/Clinical/output/sparql/GDC_Exp_miRNA_Q
-swrl_file = TCGA-GDC/Clinical/output/swrl/GDC_Exp_miRNA_SWRL
+query_file = TCGA-GDC/Methylation/output/sparql/GDC_Exp_miRNA_Q
+swrl_file = TCGA-GDC/Methylation/output/swrl/GDC_Exp_miRNA_SWRL
