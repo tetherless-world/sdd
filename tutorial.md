@@ -386,7 +386,11 @@ When there is no standard codebook to start from, manual creation of a semantic 
 
 We recommend that the class assigned to each code for a given column be a subclass of the attribute or entity assigned to that column. 
 
-Examples of data that may require expansion in a codebook include a column corresponding to level of education, where possible values come from a certain enumerated set. For example, if a column called "edu" is assigned as an attribute chear:EducationLevel, the classes assigned to the code values for "edu" should have rdfs:subClassOf relationships to chear:EducationLevel, such as chear:NoFormalEducation or chear:CollegeGraduate.
+Examples of data that may require expansion in a codebook include a column corresponding to level of education, where possible values come from a certain enumerated set. 
+
+For example, if a column called "edu" is assigned as an attribute chear:EducationLevel and the data value for that column is numerically coded, classes should be assigned in the Codebook to the code values for "edu." 
+
+A recommendation, though not a requirement, is the the classes used in the Codebook should have rdfs:subClassOf relationships to the attribute assigned. For example, for the attribute chear:EducationLevel, we assign classes in the Codebook such as chear:UnknownEducationLevel or chear:CollegeGraduate.
 
 A Codebook for the example project is shown below.
 
