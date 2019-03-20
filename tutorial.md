@@ -48,19 +48,17 @@ layout: main
         </ul>
     </div>
 </nav>
-<div class="container-fluid p-0">
-    <p>This is the Tutorial page.</p></br>
-<section class="resume-section p-3 p-lg-5 d-flex d-column" id="setup">
-  <div class="my-auto">
-    <h2>Setup</h2>
-    
-    <h3>Installation - VM </h3>
-    <p>We will begin this tutorial by creating a fresh Ubuntu environment by using Vagrant and virtualbox. This is useful for installation on a production system. </p> 
-    <p>If you wish to install directly onto your machine, you can skip to the next subsection on installing the libraries.</p>
+This is the Tutorial page.
 
-    <p>Install VirtualBox.<br/>
-    <code>sudo apt install VirtualBox<br/> </code>
-    </p>
+##Setup
+###Installation - VM
+
+We will begin this tutorial by creating a fresh Ubuntu environment by using Vagrant and virtualbox. This is useful for installation on a production system.
+
+If you wish to install directly onto your machine, you can skip to the next subsection on installing the libraries.
+
+Install VirtualBox.
+<code>sudo apt install VirtualBox<br/> </code>
 
     <p>Install Vagrant.<br/>
     <code>sudo apt install vagrant<br/> </code>
@@ -268,7 +266,6 @@ swrl_file = ExampleProject/output/swrl/exampleSWRL<br/>
     <p>In order to learn more, see the Property customization <a href="documentation#property-customization">documentation</a>.<br/>
     </p>
   </div>
-</section>
 
 <section class="resume-section p-3 p-lg-5 d-flex d-column" id="dm">
   <div class="my-auto">
@@ -442,4 +439,3 @@ class in the Attribute column. </p>
     </p>
   </div>
 </section>
-</div>
