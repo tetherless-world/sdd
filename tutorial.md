@@ -186,12 +186,14 @@ The output folder will hold the generated TriG RDF, SPARQL query, and SWRL model
 
 Now that we have our directory structure set up, we can start creating the necessary Semantic Data Dictionary artifacts.
 
-## Configuration
-Rather than creating all the config files from scratch, you can copy over the config files from the example project in the SemanticDataDictionary repository.
+Note that there is an [Example Project](https://github.com/tetherless-world/SemanticDataDictionary/tree/master/ExampleProject) as well as a [Template Project](https://github.com/tetherless-world/sdd/tree/master/sdd_resources/TemplateProject) from which the initial project files can be copied over.
+
+For example, from the project directory, you can copy over the config files from the example project in the SemanticDataDictionary repository.
 
 `cp ../../SemanticDataDictionary/ExampleProject/config/* config/`
-    
 
+## Configuration
+    
 ### config.ini
 You may notice 4 comma separated value (csv) files in this folder, as well as a config.ini file.
 
@@ -252,35 +254,6 @@ The Infosheet contains references to the Dictionary Mapping, Code Mapping, Timel
 | Timeline | http://... | 
 | Imports | http://... |
 
-<!-- 
-<table>
-  <tr>
-    <th>Attribute</th>
-    <th>Value</th> 
-  </tr>
-  <tr>
-    <td>Dictionary Mapping</td>
-    <td>http://...</td> 
-  </tr>
-  <tr>
-    <td>Codebook</td>
-    <td>http://...</td> 
-  </tr>
-  <tr>
-    <td>Code Mapping</td>
-    <td>http://...</td> 
-  </tr>
-  <tr>
-    <td>Timeline</td>
-    <td>http://...</td> 
-  </tr>
-  <tr>
-    <td>Imports</td>
-    <td>http://...</td> 
-  </tr>
-</table>
--->
-
 Absolute, relative or web resource locations can be specified for the locations for the Semantic Data Dictionary tables.
 
 From this perspective, the Semantic Data Dictionary can be seen as a collection of tables used to perform semantic mapping functions. 
@@ -293,7 +266,11 @@ In order to review which properties are included and see example entries for the
     
 ### Code Mappings
 
-In order to learn more, see the Code Mapping <a href="documentation#code-mappings">documentation</a>.
+The Code Mappings table is used to assign shorthand codes to commonly used classes from ontologies.
+
+Once these codes are assigned in the Code Mappings table, rather than specifying the ontology classes, instead the codes can be used in the Dictionary Mapping, Codebook or Timeline tables.
+
+In order to learn more and see an example Code Mappings set, see the Code Mappings <a href="documentation#code-mappings">documentation</a>.
     
 ### Prefixes
 
@@ -349,42 +326,6 @@ Column labels and descriptions can be transferred from existing data description
 | ??instrument | Instrumentation |  | "Any object, or item of electrical or electronic equipment,  which is designed to carry out a specific function or set of functions. [def-source: NCI]" |  |  |  |  | ncit:C16742 |  |  |  |  |  |  |
 | ??household | Household |  | "A household consists of one or more people who live in the same dwelling and also share meals or living accommodation |  and may consist of a single family or some other grouping of people. A single dwelling will be considered to contain multiple households if either meals or living space are not shared. The household is the basic unit of analysis in many social |  microeconomic and government models, and is important to the fields of economics and inheritance. [def-source: CHEAR]" |  |  |  |  | chear:Household |  |  | ??participant |  |  |  |
 | ??HHRef | Household reference person |  | "Head of Household is a filing status for individual United States taxpayers. To use the Head of Household filing status, a taxpayer must: (1) Be unmarried or considered unmarried at the end of the year (2) Have paid more than half the cost of keeping up a home for the tax year (either one's own home or the home of a qualifying parent) (3) Usually have a qualifying person who lived with the head in the home for more than half of the tax year unless the qualifying person is a dependent parent. [def-source: CHEAR]" |  |  |  |  | chear:HeadOfHousehold |  |  | ??household |  |  | |
-
-<!--
-<table>
-<tr><th>Column</th><th>Label</th><th>Comment</th><th>Attribute</th><th>attributeOf</th><th>Unit</th><th>Time</th><th>Entity</th><th>Role</th><th>Relation</th><th>inRelationTo</th></tr>
-<tr><td>SEQN</td><td>Respondent sequence number</td><td>Respondent sequence number.</td><td>sio:Identifier</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>RIAGENDR</td><td>Gender</td><td>Gender of the participant.</td><td>sio:BiologicalSex</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>RIDAGEYR</td><td>Age in years at screening </td><td>Age in years of the participant at the time of screening. Individuals 80 and over are topcoded at 80 years of age.</td><td>sio:Age</td><td>??participant</td><td>uo:0000036</td><td>??screening</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>RIDAGEMN</td><td>Age in months at screening - 0 to 24 mos</td><td>Age in months of the participant at the time of screening. Reported for persons aged 24 months or younger at the time of exam (or screening if not examined).</td><td>sio:Age</td><td>??participant</td><td>uo:0000035</td><td>??screening</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>RIDRETH1</td><td>Race/Hispanic origin</td><td>Recode of reported race and Hispanic origin information</td><td>sio:Race</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>RIDEXAGM</td><td>Age in months at exam - 0 to 19 years</td><td>Age in months of the participant at the time of examination. Reported for persons aged 19 years or younger at the time of examination.</td><td>sio:Age</td><td>??participant</td><td>uo:0000035</td><td>??exam</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>DMDBORN4</td><td>Country of birth</td><td>In what country {were you/was SP} born?</td><td></td><td></td><td></td><td>??birth</td><td>sio:Country</td><td></td><td>sio:isLocationOf</td><td>??participant</td></tr>
-<tr><td>DMDCITZN</td><td>Citizenship status</td><td>{Are you/Is SP} a citizen of the United States? [Information about citizenship is being collected by the U.S. Public Health Service to perform health related research. Providing this information is voluntary and is collected under the authority of the Public Health Service Act. There will be no effect on pending immigration or citizenship petitions.]</td><td>sio:StatusDescriptor</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>DMDYRSUS</td><td>Length of time in US</td><td>Length of time the participant has been in the US.</td><td>sio:TimeInterval</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>DMDEDUC3</td><td>Education level - Children/Youth 6-19</td><td>What is the highest grade or level of school {you have/SP has} completed or the highest degree {you have/s/he has} received?</td><td>chear:EducationLevel</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>DMDEDUC2</td><td>Education level - Adults 20+</td><td>What is the highest grade or level of school {you have/SP has} completed or the highest degree {you have/s/he has} received?</td><td>chear:EducationLevel</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>DMDMARTL</td><td>Marital status</td><td>Marital status</td><td>chear:MaritalStatus</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>RIDEXPRG</td><td>Pregnancy status at exam</td><td>Pregnancy status for females between 20 and 44 years of age at the time of MEC exam.</td><td>sio:StatusDescriptor</td><td>??pregnancy</td><td></td><td>??exam</td><td></td><td></td><td></td><td>??participant</td></tr>
-<tr><td>SIALANG</td><td>Language of SP Interview</td><td>Language of the Sample Person Interview Instrument</td><td>chear:Language</td><td>??instrument</td><td></td><td>??interview</td><td></td><td></td><td></td><td>??participant</td></tr>
-<tr><td>DMDHRGND</td><td>HH ref person's gender</td><td>HH reference person's gender</td><td>sio:BiologicalSex</td><td>??HHRef</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>DMDHRAGE</td><td>HH ref person's age in years</td><td>HH reference person's age in years</td><td>sio:Age</td><td>??HHRef</td><td>uo:0000036</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>DMDHRBR4</td><td>HH ref person's country of birth</td><td>HH reference person's country of birth</td><td></td><td></td><td></td><td>??birth</td><td>sio:Country</td><td></td><td>sio:isLocationOf</td><td>??HHRef</td></tr>
-<tr><td>DMDHREDU</td><td>HH ref person's education level</td><td>HH reference person's education level</td><td>chear:EducationLevel</td><td>??HHRef</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>DMDHRMAR</td><td>HH ref person's marital status</td><td>HH reference person's marital status</td><td>chear:MaritalStatus</td><td>??HHRef</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>WTINT2YR</td><td>Full sample 2 year interview weight</td><td>Full sample 2 year interview weight.</td><td>chear:Weight</td><td>??participant</td><td></td><td>??interview</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>WTMEC2YR</td><td>Full sample 2 year MEC exam weight</td><td>Full sample 2 year MEC exam weight.</td><td>chear:Weight</td><td>??participant</td><td></td><td>??exam</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>INDHHIN2</td><td>Annual household income</td><td>Total household income (reported as a range value in dollars)</td><td>chear:Income</td><td>??household</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>??participant</td><td>Participant</td><td></td><td></td><td></td><td></td><td></td><td>ncit:C29867, sio:Human</td><td>sio:SubjectRole</td><td></td><td></td></tr>
-<tr><td>??screening</td><td>Screening</td><td></td><td></td><td></td><td></td><td></td><td>chear:Screening</td><td></td><td></td><td></td></tr>
-<tr><td>??exam</td><td>Examination</td><td></td><td></td><td></td><td></td><td></td><td>ncit:C131902</td><td></td><td></td><td></td></tr>
-<tr><td>??birth</td><td>Birth</td><td></td><td></td><td></td><td></td><td></td><td>sio:Birthing</td><td></td><td></td><td></td></tr>
-<tr><td>??pregnancy</td><td>Pregnancy</td><td></td><td></td><td></td><td></td><td></td><td>chear:Pregnancy</td><td></td><td></td><td></td></tr></tr>
-<tr><td>??interview</td><td>Interview</td><td></td><td></td><td></td><td></td><td></td><td>ncit:C16751</td><td></td><td></td><td></td></tr>
-<tr><td>??instrument</td><td>Instrumentation</td><td></td><td></td><td></td><td></td><td></td><td>ncit:C16742</td><td></td><td></td><td></td></tr>
-<tr><td>??household</td><td>Household</td><td></td><td></td><td></td><td></td><td></td><td>chear:Household</td><td></td><td></td><td>??participant</td></tr>
-<tr><td>??HHRef</td><td>Household reference person</td><td></td><td></td><td></td><td></td><td></td><td>chear:HeadOfHousehold</td><td></td><td></td><td>??household</td></table>
--->
 
 A key step in the Dictionary Mapping creation process is identifying whether each entry refers to an attribute or to an entity.
 
