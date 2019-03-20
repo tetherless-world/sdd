@@ -22,28 +22,28 @@ layout: main
                 <a class="nav-link js-scroll-trigger" href="#setup">Setup</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#config">Configuration</a>
+                <a class="nav-link js-scroll-trigger" href="#configuration">Configuration</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#dm">Dictionary Mapping</a>
+                <a class="nav-link js-scroll-trigger" href="#dictionary-mapping">Dictionary Mapping</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#cb">Codebook</a>
+                <a class="nav-link js-scroll-trigger" href="#codebook">Codebook</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#timeline">Timeline</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#run">Run Script</a>
+                <a class="nav-link js-scroll-trigger" href="#run-script">Run Script</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#load">Load</a>
+                <a class="nav-link js-scroll-trigger" href="#load-graph">Load</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#query">Query</a>
+                <a class="nav-link js-scroll-trigger" href="#query-graph">Query</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#infer">Infer</a>
+                <a class="nav-link js-scroll-trigger" href="#infer-knowledge">Infer</a>
             </li>
         </ul>
     </div>
@@ -213,7 +213,14 @@ swrl_file = ExampleProject/output/swrl/exampleSWRL
 While the config file mentioned above handles the configuration for the sdd2rdf script, the configuration of the Semantic Data Dictionary itself is included in the Infosheet.
 
 The Infosheet contains references to the Dictionary Mapping, Code Mapping, Timeline, and Codebook table locations.
-   
+
+| Attribute| Value |
+|---|---|
+| Dictionary Mapping | http://... |
+| Codebook | http://... | 
+| Code Mapping | http://... | 
+| Timeline | http://... | 
+| Imports | http://... |
 <!-- 
 <table>
   <tr>
