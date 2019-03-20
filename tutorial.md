@@ -448,8 +448,84 @@ To start blazegraph, you can use the following command.
 
 Once blazegraph starts, you can visit the front end of the triplestore at the URI specified, usually corresponding to `http://localhost:9999/blazegraph/`.
 
-## Query Graph
-This is the Query Graph Section
+Using this UI, we can navigate to the Update tab, browse for the location of the generated output TriG file, and load the RDF into blazegraph.
 
+## Query Graph
+The sdd2rdf interpreter also outputs a starting point query. The query is designed to show the original data values, but can be updates to explore linked resources in the graph as well.
+
+```
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix example-kb: <http://example.com/kb/example#> 
+prefix stato: <http://purl.obolibrary.org/obo/STATO_> 
+prefix uo: <http://purl.obolibrary.org/obo/UO_> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix chear: <http://hadatac.org/ont/chear#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix np: <http://www.nanopub.org/nschema#> 
+prefix obo: <http://purl.obolibrary.org/obo/> 
+prefix sio: <http://semanticscience.org/resource/> 
+
+SELECT DISTINCT ?id ?wt1 ?wt2 ?age ?sex ?race ?edu ?smoke WHERE {
+  ?id_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Identifier  ;
+    <sio:isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?id .
+
+  ?wt1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Weight  ;
+    <sio:isAttributeOf>    ?subject_V  ;
+    <sio:hasUnit>    obo:UO_0000009 ;
+    <sio:existsAt>     ?visit1_V  ;
+    <http://semanticscience.org/resource/hasValue> ?wt1 .
+
+  ?wt2_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Weight  ;
+    <sio:isAttributeOf>    ?subject_V  ;
+    <sio:hasUnit>    obo:UO_0000009 ;
+    <sio:existsAt>     ?visit2_V  ;
+    <http://semanticscience.org/resource/hasValue> ?wt2 .
+
+  ?age_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Age  ;
+    <sio:isAttributeOf>    ?subject_V  ;
+    <sio:hasUnit>    obo:UO_0000036 ;
+    <http://semanticscience.org/resource/hasValue> ?age .
+
+  ?sex_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:BiologicalSex  ;
+    <sio:isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?sex .
+
+  ?race_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:Race  ;
+    <sio:isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?race .
+
+  ?edu_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:EducationLevel  ;
+    <sio:isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?edu .
+
+  ?smoke_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:SmokingStatus  ;
+    <sio:isAttributeOf>    ?subject_V  ;
+    <http://semanticscience.org/resource/hasValue> ?smoke .
+
+
+  ?subject_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Human  ;
+    <sio:hasRole>    [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:SubjectRole ].
+
+}
+
+LIMIT 10
+```
 ## Infer Knowledge
-This is the Infer Knowledge section
+We also generate an SWRL antecendent that can be used for inference activities.
+
+An example SWRL antecedent is shown below.
+
+```
+sio:Identifier(?id_E) ^ sio:isAttributeOf(?id_E , ?subject_V) ^ 
+chear:Weight(?wt1_E) ^ sio:isAttributeOf(?wt1_E , ?subject_V) ^ sio:hasUnit(?wt1_E , obo:UO_0000009) ^ sio:existsAt(?wt1_E , ?visit1_V ) ^ 
+chear:Weight(?wt2_E) ^ sio:isAttributeOf(?wt2_E , ?subject_V) ^ sio:hasUnit(?wt2_E , obo:UO_0000009) ^ sio:existsAt(?wt2_E , ?visit2_V ) ^ 
+sio:Age(?age_E) ^ sio:isAttributeOf(?age_E , ?subject_V) ^ sio:hasUnit(?age_E , obo:UO_0000036) ^ 
+sio:BiologicalSex(?sex_E) ^ sio:isAttributeOf(?sex_E , ?subject_V) ^ 
+chear:Race(?race_E) ^ sio:isAttributeOf(?race_E , ?subject_V) ^ 
+chear:EducationLevel(?edu_E) ^ sio:isAttributeOf(?edu_E , ?subject_V) ^ 
+chear:SmokingStatus(?smoke_E) ^ sio:isAttributeOf(?smoke_E , ?subject_V) ^ 
+sio:Human(?subject_V) 
+```
