@@ -63,6 +63,7 @@ In order to organize the collection of sheets in the SDD, we use the Infosheet, 
 ## Infosheet
 The Infosheet is used to organize the SDD tables, and contains information about the Semantic Data Dictionary, such as the name, identifier, or link to the documentation, in addition to the location of the other SDD tables. 
 
+<!--
 ### Infosheet Specification
 The structure of the infosheet has been updated to support Distribution Level Dataset Descriptions from the [HCLS Standards](https://www.w3.org/TR/hcls-dataset/) and the [Data on the Web best practices](https://www.w3.org/TR/dwbp/). Rather than describing the datasets themselves, we use the properties described in these specifications to annotate the Semantic Data Dictionary collection instance itself.
 
@@ -154,7 +155,7 @@ cheese-kb:pubInfo-dataset_metadata {
     cheese-kb:nanoPub-dataset_metadata    &lt;http://www.w3.org/ns/prov#generatedAtTime&gt;    "2018-09-18T18:46:28Z"^^xsd:dateTime .
 }
 </pre>
-
+-->
 ## Dictionary Mapping
 
 The bulk of the annotation is done using the Dictionary Mapping (DM) table, which is used to annotate the columns of a given dataset. 
