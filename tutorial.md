@@ -394,22 +394,22 @@ A recommendation, though not a requirement, is the the classes used in the Codeb
 
 A Codebook for the example project is shown below.
 
-|Column|Code|Class|Resource|Label|
-|--|--|--|--|--|
-|sex|1|sio:Male||Male|
-|sex|2|sio:Female||Female|
-|race|1|chear:White||White|
-|race|2|chear:AfricanAmerican||African American|
-|race|3|chear:Asian||Asian|
-|race|4|chear:American_Indian_or_Alaska_Native||American Indian or Alaska Native|
-|race|5|chear:UnknownRace||Unknown Race|
-|edu|1|chear:HighSchoolOrLess||High School Degree or Less|
-|edu|2|chear:SomeCollegeorTechnicalSchool||Technical College or Some College|
-|edu|3|chear:HigherEducation||Higher Education than High School|
-|edu|4|chear:CollegeGraduate||College Graduate|
-|edu|5|chear:UnknownEducationLevel||Unknown Education Level|
-|smoke|0|chear:NonSmoker||non smoker|
-|smoke|1|chear:Smoker||smoker|
+|Column|Code|Class|Label|
+|--|--|--|--|
+|sex|1|sio:Male|Male|
+|sex|2|sio:Female|Female|
+|race|1|chear:White|White|
+|race|2|chear:AfricanAmerican|African American|
+|race|3|chear:Asian|Asian|
+|race|4|chear:American_Indian_or_Alaska_Native|American Indian or Alaska Native|
+|race|5|chear:UnknownRace|Unknown Race|
+|edu|1|chear:HighSchoolOrLess|High School Degree or Less|
+|edu|2|chear:SomeCollegeorTechnicalSchool|Technical College or Some College|
+|edu|3|chear:HigherEducation|Higher Education than High School|
+|edu|4|chear:CollegeGraduate|College Graduate|
+|edu|5|chear:UnknownEducationLevel|Unknown Education Level|
+|smoke|0|chear:NonSmoker|non smoker|
+|smoke|1|chear:Smoker|smoker|
 
 In order to learn more, see the Codebook <a href="documentation#codebook">documentation</a>.
 
