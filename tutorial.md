@@ -273,13 +273,15 @@ Once these codes are assigned in the Code Mappings table, rather than specifying
 In order to learn more and see an example Code Mappings set, see the Code Mappings <a href="documentation#code-mappings">documentation</a>.
     
 ### Prefixes
+The prefixes.csv file is used to specify the namespace URIs for the prefixes used throughout the annotated SDD tables, and should also include the base URI specified in the configuration file.
 
 In order to learn more, see the Prefixes <a href="documentation#prefixes">documentation</a>.
     
 ### Properties
 
-In order to learn more, see the Property customization <a href="documentation#property-customization">documentation</a>.
+In order for this approach to be ontology agnostic, we allow the user to customize the proper
 
+In order to learn more, see the Property customization <a href="documentation#property-customization">documentation</a>.
 
 ## Dictionary Mapping
 
