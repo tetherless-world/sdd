@@ -281,6 +281,41 @@ We use this standard data dictionary, which provides human-readable column label
 If there is no standard data dictionary available, the DM should begin with the column headers from the dataset.
 Column labels and descriptions can be transferred from existing data descriptions where available, or inferred where necessary.
 
+| Column | Label | Comment | Definition | Attribute | attributeOf | Unit | Time | Entity | Role | Relation | inRelationTo | wasDerivedFrom | wasGeneratedBy | Template |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SEQN | Respondent sequence number | Respondent sequence number. |  | sio:Identifier | ??participant |  |  |  |  |  |  |  |  |  |
+| RIAGENDR | Gender | Gender of the participant. |  | sio:BiologicalSex | ??participant |  |  |  |  |  |  |  |  |  |
+| RIDAGEYR | Age in years at screening  | Age in years of the participant at the time of screening. Individuals 80 and over are topcoded at 80 years of age. |  | sio:Age | ??participant | uo:0000036 | ??screening |  |  |  |  |  |  |  |
+| RIDAGEMN | Age in months at screening - 0 to 24 mos | Age in months of the participant at the time of screening. Reported for persons aged 24 months or younger at the time of exam (or screening if not examined). |  | sio:Age | ??participant | uo:0000035 | ??screening |  |  |  |  |  |  |  |
+| RIDRETH1 | Race/Hispanic origin | Recode of reported race and Hispanic origin information |  | sio:Race | ??participant |  |  |  |  |  |  |  |  |  |
+| RIDEXAGM | Age in months at exam - 0 to 19 years | Age in months of the participant at the time of examination. Reported for persons aged 19 years or younger at the time of examination. |  | sio:Age | ??participant | uo:0000035 | ??exam |  |  |  |  |  |  |  |
+| DMDBORN4 | Country of birth | In what country {were you/was SP} born? |  |  |  |  | ??birth | sio:Country |  | sio:isLocationOf | ??participant |  |  |  |
+| DMDCITZN | Citizenship status | {Are you/Is SP} a citizen of the United States? [Information about citizenship is being collected by the U.S. Public Health Service to perform health related research. Providing this information is voluntary and is collected under the authority of the Public Health Service Act. There will be no effect on pending immigration or citizenship petitions.] |  | sio:StatusDescriptor | ??participant |  |  |  |  |  |  |  |  |  |
+| DMDYRSUS | Length of time in US | Length of time the participant has been in the US. |  | sio:TimeInterval | ??participant |  |  |  |  |  |  |  |  |  |
+| DMDEDUC3 | Education level - Children/Youth 6-19 | What is the highest grade or level of school {you have/SP has} completed or the highest degree {you have/s/he has} received? |  | chear:EducationLevel | ??participant |  |  |  |  |  |  |  |  |  |
+| DMDEDUC2 | Education level - Adults 20+ | What is the highest grade or level of school {you have/SP has} completed or the highest degree {you have/s/he has} received? |  | chear:EducationLevel | ??participant |  |  |  |  |  |  |  |  |  |
+| DMDMARTL | Marital status | Marital status |  | chear:MaritalStatus | ??participant |  |  |  |  |  |  |  |  |  |
+| RIDEXPRG | Pregnancy status at exam | Pregnancy status for females between 20 and 44 years of age at the time of MEC exam. |  | sio:StatusDescriptor | ??pregnancy |  | ??exam |  |  |  | ??participant |  |  |  |
+| SIALANG | Language of SP Interview | Language of the Sample Person Interview Instrument |  | chear:Language | ??instrument |  | ??interview |  |  |  | ??participant |  |  |  |
+| DMDHRGND | HH ref person's gender | HH reference person's gender |  | sio:BiologicalSex | ??HHRef |  |  |  |  |  |  |  |  |  |
+| DMDHRAGE | HH ref person's age in years | HH reference person's age in years |  | sio:Age | ??HHRef | uo:0000036 |  |  |  |  |  |  |  |  |
+| DMDHRBR4 | HH ref person's country of birth | HH reference person's country of birth |  |  |  |  | ??birth | sio:Country |  | sio:isLocationOf | ??HHRef |  |  |  |
+| DMDHREDU | HH ref person's education level | HH reference person's education level |  | chear:EducationLevel | ??HHRef |  |  |  |  |  |  |  |  |  |
+| DMDHRMAR | HH ref person's marital status | HH reference person's marital status |  | chear:MaritalStatus | ??HHRef |  |  |  |  |  |  |  |  |  |
+| WTINT2YR | Full sample 2 year interview weight | Full sample 2 year interview weight. |  | chear:Weight | ??participant |  | ??interview |  |  |  |  |  |  |  |
+| WTMEC2YR | Full sample 2 year MEC exam weight | Full sample 2 year MEC exam weight. |  | chear:Weight | ??participant |  | ??exam |  |  |  |  |  |  |  |
+| INDHHIN2 | Annual household income | Total household income (reported as a range value in dollars) |  | chear:Income | ??household |  |  |  |  |  |  |  |  |  |
+| ??participant | Participant |  | Someone who takes part in an activity. [def-source: NCI] |  |  |  |  | ncit:C29867, sio:Human | sio:SubjectRole |  |  |  |  |  |
+| ??screening | Screening |  | The time period during which a screening process is used to determine the inclusion of a subject in a study. [def-source: CHEAR] |  |  |  |  | chear:Screening |  |  |  |  |  |  |
+| ??exam | Examination |  | A formal or careful inspection of an object or subject. [def-source: NCI] |  |  |  |  | ncit:C131902 |  |  |  |  |  |  |
+| ??birth | Birth |  | Birthing is the process by which a biological organism is brought into existence. [def-source: SIO] |  |  |  |  | sio:Birthing |  |  |  |  |  |  |
+| ??pregnancy | Pregnancy |  | The time during which one or more offspring develops inside a woman. [def-source: CHEAR] |  |  |  |  | chear:Pregnancy |  |  |  |  |  |  |
+| ??interview | Interview |  | "A conversation with an individual regarding his or her background and other personal and professional details,  opinions on specific subjects posed by the interviewer,  etc. [def-source: NCI]" |  |  |  |  | ncit:C16751 |  |  |  |  |  |  |
+| ??instrument | Instrumentation |  | "Any object, or item of electrical or electronic equipment,  which is designed to carry out a specific function or set of functions. [def-source: NCI]" |  |  |  |  | ncit:C16742 |  |  |  |  |  |  |
+| ??household | Household |  | "A household consists of one or more people who live in the same dwelling and also share meals or living accommodation |  and may consist of a single family or some other grouping of people. A single dwelling will be considered to contain multiple households if either meals or living space are not shared. The household is the basic unit of analysis in many social |  microeconomic and government models, and is important to the fields of economics and inheritance. [def-source: CHEAR]" |  |  |  |  | chear:Household |  |  | ??participant |  |  |  |
+| ??HHRef | Household reference person |  | "Head of Household is a filing status for individual United States taxpayers. To use the Head of Household filing status, a taxpayer must: (1) Be unmarried or considered unmarried at the end of the year (2) Have paid more than half the cost of keeping up a home for the tax year (either one's own home or the home of a qualifying parent) (3) Usually have a qualifying person who lived with the head in the home for more than half of the tax year unless the qualifying person is a dependent parent. [def-source: CHEAR]" |  |  |  |  | chear:HeadOfHousehold |  |  | ??household |  |  | |
+
+<!--
 <table>
 <tr><th>Column</th><th>Label</th><th>Comment</th><th>Attribute</th><th>attributeOf</th><th>Unit</th><th>Time</th><th>Entity</th><th>Role</th><th>Relation</th><th>inRelationTo</th></tr>
 <tr><td>SEQN</td><td>Respondent sequence number</td><td>Respondent sequence number.</td><td>sio:Identifier</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -314,6 +349,7 @@ Column labels and descriptions can be transferred from existing data description
 <tr><td>??instrument</td><td>Instrumentation</td><td></td><td></td><td></td><td></td><td></td><td>ncit:C16742</td><td></td><td></td><td></td></tr>
 <tr><td>??household</td><td>Household</td><td></td><td></td><td></td><td></td><td></td><td>chear:Household</td><td></td><td></td><td>??participant</td></tr>
 <tr><td>??HHRef</td><td>Household reference person</td><td></td><td></td><td></td><td></td><td></td><td>chear:HeadOfHousehold</td><td></td><td></td><td>??household</td></table>
+-->
 
 A key step in the Dictionary Mapping creation process is identifying whether each entry refers to an attribute or to an entity.
 In general, columns in a data file describe observed characteristics of some entity, and should be assigned a corresponding
