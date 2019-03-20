@@ -63,6 +63,16 @@ In order to organize the collection of sheets in the SDD, we use the Infosheet, 
 ## Infosheet
 The Infosheet is used to organize the SDD tables, and contains information about the Semantic Data Dictionary, such as the name, identifier, or link to the documentation, in addition to the location of the other SDD tables. 
 
+
+
+| Infosheet Row | Related Property | Description | Example |
+|------------ | ------------- | ------------- | ------------- |
+| Code Mapping |  | Reference to Code Mapping table location | http://... |
+| Codebook |  | Reference to Codebook table location | http://... |
+| Dictionary Mapping |  |  Reference to Dictionary Mapping table location | http://... |
+| Imports | _owl:imports_ |  Ontologies that the SDD references | http://semanticscience.org/ontology/sio-subset-labels.owl |
+| Timeline|  |  Reference to Timeline table location | http://... |
+
 <!--
 ### Infosheet Specification
 The structure of the infosheet has been updated to support Distribution Level Dataset Descriptions from the [HCLS Standards](https://www.w3.org/TR/hcls-dataset/) and the [Data on the Web best practices](https://www.w3.org/TR/dwbp/). Rather than describing the datasets themselves, we use the properties described in these specifications to annotate the Semantic Data Dictionary collection instance itself.
