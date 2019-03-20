@@ -365,6 +365,12 @@ For the purpose of this tutorial, we consider the simple Dictionary Mapping tabl
 |smoke|Smoking Status|Smoking status|Whether or not the subject admitted to smoking|chear:SmokingStatus|??subject||||||||||smoke-{id}|
 |??subject|Subject|Subject implicit entity|A subject is encoded as a human with a subject role||||||sio:Human|sio:SubjectRole|||||subject-{id}|
 
+In this mapping we assign in the Attribute column of each explicit entry.
+
+These attributes are assigned to be an attribute of an implicit subject.
+
+The implicit subject is encoded as mapped to an Entity with ontology class sio:Human, that has the Role of a sio:SubjectRole. Note that if we included a reference to a study, we can include an implicit reference to this study in the inRelationTo column.
+
 For more information, see the Dictionary Mapping <a href="documentation#dictionary-mapping">documentation</a>.
 
 ## Codebook
