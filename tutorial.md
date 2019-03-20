@@ -430,9 +430,23 @@ For more information, see the Timeline <a href="documentation#timeline">document
 Once all the Semantic Data Dictionary artifacts are ready, the sdd2rdf script can be run using python and providing an input argument corresponding to the relative or absolute location of the config file.
 
 `python sdd2rdf ExampleProject/config/config.ini.example`
+
+Note that the current implementation uses RDFLib, but is not connected to a logger.
+
+Due to this, the message `No handlers could be found for logger "rdflib.term"` appears when running the code. This message can be ignored.
     
 ## Load Graph
-This is the load graph section
+In order to work with the resulting graph, it needs to be loaded into a triplestore.
+
+One such triplestore that can be used is called Blazegraph.
+
+A Java jar file to run blazegraph can be found [online](https://www.blazegraph.com/download/) .
+
+To start blazegraph, you can use the following command.
+
+`java -server -Xmx4g -jar blazegraph.jar`
+
+Once blazegraph starts, you can visit the front end of the triplestore at the URI specified, usually corresponding to `http://localhost:9999/blazegraph/`.
 
 ## Query Graph
 This is the Query Graph Section
