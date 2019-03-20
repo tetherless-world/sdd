@@ -279,7 +279,7 @@ In order to learn more, see the Prefixes <a href="documentation#prefixes">docume
     
 ### Properties
 
-In order for this approach to be ontology agnostic, we allow the user to customize the proper
+In order for this approach to be ontology agnostic, we allow the user to customize the properties used throughout the mapping process.
 
 In order to learn more, see the Property customization <a href="documentation#property-customization">documentation</a>.
 
@@ -289,11 +289,13 @@ When creating the SDD artifacts, it is useful to have documents describing the d
 
 For example, for the CHEAR project, the Principal Investigator of each study provides a proposal document that includes a description of the study, a standard data dictionary and a standard codebook. 
 
-We use this standard data dictionary, which provides human-readable column labels and descriptions, as well as the column names as they appear in the data, as a starting point for our Dictionary Mapping table creation.
+When available, we use this form of a standard data dictionary, which provides human-readable column labels and descriptions, as well as the column names as they appear in the data, as a starting point for our Dictionary Mapping table creation.
 
 If there is no standard data dictionary available, the DM should begin with the column headers from the dataset.
 
 Column labels and descriptions can be transferred from existing data descriptions where available, or inferred where necessary.
+
+An example of a Dictionary Mapping table used for annotating the Demographics table in the National Health and Nutrition Examination Survey (NHANES) is included below.
 
 | Column | Label | Comment | Definition | Attribute | attributeOf | Unit | Time | Entity | Role | Relation | inRelationTo | wasDerivedFrom | wasGeneratedBy | Template |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -331,10 +333,12 @@ Column labels and descriptions can be transferred from existing data description
 
 A key step in the Dictionary Mapping creation process is identifying whether each entry refers to an attribute or to an entity.
 
-In general, columns in a data file describe observed characteristics of some entity, and should be assigned a corresponding
-class in the Attribute column. 
+In general, columns in a data file describe observed characteristics of some entity, and should be assigned a corresponding class in the Attribute column. This however is not always the case, so it should be considered whether the class at hand refers to an object or an attribute by exploring the hierarchy of the relevant term at hand.
 
-The entity that has that characteristic is populated in the attributeOf column. If the entity is implicit – that is, there is no column in the dataset representing the entity – a virtual entry should be made for this entity, and typed with an appropriate class in the Entity column. 
+The entity that has the characteristic encoded as an Attribute is populated in the attributeOf column. If the entity is implicit – that is, there is no column in the dataset representing the entity – an implicit entry should be made for this entity, and typed with an appropriate class in the Entity column. 
+
+Examples of implicit entries are shown in the table above.
+These entries start with "??" to indicate that the entry is implicit.
 
 The method of determining which class should be assigned to an attribute or entity may differ by project. For biomedical studies, an ontology browser such as <a href="https://bioportal.bioontology.org/">BioPortal</a> or <a href="http://www.ontobee.org/">Ontobee</a> may be used to find appropriate terms and relevant ontologies.
 
@@ -347,6 +351,10 @@ Additionally, provenance information can be included for each Dictionary Mapping
 Furthermore, if the entry has an associated time, the Time column can be filled out accordingly. Customized time intervals can be specified in the Timeline sheet, further described in the <a href="documentation#timeline">documentation</a> as well as <a href="tutorial#timeline">below</a>. 
 
 In the CHEAR study, for example, the data tracks child development in terms of observations taken at specific times relative to the birth or conception of the child.  
+
+For the purpose of this tutorial, we consider the simple Dictionary Mapping table that is included in the example project.
+
+
 
 For more information, see the Dictionary Mapping <a href="documentation#dictionary-mapping">documentation</a>.
 
