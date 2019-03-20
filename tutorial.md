@@ -352,9 +352,18 @@ Furthermore, if the entry has an associated time, the Time column can be filled 
 
 In the CHEAR study, for example, the data tracks child development in terms of observations taken at specific times relative to the birth or conception of the child.  
 
-For the purpose of this tutorial, we consider the simple Dictionary Mapping table that is included in the example project.
+For the purpose of this tutorial, we consider the simple Dictionary Mapping table that is included in the example project, shown below.
 
-
+|Column|Label|Comment|Definition|Attribute|attributeOf|Unit|Format|Time|Entity|Role|Relation|inRelationTo|wasDerivedFrom|wasGeneratedBy|Template|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|id|Identifier|ID for subject|Identifier for the human subject|sio:Identifier|??subject||||||||||id-{id}|
+|wt|Weight|Weight in kg|Weight of the subject in kilograms|chear:Weight|??subject|kg|||||||||weight-{id}|
+|age|Age|Age in years|Age of the subject in years|sio:Age|??subject|yr|||||||||age-{id}|
+|sex|Sex|Gender of the subject|The biological sex of the subject|sio:BiologicalSex|??subject||||||||||sex-{id}|
+|race|Race|Race category|The categorical race of the subject|chear:Race|??subject||||||||||race-{id}|
+|edu|Education level|Subject’s education level|The categorial education level of the subject|chear:EducationLevel|??subject||||||||||edu-{id}|
+|smoke|Smoking Status|Smoking status|Whether or not the subject admitted to smoking|chear:SmokingStatus|??subject||||||||||smoke-{id}|
+|??subject|Subject|Subject implicit entity|A subject is encoded as a human with a subject role||||||sio:Human|sio:SubjectRole|||||subject-{id}|
 
 For more information, see the Dictionary Mapping <a href="documentation#dictionary-mapping">documentation</a>.
 
