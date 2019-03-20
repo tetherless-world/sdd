@@ -237,7 +237,9 @@ This work is supported by
 * The Gates Foundation through the Healthy Birth, Growth, and Development knowledge integration (HBGDki) project
 * The CAPES Foundation Senior Internship Program Award 88881.120772 / 2016-01
 
-We acknowledge the members of the Tetherless World Constellation (TWC) at Rensellaer Polytechnic Institute (RPI) for their contributions, including 
+We acknowledge the members of the Tetherless World Constellation (TWC) as well as the members of the Institute for Data Exploration and Applications (IDEA) at Rensellaer Polytechnic Institute (RPI) for their contributions, including 
+* John Erickson
+* Kristin Bennett
 * Jason Liang
 * Yue (Robin) Liu
 * Katherine Chastain
