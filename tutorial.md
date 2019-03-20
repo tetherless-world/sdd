@@ -373,6 +373,11 @@ The implicit subject is encoded as mapped to an Entity with ontology class sio:H
 
 For more information, see the Dictionary Mapping <a href="documentation#dictionary-mapping">documentation</a>.
 
+
+Finally, in this example we use templating to specify the form of the URL we want to generate for each entry.
+ 
+For more information, see the Templating <a href="documentation#templating">documentation</a>
+
 ## Codebook
 As a standard codebook is included in the collection of initial documents for CHEAR, the creation of a semantic codebook from this point is simply the addition of concepts in the Class column. 
 
