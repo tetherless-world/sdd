@@ -200,7 +200,8 @@ These reference config values are duplicated since if an Infosheet is not includ
 If these locations are specified in the Infosheet, the values in the infosheet will take precedence over the values in the configuration file.
     
 
-    The "Output Files" section contains references to the locations to write the TriG, SWRL, and SPARQL output files.
+The "Output Files" section contains references to the locations to write the TriG, SWRL, and SPARQL output files.
+
 ```
 [Output Files]
 out_file = ExampleProject/output/trig/example-kg.trig
@@ -212,33 +213,36 @@ swrl_file = ExampleProject/output/swrl/exampleSWRL
 While the config file mentioned above handles the configuration for the sdd2rdf script, the configuration of the Semantic Data Dictionary itself is included in the Infosheet.
 
 The Infosheet contains references to the Dictionary Mapping, Code Mapping, Timeline, and Codebook table locations.
-    
-    <table>
-      <tr>
-        <th>Attribute</th>
-        <th>Value</th> 
-      </tr>
-      <tr>
-        <td>Dictionary Mapping</td>
-        <td>http://...</td> 
-      </tr>
-      <tr>
-        <td>Codebook</td>
-        <td>http://...</td> 
-      </tr>
-      <tr>
-        <td>Code Mapping</td>
-        <td>http://...</td> 
-      </tr>
-      <tr>
-        <td>Timeline</td>
-        <td>http://...</td> 
-      </tr>
-      <tr>
-        <td>Imports</td>
-        <td>http://...</td> 
-      </tr>
-    </table>
+   
+<!-- 
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Value</th> 
+  </tr>
+  <tr>
+    <td>Dictionary Mapping</td>
+    <td>http://...</td> 
+  </tr>
+  <tr>
+    <td>Codebook</td>
+    <td>http://...</td> 
+  </tr>
+  <tr>
+    <td>Code Mapping</td>
+    <td>http://...</td> 
+  </tr>
+  <tr>
+    <td>Timeline</td>
+    <td>http://...</td> 
+  </tr>
+  <tr>
+    <td>Imports</td>
+    <td>http://...</td> 
+  </tr>
+</table>
+-->
+
 Absolute, relative or web resource locations can be specified for the locations for the Semantic Data Dictionary tables.
 
 From this perspective, the Semantic Data Dictionary can be seen as a collection of tables used to perform semantic mapping functions. 
@@ -269,6 +273,7 @@ We use this standard data dictionary, which provides human-readable column label
 If there is no standard data dictionary available, the DM should begin with the column headers from the dataset.
 Column labels and descriptions can be transferred from existing data descriptions where available, or inferred where necessary.
 
+<!--
 <table>
 <tr><th>Column</th><th>Label</th><th>Comment</th><th>Attribute</th><th>attributeOf</th><th>Unit</th><th>Time</th><th>Entity</th><th>Role</th><th>Relation</th><th>inRelationTo</th></tr>
 <tr><td>SEQN</td><td>Respondent sequence number</td><td>Respondent sequence number.</td><td>sio:Identifier</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -302,6 +307,7 @@ Column labels and descriptions can be transferred from existing data description
 <tr><td>??instrument</td><td>Instrumentation</td><td></td><td></td><td></td><td></td><td></td><td>ncit:C16742</td><td></td><td></td><td></td></tr>
 <tr><td>??household</td><td>Household</td><td></td><td></td><td></td><td></td><td></td><td>chear:Household</td><td></td><td></td><td>??participant</td></tr>
 <tr><td>??HHRef</td><td>Household reference person</td><td></td><td></td><td></td><td></td><td></td><td>chear:HeadOfHousehold</td><td></td><td></td><td>??household</td></table>
+-->
 
 A key step in the Dictionary Mapping creation process is identifying whether each entry refers to an attribute or to an entity.
 In general, columns in a data file describe observed characteristics of some entity, and should be assigned a corresponding
@@ -337,10 +343,14 @@ For more information, see the Timeline <a href="documentation#timeline">document
 
 ## Run Script
 Once all the Semantic Data Dictionary artifacts are ready, the sdd2rdf script can be run using python and providing an input argument corresponding to the relative or absolute location of the config file.
+
 `python sdd2rdf ExampleProject/config/config.ini.example`
     
 ## Load Graph
+This is the load graph section
 
 ## Query Graph
+This is the Query Graph Section
 
 ## Infer Knowledge
+This is the infer knowledge section
