@@ -1,0 +1,19 @@
+[Prefixes]
+# Specify a file with the prefixes for existing ontologies used in your translation
+prefixes = TemplateProject/config/prefixes.csv
+# Specify the base uri to be associated with all triples minted by the script
+base_uri = template-kb
+
+[Source Files]
+dictionary = TemplateProject/input/DM/templateDM.csv
+codebook = TemplateProject/input/CB/templateCB.csv
+timeline = TemplateProject/input/TL/templateTL.csv
+data_file = TemplateProject/input/Data/templateData.csv
+code_mappings = TemplateProject/config/code_mappings.csv
+infosheet = TemplateProject/config/Infosheet.csv
+properties = TemplateProject/config/Properties.csv
+
+[Output Files]
+out_file = TemplateProject/output/trig/template-kg.trig
+query_file = TemplateProject/output/sparql/templateQuery
+swrl_file = TemplateProject/output/swrl/templateSWRL

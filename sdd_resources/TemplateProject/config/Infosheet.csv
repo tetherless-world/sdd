@@ -1,0 +1,6 @@
+Attribute,Value
+Dictionary Mapping,TemplateProject/input/DM/templateDM.csv
+Codebook,TemplateProject/input/CB/templateCB.csv
+Code Mapping,TemplateProject/config/code_mappings.csv
+Timeline,TemplateProject/input/TL/templateTL.csv
+Imports,
