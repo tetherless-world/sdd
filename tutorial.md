@@ -50,30 +50,29 @@ layout: main
 </nav>
 This is the Tutorial page.
 
-##Setup
-###Installation - VM
+## Setup
+### Installation - VM
 
 We will begin this tutorial by creating a fresh Ubuntu environment by using Vagrant and virtualbox. This is useful for installation on a production system.
 
 If you wish to install directly onto your machine, you can skip to the next subsection on installing the libraries.
 
 Install VirtualBox.
-<code>sudo apt install VirtualBox<br/> </code>
+`sudo apt install VirtualBox`
 
-    <p>Install Vagrant.<br/>
-    <code>sudo apt install vagrant<br/> </code>
-    </p>
+Install Vagrant.
+`sudo apt install vagrant`
 
-    <p>Create a working directory for your Virtual Machine and change into that directory.<br/>
-    <code>mkdir sdd-vm && cd sdd-vm<br/> </code>
-    </p>
+Create a working directory for your Virtual Machine and change into that directory.<br/>
+`mkdir sdd-vm && cd sdd-vm`
 
-    <p>Create a Vagrantfile.<br/>
-    <code>touch Vagrantfile<br/> </code>
-    </p>
+Create a Vagrantfile
 
-    <p>Add the following content to the Vagrantfile:<br/>
-    <code class="codeblock">
+`touch Vagrantfile`
+
+Add the following content to the Vagrantfile:
+
+```
 Vagrant.configure(2) do |config|<br/>
 &nbsp;&nbsp;config.vm.box = "ubuntu/xenial64"<br/>
 <br/>
@@ -81,34 +80,31 @@ Vagrant.configure(2) do |config|<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;vb.name = "sdd-vm"<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;# VM HARDWARE SPECS<br/>
 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--memory", "6144"]<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--cpus", "2"]<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--clipboard", "bidirectional"]<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--cpuexecutioncap", "80"]<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--vram", "256"]       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--memory", "6144"]
+&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--cpus", "2"]
+&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
+&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--cpuexecutioncap", "80"]
+&nbsp;&nbsp;&nbsp;&nbsp;vb.customize ["modifyvm", :id, "--vram", "256"]
 &nbsp;&nbsp;end<br/>
 <br/>
 &nbsp;&nbsp;config.vm.network "private_network", ip: "192.168.56.36"<br/>
 <br/>
 end<br/>
-</code>
-    </p>
+```
 
-    <p>Next bring up the VM.<br/>
-    <code>vagrant up<br/> </code>
-    </p>
 
-    <p>SSH into the VM.<br/>
-    <code>vagrant ssh<br/> </code>
-    </p>
+Next bring up the VM.
+`vagrant up`
 
-    <p>For convenience, you can set up a shared folder that links back to your local sdd-vm folder.<br/>
-    <code>touch .bash_aliases && mkdir share <br/> 
-    echo "alias mntshare='sudo mount -t vboxsf vagrant share/'" >> .bash_aliases<br/>
-    source .bashrc<br/> 
-    mntshare<br/> 
-    </code>
-    </p>
+SSH into the VM.
+`vagrant ssh`
+
+For convenience, you can set up a shared folder that links back to your local sdd-vm folder.
+```touch .bash_aliases && mkdir share
+echo "alias mntshare='sudo mount -t vboxsf vagrant share/'" >> .bash_aliases
+source .bashrc
+mntshare```
+
 
     <p>Alternatively, you can install directly onto your system, or setup environments for <a href="http://tetherless-world.github.io/whyis/install">Whyis</a> or <a href="https://github.com/paulopinheiro1234/hadatac/wiki/HADatAc-User-Guide#1-installing-hadatac">HADatAc</a> and continue with the instructions below.
     </p>
