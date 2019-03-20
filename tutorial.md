@@ -281,7 +281,6 @@ We use this standard data dictionary, which provides human-readable column label
 If there is no standard data dictionary available, the DM should begin with the column headers from the dataset.
 Column labels and descriptions can be transferred from existing data descriptions where available, or inferred where necessary.
 
-<!--
 <table>
 <tr><th>Column</th><th>Label</th><th>Comment</th><th>Attribute</th><th>attributeOf</th><th>Unit</th><th>Time</th><th>Entity</th><th>Role</th><th>Relation</th><th>inRelationTo</th></tr>
 <tr><td>SEQN</td><td>Respondent sequence number</td><td>Respondent sequence number.</td><td>sio:Identifier</td><td>??participant</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -315,7 +314,6 @@ Column labels and descriptions can be transferred from existing data description
 <tr><td>??instrument</td><td>Instrumentation</td><td></td><td></td><td></td><td></td><td></td><td>ncit:C16742</td><td></td><td></td><td></td></tr>
 <tr><td>??household</td><td>Household</td><td></td><td></td><td></td><td></td><td></td><td>chear:Household</td><td></td><td></td><td>??participant</td></tr>
 <tr><td>??HHRef</td><td>Household reference person</td><td></td><td></td><td></td><td></td><td></td><td>chear:HeadOfHousehold</td><td></td><td></td><td>??household</td></table>
--->
 
 A key step in the Dictionary Mapping creation process is identifying whether each entry refers to an attribute or to an entity.
 In general, columns in a data file describe observed characteristics of some entity, and should be assigned a corresponding
