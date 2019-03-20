@@ -379,14 +379,33 @@ Finally, in this example we use templating to specify the form of the URL we wan
 For more information, see the Templating <a href="documentation#templating">documentation</a>
 
 ## Codebook
-As a standard codebook is included in the collection of initial documents for CHEAR, the creation of a semantic codebook from this point is simply the addition of concepts in the Class column. 
+In the same way that the use of pre-existing documents can aide in the initial construction of the Dictionary Mapping table, the same can be said for the Codebook table. 
+For example, the standard codebook is included in the collection of initial documents for CHEAR, the creation of a semantic codebook from this point is simply the addition of concepts in the Class or Resource column. 
 
 When there is no standard codebook to start from, manual creation of a semantic codebook involves the process of identifying which columns have encoded values, finding all such possible values, and assigning appropriate classes to those codes. 
 
 We recommend that the class assigned to each code for a given column be a subclass of the attribute or entity assigned to that column. 
 
-Examples of data that may require expansion in a codebook include a column like "level of education", where possible values come from a certain enumerated set. For example, if a column called "education" is assigned as an attribute chear:EducationLevel, the classes assigned to the code values for "education" should have rdfs:subClassOf relationships to chear:EducationLevel, such as chear:NoFormalEducation or chear:CollegeGraduate.
+Examples of data that may require expansion in a codebook include a column corresponding to level of education, where possible values come from a certain enumerated set. For example, if a column called "edu" is assigned as an attribute chear:EducationLevel, the classes assigned to the code values for "edu" should have rdfs:subClassOf relationships to chear:EducationLevel, such as chear:NoFormalEducation or chear:CollegeGraduate.
 
+A Codebook for the example project is shown below.
+
+|Column|Code|Class|Resource|Label|
+|--|--|--|--|--|
+|sex|1|sio:Male||Male|
+|sex|2|sio:Female||Female|
+|race|1|chear:White||White|
+|race|2|chear:AfricanAmerican||African American|
+|race|3|chear:Asian||Asian|
+|race|4|chear:American_Indian_or_Alaska_Native||American Indian or Alaska Native|
+|race|5|chear:UnknownRace||Unknown Race|
+|edu|1|chear:HighSchoolOrLess||High School Degree or Less|
+|edu|2|chear:SomeCollegeorTechnicalSchool||Technical College or Some College|
+|edu|3|chear:HigherEducation||Higher Education than High School|
+|edu|4|chear:CollegeGraduate||College Graduate|
+|edu|5|chear:UnknownEducationLevel||Unknown Education Level|
+|smoke|0|chear:NonSmoker||non smoker|
+|smoke|1|chear:Smoker||smoker|
 
 In order to learn more, see the Codebook <a href="documentation#codebook">documentation</a>.
 
