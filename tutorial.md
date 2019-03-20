@@ -357,7 +357,8 @@ For the purpose of this tutorial, we consider the simple Dictionary Mapping tabl
 |Column|Label|Comment|Definition|Attribute|attributeOf|Unit|Format|Time|Entity|Role|Relation|inRelationTo|wasDerivedFrom|wasGeneratedBy|Template|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |id|Identifier|ID for subject|Identifier for the human subject|sio:Identifier|??subject||||||||||id-{id}|
-|wt|Weight|Weight in kg|Weight of the subject in kilograms|chear:Weight|??subject|kg|||||||||weight-{id}|
+|wt2|Weight 1|Weight in kg at first visit|Weight of the subject in kilograms at the first visit|chear:Weight|??subject|kg||??visit1|||||||weight-{id}|
+|wt2|Weight 2|Weight in kg at second visit|Weight of the subject in kilograms at the second visit|chear:Weight|??subject|kg||??visit2|||||||weight-{id}|
 |age|Age|Age in years|Age of the subject in years|sio:Age|??subject|yr|||||||||age-{id}|
 |sex|Sex|Gender of the subject|The biological sex of the subject|sio:BiologicalSex|??subject||||||||||sex-{id}|
 |race|Race|Race category|The categorical race of the subject|chear:Race|??subject||||||||||race-{id}|
@@ -414,8 +415,14 @@ A Codebook for the example project is shown below.
 In order to learn more, see the Codebook <a href="documentation#codebook">documentation</a>.
 
 ## Timeline
-The Timeline table can be used to annotate the corresponding class and unit related to a given entry, as well start and end times of an event. 
+The Timeline table can be used to annotate the corresponding class and unit related to a given entry, as well start and end times of an event.
+
+In our example we consider the weight of the subject during two separate visits. These visits are encoded in the Timeline, as shown below.
     
+|Name|Label|Type|Start|End|Unit|inRelationTo|
+|--|--|--|--|--|--|--|
+|??visit1|Visit 1|chear:Visit|1|2|sio:Week||
+|??visit2|Visit 2|chear:Visit|3|4|sio:Week||
 
 For more information, see the Timeline <a href="documentation#timeline">documentation</a>.
 
