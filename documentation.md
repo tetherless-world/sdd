@@ -361,7 +361,7 @@ Note that the prefix that you include in the configuration file as the base URI 
 ## Property Customization
 ### Customization of properties used in generating KG
 
-The Semantic Data Dictionary approach creates a link representation of the class or collection of datasets it describes.
+The Semantic Data Dictionary approach creates a linked representation of the class or collection of datasets it describes.
 
 The default model that sdd2rdf creates is based on the Semanticscience Integrated Ontology ([SIO](https://bioportal.bioontology.org/ontologies/SIO)), which can be used to describe a wide variety of objects using a fixed set of terms.
 
