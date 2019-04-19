@@ -4,22 +4,22 @@ RIAGENDR,2,Female,sio:Female
 RIAGENDR,.,Missing,ncit:C142610
 RIDAGEYR,.,Missing,ncit:C142610
 RIDAGEMN,.,Missing,ncit:C142610
-RIDRETH1,1,Mexican American,
-RIDRETH1,2,Other Hispanic,
-RIDRETH1,3,Non-Hispanic White,
-RIDRETH1,4,Non-Hispanic Black,
-RIDRETH1,5,Other Race - Including Multi-Racial,
+RIDRETH1,1,Mexican American,exo:0000151
+RIDRETH1,2,Other Hispanic,exo:0000145
+RIDRETH1,3,Non-Hispanic White,exo:0000158
+RIDRETH1,4,Non-Hispanic Black,exo:0000132
+RIDRETH1,5,Other Race - Including Multi-Racial,exo:0000153
 RIDRETH1,.,Missing,ncit:C142610
-RIDEXAGM,.,Missing,ncit:C142611
+RIDEXAGM,.,Missing,ncit:C142610
 DMDBORN4,1,"Born in 50 US states or Washington, DC",
-DMDBORN4,2,Others,
-DMDBORN4,77,Refused,
-DMDBORN4,99,Don't Know,
+DMDBORN4,2,Others,ncit:C17649
+DMDBORN4,77,Refused,ncit:C49161
+DMDBORN4,99,Don't Know,ncit:C67142
 DMDBORN4,.,Missing,ncit:C142610
 DMDCITZN,1,Citizen by birth or naturalization,
 DMDCITZN,2,Not a citizen of the US,
-DMDCITZN,7,Refused,
-DMDCITZN,9,Don't Know,
+DMDCITZN,7,Refused,ncit:C49161
+DMDCITZN,9,Don't Know,ncit:C67142
 DMDCITZN,.,Missing,ncit:C142610
 DMDYRSUS,1,Less than 1 year,
 DMDYRSUS,2,"1 year or more, but less than 5 years",
@@ -30,46 +30,46 @@ DMDYRSUS,6,"20 year or more, but less than 30 years",
 DMDYRSUS,7,"30 year or more, but less than 40 years",
 DMDYRSUS,8,"40 year or more, but less than 50 years",
 DMDYRSUS,9,50 years or more,
-DMDYRSUS,77,Refused,
-DMDYRSUS,99,Don't Know,
+DMDYRSUS,77,Refused,ncit:C49161
+DMDYRSUS,99,Don't Know,ncit:C67142
 DMDYRSUS,.,Missing,ncit:C142610
-DMDEDUC3,0,Never attended / kindergarten only,
-DMDEDUC3,1,1st grade,
-DMDEDUC3,2,2nd grade,
-DMDEDUC3,3,3rd grade,
-DMDEDUC3,4,4th grade,
-DMDEDUC3,5,5th grade,
-DMDEDUC3,6,6th grade,
-DMDEDUC3,7,7th grade,
-DMDEDUC3,8,8th grade,
-DMDEDUC3,9,9th grade,
-DMDEDUC3,10,10th grade,
-DMDEDUC3,11,11th grade,
-DMDEDUC3,12,"12th grade, no diploma",
-DMDEDUC3,13,High school graduate,
+DMDEDUC3,0,Never attended / kindergarten only,chear:NoFormalEducation
+DMDEDUC3,1,1st grade,chear:EducationGrade
+DMDEDUC3,2,2nd grade,chear:EducationGrade
+DMDEDUC3,3,3rd grade,chear:EducationGrade
+DMDEDUC3,4,4th grade,chear:EducationGrade
+DMDEDUC3,5,5th grade,chear:EducationGrade
+DMDEDUC3,6,6th grade,chear:EducationGrade
+DMDEDUC3,7,7th grade,chear:EducationGrade
+DMDEDUC3,8,8th grade,chear:EducationGrade
+DMDEDUC3,9,9th grade,chear:EducationGrade
+DMDEDUC3,10,10th grade,chear:EducationGrade
+DMDEDUC3,11,11th grade,chear:EducationGrade
+DMDEDUC3,12,"12th grade, no diploma",chear:SomeHighSchool
+DMDEDUC3,13,High school graduate,chear:HighSchoolGraduate
 DMDEDUC3,14,GED or equivalent,
 DMDEDUC3,15,More than high school,
-DMDEDUC3,55,Less than 5th grade,
-DMDEDUC3,66,Less than 9th grade,
-DMDEDUC3,77,Refused,
-DMDEDUC3,99,Don't Know,
+DMDEDUC3,55,Less than 5th grade,chear:SomeElementarySchool
+DMDEDUC3,66,Less than 9th grade,chear:SomeMiddleSchool
+DMDEDUC3,77,Refused,ncit:C49161
+DMDEDUC3,99,Don't Know,ncit:C67142
 DMDEDUC3,.,Missing,ncit:C142610
-DMDEDUC2,1,Less than 9th grade,
-DMDEDUC2,2,9-11th grade (Includes 12th grade with no diploma),
-DMDEDUC2,3,High school graduate/GED or equivalent,
-DMDEDUC2,4,Some college or AA degree,
-DMDEDUC2,5,College graduate or above,
-DMDEDUC2,7,Refused,
-DMDEDUC2,9,Don't Know,
+DMDEDUC2,1,Less than 9th grade,chear:SomeMiddleSchool
+DMDEDUC2,2,9-11th grade (Includes 12th grade with no diploma),chear:SomeHighSchool
+DMDEDUC2,3,High school graduate/GED or equivalent,chear:HighSchoolGraduate
+DMDEDUC2,4,Some college or AA degree,chear:SomeCollege
+DMDEDUC2,5,College graduate or above,chear:CollegeGraduate
+DMDEDUC2,7,Refused,ncit:C49161
+DMDEDUC2,9,Don't Know,ncit:C67142
 DMDEDUC2,.,Missing,ncit:C142610
-DMDMARTL,1,Married,
-DMDMARTL,2,Widowed,
-DMDMARTL,3,Divorced,
-DMDMARTL,4,Separated,
-DMDMARTL,5,Never married,
-DMDMARTL,6,Living with partner,
-DMDMARTL,77,Refused,
-DMDMARTL,99,Don't Know,
+DMDMARTL,1,Married,ncit:C51773
+DMDMARTL,2,Widowed,ncit:C51775
+DMDMARTL,3,Divorced,ncit:C51776
+DMDMARTL,4,Separated,ncit:C51777
+DMDMARTL,5,Never married,ncit:C51774
+DMDMARTL,6,Living with partner,ncit:C53262
+DMDMARTL,77,Refused,ncit:C49161
+DMDMARTL,99,Don't Know,ncit:C67142
 DMDMARTL,.,Missing,ncit:C142610
 RIDEXPRG,1,"Yes, positive lab pregnancy test or self-reported pregnant at exam",
 RIDEXPRG,2,The participant was not pregnant at exam,
@@ -78,32 +78,32 @@ RIDEXPRG,.,Missing,
 SIALANG,1,English,
 SIALANG,2,Spanish,
 SIALANG,.,Missing,
-DMDHRGND,1,Male,
-DMDHRGND,2,Female,
+DMDHRGND,1,Male,sio:Male
+DMDHRGND,2,Female,sio:Female
 DMDHRGND,.,Missing,ncit:C142610
 DMDHRAGE,80,80 years of age and over,
 DMDHRAGE,.,Missing,ncit:C142610
 DMDHRBR4,1,"Born in 50 US states or Washington, DC",
-DMDHRBR4,2,Others,
-DMDHRBR4,77,Refused,
-DMDHRBR4,99,Don't Know,
+DMDHRBR4,2,Others,ncit:C17649
+DMDHRBR4,77,Refused,ncit:C49161
+DMDHRBR4,99,Don't Know,ncit:C67142
 DMDHRBR4,.,Missing,ncit:C142610
-DMDHREDU,1,Less Than 9th Grade,
-DMDHREDU,2,9-11th Grade (Includes 12th grade with no diploma),
-DMDHREDU,3,High School Grad/GED or Equivalent,
+DMDHREDU,1,Less Than 9th Grade,chear:SomeMiddleSchool
+DMDHREDU,2,9-11th Grade (Includes 12th grade with no diploma),chear:SomeHighSchool
+DMDHREDU,3,High School Grad/GED or Equivalent,chear:HighSchoolGraduate
 DMDHREDU,4,Some College or AA degree,
 DMDHREDU,5,College Graduate or above,
-DMDHREDU,7,Refused,
-DMDHREDU,9,Don't Know,
+DMDHREDU,7,Refused,ncit:C49161
+DMDHREDU,9,Don't Know,ncit:C67142
 DMDHREDU,.,Missing,ncit:C142610
-DMDHRMAR,1,Married,
-DMDHRMAR,2,Widowed,
-DMDHRMAR,3,Divorced,
-DMDHRMAR,4,Separated,
-DMDHRMAR,5,Never married,
-DMDHRMAR,6,Living with partner,
-DMDHRMAR,77,Refused,
-DMDHRMAR,99,Don't Know,
+DMDHRMAR,1,Married,ncit:C51773
+DMDHRMAR,2,Widowed,ncit:C51775
+DMDHRMAR,3,Divorced,ncit:C51776
+DMDHRMAR,4,Separated,ncit:C51777
+DMDHRMAR,5,Never married,ncit:C51774
+DMDHRMAR,6,Living with partner,ncit:C53262
+DMDHRMAR,77,Refused,ncit:C49161
+DMDHRMAR,99,Don't Know,ncit:C67142
 DMDHRMAR,.,Missing,ncit:C142610
 WTINT2YR,.,Missing,ncit:C142610
 WTMEC2YR,0,Not MEC Examined,
@@ -122,6 +122,6 @@ INDHHIN2,12,"$20,000 and Over",
 INDHHIN2,13,"Under $20,000",
 INDHHIN2,14,"$75,000 to $99,999",
 INDHHIN2,15,"$100,000 and Over",
-INDHHIN2,77,Refused,
-INDHHIN2,99,Don't know,
+INDHHIN2,77,Refused,ncit:C49161
+INDHHIN2,99,Don't know,ncit:C67142
 INDHHIN2,.,Missing,ncit:C142610
