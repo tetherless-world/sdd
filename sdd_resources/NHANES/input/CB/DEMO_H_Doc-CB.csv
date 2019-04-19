@@ -47,8 +47,8 @@ DMDEDUC3,10,10th grade,chear:EducationGrade
 DMDEDUC3,11,11th grade,chear:EducationGrade
 DMDEDUC3,12,"12th grade, no diploma",chear:SomeHighSchool
 DMDEDUC3,13,High school graduate,chear:HighSchoolGraduate
-DMDEDUC3,14,GED or equivalent,
-DMDEDUC3,15,More than high school,
+DMDEDUC3,14,GED or equivalent,ncit:C67135
+DMDEDUC3,15,More than high school,chear:HigherEducation
 DMDEDUC3,55,Less than 5th grade,chear:SomeElementarySchool
 DMDEDUC3,66,Less than 9th grade,chear:SomeMiddleSchool
 DMDEDUC3,77,Refused,ncit:C49161
