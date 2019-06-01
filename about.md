@@ -244,5 +244,5 @@ We acknowledge the members of the Tetherless World Constellation (TWC) as well a
 * Yue (Robin) Liu
 * Katherine Chastain
 * Rebecca Cowan
-* Oshani Seneveratne
+* Oshani Seneviratne
 
