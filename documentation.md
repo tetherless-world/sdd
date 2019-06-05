@@ -61,7 +61,7 @@ We implement the SDD as a collection of tabular data sheets which can be written
 In order to organize the collection of sheets in the SDD, we use the Infosheet, which contains information about the Semantic Data Dictionary data model being described, as well as the location of the other SDD tables.
 
 ## Infosheet
-The Infosheet is used to organize the SDD tables, and contains information about the Semantic Data Dictionary, such as the name, identifier, or link to the documentation, in addition to the location of the other SDD tables. 
+The Infosheet is essentially the configuration document of the SDD structure. Thus it used to organize the SDD tables and contains information about the Semantic Data Dictionary, such as the name, identifier, or link to the documentation, in addition to the location of the other SDD tables. The SDD tables are usually a collection of CSV files that have the majority of the information on the dataset and their relationships.
 
 
 
@@ -72,6 +72,8 @@ The Infosheet is used to organize the SDD tables, and contains information about
 | Dictionary Mapping |  |  Reference to Dictionary Mapping table location | http://... |
 | Imports | _owl:imports_ |  Ontologies that the SDD references | http://semanticscience.org/ontology/sio-subset-labels.owl |
 | Timeline|  |  Reference to Timeline table location | http://... |
+
+The info sheet should follow Distribution Level Dataset Description based on the HCLS standards and the Data on the Web best practices.
 
 <!--
 ### Infosheet Specification
@@ -171,7 +173,7 @@ cheese-kb:pubInfo-dataset_metadata {
 The bulk of the annotation is done using the Dictionary Mapping (DM) table, which is used to annotate the columns of a given dataset. 
 The DM table contains entries describing concepts explicit in the original dataset, as well as implicit entries. 
 The explicit entries contain mappings to the underlying attribute that is described by a particular dataset column, as well as provenance information such as how that variable was generated or derived.
-Implicit entries are used to describe entities that are implicit within the dataset, such as the entity being measured, or the time at which a measurement was taken. 
+Implicit entries are used to describe entities that are implicit within the dataset, usually related to one or more of the explicit entries in the dataset, such as the entity being measured, or the time at which a measurement was taken. 
 These entities are readily recognized by human data users even though there is no column in the dataset that refers to them directly, but we must make them explicit for machines.
 These implicit entities can then be described with type, role, relation, and other information in the same manner as the explicit columns in the dataset.
 The SDD DM Specification is shown below.
@@ -196,17 +198,21 @@ The SDD DM Specification is shown below.
 | wasGeneratedBy | _prov:wasGeneratedBy_ | Activity from which the entry was produced |
 
 
-Explicit and implicit entries are stored in the DM Column of the Dictionary Mapping table called "Column".
-Annotation properties including comments, labels, or definitions can be provided to describe an explicit or virtual entry in further detail.
-If an entry describes a characteristic, the Attribute column should be populated with an appropriate class, and when appropriate the attributeOf column should be used to reference the entity to which the attribute belongs.
-If an entry describes an object, an applicable class should be included in the Entity column.
-In general, for each row in the Dictionary Mapping, either the Entity or Attribute column should be populated with an appropriate class.
+The names of the explicit and implicit entries are stored in the DM Column of the Dictionary Mapping table called "Column", which refers to the column names in the dataset.
+Annotation properties including comments, labels, or definitions can be provided to describe an explicit or virtual entry in further detail, for the human reader. 
+If an entry describes a characteristic, the Attribute column should be populated with an appropriate class, and when appropriate the attributeOf column should be used to reference the entity to which the attribute belongs. Usually the attributeOf column contains the the implicit entity for which the explicit entry is a characteristic. 
 
-The units of a given variable and the format of the data in the cell can be specified in the Unit and Format columns, respectively.
-Events or time intervals associated with an entry should be referenced in the Time column.
-A reference to objects or attributes an entry is related to should be included in the inRelationTo column.
-If an entry refers to a role, that can be specified in the Role column.
-Customized relationships can also be included by using the Relation column.
+For instance, using the example from below, a dataset may contain a column called age. Although it may be easy for the human to read and understand that the age refers to the mother, the dataset often doesn't explicitly include this; if we aim the crate a full semantic representation of the data this relation must be defined for the computer. However, since mother is not a column in the dataset, it is considered to be an implicit entry, denoted by the '??' in front of the word mother.
+
+If an entry describes an object, an applicable class should be included in the Entity column as well as its role that differentiates it as a member of that object class. Using the same example, if we look at the column with the implicit entry for mother (??mother), mother is not a characteristic of a human, but rather a *type* of human, the entity. Thus we add the class sio:Human to the entity column, and the role the defines its type in relation to the entity in the role column (chear:Mother). 
+
+In general, for each row in the Dictionary Mapping, either the Entity or Attribute column should be populated with an appropriate class, but we must be careful where and how we classify the entry. For instance, if we had a column called Race it would be the attribute of a human, but a column called Caucasain would be related to the entity human. In order to understand the correct columns to fill one may find it useful to explore the hierarchy of the relevant term. 
+
+In the case that an entry references another item, the object should be stored in the inRelationTo column. By default, if both the Role and Relation are empty, the knowledge graph created will connect the main entry to the value in the inRelationTo column using the SIO property *sio:inRelationTo*. Both the Relation and Role column have the ability to overwrite this property and can denote a custom relationship between the value. One common example of this is the SIO property isPartOf. In the case that both columns are filled, the Role reference for that entry in the knowledge graph will be *sio:hasRole*. It is important to note that the Role column can be used independently of the inRelationto column.
+
+The units of a given variable and the format of the data in the cell can be specified in the Unit and Format columns, respectively. For instance if the one of the entries is the age of an object, the unit column shouldd specify whether the age is stored in years, days, months, etc. 
+
+Time instances (events) or time intervals associated with an entry should be referenced in the Time column. Time intervals are not solitary occurances but rather things that span a period of time. In our example, an example of the is the ??visit1, which represents visits anytime during the first trimester of pregnancy. Entries in the Time column that are Time Intervals, not Time Instances, should also be noted in the Timeline.
 
 Provenance information pertaining to how the variable was derived or generated can be included in the wasDerivedFrom and wasGeneratedBy columns, respectively.
 An example Dictionary Mapping from the CHEAR project is provided below.
@@ -233,7 +239,7 @@ An example Dictionary Mapping from the CHEAR project is provided below.
 
 ## Codebook
 
-The Codebook table contains possible values of coded variables and their associated labels.
+The Codebook table has a similar role to the Dictionary Mapping table; while the Dictionary Mapping serves to encode the meanings of the column headers in the dataset, the Codebook contains the all the possible values for each column, and their associated labels. For instance, if you had a dataset which contained information about people, one of the possible columns may be gender, which would be the entry in the Dictionary Mapping, while the possible entries for that column, male and female, would be entries in the Codebook.
 
 | Codebook Column | Related Property | Description |
 |------------ | -------------| -------------|
@@ -263,8 +269,8 @@ For variables with discrete values, when appropriate, we augment each possible v
 
 ## Timeline 
 
-Customized time intervals can be specified in the Timeline sheet, which can be used to annotate the corresponding class and unit related to a given entry, as well start and end times of an event, and a connection to concepts that the entry may be related to. 
-In the CHEAR study, for example, the data tracks child development in terms of observations taken at specific times relative to the birth or conception of the child.
+Customized time intervals can be specified in the Timeline sheet, which can be used to annotate the corresponding class and unit related to a given entry, as well start and end times of an event, and a connection to concepts that the entry may be related to. When using the timeline ensure that the time entry in the table is a *time interval* rather than a *time instance*. For example, a birthday would not be in the timeline, rather it should be viewed as a characteristic of a subject.
+On the other hand, in the CHEAR study, the data tracks child development in terms of observations taken at specific times relative to the birth or conception of the child.
 Comparing measurements across subjects for a particular time such as "the second trimester of pregnancy" requires we have a concept to describe this time interval, even though it will not necessarily fall during the same calendar week for any two subjects.
 
 The Timeline Specification is shown below.
@@ -309,6 +315,9 @@ The set of code mappings used in the CHEAR project are useful for a variety of d
 The config.ini file is the configuration file used by the sdd2rdf script.
 Note that file locations written in this config file can be absolute paths or URLs, as well as relative paths from the location that the sdd2rdf.py script exists.
 An example configuration file is shown below.
+
+You may notice that the file addresses are stored in both the infosheet and the configuration file. In the scenario that the locations are different in the two files, the script will use the infosheet.
+
 <pre>
 <b>[Prefixes]</b>
 # Specify a file with the prefixes for existing ontologies used in your translation

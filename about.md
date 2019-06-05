@@ -60,6 +60,22 @@ layout: main
 
 Semantic Data Dictionary project description goes here
 
+##Goals and Guidelines
+
+The aim of the Semantic Data Dictionary approach is to annotate datasets such that it is machine readable, uses best practice ontologies, and follows FAIR Guiding Principals. 
+
+###FAIR Guidelines
+
+These protocols try to provide rules for data management using four main conditions:
+
+* Findable - To begin, the knowledge representation the we are creating must be findable on the Web, and we accomplish this using unique persistant identifiers and web searchable metadata. 
+* Accessible - Accessibility is defined by the ease of access for a user of the Semantic Data Dictionary and is enabled by lack of restrictions on those who can use the software, documentation that allows users to understand how to most effectively implement the tool, and the persistance of the metadata that remains on the web after the dataset itself is gone.
+* Interoperable - The data in our SDD should be usable in tandem with other technologies and applications. We achieve this by using formal vocabularies and best practice ontologies that are understood if not used by many others in the field.
+* Reusable - The SDD approach best embodies this principal, as the fundemental goal of both is to make the reuse of data as seamless as possible. The SDD provides an organization for the data, and effectively stores it as well as its metadata in a well-documented knowledge graph format. Thus it facilitates the an easily understandable access of the data for future application.
+
+Two other metrics that are related are Reproducibility and Transparency. Since our program is well documented, openly availible, and creates a knowledge representation that can be independently produced by outside parties, we argue that the SDD approach meets those two standards as well.
+
+
 ## Getting Started
 
 These instructions will let get you started on creating your own Semantic Data Dictionaries.
