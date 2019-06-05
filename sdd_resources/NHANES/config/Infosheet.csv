@@ -1,29 +1,19 @@
 Attribute,Value
-Type,http://purl.org/dc/dcmitype/Collection
-Title,NHANES Subset
-Alternative Title,NHANES KG
-Comment,"Knowledge Graph fragments isong NHANES Demographics, Body Measures and Blood Pressure Datasets."
-Description,"Manually annotated NHANES SDDs"
-Date Created,2019-03-13
-Creators,
-Contributors,
-Publisher,
-Date of Issue,2019-03-13
-Link,
-Identifier,nhanes-kb-1.0
-Keywords,
-License,MIT Licence
-Rights,Rights Reserved
-Language,English
-Version,1.0
-Version Of,
-Previous Version,
-Standards,
-Source,
-File Format,trig
-Documentation,
-Dictionary Mapping,
-Codebook,
-Code Mapping,
-Timeline,
-Imports,
+Creators,Sabbir M. Rashid
+Code Mapping,NHANES/config/code_mappings.csv
+Codebook,NHANES/input/CB/DEMO_H_Doc-CB.csv
+Contributors,"James P. McCusker, Paulo Pinheiro, Marcello P. Bax, Henrique O. Santos, Alexander New, Shruthi Chari, Mathew Johnson,John S. Erickson,Kristin P. Bennett, Jeanette A. Stingone, Deborah L. McGuinness"
+Date Created,2018-10-14
+Description,"Knowledge graph fragment from manually annotated NHANES Demographics SDD."
+Dictionary Mapping,NHANES/input/DM/DEMO_H_Doc-DM.csv
+Imports,"http://hadatac.org/ont/chear/,http://semanticscience.org/ontology/sio-subset-labels.owl,http://purl.obolibrary.org/obo/ncit.owl"
+Keywords,"demographics,gender,age,race,weight,citizenship,marital status,household"
+License,https://opensource.org/licenses/MIT
+Previous Version,http://idea.rpi.edu/heals/kb/nhanes/1.1
+Properties,NHANES/config/Properties.csv
+Publisher,Tetherless World Constellation
+#Timeline,NHANES/input/TL/DEMO_H_Doc-TL.csv
+Title,The National Health and Nutrition Examination (NHANES) SDD knowledge graph fragment
+Type,dct:Collection
+Version,http://idea.rpi.edu/heals/kb/nhanes/1.2
+Version Of,http://idea.rpi.edu/heals/kb/nhanes/
