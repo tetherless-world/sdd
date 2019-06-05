@@ -60,11 +60,11 @@ layout: main
 
 Semantic Data Dictionary project description goes here
 
-##Goals and Guidelines
+## Goals and Guidelines
 
 The aim of the Semantic Data Dictionary approach is to annotate datasets such that it is machine readable, uses best practice ontologies, and follows FAIR Guiding Principals. 
 
-###FAIR Guidelines
+### FAIR Guidelines
 
 These protocols try to provide rules for data management using four main conditions:
 
@@ -261,4 +261,5 @@ We acknowledge the members of the Tetherless World Constellation (TWC) as well a
 * Katherine Chastain
 * Rebecca Cowan
 * Oshani Seneviratne
+* Ishita Padhiar
 
