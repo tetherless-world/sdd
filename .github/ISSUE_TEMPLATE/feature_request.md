@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for the SDD specification
 title: ''
 labels: enhancement
-assignees: ''
+assignees: jimmccusker, paulopinheiro1234
 
 ---
 
