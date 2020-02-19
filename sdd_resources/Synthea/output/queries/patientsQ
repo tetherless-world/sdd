@@ -1,0 +1,122 @@
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> 
+prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> 
+prefix chear: <http://hadatac.org/ont/chear#> 
+prefix gdc-kb: <http://idea.rpi.edu/heals/kb/gdc#> 
+prefix go: <http://purl.obolibrary.org/obo/GO_> 
+prefix heals: <http://idea.rpi.edu/heals/ont/heals#> 
+prefix rxnorm: <http://purl.bioontology.org/ontology/RXNORM/> 
+prefix pr: <http://purl.obolibrary.org/obo/PR_> 
+prefix oae: <http://purl.obolibrary.org/obo/OAE_> 
+prefix loinc: <http://purl.bioontology.org/ontology/LNC/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix chear-kb: <http://hadatac.org/kb/chear#> 
+prefix pubchem: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> 
+prefix envo: <http://purl.obolibrary.org/obo/ENVO_> 
+prefix efo: <http://www.ebi.ac.uk/efo/EFO_> 
+prefix np: <http://www.nanopub.org/nschema#> 
+prefix sio: <http://semanticscience.org/resource/> 
+prefix doid: <http://purl.obolibrary.org/obo/DOID_> 
+prefix synthea-kb: <http://idea.rpi.edu/kb/synthea#> 
+prefix seer-kb: <http://idea.rpi.edu/heals/kb/seer#> 
+prefix obo: <http://purl.obolibrary.org/obo/> 
+prefix hp: <http://purl.obolibrary.org/obo/HP_> 
+prefix hasco: <http://hadatac.org/ont/hasco#> 
+prefix stato: <http://purl.obolibrary.org/obo/STATO_> 
+prefix ogg: <http://purl.obolibrary.org/obo/OGG_> 
+prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> 
+prefix heals-kb: <http://idea.rpi.edu/heals/kb/heals#> 
+prefix nhanes-kb: <http://idea.rpi.edu/heals/kb/nhanes#> 
+prefix snomed-ct: <http://purl.bioontology.org/ontology/SNOMEDCT/> 
+prefix uo: <http://purl.obolibrary.org/obo/UO_> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix synthea: <http://idea.rpi.edu/ont/synthea#> 
+
+SELECT DISTINCT ?id ?birthdate ?deathdate ?ssn ?drivers ?passport ?prefix ?first ?last ?suffix ?maiden ?marital ?race ?ethnicity ?gender ?birthplace ?address ?city ?state ?zip WHERE {
+  ?id_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Identifier  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?id .
+
+  ?birthdate_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C68615  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?birthdate .
+
+  ?deathdate_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C70810  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?deathdate .
+
+  ?ssn_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25686  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?ssn .
+
+  ?drivers_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C122899  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?drivers .
+
+  ?passport_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> heals:Passport  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?passport .
+
+  ?prefix_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C54066  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?prefix .
+
+  ?first_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:FirstName  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?first .
+
+  ?last_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:LastName  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?last .
+
+  ?suffix_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C49106  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?suffix .
+
+  ?maiden_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25381  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?maiden .
+
+  ?marital_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> chear:MaritalStatus  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?marital .
+
+  ?race_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Race  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?race .
+
+  ?ethnicity_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Ethnicity  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?ethnicity .
+
+  ?gender_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:BiologicalSex  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?gender .
+
+  ?birthplace_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25341  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?patient_V  ;
+    <http://semanticscience.org/resource/existsAt>     chear:Birth  ;
+    <http://semanticscience.org/resource/hasValue> ?birthplace .
+
+  ?address_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Address  ;
+    <http://semanticscience.org/resource/inRelationTo>    ?patient_V  ;
+    <http://semanticscience.org/resource/hasValue> ?address .
+
+  ?city_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:City  ;
+    sio:isPartOf {ADDRESS}  ;
+    <http://semanticscience.org/resource/hasValue> ?city .
+
+  ?state_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:State  ;
+    sio:isPartOf {ADDRESS}  ;
+    <http://semanticscience.org/resource/hasValue> ?state .
+
+  ?zip_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ncit:C25720  ;
+    sio:isPartOf {ADDRESS}  ;
+    <http://semanticscience.org/resource/hasValue> ?zip .
+
+
+  ?patient_V <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Human , sio:Patient .
+
+}

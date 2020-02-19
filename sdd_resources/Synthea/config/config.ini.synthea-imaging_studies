@@ -1,0 +1,16 @@
+[Prefixes]
+# Specify a file with the prefixes for existing ontologies used in your translation
+prefixes = Synthea/config/prefixes.csv
+# Specify the base uri to be associated with all triples minted by the script
+base_uri = synthea-kb
+
+[Source Files]
+dictionary = Synthea/input/DM/imaging_studiesDM.csv
+#codebook = Synthea/input/CB/imaging_studiesCB.csv
+code_mappings = code_mappings.csv
+data_file = Synthea/input/Data/subset/imaging_studies.csv
+
+[Output Files]
+out_file = Synthea/output/trig/imaging_studies-kg.trig
+query_file = Synthea/output/queries/imaging_studiesQ
+swrl_file = Synthea/output/swrl/imaging_studiesSWRL

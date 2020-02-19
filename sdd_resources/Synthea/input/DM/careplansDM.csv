@@ -1,0 +1,15 @@
+Column,Label,Comment,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,Template
+ID,ID,Primary Key. Unique Identifier of the care plan.,sio:Identifier,??careplan,,UUID,,,,,,,,CAREPLAN/{ID}
+START,Start,The date the care plan was initiated.,sio:StartDate,??careplan,,YYYY-MM-DD,,,,,,,,
+STOP,Stop,"The date the care plan ended, if applicable.",sio:EndDate,??careplan,,YYYY-MM-DD,,,,,,,,
+PATIENT,Patient Identifier,Foreign key to the Patient.,sio:Identifier,??patient,,UUID,,,,,,,,PATIENT/{PATIENT}
+ENCOUNTER,Encounter Identifier,Foreign key to the Encounter when the care plan was initiated.,sio:Identifier,??encounter,,UUID,,,,,??careplan,,,ENCOUNTER/{ENCOUNTER}
+CODE,Code,Code from SNOMED-CT,ncit:C25162,??snomedct,,String,,,,,??careplan,,,SNOMED_CT/{CODE}
+DESCRIPTION,Description,Description of the care plan.,sio:Description,??careplan,,String,,,,,,,,
+REASONCODE,Reason Code,Diagnosis code from SNOMED-CT that this care plan addresses.,ncit:C25162,??snomedct,,String,,,,,??diagnosis,,,SNOMED_CT/{REASONCODE}
+REASONDESCRIPTION,Reason Description,Description of the reason code.,sio:Description,{REASONCODE},,String,,,,,,,,
+??careplan,Care Plan,,,,,,,heals:Careplan,,,??patient,,,
+??patient,Patient,,,,,,,"sio:Human, sio:Patient",sio:PatientRole,,,,,
+??encounter,Encounter,,,,,,,ncit:C62143,,,,,,
+??snomedct,SNOMED-CT,,,,,,,ncit:C49469,,,,,,
+??diagnosis,Diagnosis,,,,,,,sio:Diagnosis,,,??patient,,,

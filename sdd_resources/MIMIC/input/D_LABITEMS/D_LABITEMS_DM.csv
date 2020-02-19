@@ -1,0 +1,11 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+ITEMID,sio:Identifier,??item,,,,,,,??measurement,,,2,Item Id,ID for substance measurement was done on
+LABEL,sio:Label,ITEMID,,,,,,,??item,,,3,Label,Describes concept represented by ITEMID
+FLUID,ncit:C25278,??item,,,,,,,,,,4,Fluid,"Describes substance the ITEMID refers to (e.g. blood, urine)"
+CATEGORY,sio:Category,??measurement,,,,,,,,,,5,Category,Higher level info on the type of measurement
+LOINC_CODE,ncit:C25712,??loinc,,,,,,,,,,6,Loinc Code,LOINC is an ontology covering a wide variety of clinical concepts
+??row,,,,,,sio:Row,,,,,,,Row,
+??item,,,,,,sio:DataItem,,,,,,,Item,
+??loinc,,,,,,ncit:C82502,,,,,,,LOINC Code,
+??measurement,,,,,,sio:Measurement,,,??item,,,,,

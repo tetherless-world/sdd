@@ -1,0 +1,5 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment,Note
+primaryid,sio:Identifier,??subject,,UUID,,,,,,,,1,Patient ID,The unique identifier for patients in the database,
+indi_pt,sio:Description,??disease,,String,,,,,,,,2,Disease or Condition,The name of the disease or condition,
+??subject,,,,,,"sio:Human, sio:Patient",sio:PatientRole,,,,,,Patient,Patient,
+??disease,,,,,,ncit:C25457,sio:SubjectRole,,??subject,,,,Disease,Disease,

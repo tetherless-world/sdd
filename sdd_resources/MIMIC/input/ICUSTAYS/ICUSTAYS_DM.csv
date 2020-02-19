@@ -1,0 +1,22 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+SUBJECT_ID,sio:Identifier,??subject,,,,,,,,,,2,Subject ID,Subject ID
+HADM_ID,sio:Identifier,??admission,,,,,,,??hospital,,,3,Hospital Admission ID,Hospital Admission ID
+ICUSTAY_ID,sio:Identifier,??icustay,,,,,,,,,,4,ICU ID,
+DBSOURCE,ncit:C42703,??item,,,,,,,??database,,,5,,
+FIRST_CAREUNIT,ncit:C21541,??subject,,,??first,,,,??icustay,,,6,First Care Unit,Describes type of care unit they are staying in
+LAST_CAREUNIT,ncit:C21541,??subject,,,??last,,,,??icustay,,,7,Last Care Unit,Describes type of care unit they are staying in
+FIRST_WARDID,sio:Identifier,??ward,,,??first,,,,,,,8,First Ward ID,ID of first ward patient stayed in
+LAST_WARDID,sio:Identifier,??ward,,,??last,,,,,,,9,Last Ward ID,ID of last ward patient stayed in
+INTIME,sio:TimeInstant,??in,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,??subject,,,10,Time In,Time patient was transferred to ICU
+OUTTIME,sio:TimeInstant,??out,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,??subject,,,11,Time Out,Time patient was transferred out of ICU
+LOS,sio:TimeInterval,,,,,,,,??subject,,,12,Length of Stay,Time patient was in ICU
+??subject,,,,,,sio:Human,sio:SubjectRole,,,,,13,,
+??icustay,,,,,,sio:TimeInterval,,,??subject,,,14,,
+??admission,,,,,,ncit:C25385,,,,,,,Admission,
+??hospital,,,,,,"ncit:C16696, envo:00002173, obi:0000844",,,,,,,Hospital,
+??row,,,,,,sio:Row,,,,,,,Row,
+??first,,,,,,ncit:C25509,,,,,,,First,
+??last,,,,,,ncit:C25551,,,,,,19,,
+??item,,,,,,sio:DataItem,,,??subject,,,,,
+??database,,,,,,sio:DataBase,,,,,,,,

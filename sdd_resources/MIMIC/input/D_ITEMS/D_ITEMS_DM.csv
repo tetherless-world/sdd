@@ -1,0 +1,17 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+ITEMID,sio:Identifier,??item,UNITNAME,,,,,,,,,2,Item ID,"Key representing measurements in database (e.g. heartrate, etc.)"
+LABEL,sio:Label,ITEMID,,,,,,,,,,3,Label,Describes the concept represented by ITEMID
+ABBREVIATION,ncit:C42610,LABEL,,,,,,,,,,4,Abbr,Lists a common abbreviation for the label
+DBSOURCE,ncit:C42703,??item,,,,,,,??database,,,5,Database Source,"Shows which database the ITEMID was original taken from: ""carevue"" or ""metavision"""
+LINKSTO,sio:IsConnectedTo,??item,,,,,,,??table,,,6,LinksTo,Provides table name which the data links to
+CATEGORY,sio:Category,ITEMID,,,,,,,,,,7,Category,Describes what type of data ITEMID refers to
+UNITNAME,sio:000074,??item,,,,,,,,,,8,Unit,Unit of measurement for ITEMID
+PARAM_TYPE,ncit:C42645,??item,,,,,,,,,,9,Param,"Describes type of data recorded: date, number, or text field"
+CONCEPTID,sio:Identifier,??concept,,,,,,,,,,10,Concept ID,ID for the concept 
+??row,,,,,,sio:Row,,,,,,,Row,Row   
+??concept,,,,,,sio:Concept,,,,,,,Concept,Concept 
+??item,,,,,,sio:DataItem,,,??subject,??table,,,Item   ,Item of data in dataset
+??subject,,,,,,sio:Human,sio:SubjectRole,,,,,,Subject,The human subject the data is on
+??database,,,,,,sio:Database,,,,,,,Database,The database where the data is stored
+??table,,,,,,sio:Table,,,,??database,,,Table,A table within the database

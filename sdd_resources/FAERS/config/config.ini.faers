@@ -1,0 +1,15 @@
+[Prefixes]
+# Specify a file with the prefixes for existing ontologies used in your translation
+prefixes = FAERS/config/prefixes.txt
+# Specify the base uri to be associated with all triples minted by the script
+base_uri = fda-kb
+
+[Source Files]
+dictionary = FAERS/input/patientData_dm.csv 
+#codebook = FAERS/input/patientData_cb.csv
+code_mappings = FAERS/input/code_mappings.csv
+data_file = FAERS/input/patientData.csv
+
+[Output Files]
+out_file = FAERS/output/patientData-kg-out.txt
+query_file = FAERS/output/patientData_q.txt

@@ -1,0 +1,229 @@
+Column,Code,Label,Class
+Disease,Breast Cancer,Breast Cancer,"efo:0000305, ncit:C4872, doid:1612"
+Disease,Estrogen-receptor Negative Breast Cancer,Estrogen-receptor Negative Breast Cancer,"efo:1000650, doid:0060076"
+Disease,Estrogen-receptor Positive Breast Cancer,Estrogen-receptor Positive Breast Cancer,"efo:1000649, doid:0060075"
+Disease,Her2-receptor Negative Breast Cancer,Her2-receptor Negative Breast Cancer,doid:0060080
+Disease,Her2-receptor Positive Breast Cancer,Her2-receptor Positive Breast Cancer,"efo:1000294, ncit:C53556, doid:0060079"
+Disease,Progesterone-receptor Negative Breast Cancer,Progesterone-receptor Negative Breast Cancer,doid:0060078
+Disease,Progesterone-receptor Positive Breast Cancer,Progesterone-receptor Positive Breast Cancer,doid:0060077
+Disease,Triple-receptor Negative Breast Cancer,Triple-receptor Negative Breast Cancer,"efo:0005537, ncit:C71428, doid:60081"
+Drugs,4-hydroxytamoxifen,Afimoxifene,db:DB04468
+Drugs,5-Fluoropyrimidine,Fluorouracil,"chebi:46345, db:DB00544"
+Drugs,A66,A66,
+Drugs,Abemaciclib,Abemaciclib,db:DB12001
+Drugs,Ado-trastuzumab Emtansine,Ado-trastuzumab Emtansine,"dron:00730818, db:DB05773"
+Drugs,Afatinib,Afatinib,db:DB08916
+Drugs,AKT3 Inhibitor,AKT3 Inhibitor,
+Drugs,AKTi-1/2,AKTi-1/2,
+Drugs,Alpelisib (NVP-BYL719),Alpelisib,db:DB12015
+Drugs,Aminoglutethimide,Aminoglutethimide,"dron:00010083, db:DB00357"
+Drugs,Aromatase Inhibitor,Aromatase Inhibitor,"ncit:C1740, chebi:50790"
+Drugs,AZD4547,AZD-4547,db:DB12247
+Drugs,AZD5363,AZD-5363,db:DB12218
+Drugs,AZD8055,AZD-8055,db:DB12774
+Drugs,AZD8186,AZD-8186,
+Drugs,"BEZ235 (NVP-BEZ235, Dactolisib)",Dactolisib,db:DB11651
+Drugs,BGJ-398,BGJ-398,
+Drugs,BYL719 (Alpelisib),Alpelisib,db:DB12015
+Drugs,Capecitabine,Capecitabine,"dron:00010402, db:DB01101"
+Drugs,Carboplatin ,Carboplatin ,"chebi:31355, db:DB00958"
+Drugs,CH5132799,CH5132799,db:DB13051
+Drugs,Cisplatin,Cisplatin,"chebi:27899, db:DB00515"
+Drugs,Crizotinib,Crizotinib,"dron:00020139, db:DB08865"
+Drugs,CX-3543,CX-3543,
+Drugs,CX-5461,CX-5461,
+Drugs,Docetaxel,Docetaxel,db:DB01248
+Drugs,Dovitinib,Dovitinib,db:DB05928
+Drugs,Doxorubicin,Doxorubicin,db:DB00997
+Drugs,Entrectinib,Entrectinib,db:DB11986
+Drugs,Epirubicin,Epirubicin,db:DB00445
+Drugs,Eribulin,Eribulin,"dron:00020018, db:DB08871"
+Drugs,Everolimus,Everolimus,"dron:00018224, db:DB01590"
+Drugs,Exemestane,Exemestane,db:DB00990
+Drugs,FGF/VEGF Receptor Tyrosine Kinase Inhibitor,FGF/VEGF Receptor Tyrosine Kinase Inhibitor,
+Drugs,Fulvestrant,Fulvestrant,"dron:00018972, db:DB00947"
+Drugs,GF109203X,GF109203X,
+Drugs,Go6983,Go6983,
+Drugs,GSK690693,GSK690693,db:DB12745
+Drugs,Hormone Therapy,Hormone Therapy,ncit:C15445
+Drugs,Lapatinib,Lapatinib,"dron:00018921, db:DB01259"
+Drugs,Letrozole,Letrozole,"chebi:6413, db:DB01006"
+Drugs,LY294002,LY294002,db:DB02656
+Drugs,MK-2206,MK-2206,
+Drugs,Monomethyl Auristatin E,Monomethyl Auristatin E,ncit:C122637
+Drugs,MTOR Inhibitors,MTOR Inhibitors,
+Drugs,Neratinib,Neratinib,db:DB11828
+Drugs,Olaparib,Olaparib,"dron:00730843, db:DB09074"
+Drugs,Paclitaxel,Paclitaxel,"chebi:45863, db:DB01229"
+Drugs,Palbociclib,Palbociclib,db:DB09073
+Drugs,Palbociclib (PD0332991),Palbociclib,db:DB09073
+Drugs,PD173074,PD173074,chebi:63448
+Drugs,Pertuzumab,Pertuzumab,db:DB06366
+Drugs,PI3K Inhibitor,PI3K Inhibitor,
+Drugs,Pictilisib,Pictilisib,db:DB11663
+Drugs,Ponatinib,Ponatinib,db:DB08901
+Drugs,PP242,PP242,
+Drugs,RapaLink-1,RapaLink-1,
+Drugs,Rapamycin (Sirolimus),Sirolimus,"dron:00013476, db:DB00877"
+Drugs,Ribociclib,Ribociclib,db:DB11730
+Drugs,SGK1-Inh,SGK1-Inh,
+Drugs,Sorafenib,Sorafenib,"dron:00018834, db:DB00398"
+Drugs,Spliceostatin A,Spliceostatin A,
+Drugs,Talazoparib,Talazoparib,db:DB11760
+Drugs,Tamoxifen,Tamoxifen,"chebi:41774,db:DB00675"
+Drugs,Taxane,Taxane,ncit:C1490
+Drugs,Temsirolimus,Temsirolimus,"dron:00018949, db:DB06287"
+Drugs,Tgx 221,Tgx 221,chebi:50914
+Drugs,Trastuzumab,Trastuzumab,"dron:00013025, db:DB0007"
+Drugs,Trastuzumab Emtansine,Trastuzumab Emtansine,"dron:00730818, db:DB05773"
+Drugs,Vandetanib,Vandetanib,"chebi:49960, db:DB05294, db:DB08764"
+Drugs,XL147 (Pilaralisib),Pilaralisib,db:DB11772
+Gene,ABCB1,ABCB1 Gene,"ncit:C17966, uniprot:P08183"
+Gene,ABCC3,ABCC3 Gene,"ncit:C106021, uniprot:O15438"
+Gene,AGR2,AGR2 Gene,"ncit:C20755, uniprot:O95994"
+Gene,AKT1,AKT1 Gene,"ncit:C18350, uniprot:P31749"
+Gene,AKT2,AKT2 Gene,"ncit:C18352, uniprot:P31751"
+Gene,AKT3,AKT3 Gene,"ncit:C20937, uniprot:Q9Y243"
+Gene,ALK,ALK Gene,"ncit:C38184, uniprot:Q9UM73"
+Gene,AR,AR Gene,"ncit:C28539, uniprot:P10275"
+Gene,AURKA,AURKA Gene,"ncit:C24838, uniprot:O14965"
+Gene,BIRC5,BIRC5 Gene,"ncit:C20350, uniprot:O15392"
+Gene,BRAF,BRAF Gene,"ncit:C18363, uniprot:P15056"
+Gene,BRCA1,BRCA1 Gene,"ncit:C17965, uniprot:P38398"
+Gene,BRCA2,BRCA2 Gene,"ncit:C18120, uniprot:P51587"
+Gene,CCND1,CCND1 Gene,"ncit:C18021, uniprot:P24385"
+Gene,CCNE1,CCNE1 Gene,"ncit:C21412, uniprot:P24864"
+Gene,CD274,CD274 Gene,"ncit:C96022, uniprot:Q9NZQ7"
+Gene,CDK2,CDK2 Gene,"ncit:C24284, uniprot:P24941"
+Gene,CDK4,CDK4 Gene,"ncit:C18250, uniprot:P11802"
+Gene,CDK6,CDK6 Gene,"ncit:C97384, uniprot:Q00534"
+Gene,CDKN1B,CDKN1B Gene,"ncit:C20060, uniprot:P46527"
+Gene,CDKN2A,CDKN2A Gene,"ncit:C18022, uniprot:P42771"
+Gene,CYP2D6,CYP2D6 Gene,"ncit:C26517, uniprot:P10635"
+Gene,ERBB2,ERBB2 Gene,"ncit:C17756, uniprot:P04626"
+Gene,ERBB3,ERBB3 Gene,"ncit:C18386, uniprot:P21860"
+Gene,ERBB4,ERBB4 Gene,"ncit:C18388, uniprot:Q15303"
+Gene,ESR1,ESR1 Gene,"ncit:C38349, uniprot:P03372"
+Gene,FCGR2A,FCGR2A Gene,"ncit:C38552, uniprot:P12318"
+Gene,FCGR2B,FCGR2B Gene,"ncit:C38554, uniprot:P31994"
+Gene,FCGR3A,FCGR3A Gene,"ncit:C38558, uniprot:P08637"
+Gene,FGF3,FGF3 Gene,"ncit:C18408, uniprot:P11487"
+Gene,FGFR1,FGFR1 Gene,"ncit:C19929, uniprot:P11362"
+Gene,FGFR2,FGFR2 Gene,"ncit:C19931, uniprot:P21802"
+Gene,FGFR4,FGFR4 Gene,"ncit:C25859, uniprot:P22455"
+Gene,FOXP3,FOXP3 Gene,"ncit:C104394, uniprot:Q9BZS1"
+Gene,KLLN,KLLN Gene,"ncit:C95286, uniprot:B2CW77"
+Gene,LAG3,LAG3 Gene,"ncit:C104620, uniprot:P18627"
+Gene,MKI67,MKI67 Gene,"ncit:C28636, uniprot:P46013"
+Gene,MTAP,MTAP Gene,"ncit:C103994, uniprot:Q13126"
+Gene,MTOR,MTOR Gene,"ncit:C38928, uniprot:P42345"
+Gene,MYD88,MYD88 Gene,"ncit:C90089, uniprot:Q99836"
+Gene,NCOA3,NCOA3 Gene,"ncit:C20699, uniprot:Q9Y6Q9"
+Gene,NF2,NF2 Gene,"ncit:C17425, uniprot:P35240"
+Gene,NRG1,NRG1 Gene,"ncit:C20174, uniprot:Q02297"
+Gene,NTRK3,NTRK3 Gene,"ncit:C24647, uniprot:Q16288"
+Gene,PALB2,PALB2 Gene,"ncit:C84945, uniprot:Q86YC2"
+Gene,PGR,PGR Gene,"ncit:C28656, uniprot:P06401"
+Gene,PIK3CA,PIK3CA Gene,"ncit:C21220, uniprot:P42336"
+Gene,PIK3R1,PIK3R1 Gene,"ncit:C97733, uniprot:P27986"
+Gene,PSMD4,PSMD4 Gene,"ncit:C122750, uniprot:P55036"
+Gene,PTEN,PTEN Gene,"ncit:C18256, uniprot:P60484"
+Gene,RAD51D,RAD51D Gene,"ncit:C116930, uniprot:O75771"
+Gene,RB1,RB1 Gene,"ncit:C17360, uniprot:P06400"
+Gene,RET,RET Gene,"ncit:C18539, uniprot:P07949"
+Gene,RSF1,RSF1 Gene,"ncit:C49129, uniprot:Q96T23"
+Gene,SF3B1,SF3B1 Gene,"ncit:C98284, uniprot:O75533"
+Gene,SGK1,SGK1 Gene,"ncit:C101559, uniprot:O00141"
+Gene,STK11,STK11 Gene,"ncit:C18253, uniprot:Q15831"
+Gene,TFF3,TFF3 Gene,"ncit:C101769, uniprot:Q07654"
+Gene,TIMP1,TIMP1 Gene,"ncit:C28675, uniprot:P01033"
+Gene,TLK2,TLK2 Gene,uniprot:Q86UE8
+Gene,TOP2A,TOP2A Gene,"ncit:C17801, uniprot:P11388"
+Gene,TP53,TP53 Gene,"ncit:C17359, uniprot:P04637"
+Gene,TUBB3,TUBB3 Gene,"ncit:C104242, uniprot:Q13509"
+Variant,A2034V,,
+Variant,ALK FUSIONS,,
+Variant,Alu insertion,,
+Variant,AMPLIFICATION,Amplification,ncit:C45581
+Variant,C420R,,
+Variant,CYTOPLASMIC EXPRESSION,Cytoplasmic Expression,
+Variant,CYTOPLASMIC MISLOCALIZATION,,
+Variant,D3095E,,
+Variant,D538G,,
+Variant,D769H,,
+Variant,D769Y,,
+Variant,DEL 755-759,,
+Variant,DELETION,,
+Variant,DNA BINDING DOMAIN MUTATION,,
+Variant,E17K,,
+Variant,E380Q,,
+Variant,E542K,,
+Variant,E545G,,
+Variant,E545K,E545K,ncit:C98468
+Variant,E545Q,,
+Variant,E545V,,
+Variant,ETV6-NTRK3 G623R,,
+Variant,EXPRESSION,Expression,ncit:C16608
+Variant,F2108L,,
+Variant,F212V,,
+Variant,F354L,,
+Variant,G309A,,
+Variant,G464V,,
+Variant,H1047R,,
+Variant,H167R,,
+Variant,I1145I,,
+Variant,I232T,,
+Variant,I391M,,
+Variant,K111N,,
+Variant,K159FS*16,,
+Variant,K666N,,
+Variant,K700E,,
+Variant,K753E,,
+Variant,K755S,,
+Variant,L3 Domain Mutation,,
+Variant,L531FS*30,,
+Variant,L536Q,,
+Variant,L536R,,
+Variant,L638S,,
+Variant,L753E,,
+Variant,L755P,,
+Variant,L755S,,
+Variant,L755W,,
+Variant,L768S,,
+Variant,LOSS,Loss,
+Variant,LOSS-OF-FUNCTION,Loss of Function,
+Variant,M2327I,,
+Variant,M695FS*26,M695FS*26,
+Variant,MUTATION,Mutation,ncit:C18093
+Variant,NON-AMPLIFICATION,Non-amplification,
+Variant,NUCLEAR TRANSLOCATION,,
+Variant,OVEREXPRESSION,Overexpression,ncit:C18211
+Variant,P72R,,
+Variant,P780INS,,
+Variant,P968FS,,
+Variant,PHOSPHORYLATION,,
+Variant,PROMOTER METHYLATION,,
+Variant,Q546E,,
+Variant,Q546K,,
+Variant,R175H,,
+Variant,R186*,,
+Variant,R233*,,
+Variant,R248Q,,
+Variant,R248W,,
+Variant,R249,,
+Variant,R273C,,
+Variant,R273H,,
+Variant,R678Q,,
+Variant,R896C,,
+Variant,S463P,S463P,
+Variant,S893A/T,,
+Variant,SERUM LEVELS,,
+Variant,T798M,,
+Variant,TRUNCATING MUTATION,,
+Variant,V773,,
+Variant,V773L,,
+Variant,V777L,V777L,
+Variant,V842I,,
+Variant,Y537C,,
+Variant,Y537N,,
+Variant,Y537S,,

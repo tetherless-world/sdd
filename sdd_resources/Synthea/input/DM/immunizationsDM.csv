@@ -1,0 +1,10 @@
+Column,Label,Comment,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,Template
+DATE,Date,The date the immunization was administered.,ncit:C25164,??immunization,,YYYY-MM-DD,,,,,,,,
+PATIENT,Patient Identifier,Foreign key to the Patient.,sio:Identifier,??patient,,UUID,,,,,,,,PATIENT/{PATIENT}
+ENCOUNTER,Encounter Identifier,Foreign key to the Encounter where the immunization was administered.,sio:Identifier,??encounter,,UUID,,,,,??immunization,,,ENCOUNTER/{ENCOUNTER}
+CODE,Code,Immunization code from CVX.,ncit:C25162,??cvx,,String,,,,,??immunization,,,CVX/{CODE}
+DESCRIPTION,Description,Description of the immunization.,sio:Description,??immunization,,String,,,,,,,,
+??cvx,CVX,,,,,,,heals:CVXCode,,,,,,
+??immunization,Immunization,,,,,,,ncit:C15258,,,??patient,,,
+??patient,Patient,,,,,,,"sio:Human, sio:Patient",sio:PatientRole,,,,,
+??encounter,Encounter,,,,,,,ncit:C62143,,,,,,

@@ -1,0 +1,15 @@
+Column,Attribute,attributeOf,Format,Unit,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+Drugs,,,,,,sio:Drug,,,Gene,??evidence,,1,Drugs,Drugs
+Status,sio:StatusDescriptor,??evidence,,,,,,,,,,2,Status,Status
+Evidence ID,sio:Identifier,??evidence,,,,,,,,,,3,Evidence ID,Evidence ID
+Gene,,,,,,sio:Gene,,,,,,4,Gene,Gene
+Variant,,,,,,ncit:C97927,sio:VariantRole,,Gene,,,5,Variant,Variant
+Description,sio:Description,??evidence,,,,,,,,,,6,Description,Description
+Disease,sio:Disease,,,,,,,,Gene,,,7,Disease,Disease
+Evidence Level,ncit:C25554,??evidence,,,,,,,,,,8,Evidence Level,Evidence Level
+Evidence Type,,??evidence,,,,,,,,,,9,Evidence Type,Evidence Type
+Evidence Direction,,??evidence,,,,,,,,,,10,Evidence Direction,Evidence Direction
+Clinical Significance,,,,,,,,,,,,11,Clinical Significance,Clinical Significance
+Variant Origin,ncit:C42703,Variant,,,,,,,,,,12,Variant Origin,Variant Origin
+Trust Rating,ncit:C77538,??evidence,,,,,,,,,,13,Trust Rating,Trust Rating
+??evidence,,,,,,ncit:C43583,,,,,,14,Evidence,Evidence

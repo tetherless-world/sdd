@@ -1,0 +1,23 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+SUBJECT_ID,sio:Identifier,??subject,,,,,,,,,,2,Subject ID,Subject ID
+HADM_ID,sio:Identifier,??admission,,,,,,,??hospital,,,3,Hospital Admission ID,Hospital Admission ID
+ICUSTAY_ID,sio:Identifier,??icustay,,,,,,,,,,4,ICU Stay ID,unique to a patient ICU stay
+ITEMID,sio:Identifier,??item,,,,,,,,,,5,Item ID,ID of an Item
+CHARTTIME,sio:TimeInstant,??chartevent,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,,,,6,Chart Time,records the time at which an observation was charted.
+STORETIME,sio:TimeInstant,??storeevent,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,,,,7,Store Time,records the time at which an observation was manually input or manually validated by a member of the clinical staff.
+CGID,sio:Identifier,??cg,,,,,,,,,,8,CGID,Identifier for the caregiver who validated the given measurement
+VALUE,SIO:000070,,,,,,,,,,,9,Value,quantitative measurement
+VALUEUOM,SIO:000074,,,,,,,,,,,10,Value UOM,Value Unit Of Measure
+WARNING,,,,,,,,,,,,11,Warning,A warning
+ERROR,,,,,,,,,,,,12,Error,An error has occurred
+RESULTSTATUS,,,,,,,,,,,,13,Result Status,Result Status
+STOPPED,,,,,,,,,,,,14,Stopped,Stopped
+??hospital,,,,,,"ncit:C16696, envo:00002173, obi:0000844",,,,,,,Hospital,
+??subject,,,,,,sio:Human,sio:SubjectRole,,,,,,Subject,
+??row,,,,,,sio:Row,,,,,,,Row,
+??cg,,,,,,sio:MedicalPractitioner,,,,,,,Care Giver,
+??icustay,,,,,,,,,,,,,,
+??item,,,,,,,,,,,,,,
+??chartevent,,,,,,,,,,,,,,
+??storeevent,,,,,,,,,,,,,,

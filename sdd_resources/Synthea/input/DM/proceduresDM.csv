@@ -1,0 +1,14 @@
+Column,Label,Comment,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,Template
+DATE,Date,The date the procedure was performed.,ncit:C25164,??procedure,,YYYY-MM-DD,,,,,,,,
+PATIENT,Patient Identifier,Foreign key to the Patient.,sio:Identifier,??patient,,UUID,,,,,,,,PATIENT/{PATIENT}
+ENCOUNTER,Encounter Identifier,Foreign key to the Encounter where the procedure was performed.,sio:Identifier,??encounter,,UUID,,,,,??procedure,,,ENCOUNTER/{ENCOUNTER}
+CODE,Code,Procedure code from SNOMED-CT,ncit:C25162,??snomedct,,String,,,,,??procedure,,,
+DESCRIPTION,Description,Description of the procedure.,sio:Description,??procedure,,String,,,,,,,,SNOMED_CT/{CODE}
+COST,Cost,The line item cost of the procedure.,ncit:C69088,??procedure,,Numeric,,,,,,,,
+REASONCODE,Reason Code,Diagnosis code from SNOMED-CT specifying why this procedure was performed.,ncit:C25162,??diagnosis,,String,,,,,??procedure,,,SNOMED_CT/{REASONCODE}
+REASONDESCRIPTION,Reason Description,Description of the reason code.,sio:Description,{REASONCODE},,String,,,,,,,,
+??procedure,Procedure,,,,,,,sio:Procedure,,,??patient,,,
+??patient,Patient,,,,,,,"sio:Human, sio:Patient",sio:PatientRole,,,,,
+??snomedct,SNOMED-CT,,,,,,,ncit:C49469,,,,,,
+??encounter,Encounter,,,,,,,ncit:C62143,,,,,,
+??diagnosis,Diagnosis,,,,,,,sio:Diagnosis,,,??patient,,,

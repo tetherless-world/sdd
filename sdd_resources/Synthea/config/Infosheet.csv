@@ -1,0 +1,29 @@
+Attribute,Value
+Type,http://purl.org/dc/dcmitype/Dataset
+Title,Synthea - Synthetic Patient Population Simulator
+Alternative Title,Synthea
+Comment,"This is a knowledge graph fragment using Synthea data annotated via the SDD approach."
+Description,"Annotated data include allergies, careplans, conditions, encounters, and medications."
+Date Created,2018-10-18
+Creators,Sabbir Rashid
+Contributors,HEALS Researchers
+Publisher,HEALS
+Date of Issue,2018-10-18
+Link,
+Identifier,heals-synthea-1.0
+Keywords,
+License,MIT Licence
+Rights,Rights Reserved
+Language,English
+Version,1.0
+Version Of,HEALS Synthea
+Previous Version,
+Standards,
+Source,
+File Format,csv
+Documentation,
+Dictionary Mapping,
+Codebook,
+Code Mapping,
+Timeline,
+Imports,

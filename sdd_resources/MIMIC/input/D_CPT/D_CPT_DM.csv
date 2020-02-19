@@ -1,0 +1,15 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+CATEGORY,sio:Category,??code  ,,,,,,,,,,2,Category,Number which ID's category of the CPT code
+SECTIONRANGE,ncit:C38013,??section,,,,,,,??codeblock,,,3,Section Range,Defines the range of codes for the section
+SECTIONHEADER,sio:Descriptor,??section,,,,,,,??codeblock,,,4,Section Header,Descriptor of Section
+SUBSECTIONRANGE,ncit:C38013,??subsection,,,,,,,??codeblock,,,5,Subsection Range,Range of codes for subsection
+SUBSECTIONHEADER,sio:Descriptor,??subsection,,,,,,,??codeblock,,,6,Subsection Header,Descriptor of subsection
+CODESUFFIX,,??code,,,,,,,,,,7,Code Suffix,
+MINCODEINSUBSECTION,ncit:C25712,??subsection,,,,,,,,,,8,Min Sub,Minimum value in subsection range
+MAXCODEINSUBSECTION,ncit:C25712,??subsection,,,,,,,,,,9,Max Sub,Maximum value in subsection range
+??row,,,,,,sio:Row,,,,,,,Row,
+??code,,,,,,sio:Identifier,,,,,,,Code  ,CPT Code
+??codeblock,,,,,,ncit:C43359,,,??code,,,,Block  ,Group of CPT Codes
+??subsection,,,,,,ncit:C80236,,,??codeblock,,,,Subsection,Subsection
+??section,,,,,,ncit:C54091,,,??codeblock,,,,Section,Section

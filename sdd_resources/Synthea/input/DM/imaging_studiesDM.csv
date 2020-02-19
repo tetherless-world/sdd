@@ -1,0 +1,17 @@
+Column,Label,Comment,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,Template
+ID,ID,Primary Key. Unique Identifier of the imaging study.,sio:Identifier,??imaging_study,,UUID,,,,,,,,
+DATE,Date,The date the imaging study was conducted.,ncit:C25164,??imaging_study,,YYYY-MM-DD,,,,,,,,
+PATIENT,Patient Identifier,Foreign key to the Patient.,sio:Identifier,??patient,,UUID,,,,,,,,PATIENT/{PATIENT}
+ENCOUNTER,Encounter Identifier,Foreign key to the Encounter where the imaging study was conducted.,sio:Identifier,??encounter,,UUID,,,,,??imaging_study,,,ENCOUNTER/{ENCOUNTER}
+BODYSITE_CODE,Body Site Code,A SNOMED Body Structures code describing what part of the body the images in the series were taken of.,ncit:C25162,??snomedct,,String,,,,,??imaging_study,,,SNOMED_CT/{BODYSITE_CODE}
+BODYSITE_DESCRIPTION,Body Site Description,Description of the body site.,sio:Description,{BODYSITE_CODE},,String,,,,,,,,
+MODALITY_CODE,Modality Code,A DICOM-DCM code describing the method used to take the images.,ncit:C25162,??dicomdcm,,String,,,,,??imaging_study,,,DICOM_DCM/{MODALITY_CODE}
+MODALITY_DESCRIPTION,Modality Description,Description of the modality.,sio:Description,{MODALITY_CODE},,String,,,,,,,,
+SOP_CODE,SOP Code,A DICOM-SOP code describing the Subject-Object Pair (SOP) that constitutes the image.,ncit:C25162,??dicomsop,,String,,,,,??imaging_study,,,DICOM_SOP/{SOP_CODE}
+SOP_DESCRIPTION,SOP Description,Description of the SOP code.,sio:Description,{SOP_CODE},,String,,,,,,,,
+??patient,Patient,,,,,,,"sio:Human, sio:Patient",sio:PatientRole,,,,,
+??encounter,Encounter,,,,,,,ncit:C62143,,,,,,
+??snomedct,SNOMED-CT,,,,,,,ncit:C49469,,,,,,
+??imaging_study,Imaging Study,,,,,,,ncit:C63859,,,,,,
+??dicomdcm,DICOM-DCM,,,,,,,ncit:C69186,,,heals:DCM,,,
+??dicomsop,DICOM-SOP,,,,,,,ncit:C69186,,,ncit:C63426,,,

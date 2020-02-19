@@ -1,0 +1,21 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+SUBJECT_ID,sio:Identifier,??subject,,,,,,,,,,2,Subject ID,Subject ID
+HADM_ID,sio:Identifier,??admission,,,,,,,??hospital,,,3,Hospital Admission ID,Hospital Admission ID
+ICUSTAY_ID,sio:Identifier,??icustay,,,,,,,,,,4,,
+CHARTTIME,sio:TimeInstant,??chartevent,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,,,,5,,
+ITEMID,sio:Identifier,??item,,,,,,,,,,6,,
+VALUE,,,,,,,,,,,,7,,
+VALUEUOM,,,,,,,,,,,,8,,
+STORETIME,sio:TimeInstant,??storeevent,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,,,,9,,
+CGID,sio:Identifier,??cg,,,,,,,,,,10,CGID,Care Giver ID
+STOPPED,,,,,,,,,,,,11,,
+NEWBOTTLE,,,,,,,,,,,,12,,
+ISERROR,,,,,,,,,,,,13,,
+??hospital,,,,,,"ncit:C16696, envo:00002173, obi:0000844",,,,,,,Hospital,
+??subject,,,,,,sio:Human,sio:SubjectRole,,,,,,Subject,
+??row,,,,,,sio:Row,,,,,,,Row,
+??admission,,,,,,ncit:C25385,,,,,,,Admission,
+??icustay,,,,,,,,,,,,,,
+??chartevent,,,,,,,,,,,,,,
+??item,,,,,,,,,,,,,,

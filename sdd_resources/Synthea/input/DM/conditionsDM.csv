@@ -1,0 +1,11 @@
+Column,Label,Comment,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,Template
+START,Start,The date the condition was diagnosed.,sio:StartDate,??condition,,YYYY-MM-DD,,,,,,,,
+STOP,Stop,"The date the condition resolved, if applicable.",sio:EndDate,??condition,,YYYY-MM-DD,,,,,,,,
+PATIENT,Patient Identifier,Foreign key to the Patient.,sio:Identifier,??patient,,UUID,,,,,,,,PATIENT/{PATIENT}
+ENCOUNTER,Encounter Identifier,Foreign key to the Encounter when the condition was diagnosed.,sio:Identifier,??encounter,,UUID,,,,,??condition,,,ENCOUNTER/{ENCOUNTER}
+CODE,Code,Diagnosis code from SNOMED-CT,ncit:C25162,??snomedct,,String,,,,,??condition,,,SNOMED_CT/{CODE}
+DESCRIPTION,Description,Description of the condition.,sio:Description,??condition,,String,,,,,,,,
+??condition,Condition,,,,,,,ncit:C25457,,,??patient,,,
+??patient,Patient,,,,,,,"sio:Human, sio:Patient",sio:PatientRole,,,,,
+??snomedct,SNOMED-CT,,,,,,,ncit:C49469,,,,,,
+??encounter,Encounter,,,,,,,ncit:C62143,,,,,,

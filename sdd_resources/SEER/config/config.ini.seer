@@ -1,0 +1,19 @@
+[Prefixes]
+# Specify a file with the prefixes for existing ontologies used in your translation
+prefixes = SEER/config/prefixes.txt
+# Specify the base uri to be associated with all triples minted by the script
+base_uri = seer-kb
+
+[Source Files]
+#dictionary = SEER/seerSDD.csv
+dictionary = SEER/seerDM.csv
+codebook = SEER/seerCB.csv
+code_mappings = code_mappings.csv
+#data_file = SEER/stagingSamplesFull.csv
+#data_file = SEER/stagingSamplesFull5Rows.csv
+data_file = SEER/stagingSamples10.csv
+#data_file = SEER/tnmConsolidated.csv
+#data_file = SEER/SamplePatients.csv
+#data_file = SEER/tnmConsolidatedResampled.csv
+[Output Files]
+out_file = SEER/output/seer-out-resample.txt

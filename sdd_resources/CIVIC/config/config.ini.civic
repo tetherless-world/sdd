@@ -1,0 +1,14 @@
+[Prefixes]
+# Specify a file with the prefixes for existing ontologies used in your translation
+prefixes = CIVIC/config/prefixes.txt
+# Specify the base uri to be associated with all triples minted by the script
+base_uri = civic-kb
+
+[Source Files]
+dictionary = CIVIC/civicDM.csv
+codebook = CIVIC/civicCB.csv
+code_mappings = code_mappings.csv
+data_file = CIVIC/civic_drugs.csv
+#data_file = CIVIC/CIViC_evidence.csv
+[Output Files]
+out_file = CIVIC/output/civic-out.txt

@@ -1,0 +1,36 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix uo: <http://purl.obolibrary.org/obo/UO_>
+prefix mimic-kb: <http://idea.rpi.edu/heals/kb/mimic#>
+prefix chear: <http://hadatac.org/ont/chear#>
+prefix chear-kb: <http://hadatac.org/kb/chear#>
+prefix sio: <http://semanticscience.org/resource/>
+prefix envo: <http://purl.obolibrary.org/obo/ENVO_>
+prefix ogms: <http://purl.obolibrary.org/obo/OGMS_>
+prefix obi: <http://purl.obolibrary.org/obo/OBI_>
+prefix omrse: <http://purl.obolibrary.org/obo/OMRSE_>
+prefix genepio: <http://purl.obolibrary.org/obo/GENEPIO_>
+prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+prefix uberon: <http://purl.obolibrary.org/obo/UBERON_>
+prefix OMIM: <https://www.omim.org/entry/>
+SELECT ?primaryid ?indi_pt WHERE {
+  ?primaryid_E rdf:type sio:Identifier ;
+    sio:isAttributeOf ?subject_V ;
+    sio:hasValue ?primaryid .
+
+  ?indi_pt_E rdf:type sio:Description ;
+    sio:isAttributeOf ?disease_V ;
+    sio:hasValue ?indi_pt .
+
+
+  ?subject_V rdf:type sio:Human , sio:Patient .
+
+  ?disease_V rdf:type ncit:C25457 ;
+    sio:hasRole [ rdf:type sio:SubjectRole ;
+      sio:inRelationTo ?subject_V .
+
+}

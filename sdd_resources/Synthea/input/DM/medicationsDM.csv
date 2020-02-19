@@ -1,0 +1,15 @@
+Column,Label,Comment,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,Template
+START,Start,The date the medication was prescribed.,sio:StartDate,??medication,,YYYY-MM-DD,,,,,,,,
+STOP,Stop,"The date the prescription ended, ifapplicable.",sio:EndDate,??medication,,YYYY-MM-DD,,,,,,,,
+PATIENT,Patient Identifier,Foreign key to the Patient.,sio:Identifier,??patient,,UUID,,,,,,,,PATIENT/{PATIENT}
+ENCOUNTER,Encounter Identifier,Foreign key to the Encounter where the medication was prescribed.,sio:Identifier,??encounter,,UUID,,,,,??medication,,,ENCOUNTER/{ENCOUNTER}
+CODE,Code,Medication code from RxNorm.,ncit:C25162,??rxnorm,,String,,,,,??medication,,,RxNorm/{CODE}
+DESCRIPTION,Description,Description of the medication.,sio:Description,??medication,,String,,,,,,,,
+COST,Cost,The line item cost of the medication.,ncit:C69088,??medication,,Numeric,,,,,,,,
+REASONCODE,Reason Code,Diagnosis code from SNOMED-CT specifying why this medication was prescribed.,ncit:C25162,??diagnosis,,String,,,,,,,,SNOMED_CT/{REASONCODE}
+REASONDESCRIPTION,Reason Description,Description of the reason code.,sio:Description,{REASONCODE},,String,,,,,,,,
+??medication,Medication,,,,,,,ncit:C459,,,??patient,,,
+??patient,Patient,,,,,,,"sio:Human, sio:Patient",sio:PatientRole,,,,,
+??encounter,Encounter,,,,,,,ncit:C62143,,,,,,
+??rxnorm,Rx-Norm,,,,,,,ncit:C127112,,,,,,
+??diagnosis,Diagnosis,,,,,,,sio:Diagnosis,,,??patient,,,

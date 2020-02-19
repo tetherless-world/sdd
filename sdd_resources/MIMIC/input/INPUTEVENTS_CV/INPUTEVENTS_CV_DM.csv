@@ -1,0 +1,30 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+SUBJECT_ID,sio:Identifier,??subject,,,,,,,,,,2,Subject ID,Subject ID
+HADM_ID,sio:Identifier,??admission,,,,,,,??hospital,,,3,Hospital Admission ID,Hospital Admission ID
+ICUSTAY_ID,sio:Identifier,??icustay,,,,,,,,,,4,ICU Stay ID,
+CHARTTIME,sio:TimeInstant,??chartevent,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,,,,5,Chart Time,
+ITEMID,sio:Identifier,??item,,,,,,,,,,6,Item ID,
+AMOUNT,,,,,,,,,,,,7,Amount,
+AMOUNTUOM,,,,,,,,,,,,8,Amount UOM,
+RATE,,,,,,,,,,,,9,Rate,
+RATEUOM,,,,,,,,,,,,10,Rate UOM,
+STORETIME,,,,,,,,,,,,11,Store Time,
+CGID,sio:Identifier,??cg,,,,,,,,,,12,CGID,Care Giver ID
+ORDERID,,,,,,,,,,,,13,Order ID,
+LINKORDERID,,,,,,,,,,,,14,Linkorder ID,
+STOPPED,,,,,,,,,,,,15,Stopped,
+NEWBOTTLE,,,,,,,,,,,,16,New Bottle,
+ORIGINALAMOUNT,,,,,,,,,,,,17,Original Amount,
+ORIGINALAMOUNTUOM,,,,,,,,,,,,18,Original Amount UOM,
+ORIGINALROUTE,,,,,,,,,,,,19,Original Route,
+ORIGINALRATE,,,,,,,,,,,,20,Original Rate,
+ORIGINALRATEUOM,,,,,,,,,,,,21,Original Rate UOM,
+ORIGINALSITE,,,,,,,,,,,,22,Original Site,
+??hospital,,,,,,"ncit:C16696, envo:00002173, obi:0000844",,,,,,,Hospital,
+??subject,,,,,,sio:Human,sio:SubjectRole,,,,,,Subject,
+??row,,,,,,sio:Row,,,,,,,Row,
+??icustay,,,,,,,,,,,,,ICU Stay,
+??chartevent,,,,,,,,,,,,,Chart Event,
+??item,,,,,,,,,,,,,Item,
+??cg,,,,,,sio:MedicalPractitioner,,,,,,,Care Giver,

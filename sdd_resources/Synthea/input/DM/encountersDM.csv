@@ -1,0 +1,14 @@
+Column,Label,Comment,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,Template
+ID,ID,Primary Key. Unique Identifier of the encounter.,sio:Identifier,??encounter,,UUID,,,,,,,,ENCOUNTER/{ID}
+START,Start,The date and time the encounter started.,sio:StartDate,??encounter,,yyyy-MM-dd'T'HH:mm'Z',,,,,,,,
+STOP,Stop,The date and time the encounter concluded.,sio:EndDate,??encounter,,yyyy-MM-dd'T'HH:mm'Z',,,,,,,,
+PATIENT,Patient Identifier,Foreign key to the Patient.,sio:Identifier,??patient,,UUID,,,,,??encounter,,,PATIENT/{PATIENT}
+CODE,Code,Encounter code from SNOMED-CT,ncit:C25162,??snomedct,,String,,,,,??encounter,,,SNOMED_CT/{CODE}
+DESCRIPTION,Description,Description of the type of encounter.,sio:Description,??encounter,,String,,,,,,,,
+COST,Cost,"The base cost of the encounter, not including any line item costs related to medications, immunizations, procedures, or other services.",ncit:C69088,??encounter,,Numeric,,,,,,,,
+REASONCODE,Reason Code,"Diagnosis code from SNOMED-CT, only if this encounter targeted a specific condition.",ncit:C25162,??diagnosis,,String,,,,,??encounter,,,SNOMED_CT/{REASONCODE}
+REASONDESCRIPTION,Reason Description,Description of the reason code.,sio:Description,{REASONCODE},,String,,,,,,,,
+??snomedct,SNOMED-CT,,,,,,,ncit:C49469,,,,,,
+??encounter,Encounter,,,,,,,ncit:C62143,,,,,,
+??patient,Patient,,,,,,,"sio:Human, sio:Patient",sio:PatientRole,,,,,
+??diagnosis,Diagnosis,,,,,,,sio:Diagnosis,,,??patient,,,

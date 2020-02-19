@@ -1,0 +1,6481 @@
+T,N,M,Grade,HER2,ER,PR,OncotypeDX
+0,1,0,1,Pos,Pos,Pos,N/A
+0,1,0,1,Pos,Pos,Neg,N/A
+0,1,0,1,Pos,Neg,Pos,N/A
+0,1,0,1,Pos,Neg,Neg,N/A
+0,1,0,1,Neg,Pos,Pos,N/A
+0,1,0,1,Neg,Pos,Neg,N/A
+0,1,0,1,Neg,Neg,Pos,N/A
+0,1,0,1,Neg,Neg,Neg,N/A
+0,1,0,2,Pos,Pos,Pos,N/A
+0,1,0,2,Pos,Pos,Neg,N/A
+0,1,0,2,Pos,Neg,Pos,N/A
+0,1,0,2,Pos,Neg,Neg,N/A
+0,1,0,2,Neg,Pos,Pos,N/A
+0,1,0,2,Neg,Pos,Neg,N/A
+0,1,0,2,Neg,Neg,Pos,N/A
+0,1,0,2,Neg,Neg,Neg,N/A
+0,1,0,3,Pos,Pos,Pos,N/A
+0,1,0,3,Pos,Pos,Neg,N/A
+0,1,0,3,Pos,Neg,Pos,N/A
+0,1,0,3,Pos,Neg,Neg,N/A
+0,1,0,3,Neg,Pos,Pos,N/A
+0,1,0,3,Neg,Pos,Neg,N/A
+0,1,0,3,Neg,Neg,Pos,N/A
+0,1,0,3,Neg,Neg,Neg,N/A
+0,1,X,1,Pos,Pos,Pos,N/A
+0,1,X,1,Pos,Pos,Neg,N/A
+0,1,X,1,Pos,Neg,Pos,N/A
+0,1,X,1,Pos,Neg,Neg,N/A
+0,1,X,1,Neg,Pos,Pos,N/A
+0,1,X,1,Neg,Pos,Neg,N/A
+0,1,X,1,Neg,Neg,Pos,N/A
+0,1,X,1,Neg,Neg,Neg,N/A
+0,1,X,2,Pos,Pos,Pos,N/A
+0,1,X,2,Pos,Pos,Neg,N/A
+0,1,X,2,Pos,Neg,Pos,N/A
+0,1,X,2,Pos,Neg,Neg,N/A
+0,1,X,2,Neg,Pos,Pos,N/A
+0,1,X,2,Neg,Pos,Neg,N/A
+0,1,X,2,Neg,Neg,Pos,N/A
+0,1,X,2,Neg,Neg,Neg,N/A
+0,1,X,3,Pos,Pos,Pos,N/A
+0,1,X,3,Pos,Pos,Neg,N/A
+0,1,X,3,Pos,Neg,Pos,N/A
+0,1,X,3,Pos,Neg,Neg,N/A
+0,1,X,3,Neg,Pos,Pos,N/A
+0,1,X,3,Neg,Pos,Neg,N/A
+0,1,X,3,Neg,Neg,Pos,N/A
+0,1,X,3,Neg,Neg,Neg,N/A
+0,1,1,1,Pos,Pos,Pos,N/A
+0,1,1,1,Pos,Pos,Neg,N/A
+0,1,1,1,Pos,Neg,Pos,N/A
+0,1,1,1,Pos,Neg,Neg,N/A
+0,1,1,1,Neg,Pos,Pos,N/A
+0,1,1,1,Neg,Pos,Neg,N/A
+0,1,1,1,Neg,Neg,Pos,N/A
+0,1,1,1,Neg,Neg,Neg,N/A
+0,1,1,2,Pos,Pos,Pos,N/A
+0,1,1,2,Pos,Pos,Neg,N/A
+0,1,1,2,Pos,Neg,Pos,N/A
+0,1,1,2,Pos,Neg,Neg,N/A
+0,1,1,2,Neg,Pos,Pos,N/A
+0,1,1,2,Neg,Pos,Neg,N/A
+0,1,1,2,Neg,Neg,Pos,N/A
+0,1,1,2,Neg,Neg,Neg,N/A
+0,1,1,3,Pos,Pos,Pos,N/A
+0,1,1,3,Pos,Pos,Neg,N/A
+0,1,1,3,Pos,Neg,Pos,N/A
+0,1,1,3,Pos,Neg,Neg,N/A
+0,1,1,3,Neg,Pos,Pos,N/A
+0,1,1,3,Neg,Pos,Neg,N/A
+0,1,1,3,Neg,Neg,Pos,N/A
+0,1,1,3,Neg,Neg,Neg,N/A
+0,2,0,1,Pos,Pos,Pos,N/A
+0,2,0,1,Pos,Pos,Neg,N/A
+0,2,0,1,Pos,Neg,Pos,N/A
+0,2,0,1,Pos,Neg,Neg,N/A
+0,2,0,1,Neg,Pos,Pos,N/A
+0,2,0,1,Neg,Pos,Neg,N/A
+0,2,0,1,Neg,Neg,Pos,N/A
+0,2,0,1,Neg,Neg,Neg,N/A
+0,2,0,2,Pos,Pos,Pos,N/A
+0,2,0,2,Pos,Pos,Neg,N/A
+0,2,0,2,Pos,Neg,Pos,N/A
+0,2,0,2,Pos,Neg,Neg,N/A
+0,2,0,2,Neg,Pos,Pos,N/A
+0,2,0,2,Neg,Pos,Neg,N/A
+0,2,0,2,Neg,Neg,Pos,N/A
+0,2,0,2,Neg,Neg,Neg,N/A
+0,2,0,3,Pos,Pos,Pos,N/A
+0,2,0,3,Pos,Pos,Neg,N/A
+0,2,0,3,Pos,Neg,Pos,N/A
+0,2,0,3,Pos,Neg,Neg,N/A
+0,2,0,3,Neg,Pos,Pos,N/A
+0,2,0,3,Neg,Pos,Neg,N/A
+0,2,0,3,Neg,Neg,Pos,N/A
+0,2,0,3,Neg,Neg,Neg,N/A
+0,2,X,1,Pos,Pos,Pos,N/A
+0,2,X,1,Pos,Pos,Neg,N/A
+0,2,X,1,Pos,Neg,Pos,N/A
+0,2,X,1,Pos,Neg,Neg,N/A
+0,2,X,1,Neg,Pos,Pos,N/A
+0,2,X,1,Neg,Pos,Neg,N/A
+0,2,X,1,Neg,Neg,Pos,N/A
+0,2,X,1,Neg,Neg,Neg,N/A
+0,2,X,2,Pos,Pos,Pos,N/A
+0,2,X,2,Pos,Pos,Neg,N/A
+0,2,X,2,Pos,Neg,Pos,N/A
+0,2,X,2,Pos,Neg,Neg,N/A
+0,2,X,2,Neg,Pos,Pos,N/A
+0,2,X,2,Neg,Pos,Neg,N/A
+0,2,X,2,Neg,Neg,Pos,N/A
+0,2,X,2,Neg,Neg,Neg,N/A
+0,2,X,3,Pos,Pos,Pos,N/A
+0,2,X,3,Pos,Pos,Neg,N/A
+0,2,X,3,Pos,Neg,Pos,N/A
+0,2,X,3,Pos,Neg,Neg,N/A
+0,2,X,3,Neg,Pos,Pos,N/A
+0,2,X,3,Neg,Pos,Neg,N/A
+0,2,X,3,Neg,Neg,Pos,N/A
+0,2,X,3,Neg,Neg,Neg,N/A
+0,2,1,1,Pos,Pos,Pos,N/A
+0,2,1,1,Pos,Pos,Neg,N/A
+0,2,1,1,Pos,Neg,Pos,N/A
+0,2,1,1,Pos,Neg,Neg,N/A
+0,2,1,1,Neg,Pos,Pos,N/A
+0,2,1,1,Neg,Pos,Neg,N/A
+0,2,1,1,Neg,Neg,Pos,N/A
+0,2,1,1,Neg,Neg,Neg,N/A
+0,2,1,2,Pos,Pos,Pos,N/A
+0,2,1,2,Pos,Pos,Neg,N/A
+0,2,1,2,Pos,Neg,Pos,N/A
+0,2,1,2,Pos,Neg,Neg,N/A
+0,2,1,2,Neg,Pos,Pos,N/A
+0,2,1,2,Neg,Pos,Neg,N/A
+0,2,1,2,Neg,Neg,Pos,N/A
+0,2,1,2,Neg,Neg,Neg,N/A
+0,2,1,3,Pos,Pos,Pos,N/A
+0,2,1,3,Pos,Pos,Neg,N/A
+0,2,1,3,Pos,Neg,Pos,N/A
+0,2,1,3,Pos,Neg,Neg,N/A
+0,2,1,3,Neg,Pos,Pos,N/A
+0,2,1,3,Neg,Pos,Neg,N/A
+0,2,1,3,Neg,Neg,Pos,N/A
+0,2,1,3,Neg,Neg,Neg,N/A
+0,3,0,1,Pos,Pos,Pos,N/A
+0,3,0,1,Pos,Pos,Neg,N/A
+0,3,0,1,Pos,Neg,Pos,N/A
+0,3,0,1,Pos,Neg,Neg,N/A
+0,3,0,1,Neg,Pos,Pos,N/A
+0,3,0,1,Neg,Pos,Neg,N/A
+0,3,0,1,Neg,Neg,Pos,N/A
+0,3,0,1,Neg,Neg,Neg,N/A
+0,3,0,2,Pos,Pos,Pos,N/A
+0,3,0,2,Pos,Pos,Neg,N/A
+0,3,0,2,Pos,Neg,Pos,N/A
+0,3,0,2,Pos,Neg,Neg,N/A
+0,3,0,2,Neg,Pos,Pos,N/A
+0,3,0,2,Neg,Pos,Neg,N/A
+0,3,0,2,Neg,Neg,Pos,N/A
+0,3,0,2,Neg,Neg,Neg,N/A
+0,3,0,3,Pos,Pos,Pos,N/A
+0,3,0,3,Pos,Pos,Neg,N/A
+0,3,0,3,Pos,Neg,Pos,N/A
+0,3,0,3,Pos,Neg,Neg,N/A
+0,3,0,3,Neg,Pos,Pos,N/A
+0,3,0,3,Neg,Pos,Neg,N/A
+0,3,0,3,Neg,Neg,Pos,N/A
+0,3,0,3,Neg,Neg,Neg,N/A
+0,3,X,1,Pos,Pos,Pos,N/A
+0,3,X,1,Pos,Pos,Neg,N/A
+0,3,X,1,Pos,Neg,Pos,N/A
+0,3,X,1,Pos,Neg,Neg,N/A
+0,3,X,1,Neg,Pos,Pos,N/A
+0,3,X,1,Neg,Pos,Neg,N/A
+0,3,X,1,Neg,Neg,Pos,N/A
+0,3,X,1,Neg,Neg,Neg,N/A
+0,3,X,2,Pos,Pos,Pos,N/A
+0,3,X,2,Pos,Pos,Neg,N/A
+0,3,X,2,Pos,Neg,Pos,N/A
+0,3,X,2,Pos,Neg,Neg,N/A
+0,3,X,2,Neg,Pos,Pos,N/A
+0,3,X,2,Neg,Pos,Neg,N/A
+0,3,X,2,Neg,Neg,Pos,N/A
+0,3,X,2,Neg,Neg,Neg,N/A
+0,3,X,3,Pos,Pos,Pos,N/A
+0,3,X,3,Pos,Pos,Neg,N/A
+0,3,X,3,Pos,Neg,Pos,N/A
+0,3,X,3,Pos,Neg,Neg,N/A
+0,3,X,3,Neg,Pos,Pos,N/A
+0,3,X,3,Neg,Pos,Neg,N/A
+0,3,X,3,Neg,Neg,Pos,N/A
+0,3,X,3,Neg,Neg,Neg,N/A
+0,3,1,1,Pos,Pos,Pos,N/A
+0,3,1,1,Pos,Pos,Neg,N/A
+0,3,1,1,Pos,Neg,Pos,N/A
+0,3,1,1,Pos,Neg,Neg,N/A
+0,3,1,1,Neg,Pos,Pos,N/A
+0,3,1,1,Neg,Pos,Neg,N/A
+0,3,1,1,Neg,Neg,Pos,N/A
+0,3,1,1,Neg,Neg,Neg,N/A
+0,3,1,2,Pos,Pos,Pos,N/A
+0,3,1,2,Pos,Pos,Neg,N/A
+0,3,1,2,Pos,Neg,Pos,N/A
+0,3,1,2,Pos,Neg,Neg,N/A
+0,3,1,2,Neg,Pos,Pos,N/A
+0,3,1,2,Neg,Pos,Neg,N/A
+0,3,1,2,Neg,Neg,Pos,N/A
+0,3,1,2,Neg,Neg,Neg,N/A
+0,3,1,3,Pos,Pos,Pos,N/A
+0,3,1,3,Pos,Pos,Neg,N/A
+0,3,1,3,Pos,Neg,Pos,N/A
+0,3,1,3,Pos,Neg,Neg,N/A
+0,3,1,3,Neg,Pos,Pos,N/A
+0,3,1,3,Neg,Pos,Neg,N/A
+0,3,1,3,Neg,Neg,Pos,N/A
+0,3,1,3,Neg,Neg,Neg,N/A
+0,0,0,1,Pos,Pos,Pos,N/A
+0,0,0,1,Pos,Pos,Neg,N/A
+0,0,0,1,Pos,Neg,Pos,N/A
+0,0,0,1,Pos,Neg,Neg,N/A
+0,0,0,1,Neg,Pos,Pos,N/A
+0,0,0,1,Neg,Pos,Neg,N/A
+0,0,0,1,Neg,Neg,Pos,N/A
+0,0,0,1,Neg,Neg,Neg,N/A
+0,0,0,2,Pos,Pos,Pos,N/A
+0,0,0,2,Pos,Pos,Neg,N/A
+0,0,0,2,Pos,Neg,Pos,N/A
+0,0,0,2,Pos,Neg,Neg,N/A
+0,0,0,2,Neg,Pos,Pos,N/A
+0,0,0,2,Neg,Pos,Neg,N/A
+0,0,0,2,Neg,Neg,Pos,N/A
+0,0,0,2,Neg,Neg,Neg,N/A
+0,0,0,3,Pos,Pos,Pos,N/A
+0,0,0,3,Pos,Pos,Neg,N/A
+0,0,0,3,Pos,Neg,Pos,N/A
+0,0,0,3,Pos,Neg,Neg,N/A
+0,0,0,3,Neg,Pos,Pos,N/A
+0,0,0,3,Neg,Pos,Neg,N/A
+0,0,0,3,Neg,Neg,Pos,N/A
+0,0,0,3,Neg,Neg,Neg,N/A
+0,0,X,1,Pos,Pos,Pos,N/A
+0,0,X,1,Pos,Pos,Neg,N/A
+0,0,X,1,Pos,Neg,Pos,N/A
+0,0,X,1,Pos,Neg,Neg,N/A
+0,0,X,1,Neg,Pos,Pos,N/A
+0,0,X,1,Neg,Pos,Neg,N/A
+0,0,X,1,Neg,Neg,Pos,N/A
+0,0,X,1,Neg,Neg,Neg,N/A
+0,0,X,2,Pos,Pos,Pos,N/A
+0,0,X,2,Pos,Pos,Neg,N/A
+0,0,X,2,Pos,Neg,Pos,N/A
+0,0,X,2,Pos,Neg,Neg,N/A
+0,0,X,2,Neg,Pos,Pos,N/A
+0,0,X,2,Neg,Pos,Neg,N/A
+0,0,X,2,Neg,Neg,Pos,N/A
+0,0,X,2,Neg,Neg,Neg,N/A
+0,0,X,3,Pos,Pos,Pos,N/A
+0,0,X,3,Pos,Pos,Neg,N/A
+0,0,X,3,Pos,Neg,Pos,N/A
+0,0,X,3,Pos,Neg,Neg,N/A
+0,0,X,3,Neg,Pos,Pos,N/A
+0,0,X,3,Neg,Pos,Neg,N/A
+0,0,X,3,Neg,Neg,Pos,N/A
+0,0,X,3,Neg,Neg,Neg,N/A
+0,0,1,1,Pos,Pos,Pos,N/A
+0,0,1,1,Pos,Pos,Neg,N/A
+0,0,1,1,Pos,Neg,Pos,N/A
+0,0,1,1,Pos,Neg,Neg,N/A
+0,0,1,1,Neg,Pos,Pos,N/A
+0,0,1,1,Neg,Pos,Neg,N/A
+0,0,1,1,Neg,Neg,Pos,N/A
+0,0,1,1,Neg,Neg,Neg,N/A
+0,0,1,2,Pos,Pos,Pos,N/A
+0,0,1,2,Pos,Pos,Neg,N/A
+0,0,1,2,Pos,Neg,Pos,N/A
+0,0,1,2,Pos,Neg,Neg,N/A
+0,0,1,2,Neg,Pos,Pos,N/A
+0,0,1,2,Neg,Pos,Neg,N/A
+0,0,1,2,Neg,Neg,Pos,N/A
+0,0,1,2,Neg,Neg,Neg,N/A
+0,0,1,3,Pos,Pos,Pos,N/A
+0,0,1,3,Pos,Pos,Neg,N/A
+0,0,1,3,Pos,Neg,Pos,N/A
+0,0,1,3,Pos,Neg,Neg,N/A
+0,0,1,3,Neg,Pos,Pos,N/A
+0,0,1,3,Neg,Pos,Neg,N/A
+0,0,1,3,Neg,Neg,Pos,N/A
+0,0,1,3,Neg,Neg,Neg,N/A
+0,X Adjusted,0,1,Pos,Pos,Pos,N/A
+0,X Adjusted,0,1,Pos,Pos,Neg,N/A
+0,X Adjusted,0,1,Pos,Neg,Pos,N/A
+0,X Adjusted,0,1,Pos,Neg,Neg,N/A
+0,X Adjusted,0,1,Neg,Pos,Pos,N/A
+0,X Adjusted,0,1,Neg,Pos,Neg,N/A
+0,X Adjusted,0,1,Neg,Neg,Pos,N/A
+0,X Adjusted,0,1,Neg,Neg,Neg,N/A
+0,X Adjusted,0,2,Pos,Pos,Pos,N/A
+0,X Adjusted,0,2,Pos,Pos,Neg,N/A
+0,X Adjusted,0,2,Pos,Neg,Pos,N/A
+0,X Adjusted,0,2,Pos,Neg,Neg,N/A
+0,X Adjusted,0,2,Neg,Pos,Pos,N/A
+0,X Adjusted,0,2,Neg,Pos,Neg,N/A
+0,X Adjusted,0,2,Neg,Neg,Pos,N/A
+0,X Adjusted,0,2,Neg,Neg,Neg,N/A
+0,X Adjusted,0,3,Pos,Pos,Pos,N/A
+0,X Adjusted,0,3,Pos,Pos,Neg,N/A
+0,X Adjusted,0,3,Pos,Neg,Pos,N/A
+0,X Adjusted,0,3,Pos,Neg,Neg,N/A
+0,X Adjusted,0,3,Neg,Pos,Pos,N/A
+0,X Adjusted,0,3,Neg,Pos,Neg,N/A
+0,X Adjusted,0,3,Neg,Neg,Pos,N/A
+0,X Adjusted,0,3,Neg,Neg,Neg,N/A
+0,X Adjusted,X,1,Pos,Pos,Pos,N/A
+0,X Adjusted,X,1,Pos,Pos,Neg,N/A
+0,X Adjusted,X,1,Pos,Neg,Pos,N/A
+0,X Adjusted,X,1,Pos,Neg,Neg,N/A
+0,X Adjusted,X,1,Neg,Pos,Pos,N/A
+0,X Adjusted,X,1,Neg,Pos,Neg,N/A
+0,X Adjusted,X,1,Neg,Neg,Pos,N/A
+0,X Adjusted,X,1,Neg,Neg,Neg,N/A
+0,X Adjusted,X,2,Pos,Pos,Pos,N/A
+0,X Adjusted,X,2,Pos,Pos,Neg,N/A
+0,X Adjusted,X,2,Pos,Neg,Pos,N/A
+0,X Adjusted,X,2,Pos,Neg,Neg,N/A
+0,X Adjusted,X,2,Neg,Pos,Pos,N/A
+0,X Adjusted,X,2,Neg,Pos,Neg,N/A
+0,X Adjusted,X,2,Neg,Neg,Pos,N/A
+0,X Adjusted,X,2,Neg,Neg,Neg,N/A
+0,X Adjusted,X,3,Pos,Pos,Pos,N/A
+0,X Adjusted,X,3,Pos,Pos,Neg,N/A
+0,X Adjusted,X,3,Pos,Neg,Pos,N/A
+0,X Adjusted,X,3,Pos,Neg,Neg,N/A
+0,X Adjusted,X,3,Neg,Pos,Pos,N/A
+0,X Adjusted,X,3,Neg,Pos,Neg,N/A
+0,X Adjusted,X,3,Neg,Neg,Pos,N/A
+0,X Adjusted,X,3,Neg,Neg,Neg,N/A
+0,X Adjusted,1,1,Pos,Pos,Pos,N/A
+0,X Adjusted,1,1,Pos,Pos,Neg,N/A
+0,X Adjusted,1,1,Pos,Neg,Pos,N/A
+0,X Adjusted,1,1,Pos,Neg,Neg,N/A
+0,X Adjusted,1,1,Neg,Pos,Pos,N/A
+0,X Adjusted,1,1,Neg,Pos,Neg,N/A
+0,X Adjusted,1,1,Neg,Neg,Pos,N/A
+0,X Adjusted,1,1,Neg,Neg,Neg,N/A
+0,X Adjusted,1,2,Pos,Pos,Pos,N/A
+0,X Adjusted,1,2,Pos,Pos,Neg,N/A
+0,X Adjusted,1,2,Pos,Neg,Pos,N/A
+0,X Adjusted,1,2,Pos,Neg,Neg,N/A
+0,X Adjusted,1,2,Neg,Pos,Pos,N/A
+0,X Adjusted,1,2,Neg,Pos,Neg,N/A
+0,X Adjusted,1,2,Neg,Neg,Pos,N/A
+0,X Adjusted,1,2,Neg,Neg,Neg,N/A
+0,X Adjusted,1,3,Pos,Pos,Pos,N/A
+0,X Adjusted,1,3,Pos,Pos,Neg,N/A
+0,X Adjusted,1,3,Pos,Neg,Pos,N/A
+0,X Adjusted,1,3,Pos,Neg,Neg,N/A
+0,X Adjusted,1,3,Neg,Pos,Pos,N/A
+0,X Adjusted,1,3,Neg,Pos,Neg,N/A
+0,X Adjusted,1,3,Neg,Neg,Pos,N/A
+0,X Adjusted,1,3,Neg,Neg,Neg,N/A
+is,1,0,1,Pos,Pos,Pos,N/A
+is,1,0,1,Pos,Pos,Neg,N/A
+is,1,0,1,Pos,Neg,Pos,N/A
+is,1,0,1,Pos,Neg,Neg,N/A
+is,1,0,1,Neg,Pos,Pos,N/A
+is,1,0,1,Neg,Pos,Neg,N/A
+is,1,0,1,Neg,Neg,Pos,N/A
+is,1,0,1,Neg,Neg,Neg,N/A
+is,1,0,2,Pos,Pos,Pos,N/A
+is,1,0,2,Pos,Pos,Neg,N/A
+is,1,0,2,Pos,Neg,Pos,N/A
+is,1,0,2,Pos,Neg,Neg,N/A
+is,1,0,2,Neg,Pos,Pos,N/A
+is,1,0,2,Neg,Pos,Neg,N/A
+is,1,0,2,Neg,Neg,Pos,N/A
+is,1,0,2,Neg,Neg,Neg,N/A
+is,1,0,3,Pos,Pos,Pos,N/A
+is,1,0,3,Pos,Pos,Neg,N/A
+is,1,0,3,Pos,Neg,Pos,N/A
+is,1,0,3,Pos,Neg,Neg,N/A
+is,1,0,3,Neg,Pos,Pos,N/A
+is,1,0,3,Neg,Pos,Neg,N/A
+is,1,0,3,Neg,Neg,Pos,N/A
+is,1,0,3,Neg,Neg,Neg,N/A
+is,1,X,1,Pos,Pos,Pos,N/A
+is,1,X,1,Pos,Pos,Neg,N/A
+is,1,X,1,Pos,Neg,Pos,N/A
+is,1,X,1,Pos,Neg,Neg,N/A
+is,1,X,1,Neg,Pos,Pos,N/A
+is,1,X,1,Neg,Pos,Neg,N/A
+is,1,X,1,Neg,Neg,Pos,N/A
+is,1,X,1,Neg,Neg,Neg,N/A
+is,1,X,2,Pos,Pos,Pos,N/A
+is,1,X,2,Pos,Pos,Neg,N/A
+is,1,X,2,Pos,Neg,Pos,N/A
+is,1,X,2,Pos,Neg,Neg,N/A
+is,1,X,2,Neg,Pos,Pos,N/A
+is,1,X,2,Neg,Pos,Neg,N/A
+is,1,X,2,Neg,Neg,Pos,N/A
+is,1,X,2,Neg,Neg,Neg,N/A
+is,1,X,3,Pos,Pos,Pos,N/A
+is,1,X,3,Pos,Pos,Neg,N/A
+is,1,X,3,Pos,Neg,Pos,N/A
+is,1,X,3,Pos,Neg,Neg,N/A
+is,1,X,3,Neg,Pos,Pos,N/A
+is,1,X,3,Neg,Pos,Neg,N/A
+is,1,X,3,Neg,Neg,Pos,N/A
+is,1,X,3,Neg,Neg,Neg,N/A
+is,1,1,1,Pos,Pos,Pos,N/A
+is,1,1,1,Pos,Pos,Neg,N/A
+is,1,1,1,Pos,Neg,Pos,N/A
+is,1,1,1,Pos,Neg,Neg,N/A
+is,1,1,1,Neg,Pos,Pos,N/A
+is,1,1,1,Neg,Pos,Neg,N/A
+is,1,1,1,Neg,Neg,Pos,N/A
+is,1,1,1,Neg,Neg,Neg,N/A
+is,1,1,2,Pos,Pos,Pos,N/A
+is,1,1,2,Pos,Pos,Neg,N/A
+is,1,1,2,Pos,Neg,Pos,N/A
+is,1,1,2,Pos,Neg,Neg,N/A
+is,1,1,2,Neg,Pos,Pos,N/A
+is,1,1,2,Neg,Pos,Neg,N/A
+is,1,1,2,Neg,Neg,Pos,N/A
+is,1,1,2,Neg,Neg,Neg,N/A
+is,1,1,3,Pos,Pos,Pos,N/A
+is,1,1,3,Pos,Pos,Neg,N/A
+is,1,1,3,Pos,Neg,Pos,N/A
+is,1,1,3,Pos,Neg,Neg,N/A
+is,1,1,3,Neg,Pos,Pos,N/A
+is,1,1,3,Neg,Pos,Neg,N/A
+is,1,1,3,Neg,Neg,Pos,N/A
+is,1,1,3,Neg,Neg,Neg,N/A
+is,2,0,1,Pos,Pos,Pos,N/A
+is,2,0,1,Pos,Pos,Neg,N/A
+is,2,0,1,Pos,Neg,Pos,N/A
+is,2,0,1,Pos,Neg,Neg,N/A
+is,2,0,1,Neg,Pos,Pos,N/A
+is,2,0,1,Neg,Pos,Neg,N/A
+is,2,0,1,Neg,Neg,Pos,N/A
+is,2,0,1,Neg,Neg,Neg,N/A
+is,2,0,2,Pos,Pos,Pos,N/A
+is,2,0,2,Pos,Pos,Neg,N/A
+is,2,0,2,Pos,Neg,Pos,N/A
+is,2,0,2,Pos,Neg,Neg,N/A
+is,2,0,2,Neg,Pos,Pos,N/A
+is,2,0,2,Neg,Pos,Neg,N/A
+is,2,0,2,Neg,Neg,Pos,N/A
+is,2,0,2,Neg,Neg,Neg,N/A
+is,2,0,3,Pos,Pos,Pos,N/A
+is,2,0,3,Pos,Pos,Neg,N/A
+is,2,0,3,Pos,Neg,Pos,N/A
+is,2,0,3,Pos,Neg,Neg,N/A
+is,2,0,3,Neg,Pos,Pos,N/A
+is,2,0,3,Neg,Pos,Neg,N/A
+is,2,0,3,Neg,Neg,Pos,N/A
+is,2,0,3,Neg,Neg,Neg,N/A
+is,2,X,1,Pos,Pos,Pos,N/A
+is,2,X,1,Pos,Pos,Neg,N/A
+is,2,X,1,Pos,Neg,Pos,N/A
+is,2,X,1,Pos,Neg,Neg,N/A
+is,2,X,1,Neg,Pos,Pos,N/A
+is,2,X,1,Neg,Pos,Neg,N/A
+is,2,X,1,Neg,Neg,Pos,N/A
+is,2,X,1,Neg,Neg,Neg,N/A
+is,2,X,2,Pos,Pos,Pos,N/A
+is,2,X,2,Pos,Pos,Neg,N/A
+is,2,X,2,Pos,Neg,Pos,N/A
+is,2,X,2,Pos,Neg,Neg,N/A
+is,2,X,2,Neg,Pos,Pos,N/A
+is,2,X,2,Neg,Pos,Neg,N/A
+is,2,X,2,Neg,Neg,Pos,N/A
+is,2,X,2,Neg,Neg,Neg,N/A
+is,2,X,3,Pos,Pos,Pos,N/A
+is,2,X,3,Pos,Pos,Neg,N/A
+is,2,X,3,Pos,Neg,Pos,N/A
+is,2,X,3,Pos,Neg,Neg,N/A
+is,2,X,3,Neg,Pos,Pos,N/A
+is,2,X,3,Neg,Pos,Neg,N/A
+is,2,X,3,Neg,Neg,Pos,N/A
+is,2,X,3,Neg,Neg,Neg,N/A
+is,2,1,1,Pos,Pos,Pos,N/A
+is,2,1,1,Pos,Pos,Neg,N/A
+is,2,1,1,Pos,Neg,Pos,N/A
+is,2,1,1,Pos,Neg,Neg,N/A
+is,2,1,1,Neg,Pos,Pos,N/A
+is,2,1,1,Neg,Pos,Neg,N/A
+is,2,1,1,Neg,Neg,Pos,N/A
+is,2,1,1,Neg,Neg,Neg,N/A
+is,2,1,2,Pos,Pos,Pos,N/A
+is,2,1,2,Pos,Pos,Neg,N/A
+is,2,1,2,Pos,Neg,Pos,N/A
+is,2,1,2,Pos,Neg,Neg,N/A
+is,2,1,2,Neg,Pos,Pos,N/A
+is,2,1,2,Neg,Pos,Neg,N/A
+is,2,1,2,Neg,Neg,Pos,N/A
+is,2,1,2,Neg,Neg,Neg,N/A
+is,2,1,3,Pos,Pos,Pos,N/A
+is,2,1,3,Pos,Pos,Neg,N/A
+is,2,1,3,Pos,Neg,Pos,N/A
+is,2,1,3,Pos,Neg,Neg,N/A
+is,2,1,3,Neg,Pos,Pos,N/A
+is,2,1,3,Neg,Pos,Neg,N/A
+is,2,1,3,Neg,Neg,Pos,N/A
+is,2,1,3,Neg,Neg,Neg,N/A
+is,3,0,1,Pos,Pos,Pos,N/A
+is,3,0,1,Pos,Pos,Neg,N/A
+is,3,0,1,Pos,Neg,Pos,N/A
+is,3,0,1,Pos,Neg,Neg,N/A
+is,3,0,1,Neg,Pos,Pos,N/A
+is,3,0,1,Neg,Pos,Neg,N/A
+is,3,0,1,Neg,Neg,Pos,N/A
+is,3,0,1,Neg,Neg,Neg,N/A
+is,3,0,2,Pos,Pos,Pos,N/A
+is,3,0,2,Pos,Pos,Neg,N/A
+is,3,0,2,Pos,Neg,Pos,N/A
+is,3,0,2,Pos,Neg,Neg,N/A
+is,3,0,2,Neg,Pos,Pos,N/A
+is,3,0,2,Neg,Pos,Neg,N/A
+is,3,0,2,Neg,Neg,Pos,N/A
+is,3,0,2,Neg,Neg,Neg,N/A
+is,3,0,3,Pos,Pos,Pos,N/A
+is,3,0,3,Pos,Pos,Neg,N/A
+is,3,0,3,Pos,Neg,Pos,N/A
+is,3,0,3,Pos,Neg,Neg,N/A
+is,3,0,3,Neg,Pos,Pos,N/A
+is,3,0,3,Neg,Pos,Neg,N/A
+is,3,0,3,Neg,Neg,Pos,N/A
+is,3,0,3,Neg,Neg,Neg,N/A
+is,3,X,1,Pos,Pos,Pos,N/A
+is,3,X,1,Pos,Pos,Neg,N/A
+is,3,X,1,Pos,Neg,Pos,N/A
+is,3,X,1,Pos,Neg,Neg,N/A
+is,3,X,1,Neg,Pos,Pos,N/A
+is,3,X,1,Neg,Pos,Neg,N/A
+is,3,X,1,Neg,Neg,Pos,N/A
+is,3,X,1,Neg,Neg,Neg,N/A
+is,3,X,2,Pos,Pos,Pos,N/A
+is,3,X,2,Pos,Pos,Neg,N/A
+is,3,X,2,Pos,Neg,Pos,N/A
+is,3,X,2,Pos,Neg,Neg,N/A
+is,3,X,2,Neg,Pos,Pos,N/A
+is,3,X,2,Neg,Pos,Neg,N/A
+is,3,X,2,Neg,Neg,Pos,N/A
+is,3,X,2,Neg,Neg,Neg,N/A
+is,3,X,3,Pos,Pos,Pos,N/A
+is,3,X,3,Pos,Pos,Neg,N/A
+is,3,X,3,Pos,Neg,Pos,N/A
+is,3,X,3,Pos,Neg,Neg,N/A
+is,3,X,3,Neg,Pos,Pos,N/A
+is,3,X,3,Neg,Pos,Neg,N/A
+is,3,X,3,Neg,Neg,Pos,N/A
+is,3,X,3,Neg,Neg,Neg,N/A
+is,3,1,1,Pos,Pos,Pos,N/A
+is,3,1,1,Pos,Pos,Neg,N/A
+is,3,1,1,Pos,Neg,Pos,N/A
+is,3,1,1,Pos,Neg,Neg,N/A
+is,3,1,1,Neg,Pos,Pos,N/A
+is,3,1,1,Neg,Pos,Neg,N/A
+is,3,1,1,Neg,Neg,Pos,N/A
+is,3,1,1,Neg,Neg,Neg,N/A
+is,3,1,2,Pos,Pos,Pos,N/A
+is,3,1,2,Pos,Pos,Neg,N/A
+is,3,1,2,Pos,Neg,Pos,N/A
+is,3,1,2,Pos,Neg,Neg,N/A
+is,3,1,2,Neg,Pos,Pos,N/A
+is,3,1,2,Neg,Pos,Neg,N/A
+is,3,1,2,Neg,Neg,Pos,N/A
+is,3,1,2,Neg,Neg,Neg,N/A
+is,3,1,3,Pos,Pos,Pos,N/A
+is,3,1,3,Pos,Pos,Neg,N/A
+is,3,1,3,Pos,Neg,Pos,N/A
+is,3,1,3,Pos,Neg,Neg,N/A
+is,3,1,3,Neg,Pos,Pos,N/A
+is,3,1,3,Neg,Pos,Neg,N/A
+is,3,1,3,Neg,Neg,Pos,N/A
+is,3,1,3,Neg,Neg,Neg,N/A
+is,0,0,1,Pos,Pos,Pos,N/A
+is,0,0,1,Pos,Pos,Neg,N/A
+is,0,0,1,Pos,Neg,Pos,N/A
+is,0,0,1,Pos,Neg,Neg,N/A
+is,0,0,1,Neg,Pos,Pos,N/A
+is,0,0,1,Neg,Pos,Neg,N/A
+is,0,0,1,Neg,Neg,Pos,N/A
+is,0,0,1,Neg,Neg,Neg,N/A
+is,0,0,2,Pos,Pos,Pos,N/A
+is,0,0,2,Pos,Pos,Neg,N/A
+is,0,0,2,Pos,Neg,Pos,N/A
+is,0,0,2,Pos,Neg,Neg,N/A
+is,0,0,2,Neg,Pos,Pos,N/A
+is,0,0,2,Neg,Pos,Neg,N/A
+is,0,0,2,Neg,Neg,Pos,N/A
+is,0,0,2,Neg,Neg,Neg,N/A
+is,0,0,3,Pos,Pos,Pos,N/A
+is,0,0,3,Pos,Pos,Neg,N/A
+is,0,0,3,Pos,Neg,Pos,N/A
+is,0,0,3,Pos,Neg,Neg,N/A
+is,0,0,3,Neg,Pos,Pos,N/A
+is,0,0,3,Neg,Pos,Neg,N/A
+is,0,0,3,Neg,Neg,Pos,N/A
+is,0,0,3,Neg,Neg,Neg,N/A
+is,0,X,1,Pos,Pos,Pos,N/A
+is,0,X,1,Pos,Pos,Neg,N/A
+is,0,X,1,Pos,Neg,Pos,N/A
+is,0,X,1,Pos,Neg,Neg,N/A
+is,0,X,1,Neg,Pos,Pos,N/A
+is,0,X,1,Neg,Pos,Neg,N/A
+is,0,X,1,Neg,Neg,Pos,N/A
+is,0,X,1,Neg,Neg,Neg,N/A
+is,0,X,2,Pos,Pos,Pos,N/A
+is,0,X,2,Pos,Pos,Neg,N/A
+is,0,X,2,Pos,Neg,Pos,N/A
+is,0,X,2,Pos,Neg,Neg,N/A
+is,0,X,2,Neg,Pos,Pos,N/A
+is,0,X,2,Neg,Pos,Neg,N/A
+is,0,X,2,Neg,Neg,Pos,N/A
+is,0,X,2,Neg,Neg,Neg,N/A
+is,0,X,3,Pos,Pos,Pos,N/A
+is,0,X,3,Pos,Pos,Neg,N/A
+is,0,X,3,Pos,Neg,Pos,N/A
+is,0,X,3,Pos,Neg,Neg,N/A
+is,0,X,3,Neg,Pos,Pos,N/A
+is,0,X,3,Neg,Pos,Neg,N/A
+is,0,X,3,Neg,Neg,Pos,N/A
+is,0,X,3,Neg,Neg,Neg,N/A
+is,0,1,1,Pos,Pos,Pos,N/A
+is,0,1,1,Pos,Pos,Neg,N/A
+is,0,1,1,Pos,Neg,Pos,N/A
+is,0,1,1,Pos,Neg,Neg,N/A
+is,0,1,1,Neg,Pos,Pos,N/A
+is,0,1,1,Neg,Pos,Neg,N/A
+is,0,1,1,Neg,Neg,Pos,N/A
+is,0,1,1,Neg,Neg,Neg,N/A
+is,0,1,2,Pos,Pos,Pos,N/A
+is,0,1,2,Pos,Pos,Neg,N/A
+is,0,1,2,Pos,Neg,Pos,N/A
+is,0,1,2,Pos,Neg,Neg,N/A
+is,0,1,2,Neg,Pos,Pos,N/A
+is,0,1,2,Neg,Pos,Neg,N/A
+is,0,1,2,Neg,Neg,Pos,N/A
+is,0,1,2,Neg,Neg,Neg,N/A
+is,0,1,3,Pos,Pos,Pos,N/A
+is,0,1,3,Pos,Pos,Neg,N/A
+is,0,1,3,Pos,Neg,Pos,N/A
+is,0,1,3,Pos,Neg,Neg,N/A
+is,0,1,3,Neg,Pos,Pos,N/A
+is,0,1,3,Neg,Pos,Neg,N/A
+is,0,1,3,Neg,Neg,Pos,N/A
+is,0,1,3,Neg,Neg,Neg,N/A
+is,X Adjusted,0,1,Pos,Pos,Pos,N/A
+is,X Adjusted,0,1,Pos,Pos,Neg,N/A
+is,X Adjusted,0,1,Pos,Neg,Pos,N/A
+is,X Adjusted,0,1,Pos,Neg,Neg,N/A
+is,X Adjusted,0,1,Neg,Pos,Pos,N/A
+is,X Adjusted,0,1,Neg,Pos,Neg,N/A
+is,X Adjusted,0,1,Neg,Neg,Pos,N/A
+is,X Adjusted,0,1,Neg,Neg,Neg,N/A
+is,X Adjusted,0,2,Pos,Pos,Pos,N/A
+is,X Adjusted,0,2,Pos,Pos,Neg,N/A
+is,X Adjusted,0,2,Pos,Neg,Pos,N/A
+is,X Adjusted,0,2,Pos,Neg,Neg,N/A
+is,X Adjusted,0,2,Neg,Pos,Pos,N/A
+is,X Adjusted,0,2,Neg,Pos,Neg,N/A
+is,X Adjusted,0,2,Neg,Neg,Pos,N/A
+is,X Adjusted,0,2,Neg,Neg,Neg,N/A
+is,X Adjusted,0,3,Pos,Pos,Pos,N/A
+is,X Adjusted,0,3,Pos,Pos,Neg,N/A
+is,X Adjusted,0,3,Pos,Neg,Pos,N/A
+is,X Adjusted,0,3,Pos,Neg,Neg,N/A
+is,X Adjusted,0,3,Neg,Pos,Pos,N/A
+is,X Adjusted,0,3,Neg,Pos,Neg,N/A
+is,X Adjusted,0,3,Neg,Neg,Pos,N/A
+is,X Adjusted,0,3,Neg,Neg,Neg,N/A
+is,X Adjusted,X,1,Pos,Pos,Pos,N/A
+is,X Adjusted,X,1,Pos,Pos,Neg,N/A
+is,X Adjusted,X,1,Pos,Neg,Pos,N/A
+is,X Adjusted,X,1,Pos,Neg,Neg,N/A
+is,X Adjusted,X,1,Neg,Pos,Pos,N/A
+is,X Adjusted,X,1,Neg,Pos,Neg,N/A
+is,X Adjusted,X,1,Neg,Neg,Pos,N/A
+is,X Adjusted,X,1,Neg,Neg,Neg,N/A
+is,X Adjusted,X,2,Pos,Pos,Pos,N/A
+is,X Adjusted,X,2,Pos,Pos,Neg,N/A
+is,X Adjusted,X,2,Pos,Neg,Pos,N/A
+is,X Adjusted,X,2,Pos,Neg,Neg,N/A
+is,X Adjusted,X,2,Neg,Pos,Pos,N/A
+is,X Adjusted,X,2,Neg,Pos,Neg,N/A
+is,X Adjusted,X,2,Neg,Neg,Pos,N/A
+is,X Adjusted,X,2,Neg,Neg,Neg,N/A
+is,X Adjusted,X,3,Pos,Pos,Pos,N/A
+is,X Adjusted,X,3,Pos,Pos,Neg,N/A
+is,X Adjusted,X,3,Pos,Neg,Pos,N/A
+is,X Adjusted,X,3,Pos,Neg,Neg,N/A
+is,X Adjusted,X,3,Neg,Pos,Pos,N/A
+is,X Adjusted,X,3,Neg,Pos,Neg,N/A
+is,X Adjusted,X,3,Neg,Neg,Pos,N/A
+is,X Adjusted,X,3,Neg,Neg,Neg,N/A
+is,X Adjusted,1,1,Pos,Pos,Pos,N/A
+is,X Adjusted,1,1,Pos,Pos,Neg,N/A
+is,X Adjusted,1,1,Pos,Neg,Pos,N/A
+is,X Adjusted,1,1,Pos,Neg,Neg,N/A
+is,X Adjusted,1,1,Neg,Pos,Pos,N/A
+is,X Adjusted,1,1,Neg,Pos,Neg,N/A
+is,X Adjusted,1,1,Neg,Neg,Pos,N/A
+is,X Adjusted,1,1,Neg,Neg,Neg,N/A
+is,X Adjusted,1,2,Pos,Pos,Pos,N/A
+is,X Adjusted,1,2,Pos,Pos,Neg,N/A
+is,X Adjusted,1,2,Pos,Neg,Pos,N/A
+is,X Adjusted,1,2,Pos,Neg,Neg,N/A
+is,X Adjusted,1,2,Neg,Pos,Pos,N/A
+is,X Adjusted,1,2,Neg,Pos,Neg,N/A
+is,X Adjusted,1,2,Neg,Neg,Pos,N/A
+is,X Adjusted,1,2,Neg,Neg,Neg,N/A
+is,X Adjusted,1,3,Pos,Pos,Pos,N/A
+is,X Adjusted,1,3,Pos,Pos,Neg,N/A
+is,X Adjusted,1,3,Pos,Neg,Pos,N/A
+is,X Adjusted,1,3,Pos,Neg,Neg,N/A
+is,X Adjusted,1,3,Neg,Pos,Pos,N/A
+is,X Adjusted,1,3,Neg,Pos,Neg,N/A
+is,X Adjusted,1,3,Neg,Neg,Pos,N/A
+is,X Adjusted,1,3,Neg,Neg,Neg,N/A
+3,1,0,1,Pos,Pos,Pos,N/A
+3,1,0,1,Pos,Pos,Neg,N/A
+3,1,0,1,Pos,Neg,Pos,N/A
+3,1,0,1,Pos,Neg,Neg,N/A
+3,1,0,1,Neg,Pos,Pos,N/A
+3,1,0,1,Neg,Pos,Neg,N/A
+3,1,0,1,Neg,Neg,Pos,N/A
+3,1,0,1,Neg,Neg,Neg,N/A
+3,1,0,2,Pos,Pos,Pos,N/A
+3,1,0,2,Pos,Pos,Neg,N/A
+3,1,0,2,Pos,Neg,Pos,N/A
+3,1,0,2,Pos,Neg,Neg,N/A
+3,1,0,2,Neg,Pos,Pos,N/A
+3,1,0,2,Neg,Pos,Neg,N/A
+3,1,0,2,Neg,Neg,Pos,N/A
+3,1,0,2,Neg,Neg,Neg,N/A
+3,1,0,3,Pos,Pos,Pos,N/A
+3,1,0,3,Pos,Pos,Neg,N/A
+3,1,0,3,Pos,Neg,Pos,N/A
+3,1,0,3,Pos,Neg,Neg,N/A
+3,1,0,3,Neg,Pos,Pos,N/A
+3,1,0,3,Neg,Pos,Neg,N/A
+3,1,0,3,Neg,Neg,Pos,N/A
+3,1,0,3,Neg,Neg,Neg,N/A
+3,1,X,1,Pos,Pos,Pos,N/A
+3,1,X,1,Pos,Pos,Neg,N/A
+3,1,X,1,Pos,Neg,Pos,N/A
+3,1,X,1,Pos,Neg,Neg,N/A
+3,1,X,1,Neg,Pos,Pos,N/A
+3,1,X,1,Neg,Pos,Neg,N/A
+3,1,X,1,Neg,Neg,Pos,N/A
+3,1,X,1,Neg,Neg,Neg,N/A
+3,1,X,2,Pos,Pos,Pos,N/A
+3,1,X,2,Pos,Pos,Neg,N/A
+3,1,X,2,Pos,Neg,Pos,N/A
+3,1,X,2,Pos,Neg,Neg,N/A
+3,1,X,2,Neg,Pos,Pos,N/A
+3,1,X,2,Neg,Pos,Neg,N/A
+3,1,X,2,Neg,Neg,Pos,N/A
+3,1,X,2,Neg,Neg,Neg,N/A
+3,1,X,3,Pos,Pos,Pos,N/A
+3,1,X,3,Pos,Pos,Neg,N/A
+3,1,X,3,Pos,Neg,Pos,N/A
+3,1,X,3,Pos,Neg,Neg,N/A
+3,1,X,3,Neg,Pos,Pos,N/A
+3,1,X,3,Neg,Pos,Neg,N/A
+3,1,X,3,Neg,Neg,Pos,N/A
+3,1,X,3,Neg,Neg,Neg,N/A
+3,1,1,1,Pos,Pos,Pos,N/A
+3,1,1,1,Pos,Pos,Neg,N/A
+3,1,1,1,Pos,Neg,Pos,N/A
+3,1,1,1,Pos,Neg,Neg,N/A
+3,1,1,1,Neg,Pos,Pos,N/A
+3,1,1,1,Neg,Pos,Neg,N/A
+3,1,1,1,Neg,Neg,Pos,N/A
+3,1,1,1,Neg,Neg,Neg,N/A
+3,1,1,2,Pos,Pos,Pos,N/A
+3,1,1,2,Pos,Pos,Neg,N/A
+3,1,1,2,Pos,Neg,Pos,N/A
+3,1,1,2,Pos,Neg,Neg,N/A
+3,1,1,2,Neg,Pos,Pos,N/A
+3,1,1,2,Neg,Pos,Neg,N/A
+3,1,1,2,Neg,Neg,Pos,N/A
+3,1,1,2,Neg,Neg,Neg,N/A
+3,1,1,3,Pos,Pos,Pos,N/A
+3,1,1,3,Pos,Pos,Neg,N/A
+3,1,1,3,Pos,Neg,Pos,N/A
+3,1,1,3,Pos,Neg,Neg,N/A
+3,1,1,3,Neg,Pos,Pos,N/A
+3,1,1,3,Neg,Pos,Neg,N/A
+3,1,1,3,Neg,Neg,Pos,N/A
+3,1,1,3,Neg,Neg,Neg,N/A
+3,2,0,1,Pos,Pos,Pos,N/A
+3,2,0,1,Pos,Pos,Neg,N/A
+3,2,0,1,Pos,Neg,Pos,N/A
+3,2,0,1,Pos,Neg,Neg,N/A
+3,2,0,1,Neg,Pos,Pos,N/A
+3,2,0,1,Neg,Pos,Neg,N/A
+3,2,0,1,Neg,Neg,Pos,N/A
+3,2,0,1,Neg,Neg,Neg,N/A
+3,2,0,2,Pos,Pos,Pos,N/A
+3,2,0,2,Pos,Pos,Neg,N/A
+3,2,0,2,Pos,Neg,Pos,N/A
+3,2,0,2,Pos,Neg,Neg,N/A
+3,2,0,2,Neg,Pos,Pos,N/A
+3,2,0,2,Neg,Pos,Neg,N/A
+3,2,0,2,Neg,Neg,Pos,N/A
+3,2,0,2,Neg,Neg,Neg,N/A
+3,2,0,3,Pos,Pos,Pos,N/A
+3,2,0,3,Pos,Pos,Neg,N/A
+3,2,0,3,Pos,Neg,Pos,N/A
+3,2,0,3,Pos,Neg,Neg,N/A
+3,2,0,3,Neg,Pos,Pos,N/A
+3,2,0,3,Neg,Pos,Neg,N/A
+3,2,0,3,Neg,Neg,Pos,N/A
+3,2,0,3,Neg,Neg,Neg,N/A
+3,2,X,1,Pos,Pos,Pos,N/A
+3,2,X,1,Pos,Pos,Neg,N/A
+3,2,X,1,Pos,Neg,Pos,N/A
+3,2,X,1,Pos,Neg,Neg,N/A
+3,2,X,1,Neg,Pos,Pos,N/A
+3,2,X,1,Neg,Pos,Neg,N/A
+3,2,X,1,Neg,Neg,Pos,N/A
+3,2,X,1,Neg,Neg,Neg,N/A
+3,2,X,2,Pos,Pos,Pos,N/A
+3,2,X,2,Pos,Pos,Neg,N/A
+3,2,X,2,Pos,Neg,Pos,N/A
+3,2,X,2,Pos,Neg,Neg,N/A
+3,2,X,2,Neg,Pos,Pos,N/A
+3,2,X,2,Neg,Pos,Neg,N/A
+3,2,X,2,Neg,Neg,Pos,N/A
+3,2,X,2,Neg,Neg,Neg,N/A
+3,2,X,3,Pos,Pos,Pos,N/A
+3,2,X,3,Pos,Pos,Neg,N/A
+3,2,X,3,Pos,Neg,Pos,N/A
+3,2,X,3,Pos,Neg,Neg,N/A
+3,2,X,3,Neg,Pos,Pos,N/A
+3,2,X,3,Neg,Pos,Neg,N/A
+3,2,X,3,Neg,Neg,Pos,N/A
+3,2,X,3,Neg,Neg,Neg,N/A
+3,2,1,1,Pos,Pos,Pos,N/A
+3,2,1,1,Pos,Pos,Neg,N/A
+3,2,1,1,Pos,Neg,Pos,N/A
+3,2,1,1,Pos,Neg,Neg,N/A
+3,2,1,1,Neg,Pos,Pos,N/A
+3,2,1,1,Neg,Pos,Neg,N/A
+3,2,1,1,Neg,Neg,Pos,N/A
+3,2,1,1,Neg,Neg,Neg,N/A
+3,2,1,2,Pos,Pos,Pos,N/A
+3,2,1,2,Pos,Pos,Neg,N/A
+3,2,1,2,Pos,Neg,Pos,N/A
+3,2,1,2,Pos,Neg,Neg,N/A
+3,2,1,2,Neg,Pos,Pos,N/A
+3,2,1,2,Neg,Pos,Neg,N/A
+3,2,1,2,Neg,Neg,Pos,N/A
+3,2,1,2,Neg,Neg,Neg,N/A
+3,2,1,3,Pos,Pos,Pos,N/A
+3,2,1,3,Pos,Pos,Neg,N/A
+3,2,1,3,Pos,Neg,Pos,N/A
+3,2,1,3,Pos,Neg,Neg,N/A
+3,2,1,3,Neg,Pos,Pos,N/A
+3,2,1,3,Neg,Pos,Neg,N/A
+3,2,1,3,Neg,Neg,Pos,N/A
+3,2,1,3,Neg,Neg,Neg,N/A
+3,3,0,1,Pos,Pos,Pos,N/A
+3,3,0,1,Pos,Pos,Neg,N/A
+3,3,0,1,Pos,Neg,Pos,N/A
+3,3,0,1,Pos,Neg,Neg,N/A
+3,3,0,1,Neg,Pos,Pos,N/A
+3,3,0,1,Neg,Pos,Neg,N/A
+3,3,0,1,Neg,Neg,Pos,N/A
+3,3,0,1,Neg,Neg,Neg,N/A
+3,3,0,2,Pos,Pos,Pos,N/A
+3,3,0,2,Pos,Pos,Neg,N/A
+3,3,0,2,Pos,Neg,Pos,N/A
+3,3,0,2,Pos,Neg,Neg,N/A
+3,3,0,2,Neg,Pos,Pos,N/A
+3,3,0,2,Neg,Pos,Neg,N/A
+3,3,0,2,Neg,Neg,Pos,N/A
+3,3,0,2,Neg,Neg,Neg,N/A
+3,3,0,3,Pos,Pos,Pos,N/A
+3,3,0,3,Pos,Pos,Neg,N/A
+3,3,0,3,Pos,Neg,Pos,N/A
+3,3,0,3,Pos,Neg,Neg,N/A
+3,3,0,3,Neg,Pos,Pos,N/A
+3,3,0,3,Neg,Pos,Neg,N/A
+3,3,0,3,Neg,Neg,Pos,N/A
+3,3,0,3,Neg,Neg,Neg,N/A
+3,3,X,1,Pos,Pos,Pos,N/A
+3,3,X,1,Pos,Pos,Neg,N/A
+3,3,X,1,Pos,Neg,Pos,N/A
+3,3,X,1,Pos,Neg,Neg,N/A
+3,3,X,1,Neg,Pos,Pos,N/A
+3,3,X,1,Neg,Pos,Neg,N/A
+3,3,X,1,Neg,Neg,Pos,N/A
+3,3,X,1,Neg,Neg,Neg,N/A
+3,3,X,2,Pos,Pos,Pos,N/A
+3,3,X,2,Pos,Pos,Neg,N/A
+3,3,X,2,Pos,Neg,Pos,N/A
+3,3,X,2,Pos,Neg,Neg,N/A
+3,3,X,2,Neg,Pos,Pos,N/A
+3,3,X,2,Neg,Pos,Neg,N/A
+3,3,X,2,Neg,Neg,Pos,N/A
+3,3,X,2,Neg,Neg,Neg,N/A
+3,3,X,3,Pos,Pos,Pos,N/A
+3,3,X,3,Pos,Pos,Neg,N/A
+3,3,X,3,Pos,Neg,Pos,N/A
+3,3,X,3,Pos,Neg,Neg,N/A
+3,3,X,3,Neg,Pos,Pos,N/A
+3,3,X,3,Neg,Pos,Neg,N/A
+3,3,X,3,Neg,Neg,Pos,N/A
+3,3,X,3,Neg,Neg,Neg,N/A
+3,3,1,1,Pos,Pos,Pos,N/A
+3,3,1,1,Pos,Pos,Neg,N/A
+3,3,1,1,Pos,Neg,Pos,N/A
+3,3,1,1,Pos,Neg,Neg,N/A
+3,3,1,1,Neg,Pos,Pos,N/A
+3,3,1,1,Neg,Pos,Neg,N/A
+3,3,1,1,Neg,Neg,Pos,N/A
+3,3,1,1,Neg,Neg,Neg,N/A
+3,3,1,2,Pos,Pos,Pos,N/A
+3,3,1,2,Pos,Pos,Neg,N/A
+3,3,1,2,Pos,Neg,Pos,N/A
+3,3,1,2,Pos,Neg,Neg,N/A
+3,3,1,2,Neg,Pos,Pos,N/A
+3,3,1,2,Neg,Pos,Neg,N/A
+3,3,1,2,Neg,Neg,Pos,N/A
+3,3,1,2,Neg,Neg,Neg,N/A
+3,3,1,3,Pos,Pos,Pos,N/A
+3,3,1,3,Pos,Pos,Neg,N/A
+3,3,1,3,Pos,Neg,Pos,N/A
+3,3,1,3,Pos,Neg,Neg,N/A
+3,3,1,3,Neg,Pos,Pos,N/A
+3,3,1,3,Neg,Pos,Neg,N/A
+3,3,1,3,Neg,Neg,Pos,N/A
+3,3,1,3,Neg,Neg,Neg,N/A
+3,0,0,1,Pos,Pos,Pos,N/A
+3,0,0,1,Pos,Pos,Neg,N/A
+3,0,0,1,Pos,Neg,Pos,N/A
+3,0,0,1,Pos,Neg,Neg,N/A
+3,0,0,1,Neg,Pos,Pos,N/A
+3,0,0,1,Neg,Pos,Neg,N/A
+3,0,0,1,Neg,Neg,Pos,N/A
+3,0,0,1,Neg,Neg,Neg,N/A
+3,0,0,2,Pos,Pos,Pos,N/A
+3,0,0,2,Pos,Pos,Neg,N/A
+3,0,0,2,Pos,Neg,Pos,N/A
+3,0,0,2,Pos,Neg,Neg,N/A
+3,0,0,2,Neg,Pos,Pos,N/A
+3,0,0,2,Neg,Pos,Neg,N/A
+3,0,0,2,Neg,Neg,Pos,N/A
+3,0,0,2,Neg,Neg,Neg,N/A
+3,0,0,3,Pos,Pos,Pos,N/A
+3,0,0,3,Pos,Pos,Neg,N/A
+3,0,0,3,Pos,Neg,Pos,N/A
+3,0,0,3,Pos,Neg,Neg,N/A
+3,0,0,3,Neg,Pos,Pos,N/A
+3,0,0,3,Neg,Pos,Neg,N/A
+3,0,0,3,Neg,Neg,Pos,N/A
+3,0,0,3,Neg,Neg,Neg,N/A
+3,0,X,1,Pos,Pos,Pos,N/A
+3,0,X,1,Pos,Pos,Neg,N/A
+3,0,X,1,Pos,Neg,Pos,N/A
+3,0,X,1,Pos,Neg,Neg,N/A
+3,0,X,1,Neg,Pos,Pos,N/A
+3,0,X,1,Neg,Pos,Neg,N/A
+3,0,X,1,Neg,Neg,Pos,N/A
+3,0,X,1,Neg,Neg,Neg,N/A
+3,0,X,2,Pos,Pos,Pos,N/A
+3,0,X,2,Pos,Pos,Neg,N/A
+3,0,X,2,Pos,Neg,Pos,N/A
+3,0,X,2,Pos,Neg,Neg,N/A
+3,0,X,2,Neg,Pos,Pos,N/A
+3,0,X,2,Neg,Pos,Neg,N/A
+3,0,X,2,Neg,Neg,Pos,N/A
+3,0,X,2,Neg,Neg,Neg,N/A
+3,0,X,3,Pos,Pos,Pos,N/A
+3,0,X,3,Pos,Pos,Neg,N/A
+3,0,X,3,Pos,Neg,Pos,N/A
+3,0,X,3,Pos,Neg,Neg,N/A
+3,0,X,3,Neg,Pos,Pos,N/A
+3,0,X,3,Neg,Pos,Neg,N/A
+3,0,X,3,Neg,Neg,Pos,N/A
+3,0,X,3,Neg,Neg,Neg,N/A
+3,0,1,1,Pos,Pos,Pos,N/A
+3,0,1,1,Pos,Pos,Neg,N/A
+3,0,1,1,Pos,Neg,Pos,N/A
+3,0,1,1,Pos,Neg,Neg,N/A
+3,0,1,1,Neg,Pos,Pos,N/A
+3,0,1,1,Neg,Pos,Neg,N/A
+3,0,1,1,Neg,Neg,Pos,N/A
+3,0,1,1,Neg,Neg,Neg,N/A
+3,0,1,2,Pos,Pos,Pos,N/A
+3,0,1,2,Pos,Pos,Neg,N/A
+3,0,1,2,Pos,Neg,Pos,N/A
+3,0,1,2,Pos,Neg,Neg,N/A
+3,0,1,2,Neg,Pos,Pos,N/A
+3,0,1,2,Neg,Pos,Neg,N/A
+3,0,1,2,Neg,Neg,Pos,N/A
+3,0,1,2,Neg,Neg,Neg,N/A
+3,0,1,3,Pos,Pos,Pos,N/A
+3,0,1,3,Pos,Pos,Neg,N/A
+3,0,1,3,Pos,Neg,Pos,N/A
+3,0,1,3,Pos,Neg,Neg,N/A
+3,0,1,3,Neg,Pos,Pos,N/A
+3,0,1,3,Neg,Pos,Neg,N/A
+3,0,1,3,Neg,Neg,Pos,N/A
+3,0,1,3,Neg,Neg,Neg,N/A
+3,X Adjusted,0,1,Pos,Pos,Pos,N/A
+3,X Adjusted,0,1,Pos,Pos,Neg,N/A
+3,X Adjusted,0,1,Pos,Neg,Pos,N/A
+3,X Adjusted,0,1,Pos,Neg,Neg,N/A
+3,X Adjusted,0,1,Neg,Pos,Pos,N/A
+3,X Adjusted,0,1,Neg,Pos,Neg,N/A
+3,X Adjusted,0,1,Neg,Neg,Pos,N/A
+3,X Adjusted,0,1,Neg,Neg,Neg,N/A
+3,X Adjusted,0,2,Pos,Pos,Pos,N/A
+3,X Adjusted,0,2,Pos,Pos,Neg,N/A
+3,X Adjusted,0,2,Pos,Neg,Pos,N/A
+3,X Adjusted,0,2,Pos,Neg,Neg,N/A
+3,X Adjusted,0,2,Neg,Pos,Pos,N/A
+3,X Adjusted,0,2,Neg,Pos,Neg,N/A
+3,X Adjusted,0,2,Neg,Neg,Pos,N/A
+3,X Adjusted,0,2,Neg,Neg,Neg,N/A
+3,X Adjusted,0,3,Pos,Pos,Pos,N/A
+3,X Adjusted,0,3,Pos,Pos,Neg,N/A
+3,X Adjusted,0,3,Pos,Neg,Pos,N/A
+3,X Adjusted,0,3,Pos,Neg,Neg,N/A
+3,X Adjusted,0,3,Neg,Pos,Pos,N/A
+3,X Adjusted,0,3,Neg,Pos,Neg,N/A
+3,X Adjusted,0,3,Neg,Neg,Pos,N/A
+3,X Adjusted,0,3,Neg,Neg,Neg,N/A
+3,X Adjusted,X,1,Pos,Pos,Pos,N/A
+3,X Adjusted,X,1,Pos,Pos,Neg,N/A
+3,X Adjusted,X,1,Pos,Neg,Pos,N/A
+3,X Adjusted,X,1,Pos,Neg,Neg,N/A
+3,X Adjusted,X,1,Neg,Pos,Pos,N/A
+3,X Adjusted,X,1,Neg,Pos,Neg,N/A
+3,X Adjusted,X,1,Neg,Neg,Pos,N/A
+3,X Adjusted,X,1,Neg,Neg,Neg,N/A
+3,X Adjusted,X,2,Pos,Pos,Pos,N/A
+3,X Adjusted,X,2,Pos,Pos,Neg,N/A
+3,X Adjusted,X,2,Pos,Neg,Pos,N/A
+3,X Adjusted,X,2,Pos,Neg,Neg,N/A
+3,X Adjusted,X,2,Neg,Pos,Pos,N/A
+3,X Adjusted,X,2,Neg,Pos,Neg,N/A
+3,X Adjusted,X,2,Neg,Neg,Pos,N/A
+3,X Adjusted,X,2,Neg,Neg,Neg,N/A
+3,X Adjusted,X,3,Pos,Pos,Pos,N/A
+3,X Adjusted,X,3,Pos,Pos,Neg,N/A
+3,X Adjusted,X,3,Pos,Neg,Pos,N/A
+3,X Adjusted,X,3,Pos,Neg,Neg,N/A
+3,X Adjusted,X,3,Neg,Pos,Pos,N/A
+3,X Adjusted,X,3,Neg,Pos,Neg,N/A
+3,X Adjusted,X,3,Neg,Neg,Pos,N/A
+3,X Adjusted,X,3,Neg,Neg,Neg,N/A
+3,X Adjusted,1,1,Pos,Pos,Pos,N/A
+3,X Adjusted,1,1,Pos,Pos,Neg,N/A
+3,X Adjusted,1,1,Pos,Neg,Pos,N/A
+3,X Adjusted,1,1,Pos,Neg,Neg,N/A
+3,X Adjusted,1,1,Neg,Pos,Pos,N/A
+3,X Adjusted,1,1,Neg,Pos,Neg,N/A
+3,X Adjusted,1,1,Neg,Neg,Pos,N/A
+3,X Adjusted,1,1,Neg,Neg,Neg,N/A
+3,X Adjusted,1,2,Pos,Pos,Pos,N/A
+3,X Adjusted,1,2,Pos,Pos,Neg,N/A
+3,X Adjusted,1,2,Pos,Neg,Pos,N/A
+3,X Adjusted,1,2,Pos,Neg,Neg,N/A
+3,X Adjusted,1,2,Neg,Pos,Pos,N/A
+3,X Adjusted,1,2,Neg,Pos,Neg,N/A
+3,X Adjusted,1,2,Neg,Neg,Pos,N/A
+3,X Adjusted,1,2,Neg,Neg,Neg,N/A
+3,X Adjusted,1,3,Pos,Pos,Pos,N/A
+3,X Adjusted,1,3,Pos,Pos,Neg,N/A
+3,X Adjusted,1,3,Pos,Neg,Pos,N/A
+3,X Adjusted,1,3,Pos,Neg,Neg,N/A
+3,X Adjusted,1,3,Neg,Pos,Pos,N/A
+3,X Adjusted,1,3,Neg,Pos,Neg,N/A
+3,X Adjusted,1,3,Neg,Neg,Pos,N/A
+3,X Adjusted,1,3,Neg,Neg,Neg,N/A
+4a,1,0,1,Pos,Pos,Pos,N/A
+4a,1,0,1,Pos,Pos,Neg,N/A
+4a,1,0,1,Pos,Neg,Pos,N/A
+4a,1,0,1,Pos,Neg,Neg,N/A
+4a,1,0,1,Neg,Pos,Pos,N/A
+4a,1,0,1,Neg,Pos,Neg,N/A
+4a,1,0,1,Neg,Neg,Pos,N/A
+4a,1,0,1,Neg,Neg,Neg,N/A
+4a,1,0,2,Pos,Pos,Pos,N/A
+4a,1,0,2,Pos,Pos,Neg,N/A
+4a,1,0,2,Pos,Neg,Pos,N/A
+4a,1,0,2,Pos,Neg,Neg,N/A
+4a,1,0,2,Neg,Pos,Pos,N/A
+4a,1,0,2,Neg,Pos,Neg,N/A
+4a,1,0,2,Neg,Neg,Pos,N/A
+4a,1,0,2,Neg,Neg,Neg,N/A
+4a,1,0,3,Pos,Pos,Pos,N/A
+4a,1,0,3,Pos,Pos,Neg,N/A
+4a,1,0,3,Pos,Neg,Pos,N/A
+4a,1,0,3,Pos,Neg,Neg,N/A
+4a,1,0,3,Neg,Pos,Pos,N/A
+4a,1,0,3,Neg,Pos,Neg,N/A
+4a,1,0,3,Neg,Neg,Pos,N/A
+4a,1,0,3,Neg,Neg,Neg,N/A
+4a,1,X,1,Pos,Pos,Pos,N/A
+4a,1,X,1,Pos,Pos,Neg,N/A
+4a,1,X,1,Pos,Neg,Pos,N/A
+4a,1,X,1,Pos,Neg,Neg,N/A
+4a,1,X,1,Neg,Pos,Pos,N/A
+4a,1,X,1,Neg,Pos,Neg,N/A
+4a,1,X,1,Neg,Neg,Pos,N/A
+4a,1,X,1,Neg,Neg,Neg,N/A
+4a,1,X,2,Pos,Pos,Pos,N/A
+4a,1,X,2,Pos,Pos,Neg,N/A
+4a,1,X,2,Pos,Neg,Pos,N/A
+4a,1,X,2,Pos,Neg,Neg,N/A
+4a,1,X,2,Neg,Pos,Pos,N/A
+4a,1,X,2,Neg,Pos,Neg,N/A
+4a,1,X,2,Neg,Neg,Pos,N/A
+4a,1,X,2,Neg,Neg,Neg,N/A
+4a,1,X,3,Pos,Pos,Pos,N/A
+4a,1,X,3,Pos,Pos,Neg,N/A
+4a,1,X,3,Pos,Neg,Pos,N/A
+4a,1,X,3,Pos,Neg,Neg,N/A
+4a,1,X,3,Neg,Pos,Pos,N/A
+4a,1,X,3,Neg,Pos,Neg,N/A
+4a,1,X,3,Neg,Neg,Pos,N/A
+4a,1,X,3,Neg,Neg,Neg,N/A
+4a,1,1,1,Pos,Pos,Pos,N/A
+4a,1,1,1,Pos,Pos,Neg,N/A
+4a,1,1,1,Pos,Neg,Pos,N/A
+4a,1,1,1,Pos,Neg,Neg,N/A
+4a,1,1,1,Neg,Pos,Pos,N/A
+4a,1,1,1,Neg,Pos,Neg,N/A
+4a,1,1,1,Neg,Neg,Pos,N/A
+4a,1,1,1,Neg,Neg,Neg,N/A
+4a,1,1,2,Pos,Pos,Pos,N/A
+4a,1,1,2,Pos,Pos,Neg,N/A
+4a,1,1,2,Pos,Neg,Pos,N/A
+4a,1,1,2,Pos,Neg,Neg,N/A
+4a,1,1,2,Neg,Pos,Pos,N/A
+4a,1,1,2,Neg,Pos,Neg,N/A
+4a,1,1,2,Neg,Neg,Pos,N/A
+4a,1,1,2,Neg,Neg,Neg,N/A
+4a,1,1,3,Pos,Pos,Pos,N/A
+4a,1,1,3,Pos,Pos,Neg,N/A
+4a,1,1,3,Pos,Neg,Pos,N/A
+4a,1,1,3,Pos,Neg,Neg,N/A
+4a,1,1,3,Neg,Pos,Pos,N/A
+4a,1,1,3,Neg,Pos,Neg,N/A
+4a,1,1,3,Neg,Neg,Pos,N/A
+4a,1,1,3,Neg,Neg,Neg,N/A
+4a,2,0,1,Pos,Pos,Pos,N/A
+4a,2,0,1,Pos,Pos,Neg,N/A
+4a,2,0,1,Pos,Neg,Pos,N/A
+4a,2,0,1,Pos,Neg,Neg,N/A
+4a,2,0,1,Neg,Pos,Pos,N/A
+4a,2,0,1,Neg,Pos,Neg,N/A
+4a,2,0,1,Neg,Neg,Pos,N/A
+4a,2,0,1,Neg,Neg,Neg,N/A
+4a,2,0,2,Pos,Pos,Pos,N/A
+4a,2,0,2,Pos,Pos,Neg,N/A
+4a,2,0,2,Pos,Neg,Pos,N/A
+4a,2,0,2,Pos,Neg,Neg,N/A
+4a,2,0,2,Neg,Pos,Pos,N/A
+4a,2,0,2,Neg,Pos,Neg,N/A
+4a,2,0,2,Neg,Neg,Pos,N/A
+4a,2,0,2,Neg,Neg,Neg,N/A
+4a,2,0,3,Pos,Pos,Pos,N/A
+4a,2,0,3,Pos,Pos,Neg,N/A
+4a,2,0,3,Pos,Neg,Pos,N/A
+4a,2,0,3,Pos,Neg,Neg,N/A
+4a,2,0,3,Neg,Pos,Pos,N/A
+4a,2,0,3,Neg,Pos,Neg,N/A
+4a,2,0,3,Neg,Neg,Pos,N/A
+4a,2,0,3,Neg,Neg,Neg,N/A
+4a,2,X,1,Pos,Pos,Pos,N/A
+4a,2,X,1,Pos,Pos,Neg,N/A
+4a,2,X,1,Pos,Neg,Pos,N/A
+4a,2,X,1,Pos,Neg,Neg,N/A
+4a,2,X,1,Neg,Pos,Pos,N/A
+4a,2,X,1,Neg,Pos,Neg,N/A
+4a,2,X,1,Neg,Neg,Pos,N/A
+4a,2,X,1,Neg,Neg,Neg,N/A
+4a,2,X,2,Pos,Pos,Pos,N/A
+4a,2,X,2,Pos,Pos,Neg,N/A
+4a,2,X,2,Pos,Neg,Pos,N/A
+4a,2,X,2,Pos,Neg,Neg,N/A
+4a,2,X,2,Neg,Pos,Pos,N/A
+4a,2,X,2,Neg,Pos,Neg,N/A
+4a,2,X,2,Neg,Neg,Pos,N/A
+4a,2,X,2,Neg,Neg,Neg,N/A
+4a,2,X,3,Pos,Pos,Pos,N/A
+4a,2,X,3,Pos,Pos,Neg,N/A
+4a,2,X,3,Pos,Neg,Pos,N/A
+4a,2,X,3,Pos,Neg,Neg,N/A
+4a,2,X,3,Neg,Pos,Pos,N/A
+4a,2,X,3,Neg,Pos,Neg,N/A
+4a,2,X,3,Neg,Neg,Pos,N/A
+4a,2,X,3,Neg,Neg,Neg,N/A
+4a,2,1,1,Pos,Pos,Pos,N/A
+4a,2,1,1,Pos,Pos,Neg,N/A
+4a,2,1,1,Pos,Neg,Pos,N/A
+4a,2,1,1,Pos,Neg,Neg,N/A
+4a,2,1,1,Neg,Pos,Pos,N/A
+4a,2,1,1,Neg,Pos,Neg,N/A
+4a,2,1,1,Neg,Neg,Pos,N/A
+4a,2,1,1,Neg,Neg,Neg,N/A
+4a,2,1,2,Pos,Pos,Pos,N/A
+4a,2,1,2,Pos,Pos,Neg,N/A
+4a,2,1,2,Pos,Neg,Pos,N/A
+4a,2,1,2,Pos,Neg,Neg,N/A
+4a,2,1,2,Neg,Pos,Pos,N/A
+4a,2,1,2,Neg,Pos,Neg,N/A
+4a,2,1,2,Neg,Neg,Pos,N/A
+4a,2,1,2,Neg,Neg,Neg,N/A
+4a,2,1,3,Pos,Pos,Pos,N/A
+4a,2,1,3,Pos,Pos,Neg,N/A
+4a,2,1,3,Pos,Neg,Pos,N/A
+4a,2,1,3,Pos,Neg,Neg,N/A
+4a,2,1,3,Neg,Pos,Pos,N/A
+4a,2,1,3,Neg,Pos,Neg,N/A
+4a,2,1,3,Neg,Neg,Pos,N/A
+4a,2,1,3,Neg,Neg,Neg,N/A
+4a,3,0,1,Pos,Pos,Pos,N/A
+4a,3,0,1,Pos,Pos,Neg,N/A
+4a,3,0,1,Pos,Neg,Pos,N/A
+4a,3,0,1,Pos,Neg,Neg,N/A
+4a,3,0,1,Neg,Pos,Pos,N/A
+4a,3,0,1,Neg,Pos,Neg,N/A
+4a,3,0,1,Neg,Neg,Pos,N/A
+4a,3,0,1,Neg,Neg,Neg,N/A
+4a,3,0,2,Pos,Pos,Pos,N/A
+4a,3,0,2,Pos,Pos,Neg,N/A
+4a,3,0,2,Pos,Neg,Pos,N/A
+4a,3,0,2,Pos,Neg,Neg,N/A
+4a,3,0,2,Neg,Pos,Pos,N/A
+4a,3,0,2,Neg,Pos,Neg,N/A
+4a,3,0,2,Neg,Neg,Pos,N/A
+4a,3,0,2,Neg,Neg,Neg,N/A
+4a,3,0,3,Pos,Pos,Pos,N/A
+4a,3,0,3,Pos,Pos,Neg,N/A
+4a,3,0,3,Pos,Neg,Pos,N/A
+4a,3,0,3,Pos,Neg,Neg,N/A
+4a,3,0,3,Neg,Pos,Pos,N/A
+4a,3,0,3,Neg,Pos,Neg,N/A
+4a,3,0,3,Neg,Neg,Pos,N/A
+4a,3,0,3,Neg,Neg,Neg,N/A
+4a,3,X,1,Pos,Pos,Pos,N/A
+4a,3,X,1,Pos,Pos,Neg,N/A
+4a,3,X,1,Pos,Neg,Pos,N/A
+4a,3,X,1,Pos,Neg,Neg,N/A
+4a,3,X,1,Neg,Pos,Pos,N/A
+4a,3,X,1,Neg,Pos,Neg,N/A
+4a,3,X,1,Neg,Neg,Pos,N/A
+4a,3,X,1,Neg,Neg,Neg,N/A
+4a,3,X,2,Pos,Pos,Pos,N/A
+4a,3,X,2,Pos,Pos,Neg,N/A
+4a,3,X,2,Pos,Neg,Pos,N/A
+4a,3,X,2,Pos,Neg,Neg,N/A
+4a,3,X,2,Neg,Pos,Pos,N/A
+4a,3,X,2,Neg,Pos,Neg,N/A
+4a,3,X,2,Neg,Neg,Pos,N/A
+4a,3,X,2,Neg,Neg,Neg,N/A
+4a,3,X,3,Pos,Pos,Pos,N/A
+4a,3,X,3,Pos,Pos,Neg,N/A
+4a,3,X,3,Pos,Neg,Pos,N/A
+4a,3,X,3,Pos,Neg,Neg,N/A
+4a,3,X,3,Neg,Pos,Pos,N/A
+4a,3,X,3,Neg,Pos,Neg,N/A
+4a,3,X,3,Neg,Neg,Pos,N/A
+4a,3,X,3,Neg,Neg,Neg,N/A
+4a,3,1,1,Pos,Pos,Pos,N/A
+4a,3,1,1,Pos,Pos,Neg,N/A
+4a,3,1,1,Pos,Neg,Pos,N/A
+4a,3,1,1,Pos,Neg,Neg,N/A
+4a,3,1,1,Neg,Pos,Pos,N/A
+4a,3,1,1,Neg,Pos,Neg,N/A
+4a,3,1,1,Neg,Neg,Pos,N/A
+4a,3,1,1,Neg,Neg,Neg,N/A
+4a,3,1,2,Pos,Pos,Pos,N/A
+4a,3,1,2,Pos,Pos,Neg,N/A
+4a,3,1,2,Pos,Neg,Pos,N/A
+4a,3,1,2,Pos,Neg,Neg,N/A
+4a,3,1,2,Neg,Pos,Pos,N/A
+4a,3,1,2,Neg,Pos,Neg,N/A
+4a,3,1,2,Neg,Neg,Pos,N/A
+4a,3,1,2,Neg,Neg,Neg,N/A
+4a,3,1,3,Pos,Pos,Pos,N/A
+4a,3,1,3,Pos,Pos,Neg,N/A
+4a,3,1,3,Pos,Neg,Pos,N/A
+4a,3,1,3,Pos,Neg,Neg,N/A
+4a,3,1,3,Neg,Pos,Pos,N/A
+4a,3,1,3,Neg,Pos,Neg,N/A
+4a,3,1,3,Neg,Neg,Pos,N/A
+4a,3,1,3,Neg,Neg,Neg,N/A
+4a,0,0,1,Pos,Pos,Pos,N/A
+4a,0,0,1,Pos,Pos,Neg,N/A
+4a,0,0,1,Pos,Neg,Pos,N/A
+4a,0,0,1,Pos,Neg,Neg,N/A
+4a,0,0,1,Neg,Pos,Pos,N/A
+4a,0,0,1,Neg,Pos,Neg,N/A
+4a,0,0,1,Neg,Neg,Pos,N/A
+4a,0,0,1,Neg,Neg,Neg,N/A
+4a,0,0,2,Pos,Pos,Pos,N/A
+4a,0,0,2,Pos,Pos,Neg,N/A
+4a,0,0,2,Pos,Neg,Pos,N/A
+4a,0,0,2,Pos,Neg,Neg,N/A
+4a,0,0,2,Neg,Pos,Pos,N/A
+4a,0,0,2,Neg,Pos,Neg,N/A
+4a,0,0,2,Neg,Neg,Pos,N/A
+4a,0,0,2,Neg,Neg,Neg,N/A
+4a,0,0,3,Pos,Pos,Pos,N/A
+4a,0,0,3,Pos,Pos,Neg,N/A
+4a,0,0,3,Pos,Neg,Pos,N/A
+4a,0,0,3,Pos,Neg,Neg,N/A
+4a,0,0,3,Neg,Pos,Pos,N/A
+4a,0,0,3,Neg,Pos,Neg,N/A
+4a,0,0,3,Neg,Neg,Pos,N/A
+4a,0,0,3,Neg,Neg,Neg,N/A
+4a,0,X,1,Pos,Pos,Pos,N/A
+4a,0,X,1,Pos,Pos,Neg,N/A
+4a,0,X,1,Pos,Neg,Pos,N/A
+4a,0,X,1,Pos,Neg,Neg,N/A
+4a,0,X,1,Neg,Pos,Pos,N/A
+4a,0,X,1,Neg,Pos,Neg,N/A
+4a,0,X,1,Neg,Neg,Pos,N/A
+4a,0,X,1,Neg,Neg,Neg,N/A
+4a,0,X,2,Pos,Pos,Pos,N/A
+4a,0,X,2,Pos,Pos,Neg,N/A
+4a,0,X,2,Pos,Neg,Pos,N/A
+4a,0,X,2,Pos,Neg,Neg,N/A
+4a,0,X,2,Neg,Pos,Pos,N/A
+4a,0,X,2,Neg,Pos,Neg,N/A
+4a,0,X,2,Neg,Neg,Pos,N/A
+4a,0,X,2,Neg,Neg,Neg,N/A
+4a,0,X,3,Pos,Pos,Pos,N/A
+4a,0,X,3,Pos,Pos,Neg,N/A
+4a,0,X,3,Pos,Neg,Pos,N/A
+4a,0,X,3,Pos,Neg,Neg,N/A
+4a,0,X,3,Neg,Pos,Pos,N/A
+4a,0,X,3,Neg,Pos,Neg,N/A
+4a,0,X,3,Neg,Neg,Pos,N/A
+4a,0,X,3,Neg,Neg,Neg,N/A
+4a,0,1,1,Pos,Pos,Pos,N/A
+4a,0,1,1,Pos,Pos,Neg,N/A
+4a,0,1,1,Pos,Neg,Pos,N/A
+4a,0,1,1,Pos,Neg,Neg,N/A
+4a,0,1,1,Neg,Pos,Pos,N/A
+4a,0,1,1,Neg,Pos,Neg,N/A
+4a,0,1,1,Neg,Neg,Pos,N/A
+4a,0,1,1,Neg,Neg,Neg,N/A
+4a,0,1,2,Pos,Pos,Pos,N/A
+4a,0,1,2,Pos,Pos,Neg,N/A
+4a,0,1,2,Pos,Neg,Pos,N/A
+4a,0,1,2,Pos,Neg,Neg,N/A
+4a,0,1,2,Neg,Pos,Pos,N/A
+4a,0,1,2,Neg,Pos,Neg,N/A
+4a,0,1,2,Neg,Neg,Pos,N/A
+4a,0,1,2,Neg,Neg,Neg,N/A
+4a,0,1,3,Pos,Pos,Pos,N/A
+4a,0,1,3,Pos,Pos,Neg,N/A
+4a,0,1,3,Pos,Neg,Pos,N/A
+4a,0,1,3,Pos,Neg,Neg,N/A
+4a,0,1,3,Neg,Pos,Pos,N/A
+4a,0,1,3,Neg,Pos,Neg,N/A
+4a,0,1,3,Neg,Neg,Pos,N/A
+4a,0,1,3,Neg,Neg,Neg,N/A
+4a,X Adjusted,0,1,Pos,Pos,Pos,N/A
+4a,X Adjusted,0,1,Pos,Pos,Neg,N/A
+4a,X Adjusted,0,1,Pos,Neg,Pos,N/A
+4a,X Adjusted,0,1,Pos,Neg,Neg,N/A
+4a,X Adjusted,0,1,Neg,Pos,Pos,N/A
+4a,X Adjusted,0,1,Neg,Pos,Neg,N/A
+4a,X Adjusted,0,1,Neg,Neg,Pos,N/A
+4a,X Adjusted,0,1,Neg,Neg,Neg,N/A
+4a,X Adjusted,0,2,Pos,Pos,Pos,N/A
+4a,X Adjusted,0,2,Pos,Pos,Neg,N/A
+4a,X Adjusted,0,2,Pos,Neg,Pos,N/A
+4a,X Adjusted,0,2,Pos,Neg,Neg,N/A
+4a,X Adjusted,0,2,Neg,Pos,Pos,N/A
+4a,X Adjusted,0,2,Neg,Pos,Neg,N/A
+4a,X Adjusted,0,2,Neg,Neg,Pos,N/A
+4a,X Adjusted,0,2,Neg,Neg,Neg,N/A
+4a,X Adjusted,0,3,Pos,Pos,Pos,N/A
+4a,X Adjusted,0,3,Pos,Pos,Neg,N/A
+4a,X Adjusted,0,3,Pos,Neg,Pos,N/A
+4a,X Adjusted,0,3,Pos,Neg,Neg,N/A
+4a,X Adjusted,0,3,Neg,Pos,Pos,N/A
+4a,X Adjusted,0,3,Neg,Pos,Neg,N/A
+4a,X Adjusted,0,3,Neg,Neg,Pos,N/A
+4a,X Adjusted,0,3,Neg,Neg,Neg,N/A
+4a,X Adjusted,X,1,Pos,Pos,Pos,N/A
+4a,X Adjusted,X,1,Pos,Pos,Neg,N/A
+4a,X Adjusted,X,1,Pos,Neg,Pos,N/A
+4a,X Adjusted,X,1,Pos,Neg,Neg,N/A
+4a,X Adjusted,X,1,Neg,Pos,Pos,N/A
+4a,X Adjusted,X,1,Neg,Pos,Neg,N/A
+4a,X Adjusted,X,1,Neg,Neg,Pos,N/A
+4a,X Adjusted,X,1,Neg,Neg,Neg,N/A
+4a,X Adjusted,X,2,Pos,Pos,Pos,N/A
+4a,X Adjusted,X,2,Pos,Pos,Neg,N/A
+4a,X Adjusted,X,2,Pos,Neg,Pos,N/A
+4a,X Adjusted,X,2,Pos,Neg,Neg,N/A
+4a,X Adjusted,X,2,Neg,Pos,Pos,N/A
+4a,X Adjusted,X,2,Neg,Pos,Neg,N/A
+4a,X Adjusted,X,2,Neg,Neg,Pos,N/A
+4a,X Adjusted,X,2,Neg,Neg,Neg,N/A
+4a,X Adjusted,X,3,Pos,Pos,Pos,N/A
+4a,X Adjusted,X,3,Pos,Pos,Neg,N/A
+4a,X Adjusted,X,3,Pos,Neg,Pos,N/A
+4a,X Adjusted,X,3,Pos,Neg,Neg,N/A
+4a,X Adjusted,X,3,Neg,Pos,Pos,N/A
+4a,X Adjusted,X,3,Neg,Pos,Neg,N/A
+4a,X Adjusted,X,3,Neg,Neg,Pos,N/A
+4a,X Adjusted,X,3,Neg,Neg,Neg,N/A
+4a,X Adjusted,1,1,Pos,Pos,Pos,N/A
+4a,X Adjusted,1,1,Pos,Pos,Neg,N/A
+4a,X Adjusted,1,1,Pos,Neg,Pos,N/A
+4a,X Adjusted,1,1,Pos,Neg,Neg,N/A
+4a,X Adjusted,1,1,Neg,Pos,Pos,N/A
+4a,X Adjusted,1,1,Neg,Pos,Neg,N/A
+4a,X Adjusted,1,1,Neg,Neg,Pos,N/A
+4a,X Adjusted,1,1,Neg,Neg,Neg,N/A
+4a,X Adjusted,1,2,Pos,Pos,Pos,N/A
+4a,X Adjusted,1,2,Pos,Pos,Neg,N/A
+4a,X Adjusted,1,2,Pos,Neg,Pos,N/A
+4a,X Adjusted,1,2,Pos,Neg,Neg,N/A
+4a,X Adjusted,1,2,Neg,Pos,Pos,N/A
+4a,X Adjusted,1,2,Neg,Pos,Neg,N/A
+4a,X Adjusted,1,2,Neg,Neg,Pos,N/A
+4a,X Adjusted,1,2,Neg,Neg,Neg,N/A
+4a,X Adjusted,1,3,Pos,Pos,Pos,N/A
+4a,X Adjusted,1,3,Pos,Pos,Neg,N/A
+4a,X Adjusted,1,3,Pos,Neg,Pos,N/A
+4a,X Adjusted,1,3,Pos,Neg,Neg,N/A
+4a,X Adjusted,1,3,Neg,Pos,Pos,N/A
+4a,X Adjusted,1,3,Neg,Pos,Neg,N/A
+4a,X Adjusted,1,3,Neg,Neg,Pos,N/A
+4a,X Adjusted,1,3,Neg,Neg,Neg,N/A
+4b,1,0,1,Pos,Pos,Pos,N/A
+4b,1,0,1,Pos,Pos,Neg,N/A
+4b,1,0,1,Pos,Neg,Pos,N/A
+4b,1,0,1,Pos,Neg,Neg,N/A
+4b,1,0,1,Neg,Pos,Pos,N/A
+4b,1,0,1,Neg,Pos,Neg,N/A
+4b,1,0,1,Neg,Neg,Pos,N/A
+4b,1,0,1,Neg,Neg,Neg,N/A
+4b,1,0,2,Pos,Pos,Pos,N/A
+4b,1,0,2,Pos,Pos,Neg,N/A
+4b,1,0,2,Pos,Neg,Pos,N/A
+4b,1,0,2,Pos,Neg,Neg,N/A
+4b,1,0,2,Neg,Pos,Pos,N/A
+4b,1,0,2,Neg,Pos,Neg,N/A
+4b,1,0,2,Neg,Neg,Pos,N/A
+4b,1,0,2,Neg,Neg,Neg,N/A
+4b,1,0,3,Pos,Pos,Pos,N/A
+4b,1,0,3,Pos,Pos,Neg,N/A
+4b,1,0,3,Pos,Neg,Pos,N/A
+4b,1,0,3,Pos,Neg,Neg,N/A
+4b,1,0,3,Neg,Pos,Pos,N/A
+4b,1,0,3,Neg,Pos,Neg,N/A
+4b,1,0,3,Neg,Neg,Pos,N/A
+4b,1,0,3,Neg,Neg,Neg,N/A
+4b,1,X,1,Pos,Pos,Pos,N/A
+4b,1,X,1,Pos,Pos,Neg,N/A
+4b,1,X,1,Pos,Neg,Pos,N/A
+4b,1,X,1,Pos,Neg,Neg,N/A
+4b,1,X,1,Neg,Pos,Pos,N/A
+4b,1,X,1,Neg,Pos,Neg,N/A
+4b,1,X,1,Neg,Neg,Pos,N/A
+4b,1,X,1,Neg,Neg,Neg,N/A
+4b,1,X,2,Pos,Pos,Pos,N/A
+4b,1,X,2,Pos,Pos,Neg,N/A
+4b,1,X,2,Pos,Neg,Pos,N/A
+4b,1,X,2,Pos,Neg,Neg,N/A
+4b,1,X,2,Neg,Pos,Pos,N/A
+4b,1,X,2,Neg,Pos,Neg,N/A
+4b,1,X,2,Neg,Neg,Pos,N/A
+4b,1,X,2,Neg,Neg,Neg,N/A
+4b,1,X,3,Pos,Pos,Pos,N/A
+4b,1,X,3,Pos,Pos,Neg,N/A
+4b,1,X,3,Pos,Neg,Pos,N/A
+4b,1,X,3,Pos,Neg,Neg,N/A
+4b,1,X,3,Neg,Pos,Pos,N/A
+4b,1,X,3,Neg,Pos,Neg,N/A
+4b,1,X,3,Neg,Neg,Pos,N/A
+4b,1,X,3,Neg,Neg,Neg,N/A
+4b,1,1,1,Pos,Pos,Pos,N/A
+4b,1,1,1,Pos,Pos,Neg,N/A
+4b,1,1,1,Pos,Neg,Pos,N/A
+4b,1,1,1,Pos,Neg,Neg,N/A
+4b,1,1,1,Neg,Pos,Pos,N/A
+4b,1,1,1,Neg,Pos,Neg,N/A
+4b,1,1,1,Neg,Neg,Pos,N/A
+4b,1,1,1,Neg,Neg,Neg,N/A
+4b,1,1,2,Pos,Pos,Pos,N/A
+4b,1,1,2,Pos,Pos,Neg,N/A
+4b,1,1,2,Pos,Neg,Pos,N/A
+4b,1,1,2,Pos,Neg,Neg,N/A
+4b,1,1,2,Neg,Pos,Pos,N/A
+4b,1,1,2,Neg,Pos,Neg,N/A
+4b,1,1,2,Neg,Neg,Pos,N/A
+4b,1,1,2,Neg,Neg,Neg,N/A
+4b,1,1,3,Pos,Pos,Pos,N/A
+4b,1,1,3,Pos,Pos,Neg,N/A
+4b,1,1,3,Pos,Neg,Pos,N/A
+4b,1,1,3,Pos,Neg,Neg,N/A
+4b,1,1,3,Neg,Pos,Pos,N/A
+4b,1,1,3,Neg,Pos,Neg,N/A
+4b,1,1,3,Neg,Neg,Pos,N/A
+4b,1,1,3,Neg,Neg,Neg,N/A
+4b,2,0,1,Pos,Pos,Pos,N/A
+4b,2,0,1,Pos,Pos,Neg,N/A
+4b,2,0,1,Pos,Neg,Pos,N/A
+4b,2,0,1,Pos,Neg,Neg,N/A
+4b,2,0,1,Neg,Pos,Pos,N/A
+4b,2,0,1,Neg,Pos,Neg,N/A
+4b,2,0,1,Neg,Neg,Pos,N/A
+4b,2,0,1,Neg,Neg,Neg,N/A
+4b,2,0,2,Pos,Pos,Pos,N/A
+4b,2,0,2,Pos,Pos,Neg,N/A
+4b,2,0,2,Pos,Neg,Pos,N/A
+4b,2,0,2,Pos,Neg,Neg,N/A
+4b,2,0,2,Neg,Pos,Pos,N/A
+4b,2,0,2,Neg,Pos,Neg,N/A
+4b,2,0,2,Neg,Neg,Pos,N/A
+4b,2,0,2,Neg,Neg,Neg,N/A
+4b,2,0,3,Pos,Pos,Pos,N/A
+4b,2,0,3,Pos,Pos,Neg,N/A
+4b,2,0,3,Pos,Neg,Pos,N/A
+4b,2,0,3,Pos,Neg,Neg,N/A
+4b,2,0,3,Neg,Pos,Pos,N/A
+4b,2,0,3,Neg,Pos,Neg,N/A
+4b,2,0,3,Neg,Neg,Pos,N/A
+4b,2,0,3,Neg,Neg,Neg,N/A
+4b,2,X,1,Pos,Pos,Pos,N/A
+4b,2,X,1,Pos,Pos,Neg,N/A
+4b,2,X,1,Pos,Neg,Pos,N/A
+4b,2,X,1,Pos,Neg,Neg,N/A
+4b,2,X,1,Neg,Pos,Pos,N/A
+4b,2,X,1,Neg,Pos,Neg,N/A
+4b,2,X,1,Neg,Neg,Pos,N/A
+4b,2,X,1,Neg,Neg,Neg,N/A
+4b,2,X,2,Pos,Pos,Pos,N/A
+4b,2,X,2,Pos,Pos,Neg,N/A
+4b,2,X,2,Pos,Neg,Pos,N/A
+4b,2,X,2,Pos,Neg,Neg,N/A
+4b,2,X,2,Neg,Pos,Pos,N/A
+4b,2,X,2,Neg,Pos,Neg,N/A
+4b,2,X,2,Neg,Neg,Pos,N/A
+4b,2,X,2,Neg,Neg,Neg,N/A
+4b,2,X,3,Pos,Pos,Pos,N/A
+4b,2,X,3,Pos,Pos,Neg,N/A
+4b,2,X,3,Pos,Neg,Pos,N/A
+4b,2,X,3,Pos,Neg,Neg,N/A
+4b,2,X,3,Neg,Pos,Pos,N/A
+4b,2,X,3,Neg,Pos,Neg,N/A
+4b,2,X,3,Neg,Neg,Pos,N/A
+4b,2,X,3,Neg,Neg,Neg,N/A
+4b,2,1,1,Pos,Pos,Pos,N/A
+4b,2,1,1,Pos,Pos,Neg,N/A
+4b,2,1,1,Pos,Neg,Pos,N/A
+4b,2,1,1,Pos,Neg,Neg,N/A
+4b,2,1,1,Neg,Pos,Pos,N/A
+4b,2,1,1,Neg,Pos,Neg,N/A
+4b,2,1,1,Neg,Neg,Pos,N/A
+4b,2,1,1,Neg,Neg,Neg,N/A
+4b,2,1,2,Pos,Pos,Pos,N/A
+4b,2,1,2,Pos,Pos,Neg,N/A
+4b,2,1,2,Pos,Neg,Pos,N/A
+4b,2,1,2,Pos,Neg,Neg,N/A
+4b,2,1,2,Neg,Pos,Pos,N/A
+4b,2,1,2,Neg,Pos,Neg,N/A
+4b,2,1,2,Neg,Neg,Pos,N/A
+4b,2,1,2,Neg,Neg,Neg,N/A
+4b,2,1,3,Pos,Pos,Pos,N/A
+4b,2,1,3,Pos,Pos,Neg,N/A
+4b,2,1,3,Pos,Neg,Pos,N/A
+4b,2,1,3,Pos,Neg,Neg,N/A
+4b,2,1,3,Neg,Pos,Pos,N/A
+4b,2,1,3,Neg,Pos,Neg,N/A
+4b,2,1,3,Neg,Neg,Pos,N/A
+4b,2,1,3,Neg,Neg,Neg,N/A
+4b,3,0,1,Pos,Pos,Pos,N/A
+4b,3,0,1,Pos,Pos,Neg,N/A
+4b,3,0,1,Pos,Neg,Pos,N/A
+4b,3,0,1,Pos,Neg,Neg,N/A
+4b,3,0,1,Neg,Pos,Pos,N/A
+4b,3,0,1,Neg,Pos,Neg,N/A
+4b,3,0,1,Neg,Neg,Pos,N/A
+4b,3,0,1,Neg,Neg,Neg,N/A
+4b,3,0,2,Pos,Pos,Pos,N/A
+4b,3,0,2,Pos,Pos,Neg,N/A
+4b,3,0,2,Pos,Neg,Pos,N/A
+4b,3,0,2,Pos,Neg,Neg,N/A
+4b,3,0,2,Neg,Pos,Pos,N/A
+4b,3,0,2,Neg,Pos,Neg,N/A
+4b,3,0,2,Neg,Neg,Pos,N/A
+4b,3,0,2,Neg,Neg,Neg,N/A
+4b,3,0,3,Pos,Pos,Pos,N/A
+4b,3,0,3,Pos,Pos,Neg,N/A
+4b,3,0,3,Pos,Neg,Pos,N/A
+4b,3,0,3,Pos,Neg,Neg,N/A
+4b,3,0,3,Neg,Pos,Pos,N/A
+4b,3,0,3,Neg,Pos,Neg,N/A
+4b,3,0,3,Neg,Neg,Pos,N/A
+4b,3,0,3,Neg,Neg,Neg,N/A
+4b,3,X,1,Pos,Pos,Pos,N/A
+4b,3,X,1,Pos,Pos,Neg,N/A
+4b,3,X,1,Pos,Neg,Pos,N/A
+4b,3,X,1,Pos,Neg,Neg,N/A
+4b,3,X,1,Neg,Pos,Pos,N/A
+4b,3,X,1,Neg,Pos,Neg,N/A
+4b,3,X,1,Neg,Neg,Pos,N/A
+4b,3,X,1,Neg,Neg,Neg,N/A
+4b,3,X,2,Pos,Pos,Pos,N/A
+4b,3,X,2,Pos,Pos,Neg,N/A
+4b,3,X,2,Pos,Neg,Pos,N/A
+4b,3,X,2,Pos,Neg,Neg,N/A
+4b,3,X,2,Neg,Pos,Pos,N/A
+4b,3,X,2,Neg,Pos,Neg,N/A
+4b,3,X,2,Neg,Neg,Pos,N/A
+4b,3,X,2,Neg,Neg,Neg,N/A
+4b,3,X,3,Pos,Pos,Pos,N/A
+4b,3,X,3,Pos,Pos,Neg,N/A
+4b,3,X,3,Pos,Neg,Pos,N/A
+4b,3,X,3,Pos,Neg,Neg,N/A
+4b,3,X,3,Neg,Pos,Pos,N/A
+4b,3,X,3,Neg,Pos,Neg,N/A
+4b,3,X,3,Neg,Neg,Pos,N/A
+4b,3,X,3,Neg,Neg,Neg,N/A
+4b,3,1,1,Pos,Pos,Pos,N/A
+4b,3,1,1,Pos,Pos,Neg,N/A
+4b,3,1,1,Pos,Neg,Pos,N/A
+4b,3,1,1,Pos,Neg,Neg,N/A
+4b,3,1,1,Neg,Pos,Pos,N/A
+4b,3,1,1,Neg,Pos,Neg,N/A
+4b,3,1,1,Neg,Neg,Pos,N/A
+4b,3,1,1,Neg,Neg,Neg,N/A
+4b,3,1,2,Pos,Pos,Pos,N/A
+4b,3,1,2,Pos,Pos,Neg,N/A
+4b,3,1,2,Pos,Neg,Pos,N/A
+4b,3,1,2,Pos,Neg,Neg,N/A
+4b,3,1,2,Neg,Pos,Pos,N/A
+4b,3,1,2,Neg,Pos,Neg,N/A
+4b,3,1,2,Neg,Neg,Pos,N/A
+4b,3,1,2,Neg,Neg,Neg,N/A
+4b,3,1,3,Pos,Pos,Pos,N/A
+4b,3,1,3,Pos,Pos,Neg,N/A
+4b,3,1,3,Pos,Neg,Pos,N/A
+4b,3,1,3,Pos,Neg,Neg,N/A
+4b,3,1,3,Neg,Pos,Pos,N/A
+4b,3,1,3,Neg,Pos,Neg,N/A
+4b,3,1,3,Neg,Neg,Pos,N/A
+4b,3,1,3,Neg,Neg,Neg,N/A
+4b,0,0,1,Pos,Pos,Pos,N/A
+4b,0,0,1,Pos,Pos,Neg,N/A
+4b,0,0,1,Pos,Neg,Pos,N/A
+4b,0,0,1,Pos,Neg,Neg,N/A
+4b,0,0,1,Neg,Pos,Pos,N/A
+4b,0,0,1,Neg,Pos,Neg,N/A
+4b,0,0,1,Neg,Neg,Pos,N/A
+4b,0,0,1,Neg,Neg,Neg,N/A
+4b,0,0,2,Pos,Pos,Pos,N/A
+4b,0,0,2,Pos,Pos,Neg,N/A
+4b,0,0,2,Pos,Neg,Pos,N/A
+4b,0,0,2,Pos,Neg,Neg,N/A
+4b,0,0,2,Neg,Pos,Pos,N/A
+4b,0,0,2,Neg,Pos,Neg,N/A
+4b,0,0,2,Neg,Neg,Pos,N/A
+4b,0,0,2,Neg,Neg,Neg,N/A
+4b,0,0,3,Pos,Pos,Pos,N/A
+4b,0,0,3,Pos,Pos,Neg,N/A
+4b,0,0,3,Pos,Neg,Pos,N/A
+4b,0,0,3,Pos,Neg,Neg,N/A
+4b,0,0,3,Neg,Pos,Pos,N/A
+4b,0,0,3,Neg,Pos,Neg,N/A
+4b,0,0,3,Neg,Neg,Pos,N/A
+4b,0,0,3,Neg,Neg,Neg,N/A
+4b,0,X,1,Pos,Pos,Pos,N/A
+4b,0,X,1,Pos,Pos,Neg,N/A
+4b,0,X,1,Pos,Neg,Pos,N/A
+4b,0,X,1,Pos,Neg,Neg,N/A
+4b,0,X,1,Neg,Pos,Pos,N/A
+4b,0,X,1,Neg,Pos,Neg,N/A
+4b,0,X,1,Neg,Neg,Pos,N/A
+4b,0,X,1,Neg,Neg,Neg,N/A
+4b,0,X,2,Pos,Pos,Pos,N/A
+4b,0,X,2,Pos,Pos,Neg,N/A
+4b,0,X,2,Pos,Neg,Pos,N/A
+4b,0,X,2,Pos,Neg,Neg,N/A
+4b,0,X,2,Neg,Pos,Pos,N/A
+4b,0,X,2,Neg,Pos,Neg,N/A
+4b,0,X,2,Neg,Neg,Pos,N/A
+4b,0,X,2,Neg,Neg,Neg,N/A
+4b,0,X,3,Pos,Pos,Pos,N/A
+4b,0,X,3,Pos,Pos,Neg,N/A
+4b,0,X,3,Pos,Neg,Pos,N/A
+4b,0,X,3,Pos,Neg,Neg,N/A
+4b,0,X,3,Neg,Pos,Pos,N/A
+4b,0,X,3,Neg,Pos,Neg,N/A
+4b,0,X,3,Neg,Neg,Pos,N/A
+4b,0,X,3,Neg,Neg,Neg,N/A
+4b,0,1,1,Pos,Pos,Pos,N/A
+4b,0,1,1,Pos,Pos,Neg,N/A
+4b,0,1,1,Pos,Neg,Pos,N/A
+4b,0,1,1,Pos,Neg,Neg,N/A
+4b,0,1,1,Neg,Pos,Pos,N/A
+4b,0,1,1,Neg,Pos,Neg,N/A
+4b,0,1,1,Neg,Neg,Pos,N/A
+4b,0,1,1,Neg,Neg,Neg,N/A
+4b,0,1,2,Pos,Pos,Pos,N/A
+4b,0,1,2,Pos,Pos,Neg,N/A
+4b,0,1,2,Pos,Neg,Pos,N/A
+4b,0,1,2,Pos,Neg,Neg,N/A
+4b,0,1,2,Neg,Pos,Pos,N/A
+4b,0,1,2,Neg,Pos,Neg,N/A
+4b,0,1,2,Neg,Neg,Pos,N/A
+4b,0,1,2,Neg,Neg,Neg,N/A
+4b,0,1,3,Pos,Pos,Pos,N/A
+4b,0,1,3,Pos,Pos,Neg,N/A
+4b,0,1,3,Pos,Neg,Pos,N/A
+4b,0,1,3,Pos,Neg,Neg,N/A
+4b,0,1,3,Neg,Pos,Pos,N/A
+4b,0,1,3,Neg,Pos,Neg,N/A
+4b,0,1,3,Neg,Neg,Pos,N/A
+4b,0,1,3,Neg,Neg,Neg,N/A
+4b,X Adjusted,0,1,Pos,Pos,Pos,N/A
+4b,X Adjusted,0,1,Pos,Pos,Neg,N/A
+4b,X Adjusted,0,1,Pos,Neg,Pos,N/A
+4b,X Adjusted,0,1,Pos,Neg,Neg,N/A
+4b,X Adjusted,0,1,Neg,Pos,Pos,N/A
+4b,X Adjusted,0,1,Neg,Pos,Neg,N/A
+4b,X Adjusted,0,1,Neg,Neg,Pos,N/A
+4b,X Adjusted,0,1,Neg,Neg,Neg,N/A
+4b,X Adjusted,0,2,Pos,Pos,Pos,N/A
+4b,X Adjusted,0,2,Pos,Pos,Neg,N/A
+4b,X Adjusted,0,2,Pos,Neg,Pos,N/A
+4b,X Adjusted,0,2,Pos,Neg,Neg,N/A
+4b,X Adjusted,0,2,Neg,Pos,Pos,N/A
+4b,X Adjusted,0,2,Neg,Pos,Neg,N/A
+4b,X Adjusted,0,2,Neg,Neg,Pos,N/A
+4b,X Adjusted,0,2,Neg,Neg,Neg,N/A
+4b,X Adjusted,0,3,Pos,Pos,Pos,N/A
+4b,X Adjusted,0,3,Pos,Pos,Neg,N/A
+4b,X Adjusted,0,3,Pos,Neg,Pos,N/A
+4b,X Adjusted,0,3,Pos,Neg,Neg,N/A
+4b,X Adjusted,0,3,Neg,Pos,Pos,N/A
+4b,X Adjusted,0,3,Neg,Pos,Neg,N/A
+4b,X Adjusted,0,3,Neg,Neg,Pos,N/A
+4b,X Adjusted,0,3,Neg,Neg,Neg,N/A
+4b,X Adjusted,X,1,Pos,Pos,Pos,N/A
+4b,X Adjusted,X,1,Pos,Pos,Neg,N/A
+4b,X Adjusted,X,1,Pos,Neg,Pos,N/A
+4b,X Adjusted,X,1,Pos,Neg,Neg,N/A
+4b,X Adjusted,X,1,Neg,Pos,Pos,N/A
+4b,X Adjusted,X,1,Neg,Pos,Neg,N/A
+4b,X Adjusted,X,1,Neg,Neg,Pos,N/A
+4b,X Adjusted,X,1,Neg,Neg,Neg,N/A
+4b,X Adjusted,X,2,Pos,Pos,Pos,N/A
+4b,X Adjusted,X,2,Pos,Pos,Neg,N/A
+4b,X Adjusted,X,2,Pos,Neg,Pos,N/A
+4b,X Adjusted,X,2,Pos,Neg,Neg,N/A
+4b,X Adjusted,X,2,Neg,Pos,Pos,N/A
+4b,X Adjusted,X,2,Neg,Pos,Neg,N/A
+4b,X Adjusted,X,2,Neg,Neg,Pos,N/A
+4b,X Adjusted,X,2,Neg,Neg,Neg,N/A
+4b,X Adjusted,X,3,Pos,Pos,Pos,N/A
+4b,X Adjusted,X,3,Pos,Pos,Neg,N/A
+4b,X Adjusted,X,3,Pos,Neg,Pos,N/A
+4b,X Adjusted,X,3,Pos,Neg,Neg,N/A
+4b,X Adjusted,X,3,Neg,Pos,Pos,N/A
+4b,X Adjusted,X,3,Neg,Pos,Neg,N/A
+4b,X Adjusted,X,3,Neg,Neg,Pos,N/A
+4b,X Adjusted,X,3,Neg,Neg,Neg,N/A
+4b,X Adjusted,1,1,Pos,Pos,Pos,N/A
+4b,X Adjusted,1,1,Pos,Pos,Neg,N/A
+4b,X Adjusted,1,1,Pos,Neg,Pos,N/A
+4b,X Adjusted,1,1,Pos,Neg,Neg,N/A
+4b,X Adjusted,1,1,Neg,Pos,Pos,N/A
+4b,X Adjusted,1,1,Neg,Pos,Neg,N/A
+4b,X Adjusted,1,1,Neg,Neg,Pos,N/A
+4b,X Adjusted,1,1,Neg,Neg,Neg,N/A
+4b,X Adjusted,1,2,Pos,Pos,Pos,N/A
+4b,X Adjusted,1,2,Pos,Pos,Neg,N/A
+4b,X Adjusted,1,2,Pos,Neg,Pos,N/A
+4b,X Adjusted,1,2,Pos,Neg,Neg,N/A
+4b,X Adjusted,1,2,Neg,Pos,Pos,N/A
+4b,X Adjusted,1,2,Neg,Pos,Neg,N/A
+4b,X Adjusted,1,2,Neg,Neg,Pos,N/A
+4b,X Adjusted,1,2,Neg,Neg,Neg,N/A
+4b,X Adjusted,1,3,Pos,Pos,Pos,N/A
+4b,X Adjusted,1,3,Pos,Pos,Neg,N/A
+4b,X Adjusted,1,3,Pos,Neg,Pos,N/A
+4b,X Adjusted,1,3,Pos,Neg,Neg,N/A
+4b,X Adjusted,1,3,Neg,Pos,Pos,N/A
+4b,X Adjusted,1,3,Neg,Pos,Neg,N/A
+4b,X Adjusted,1,3,Neg,Neg,Pos,N/A
+4b,X Adjusted,1,3,Neg,Neg,Neg,N/A
+4c,1,0,1,Pos,Pos,Pos,N/A
+4c,1,0,1,Pos,Pos,Neg,N/A
+4c,1,0,1,Pos,Neg,Pos,N/A
+4c,1,0,1,Pos,Neg,Neg,N/A
+4c,1,0,1,Neg,Pos,Pos,N/A
+4c,1,0,1,Neg,Pos,Neg,N/A
+4c,1,0,1,Neg,Neg,Pos,N/A
+4c,1,0,1,Neg,Neg,Neg,N/A
+4c,1,0,2,Pos,Pos,Pos,N/A
+4c,1,0,2,Pos,Pos,Neg,N/A
+4c,1,0,2,Pos,Neg,Pos,N/A
+4c,1,0,2,Pos,Neg,Neg,N/A
+4c,1,0,2,Neg,Pos,Pos,N/A
+4c,1,0,2,Neg,Pos,Neg,N/A
+4c,1,0,2,Neg,Neg,Pos,N/A
+4c,1,0,2,Neg,Neg,Neg,N/A
+4c,1,0,3,Pos,Pos,Pos,N/A
+4c,1,0,3,Pos,Pos,Neg,N/A
+4c,1,0,3,Pos,Neg,Pos,N/A
+4c,1,0,3,Pos,Neg,Neg,N/A
+4c,1,0,3,Neg,Pos,Pos,N/A
+4c,1,0,3,Neg,Pos,Neg,N/A
+4c,1,0,3,Neg,Neg,Pos,N/A
+4c,1,0,3,Neg,Neg,Neg,N/A
+4c,1,X,1,Pos,Pos,Pos,N/A
+4c,1,X,1,Pos,Pos,Neg,N/A
+4c,1,X,1,Pos,Neg,Pos,N/A
+4c,1,X,1,Pos,Neg,Neg,N/A
+4c,1,X,1,Neg,Pos,Pos,N/A
+4c,1,X,1,Neg,Pos,Neg,N/A
+4c,1,X,1,Neg,Neg,Pos,N/A
+4c,1,X,1,Neg,Neg,Neg,N/A
+4c,1,X,2,Pos,Pos,Pos,N/A
+4c,1,X,2,Pos,Pos,Neg,N/A
+4c,1,X,2,Pos,Neg,Pos,N/A
+4c,1,X,2,Pos,Neg,Neg,N/A
+4c,1,X,2,Neg,Pos,Pos,N/A
+4c,1,X,2,Neg,Pos,Neg,N/A
+4c,1,X,2,Neg,Neg,Pos,N/A
+4c,1,X,2,Neg,Neg,Neg,N/A
+4c,1,X,3,Pos,Pos,Pos,N/A
+4c,1,X,3,Pos,Pos,Neg,N/A
+4c,1,X,3,Pos,Neg,Pos,N/A
+4c,1,X,3,Pos,Neg,Neg,N/A
+4c,1,X,3,Neg,Pos,Pos,N/A
+4c,1,X,3,Neg,Pos,Neg,N/A
+4c,1,X,3,Neg,Neg,Pos,N/A
+4c,1,X,3,Neg,Neg,Neg,N/A
+4c,1,1,1,Pos,Pos,Pos,N/A
+4c,1,1,1,Pos,Pos,Neg,N/A
+4c,1,1,1,Pos,Neg,Pos,N/A
+4c,1,1,1,Pos,Neg,Neg,N/A
+4c,1,1,1,Neg,Pos,Pos,N/A
+4c,1,1,1,Neg,Pos,Neg,N/A
+4c,1,1,1,Neg,Neg,Pos,N/A
+4c,1,1,1,Neg,Neg,Neg,N/A
+4c,1,1,2,Pos,Pos,Pos,N/A
+4c,1,1,2,Pos,Pos,Neg,N/A
+4c,1,1,2,Pos,Neg,Pos,N/A
+4c,1,1,2,Pos,Neg,Neg,N/A
+4c,1,1,2,Neg,Pos,Pos,N/A
+4c,1,1,2,Neg,Pos,Neg,N/A
+4c,1,1,2,Neg,Neg,Pos,N/A
+4c,1,1,2,Neg,Neg,Neg,N/A
+4c,1,1,3,Pos,Pos,Pos,N/A
+4c,1,1,3,Pos,Pos,Neg,N/A
+4c,1,1,3,Pos,Neg,Pos,N/A
+4c,1,1,3,Pos,Neg,Neg,N/A
+4c,1,1,3,Neg,Pos,Pos,N/A
+4c,1,1,3,Neg,Pos,Neg,N/A
+4c,1,1,3,Neg,Neg,Pos,N/A
+4c,1,1,3,Neg,Neg,Neg,N/A
+4c,2,0,1,Pos,Pos,Pos,N/A
+4c,2,0,1,Pos,Pos,Neg,N/A
+4c,2,0,1,Pos,Neg,Pos,N/A
+4c,2,0,1,Pos,Neg,Neg,N/A
+4c,2,0,1,Neg,Pos,Pos,N/A
+4c,2,0,1,Neg,Pos,Neg,N/A
+4c,2,0,1,Neg,Neg,Pos,N/A
+4c,2,0,1,Neg,Neg,Neg,N/A
+4c,2,0,2,Pos,Pos,Pos,N/A
+4c,2,0,2,Pos,Pos,Neg,N/A
+4c,2,0,2,Pos,Neg,Pos,N/A
+4c,2,0,2,Pos,Neg,Neg,N/A
+4c,2,0,2,Neg,Pos,Pos,N/A
+4c,2,0,2,Neg,Pos,Neg,N/A
+4c,2,0,2,Neg,Neg,Pos,N/A
+4c,2,0,2,Neg,Neg,Neg,N/A
+4c,2,0,3,Pos,Pos,Pos,N/A
+4c,2,0,3,Pos,Pos,Neg,N/A
+4c,2,0,3,Pos,Neg,Pos,N/A
+4c,2,0,3,Pos,Neg,Neg,N/A
+4c,2,0,3,Neg,Pos,Pos,N/A
+4c,2,0,3,Neg,Pos,Neg,N/A
+4c,2,0,3,Neg,Neg,Pos,N/A
+4c,2,0,3,Neg,Neg,Neg,N/A
+4c,2,X,1,Pos,Pos,Pos,N/A
+4c,2,X,1,Pos,Pos,Neg,N/A
+4c,2,X,1,Pos,Neg,Pos,N/A
+4c,2,X,1,Pos,Neg,Neg,N/A
+4c,2,X,1,Neg,Pos,Pos,N/A
+4c,2,X,1,Neg,Pos,Neg,N/A
+4c,2,X,1,Neg,Neg,Pos,N/A
+4c,2,X,1,Neg,Neg,Neg,N/A
+4c,2,X,2,Pos,Pos,Pos,N/A
+4c,2,X,2,Pos,Pos,Neg,N/A
+4c,2,X,2,Pos,Neg,Pos,N/A
+4c,2,X,2,Pos,Neg,Neg,N/A
+4c,2,X,2,Neg,Pos,Pos,N/A
+4c,2,X,2,Neg,Pos,Neg,N/A
+4c,2,X,2,Neg,Neg,Pos,N/A
+4c,2,X,2,Neg,Neg,Neg,N/A
+4c,2,X,3,Pos,Pos,Pos,N/A
+4c,2,X,3,Pos,Pos,Neg,N/A
+4c,2,X,3,Pos,Neg,Pos,N/A
+4c,2,X,3,Pos,Neg,Neg,N/A
+4c,2,X,3,Neg,Pos,Pos,N/A
+4c,2,X,3,Neg,Pos,Neg,N/A
+4c,2,X,3,Neg,Neg,Pos,N/A
+4c,2,X,3,Neg,Neg,Neg,N/A
+4c,2,1,1,Pos,Pos,Pos,N/A
+4c,2,1,1,Pos,Pos,Neg,N/A
+4c,2,1,1,Pos,Neg,Pos,N/A
+4c,2,1,1,Pos,Neg,Neg,N/A
+4c,2,1,1,Neg,Pos,Pos,N/A
+4c,2,1,1,Neg,Pos,Neg,N/A
+4c,2,1,1,Neg,Neg,Pos,N/A
+4c,2,1,1,Neg,Neg,Neg,N/A
+4c,2,1,2,Pos,Pos,Pos,N/A
+4c,2,1,2,Pos,Pos,Neg,N/A
+4c,2,1,2,Pos,Neg,Pos,N/A
+4c,2,1,2,Pos,Neg,Neg,N/A
+4c,2,1,2,Neg,Pos,Pos,N/A
+4c,2,1,2,Neg,Pos,Neg,N/A
+4c,2,1,2,Neg,Neg,Pos,N/A
+4c,2,1,2,Neg,Neg,Neg,N/A
+4c,2,1,3,Pos,Pos,Pos,N/A
+4c,2,1,3,Pos,Pos,Neg,N/A
+4c,2,1,3,Pos,Neg,Pos,N/A
+4c,2,1,3,Pos,Neg,Neg,N/A
+4c,2,1,3,Neg,Pos,Pos,N/A
+4c,2,1,3,Neg,Pos,Neg,N/A
+4c,2,1,3,Neg,Neg,Pos,N/A
+4c,2,1,3,Neg,Neg,Neg,N/A
+4c,3,0,1,Pos,Pos,Pos,N/A
+4c,3,0,1,Pos,Pos,Neg,N/A
+4c,3,0,1,Pos,Neg,Pos,N/A
+4c,3,0,1,Pos,Neg,Neg,N/A
+4c,3,0,1,Neg,Pos,Pos,N/A
+4c,3,0,1,Neg,Pos,Neg,N/A
+4c,3,0,1,Neg,Neg,Pos,N/A
+4c,3,0,1,Neg,Neg,Neg,N/A
+4c,3,0,2,Pos,Pos,Pos,N/A
+4c,3,0,2,Pos,Pos,Neg,N/A
+4c,3,0,2,Pos,Neg,Pos,N/A
+4c,3,0,2,Pos,Neg,Neg,N/A
+4c,3,0,2,Neg,Pos,Pos,N/A
+4c,3,0,2,Neg,Pos,Neg,N/A
+4c,3,0,2,Neg,Neg,Pos,N/A
+4c,3,0,2,Neg,Neg,Neg,N/A
+4c,3,0,3,Pos,Pos,Pos,N/A
+4c,3,0,3,Pos,Pos,Neg,N/A
+4c,3,0,3,Pos,Neg,Pos,N/A
+4c,3,0,3,Pos,Neg,Neg,N/A
+4c,3,0,3,Neg,Pos,Pos,N/A
+4c,3,0,3,Neg,Pos,Neg,N/A
+4c,3,0,3,Neg,Neg,Pos,N/A
+4c,3,0,3,Neg,Neg,Neg,N/A
+4c,3,X,1,Pos,Pos,Pos,N/A
+4c,3,X,1,Pos,Pos,Neg,N/A
+4c,3,X,1,Pos,Neg,Pos,N/A
+4c,3,X,1,Pos,Neg,Neg,N/A
+4c,3,X,1,Neg,Pos,Pos,N/A
+4c,3,X,1,Neg,Pos,Neg,N/A
+4c,3,X,1,Neg,Neg,Pos,N/A
+4c,3,X,1,Neg,Neg,Neg,N/A
+4c,3,X,2,Pos,Pos,Pos,N/A
+4c,3,X,2,Pos,Pos,Neg,N/A
+4c,3,X,2,Pos,Neg,Pos,N/A
+4c,3,X,2,Pos,Neg,Neg,N/A
+4c,3,X,2,Neg,Pos,Pos,N/A
+4c,3,X,2,Neg,Pos,Neg,N/A
+4c,3,X,2,Neg,Neg,Pos,N/A
+4c,3,X,2,Neg,Neg,Neg,N/A
+4c,3,X,3,Pos,Pos,Pos,N/A
+4c,3,X,3,Pos,Pos,Neg,N/A
+4c,3,X,3,Pos,Neg,Pos,N/A
+4c,3,X,3,Pos,Neg,Neg,N/A
+4c,3,X,3,Neg,Pos,Pos,N/A
+4c,3,X,3,Neg,Pos,Neg,N/A
+4c,3,X,3,Neg,Neg,Pos,N/A
+4c,3,X,3,Neg,Neg,Neg,N/A
+4c,3,1,1,Pos,Pos,Pos,N/A
+4c,3,1,1,Pos,Pos,Neg,N/A
+4c,3,1,1,Pos,Neg,Pos,N/A
+4c,3,1,1,Pos,Neg,Neg,N/A
+4c,3,1,1,Neg,Pos,Pos,N/A
+4c,3,1,1,Neg,Pos,Neg,N/A
+4c,3,1,1,Neg,Neg,Pos,N/A
+4c,3,1,1,Neg,Neg,Neg,N/A
+4c,3,1,2,Pos,Pos,Pos,N/A
+4c,3,1,2,Pos,Pos,Neg,N/A
+4c,3,1,2,Pos,Neg,Pos,N/A
+4c,3,1,2,Pos,Neg,Neg,N/A
+4c,3,1,2,Neg,Pos,Pos,N/A
+4c,3,1,2,Neg,Pos,Neg,N/A
+4c,3,1,2,Neg,Neg,Pos,N/A
+4c,3,1,2,Neg,Neg,Neg,N/A
+4c,3,1,3,Pos,Pos,Pos,N/A
+4c,3,1,3,Pos,Pos,Neg,N/A
+4c,3,1,3,Pos,Neg,Pos,N/A
+4c,3,1,3,Pos,Neg,Neg,N/A
+4c,3,1,3,Neg,Pos,Pos,N/A
+4c,3,1,3,Neg,Pos,Neg,N/A
+4c,3,1,3,Neg,Neg,Pos,N/A
+4c,3,1,3,Neg,Neg,Neg,N/A
+4c,0,0,1,Pos,Pos,Pos,N/A
+4c,0,0,1,Pos,Pos,Neg,N/A
+4c,0,0,1,Pos,Neg,Pos,N/A
+4c,0,0,1,Pos,Neg,Neg,N/A
+4c,0,0,1,Neg,Pos,Pos,N/A
+4c,0,0,1,Neg,Pos,Neg,N/A
+4c,0,0,1,Neg,Neg,Pos,N/A
+4c,0,0,1,Neg,Neg,Neg,N/A
+4c,0,0,2,Pos,Pos,Pos,N/A
+4c,0,0,2,Pos,Pos,Neg,N/A
+4c,0,0,2,Pos,Neg,Pos,N/A
+4c,0,0,2,Pos,Neg,Neg,N/A
+4c,0,0,2,Neg,Pos,Pos,N/A
+4c,0,0,2,Neg,Pos,Neg,N/A
+4c,0,0,2,Neg,Neg,Pos,N/A
+4c,0,0,2,Neg,Neg,Neg,N/A
+4c,0,0,3,Pos,Pos,Pos,N/A
+4c,0,0,3,Pos,Pos,Neg,N/A
+4c,0,0,3,Pos,Neg,Pos,N/A
+4c,0,0,3,Pos,Neg,Neg,N/A
+4c,0,0,3,Neg,Pos,Pos,N/A
+4c,0,0,3,Neg,Pos,Neg,N/A
+4c,0,0,3,Neg,Neg,Pos,N/A
+4c,0,0,3,Neg,Neg,Neg,N/A
+4c,0,X,1,Pos,Pos,Pos,N/A
+4c,0,X,1,Pos,Pos,Neg,N/A
+4c,0,X,1,Pos,Neg,Pos,N/A
+4c,0,X,1,Pos,Neg,Neg,N/A
+4c,0,X,1,Neg,Pos,Pos,N/A
+4c,0,X,1,Neg,Pos,Neg,N/A
+4c,0,X,1,Neg,Neg,Pos,N/A
+4c,0,X,1,Neg,Neg,Neg,N/A
+4c,0,X,2,Pos,Pos,Pos,N/A
+4c,0,X,2,Pos,Pos,Neg,N/A
+4c,0,X,2,Pos,Neg,Pos,N/A
+4c,0,X,2,Pos,Neg,Neg,N/A
+4c,0,X,2,Neg,Pos,Pos,N/A
+4c,0,X,2,Neg,Pos,Neg,N/A
+4c,0,X,2,Neg,Neg,Pos,N/A
+4c,0,X,2,Neg,Neg,Neg,N/A
+4c,0,X,3,Pos,Pos,Pos,N/A
+4c,0,X,3,Pos,Pos,Neg,N/A
+4c,0,X,3,Pos,Neg,Pos,N/A
+4c,0,X,3,Pos,Neg,Neg,N/A
+4c,0,X,3,Neg,Pos,Pos,N/A
+4c,0,X,3,Neg,Pos,Neg,N/A
+4c,0,X,3,Neg,Neg,Pos,N/A
+4c,0,X,3,Neg,Neg,Neg,N/A
+4c,0,1,1,Pos,Pos,Pos,N/A
+4c,0,1,1,Pos,Pos,Neg,N/A
+4c,0,1,1,Pos,Neg,Pos,N/A
+4c,0,1,1,Pos,Neg,Neg,N/A
+4c,0,1,1,Neg,Pos,Pos,N/A
+4c,0,1,1,Neg,Pos,Neg,N/A
+4c,0,1,1,Neg,Neg,Pos,N/A
+4c,0,1,1,Neg,Neg,Neg,N/A
+4c,0,1,2,Pos,Pos,Pos,N/A
+4c,0,1,2,Pos,Pos,Neg,N/A
+4c,0,1,2,Pos,Neg,Pos,N/A
+4c,0,1,2,Pos,Neg,Neg,N/A
+4c,0,1,2,Neg,Pos,Pos,N/A
+4c,0,1,2,Neg,Pos,Neg,N/A
+4c,0,1,2,Neg,Neg,Pos,N/A
+4c,0,1,2,Neg,Neg,Neg,N/A
+4c,0,1,3,Pos,Pos,Pos,N/A
+4c,0,1,3,Pos,Pos,Neg,N/A
+4c,0,1,3,Pos,Neg,Pos,N/A
+4c,0,1,3,Pos,Neg,Neg,N/A
+4c,0,1,3,Neg,Pos,Pos,N/A
+4c,0,1,3,Neg,Pos,Neg,N/A
+4c,0,1,3,Neg,Neg,Pos,N/A
+4c,0,1,3,Neg,Neg,Neg,N/A
+4c,X Adjusted,0,1,Pos,Pos,Pos,N/A
+4c,X Adjusted,0,1,Pos,Pos,Neg,N/A
+4c,X Adjusted,0,1,Pos,Neg,Pos,N/A
+4c,X Adjusted,0,1,Pos,Neg,Neg,N/A
+4c,X Adjusted,0,1,Neg,Pos,Pos,N/A
+4c,X Adjusted,0,1,Neg,Pos,Neg,N/A
+4c,X Adjusted,0,1,Neg,Neg,Pos,N/A
+4c,X Adjusted,0,1,Neg,Neg,Neg,N/A
+4c,X Adjusted,0,2,Pos,Pos,Pos,N/A
+4c,X Adjusted,0,2,Pos,Pos,Neg,N/A
+4c,X Adjusted,0,2,Pos,Neg,Pos,N/A
+4c,X Adjusted,0,2,Pos,Neg,Neg,N/A
+4c,X Adjusted,0,2,Neg,Pos,Pos,N/A
+4c,X Adjusted,0,2,Neg,Pos,Neg,N/A
+4c,X Adjusted,0,2,Neg,Neg,Pos,N/A
+4c,X Adjusted,0,2,Neg,Neg,Neg,N/A
+4c,X Adjusted,0,3,Pos,Pos,Pos,N/A
+4c,X Adjusted,0,3,Pos,Pos,Neg,N/A
+4c,X Adjusted,0,3,Pos,Neg,Pos,N/A
+4c,X Adjusted,0,3,Pos,Neg,Neg,N/A
+4c,X Adjusted,0,3,Neg,Pos,Pos,N/A
+4c,X Adjusted,0,3,Neg,Pos,Neg,N/A
+4c,X Adjusted,0,3,Neg,Neg,Pos,N/A
+4c,X Adjusted,0,3,Neg,Neg,Neg,N/A
+4c,X Adjusted,X,1,Pos,Pos,Pos,N/A
+4c,X Adjusted,X,1,Pos,Pos,Neg,N/A
+4c,X Adjusted,X,1,Pos,Neg,Pos,N/A
+4c,X Adjusted,X,1,Pos,Neg,Neg,N/A
+4c,X Adjusted,X,1,Neg,Pos,Pos,N/A
+4c,X Adjusted,X,1,Neg,Pos,Neg,N/A
+4c,X Adjusted,X,1,Neg,Neg,Pos,N/A
+4c,X Adjusted,X,1,Neg,Neg,Neg,N/A
+4c,X Adjusted,X,2,Pos,Pos,Pos,N/A
+4c,X Adjusted,X,2,Pos,Pos,Neg,N/A
+4c,X Adjusted,X,2,Pos,Neg,Pos,N/A
+4c,X Adjusted,X,2,Pos,Neg,Neg,N/A
+4c,X Adjusted,X,2,Neg,Pos,Pos,N/A
+4c,X Adjusted,X,2,Neg,Pos,Neg,N/A
+4c,X Adjusted,X,2,Neg,Neg,Pos,N/A
+4c,X Adjusted,X,2,Neg,Neg,Neg,N/A
+4c,X Adjusted,X,3,Pos,Pos,Pos,N/A
+4c,X Adjusted,X,3,Pos,Pos,Neg,N/A
+4c,X Adjusted,X,3,Pos,Neg,Pos,N/A
+4c,X Adjusted,X,3,Pos,Neg,Neg,N/A
+4c,X Adjusted,X,3,Neg,Pos,Pos,N/A
+4c,X Adjusted,X,3,Neg,Pos,Neg,N/A
+4c,X Adjusted,X,3,Neg,Neg,Pos,N/A
+4c,X Adjusted,X,3,Neg,Neg,Neg,N/A
+4c,X Adjusted,1,1,Pos,Pos,Pos,N/A
+4c,X Adjusted,1,1,Pos,Pos,Neg,N/A
+4c,X Adjusted,1,1,Pos,Neg,Pos,N/A
+4c,X Adjusted,1,1,Pos,Neg,Neg,N/A
+4c,X Adjusted,1,1,Neg,Pos,Pos,N/A
+4c,X Adjusted,1,1,Neg,Pos,Neg,N/A
+4c,X Adjusted,1,1,Neg,Neg,Pos,N/A
+4c,X Adjusted,1,1,Neg,Neg,Neg,N/A
+4c,X Adjusted,1,2,Pos,Pos,Pos,N/A
+4c,X Adjusted,1,2,Pos,Pos,Neg,N/A
+4c,X Adjusted,1,2,Pos,Neg,Pos,N/A
+4c,X Adjusted,1,2,Pos,Neg,Neg,N/A
+4c,X Adjusted,1,2,Neg,Pos,Pos,N/A
+4c,X Adjusted,1,2,Neg,Pos,Neg,N/A
+4c,X Adjusted,1,2,Neg,Neg,Pos,N/A
+4c,X Adjusted,1,2,Neg,Neg,Neg,N/A
+4c,X Adjusted,1,3,Pos,Pos,Pos,N/A
+4c,X Adjusted,1,3,Pos,Pos,Neg,N/A
+4c,X Adjusted,1,3,Pos,Neg,Pos,N/A
+4c,X Adjusted,1,3,Pos,Neg,Neg,N/A
+4c,X Adjusted,1,3,Neg,Pos,Pos,N/A
+4c,X Adjusted,1,3,Neg,Pos,Neg,N/A
+4c,X Adjusted,1,3,Neg,Neg,Pos,N/A
+4c,X Adjusted,1,3,Neg,Neg,Neg,N/A
+4d,1,0,1,Pos,Pos,Pos,N/A
+4d,1,0,1,Pos,Pos,Neg,N/A
+4d,1,0,1,Pos,Neg,Pos,N/A
+4d,1,0,1,Pos,Neg,Neg,N/A
+4d,1,0,1,Neg,Pos,Pos,N/A
+4d,1,0,1,Neg,Pos,Neg,N/A
+4d,1,0,1,Neg,Neg,Pos,N/A
+4d,1,0,1,Neg,Neg,Neg,N/A
+4d,1,0,2,Pos,Pos,Pos,N/A
+4d,1,0,2,Pos,Pos,Neg,N/A
+4d,1,0,2,Pos,Neg,Pos,N/A
+4d,1,0,2,Pos,Neg,Neg,N/A
+4d,1,0,2,Neg,Pos,Pos,N/A
+4d,1,0,2,Neg,Pos,Neg,N/A
+4d,1,0,2,Neg,Neg,Pos,N/A
+4d,1,0,2,Neg,Neg,Neg,N/A
+4d,1,0,3,Pos,Pos,Pos,N/A
+4d,1,0,3,Pos,Pos,Neg,N/A
+4d,1,0,3,Pos,Neg,Pos,N/A
+4d,1,0,3,Pos,Neg,Neg,N/A
+4d,1,0,3,Neg,Pos,Pos,N/A
+4d,1,0,3,Neg,Pos,Neg,N/A
+4d,1,0,3,Neg,Neg,Pos,N/A
+4d,1,0,3,Neg,Neg,Neg,N/A
+4d,1,X,1,Pos,Pos,Pos,N/A
+4d,1,X,1,Pos,Pos,Neg,N/A
+4d,1,X,1,Pos,Neg,Pos,N/A
+4d,1,X,1,Pos,Neg,Neg,N/A
+4d,1,X,1,Neg,Pos,Pos,N/A
+4d,1,X,1,Neg,Pos,Neg,N/A
+4d,1,X,1,Neg,Neg,Pos,N/A
+4d,1,X,1,Neg,Neg,Neg,N/A
+4d,1,X,2,Pos,Pos,Pos,N/A
+4d,1,X,2,Pos,Pos,Neg,N/A
+4d,1,X,2,Pos,Neg,Pos,N/A
+4d,1,X,2,Pos,Neg,Neg,N/A
+4d,1,X,2,Neg,Pos,Pos,N/A
+4d,1,X,2,Neg,Pos,Neg,N/A
+4d,1,X,2,Neg,Neg,Pos,N/A
+4d,1,X,2,Neg,Neg,Neg,N/A
+4d,1,X,3,Pos,Pos,Pos,N/A
+4d,1,X,3,Pos,Pos,Neg,N/A
+4d,1,X,3,Pos,Neg,Pos,N/A
+4d,1,X,3,Pos,Neg,Neg,N/A
+4d,1,X,3,Neg,Pos,Pos,N/A
+4d,1,X,3,Neg,Pos,Neg,N/A
+4d,1,X,3,Neg,Neg,Pos,N/A
+4d,1,X,3,Neg,Neg,Neg,N/A
+4d,1,1,1,Pos,Pos,Pos,N/A
+4d,1,1,1,Pos,Pos,Neg,N/A
+4d,1,1,1,Pos,Neg,Pos,N/A
+4d,1,1,1,Pos,Neg,Neg,N/A
+4d,1,1,1,Neg,Pos,Pos,N/A
+4d,1,1,1,Neg,Pos,Neg,N/A
+4d,1,1,1,Neg,Neg,Pos,N/A
+4d,1,1,1,Neg,Neg,Neg,N/A
+4d,1,1,2,Pos,Pos,Pos,N/A
+4d,1,1,2,Pos,Pos,Neg,N/A
+4d,1,1,2,Pos,Neg,Pos,N/A
+4d,1,1,2,Pos,Neg,Neg,N/A
+4d,1,1,2,Neg,Pos,Pos,N/A
+4d,1,1,2,Neg,Pos,Neg,N/A
+4d,1,1,2,Neg,Neg,Pos,N/A
+4d,1,1,2,Neg,Neg,Neg,N/A
+4d,1,1,3,Pos,Pos,Pos,N/A
+4d,1,1,3,Pos,Pos,Neg,N/A
+4d,1,1,3,Pos,Neg,Pos,N/A
+4d,1,1,3,Pos,Neg,Neg,N/A
+4d,1,1,3,Neg,Pos,Pos,N/A
+4d,1,1,3,Neg,Pos,Neg,N/A
+4d,1,1,3,Neg,Neg,Pos,N/A
+4d,1,1,3,Neg,Neg,Neg,N/A
+4d,2,0,1,Pos,Pos,Pos,N/A
+4d,2,0,1,Pos,Pos,Neg,N/A
+4d,2,0,1,Pos,Neg,Pos,N/A
+4d,2,0,1,Pos,Neg,Neg,N/A
+4d,2,0,1,Neg,Pos,Pos,N/A
+4d,2,0,1,Neg,Pos,Neg,N/A
+4d,2,0,1,Neg,Neg,Pos,N/A
+4d,2,0,1,Neg,Neg,Neg,N/A
+4d,2,0,2,Pos,Pos,Pos,N/A
+4d,2,0,2,Pos,Pos,Neg,N/A
+4d,2,0,2,Pos,Neg,Pos,N/A
+4d,2,0,2,Pos,Neg,Neg,N/A
+4d,2,0,2,Neg,Pos,Pos,N/A
+4d,2,0,2,Neg,Pos,Neg,N/A
+4d,2,0,2,Neg,Neg,Pos,N/A
+4d,2,0,2,Neg,Neg,Neg,N/A
+4d,2,0,3,Pos,Pos,Pos,N/A
+4d,2,0,3,Pos,Pos,Neg,N/A
+4d,2,0,3,Pos,Neg,Pos,N/A
+4d,2,0,3,Pos,Neg,Neg,N/A
+4d,2,0,3,Neg,Pos,Pos,N/A
+4d,2,0,3,Neg,Pos,Neg,N/A
+4d,2,0,3,Neg,Neg,Pos,N/A
+4d,2,0,3,Neg,Neg,Neg,N/A
+4d,2,X,1,Pos,Pos,Pos,N/A
+4d,2,X,1,Pos,Pos,Neg,N/A
+4d,2,X,1,Pos,Neg,Pos,N/A
+4d,2,X,1,Pos,Neg,Neg,N/A
+4d,2,X,1,Neg,Pos,Pos,N/A
+4d,2,X,1,Neg,Pos,Neg,N/A
+4d,2,X,1,Neg,Neg,Pos,N/A
+4d,2,X,1,Neg,Neg,Neg,N/A
+4d,2,X,2,Pos,Pos,Pos,N/A
+4d,2,X,2,Pos,Pos,Neg,N/A
+4d,2,X,2,Pos,Neg,Pos,N/A
+4d,2,X,2,Pos,Neg,Neg,N/A
+4d,2,X,2,Neg,Pos,Pos,N/A
+4d,2,X,2,Neg,Pos,Neg,N/A
+4d,2,X,2,Neg,Neg,Pos,N/A
+4d,2,X,2,Neg,Neg,Neg,N/A
+4d,2,X,3,Pos,Pos,Pos,N/A
+4d,2,X,3,Pos,Pos,Neg,N/A
+4d,2,X,3,Pos,Neg,Pos,N/A
+4d,2,X,3,Pos,Neg,Neg,N/A
+4d,2,X,3,Neg,Pos,Pos,N/A
+4d,2,X,3,Neg,Pos,Neg,N/A
+4d,2,X,3,Neg,Neg,Pos,N/A
+4d,2,X,3,Neg,Neg,Neg,N/A
+4d,2,1,1,Pos,Pos,Pos,N/A
+4d,2,1,1,Pos,Pos,Neg,N/A
+4d,2,1,1,Pos,Neg,Pos,N/A
+4d,2,1,1,Pos,Neg,Neg,N/A
+4d,2,1,1,Neg,Pos,Pos,N/A
+4d,2,1,1,Neg,Pos,Neg,N/A
+4d,2,1,1,Neg,Neg,Pos,N/A
+4d,2,1,1,Neg,Neg,Neg,N/A
+4d,2,1,2,Pos,Pos,Pos,N/A
+4d,2,1,2,Pos,Pos,Neg,N/A
+4d,2,1,2,Pos,Neg,Pos,N/A
+4d,2,1,2,Pos,Neg,Neg,N/A
+4d,2,1,2,Neg,Pos,Pos,N/A
+4d,2,1,2,Neg,Pos,Neg,N/A
+4d,2,1,2,Neg,Neg,Pos,N/A
+4d,2,1,2,Neg,Neg,Neg,N/A
+4d,2,1,3,Pos,Pos,Pos,N/A
+4d,2,1,3,Pos,Pos,Neg,N/A
+4d,2,1,3,Pos,Neg,Pos,N/A
+4d,2,1,3,Pos,Neg,Neg,N/A
+4d,2,1,3,Neg,Pos,Pos,N/A
+4d,2,1,3,Neg,Pos,Neg,N/A
+4d,2,1,3,Neg,Neg,Pos,N/A
+4d,2,1,3,Neg,Neg,Neg,N/A
+4d,3,0,1,Pos,Pos,Pos,N/A
+4d,3,0,1,Pos,Pos,Neg,N/A
+4d,3,0,1,Pos,Neg,Pos,N/A
+4d,3,0,1,Pos,Neg,Neg,N/A
+4d,3,0,1,Neg,Pos,Pos,N/A
+4d,3,0,1,Neg,Pos,Neg,N/A
+4d,3,0,1,Neg,Neg,Pos,N/A
+4d,3,0,1,Neg,Neg,Neg,N/A
+4d,3,0,2,Pos,Pos,Pos,N/A
+4d,3,0,2,Pos,Pos,Neg,N/A
+4d,3,0,2,Pos,Neg,Pos,N/A
+4d,3,0,2,Pos,Neg,Neg,N/A
+4d,3,0,2,Neg,Pos,Pos,N/A
+4d,3,0,2,Neg,Pos,Neg,N/A
+4d,3,0,2,Neg,Neg,Pos,N/A
+4d,3,0,2,Neg,Neg,Neg,N/A
+4d,3,0,3,Pos,Pos,Pos,N/A
+4d,3,0,3,Pos,Pos,Neg,N/A
+4d,3,0,3,Pos,Neg,Pos,N/A
+4d,3,0,3,Pos,Neg,Neg,N/A
+4d,3,0,3,Neg,Pos,Pos,N/A
+4d,3,0,3,Neg,Pos,Neg,N/A
+4d,3,0,3,Neg,Neg,Pos,N/A
+4d,3,0,3,Neg,Neg,Neg,N/A
+4d,3,X,1,Pos,Pos,Pos,N/A
+4d,3,X,1,Pos,Pos,Neg,N/A
+4d,3,X,1,Pos,Neg,Pos,N/A
+4d,3,X,1,Pos,Neg,Neg,N/A
+4d,3,X,1,Neg,Pos,Pos,N/A
+4d,3,X,1,Neg,Pos,Neg,N/A
+4d,3,X,1,Neg,Neg,Pos,N/A
+4d,3,X,1,Neg,Neg,Neg,N/A
+4d,3,X,2,Pos,Pos,Pos,N/A
+4d,3,X,2,Pos,Pos,Neg,N/A
+4d,3,X,2,Pos,Neg,Pos,N/A
+4d,3,X,2,Pos,Neg,Neg,N/A
+4d,3,X,2,Neg,Pos,Pos,N/A
+4d,3,X,2,Neg,Pos,Neg,N/A
+4d,3,X,2,Neg,Neg,Pos,N/A
+4d,3,X,2,Neg,Neg,Neg,N/A
+4d,3,X,3,Pos,Pos,Pos,N/A
+4d,3,X,3,Pos,Pos,Neg,N/A
+4d,3,X,3,Pos,Neg,Pos,N/A
+4d,3,X,3,Pos,Neg,Neg,N/A
+4d,3,X,3,Neg,Pos,Pos,N/A
+4d,3,X,3,Neg,Pos,Neg,N/A
+4d,3,X,3,Neg,Neg,Pos,N/A
+4d,3,X,3,Neg,Neg,Neg,N/A
+4d,3,1,1,Pos,Pos,Pos,N/A
+4d,3,1,1,Pos,Pos,Neg,N/A
+4d,3,1,1,Pos,Neg,Pos,N/A
+4d,3,1,1,Pos,Neg,Neg,N/A
+4d,3,1,1,Neg,Pos,Pos,N/A
+4d,3,1,1,Neg,Pos,Neg,N/A
+4d,3,1,1,Neg,Neg,Pos,N/A
+4d,3,1,1,Neg,Neg,Neg,N/A
+4d,3,1,2,Pos,Pos,Pos,N/A
+4d,3,1,2,Pos,Pos,Neg,N/A
+4d,3,1,2,Pos,Neg,Pos,N/A
+4d,3,1,2,Pos,Neg,Neg,N/A
+4d,3,1,2,Neg,Pos,Pos,N/A
+4d,3,1,2,Neg,Pos,Neg,N/A
+4d,3,1,2,Neg,Neg,Pos,N/A
+4d,3,1,2,Neg,Neg,Neg,N/A
+4d,3,1,3,Pos,Pos,Pos,N/A
+4d,3,1,3,Pos,Pos,Neg,N/A
+4d,3,1,3,Pos,Neg,Pos,N/A
+4d,3,1,3,Pos,Neg,Neg,N/A
+4d,3,1,3,Neg,Pos,Pos,N/A
+4d,3,1,3,Neg,Pos,Neg,N/A
+4d,3,1,3,Neg,Neg,Pos,N/A
+4d,3,1,3,Neg,Neg,Neg,N/A
+4d,0,0,1,Pos,Pos,Pos,N/A
+4d,0,0,1,Pos,Pos,Neg,N/A
+4d,0,0,1,Pos,Neg,Pos,N/A
+4d,0,0,1,Pos,Neg,Neg,N/A
+4d,0,0,1,Neg,Pos,Pos,N/A
+4d,0,0,1,Neg,Pos,Neg,N/A
+4d,0,0,1,Neg,Neg,Pos,N/A
+4d,0,0,1,Neg,Neg,Neg,N/A
+4d,0,0,2,Pos,Pos,Pos,N/A
+4d,0,0,2,Pos,Pos,Neg,N/A
+4d,0,0,2,Pos,Neg,Pos,N/A
+4d,0,0,2,Pos,Neg,Neg,N/A
+4d,0,0,2,Neg,Pos,Pos,N/A
+4d,0,0,2,Neg,Pos,Neg,N/A
+4d,0,0,2,Neg,Neg,Pos,N/A
+4d,0,0,2,Neg,Neg,Neg,N/A
+4d,0,0,3,Pos,Pos,Pos,N/A
+4d,0,0,3,Pos,Pos,Neg,N/A
+4d,0,0,3,Pos,Neg,Pos,N/A
+4d,0,0,3,Pos,Neg,Neg,N/A
+4d,0,0,3,Neg,Pos,Pos,N/A
+4d,0,0,3,Neg,Pos,Neg,N/A
+4d,0,0,3,Neg,Neg,Pos,N/A
+4d,0,0,3,Neg,Neg,Neg,N/A
+4d,0,X,1,Pos,Pos,Pos,N/A
+4d,0,X,1,Pos,Pos,Neg,N/A
+4d,0,X,1,Pos,Neg,Pos,N/A
+4d,0,X,1,Pos,Neg,Neg,N/A
+4d,0,X,1,Neg,Pos,Pos,N/A
+4d,0,X,1,Neg,Pos,Neg,N/A
+4d,0,X,1,Neg,Neg,Pos,N/A
+4d,0,X,1,Neg,Neg,Neg,N/A
+4d,0,X,2,Pos,Pos,Pos,N/A
+4d,0,X,2,Pos,Pos,Neg,N/A
+4d,0,X,2,Pos,Neg,Pos,N/A
+4d,0,X,2,Pos,Neg,Neg,N/A
+4d,0,X,2,Neg,Pos,Pos,N/A
+4d,0,X,2,Neg,Pos,Neg,N/A
+4d,0,X,2,Neg,Neg,Pos,N/A
+4d,0,X,2,Neg,Neg,Neg,N/A
+4d,0,X,3,Pos,Pos,Pos,N/A
+4d,0,X,3,Pos,Pos,Neg,N/A
+4d,0,X,3,Pos,Neg,Pos,N/A
+4d,0,X,3,Pos,Neg,Neg,N/A
+4d,0,X,3,Neg,Pos,Pos,N/A
+4d,0,X,3,Neg,Pos,Neg,N/A
+4d,0,X,3,Neg,Neg,Pos,N/A
+4d,0,X,3,Neg,Neg,Neg,N/A
+4d,0,1,1,Pos,Pos,Pos,N/A
+4d,0,1,1,Pos,Pos,Neg,N/A
+4d,0,1,1,Pos,Neg,Pos,N/A
+4d,0,1,1,Pos,Neg,Neg,N/A
+4d,0,1,1,Neg,Pos,Pos,N/A
+4d,0,1,1,Neg,Pos,Neg,N/A
+4d,0,1,1,Neg,Neg,Pos,N/A
+4d,0,1,1,Neg,Neg,Neg,N/A
+4d,0,1,2,Pos,Pos,Pos,N/A
+4d,0,1,2,Pos,Pos,Neg,N/A
+4d,0,1,2,Pos,Neg,Pos,N/A
+4d,0,1,2,Pos,Neg,Neg,N/A
+4d,0,1,2,Neg,Pos,Pos,N/A
+4d,0,1,2,Neg,Pos,Neg,N/A
+4d,0,1,2,Neg,Neg,Pos,N/A
+4d,0,1,2,Neg,Neg,Neg,N/A
+4d,0,1,3,Pos,Pos,Pos,N/A
+4d,0,1,3,Pos,Pos,Neg,N/A
+4d,0,1,3,Pos,Neg,Pos,N/A
+4d,0,1,3,Pos,Neg,Neg,N/A
+4d,0,1,3,Neg,Pos,Pos,N/A
+4d,0,1,3,Neg,Pos,Neg,N/A
+4d,0,1,3,Neg,Neg,Pos,N/A
+4d,0,1,3,Neg,Neg,Neg,N/A
+4d,X Adjusted,0,1,Pos,Pos,Pos,N/A
+4d,X Adjusted,0,1,Pos,Pos,Neg,N/A
+4d,X Adjusted,0,1,Pos,Neg,Pos,N/A
+4d,X Adjusted,0,1,Pos,Neg,Neg,N/A
+4d,X Adjusted,0,1,Neg,Pos,Pos,N/A
+4d,X Adjusted,0,1,Neg,Pos,Neg,N/A
+4d,X Adjusted,0,1,Neg,Neg,Pos,N/A
+4d,X Adjusted,0,1,Neg,Neg,Neg,N/A
+4d,X Adjusted,0,2,Pos,Pos,Pos,N/A
+4d,X Adjusted,0,2,Pos,Pos,Neg,N/A
+4d,X Adjusted,0,2,Pos,Neg,Pos,N/A
+4d,X Adjusted,0,2,Pos,Neg,Neg,N/A
+4d,X Adjusted,0,2,Neg,Pos,Pos,N/A
+4d,X Adjusted,0,2,Neg,Pos,Neg,N/A
+4d,X Adjusted,0,2,Neg,Neg,Pos,N/A
+4d,X Adjusted,0,2,Neg,Neg,Neg,N/A
+4d,X Adjusted,0,3,Pos,Pos,Pos,N/A
+4d,X Adjusted,0,3,Pos,Pos,Neg,N/A
+4d,X Adjusted,0,3,Pos,Neg,Pos,N/A
+4d,X Adjusted,0,3,Pos,Neg,Neg,N/A
+4d,X Adjusted,0,3,Neg,Pos,Pos,N/A
+4d,X Adjusted,0,3,Neg,Pos,Neg,N/A
+4d,X Adjusted,0,3,Neg,Neg,Pos,N/A
+4d,X Adjusted,0,3,Neg,Neg,Neg,N/A
+4d,X Adjusted,X,1,Pos,Pos,Pos,N/A
+4d,X Adjusted,X,1,Pos,Pos,Neg,N/A
+4d,X Adjusted,X,1,Pos,Neg,Pos,N/A
+4d,X Adjusted,X,1,Pos,Neg,Neg,N/A
+4d,X Adjusted,X,1,Neg,Pos,Pos,N/A
+4d,X Adjusted,X,1,Neg,Pos,Neg,N/A
+4d,X Adjusted,X,1,Neg,Neg,Pos,N/A
+4d,X Adjusted,X,1,Neg,Neg,Neg,N/A
+4d,X Adjusted,X,2,Pos,Pos,Pos,N/A
+4d,X Adjusted,X,2,Pos,Pos,Neg,N/A
+4d,X Adjusted,X,2,Pos,Neg,Pos,N/A
+4d,X Adjusted,X,2,Pos,Neg,Neg,N/A
+4d,X Adjusted,X,2,Neg,Pos,Pos,N/A
+4d,X Adjusted,X,2,Neg,Pos,Neg,N/A
+4d,X Adjusted,X,2,Neg,Neg,Pos,N/A
+4d,X Adjusted,X,2,Neg,Neg,Neg,N/A
+4d,X Adjusted,X,3,Pos,Pos,Pos,N/A
+4d,X Adjusted,X,3,Pos,Pos,Neg,N/A
+4d,X Adjusted,X,3,Pos,Neg,Pos,N/A
+4d,X Adjusted,X,3,Pos,Neg,Neg,N/A
+4d,X Adjusted,X,3,Neg,Pos,Pos,N/A
+4d,X Adjusted,X,3,Neg,Pos,Neg,N/A
+4d,X Adjusted,X,3,Neg,Neg,Pos,N/A
+4d,X Adjusted,X,3,Neg,Neg,Neg,N/A
+4d,X Adjusted,1,1,Pos,Pos,Pos,N/A
+4d,X Adjusted,1,1,Pos,Pos,Neg,N/A
+4d,X Adjusted,1,1,Pos,Neg,Pos,N/A
+4d,X Adjusted,1,1,Pos,Neg,Neg,N/A
+4d,X Adjusted,1,1,Neg,Pos,Pos,N/A
+4d,X Adjusted,1,1,Neg,Pos,Neg,N/A
+4d,X Adjusted,1,1,Neg,Neg,Pos,N/A
+4d,X Adjusted,1,1,Neg,Neg,Neg,N/A
+4d,X Adjusted,1,2,Pos,Pos,Pos,N/A
+4d,X Adjusted,1,2,Pos,Pos,Neg,N/A
+4d,X Adjusted,1,2,Pos,Neg,Pos,N/A
+4d,X Adjusted,1,2,Pos,Neg,Neg,N/A
+4d,X Adjusted,1,2,Neg,Pos,Pos,N/A
+4d,X Adjusted,1,2,Neg,Pos,Neg,N/A
+4d,X Adjusted,1,2,Neg,Neg,Pos,N/A
+4d,X Adjusted,1,2,Neg,Neg,Neg,N/A
+4d,X Adjusted,1,3,Pos,Pos,Pos,N/A
+4d,X Adjusted,1,3,Pos,Pos,Neg,N/A
+4d,X Adjusted,1,3,Pos,Neg,Pos,N/A
+4d,X Adjusted,1,3,Pos,Neg,Neg,N/A
+4d,X Adjusted,1,3,Neg,Pos,Pos,N/A
+4d,X Adjusted,1,3,Neg,Pos,Neg,N/A
+4d,X Adjusted,1,3,Neg,Neg,Pos,N/A
+4d,X Adjusted,1,3,Neg,Neg,Neg,N/A
+X Adjusted,1,0,1,Pos,Pos,Pos,N/A
+X Adjusted,1,0,1,Pos,Pos,Neg,N/A
+X Adjusted,1,0,1,Pos,Neg,Pos,N/A
+X Adjusted,1,0,1,Pos,Neg,Neg,N/A
+X Adjusted,1,0,1,Neg,Pos,Pos,N/A
+X Adjusted,1,0,1,Neg,Pos,Neg,N/A
+X Adjusted,1,0,1,Neg,Neg,Pos,N/A
+X Adjusted,1,0,1,Neg,Neg,Neg,N/A
+X Adjusted,1,0,2,Pos,Pos,Pos,N/A
+X Adjusted,1,0,2,Pos,Pos,Neg,N/A
+X Adjusted,1,0,2,Pos,Neg,Pos,N/A
+X Adjusted,1,0,2,Pos,Neg,Neg,N/A
+X Adjusted,1,0,2,Neg,Pos,Pos,N/A
+X Adjusted,1,0,2,Neg,Pos,Neg,N/A
+X Adjusted,1,0,2,Neg,Neg,Pos,N/A
+X Adjusted,1,0,2,Neg,Neg,Neg,N/A
+X Adjusted,1,0,3,Pos,Pos,Pos,N/A
+X Adjusted,1,0,3,Pos,Pos,Neg,N/A
+X Adjusted,1,0,3,Pos,Neg,Pos,N/A
+X Adjusted,1,0,3,Pos,Neg,Neg,N/A
+X Adjusted,1,0,3,Neg,Pos,Pos,N/A
+X Adjusted,1,0,3,Neg,Pos,Neg,N/A
+X Adjusted,1,0,3,Neg,Neg,Pos,N/A
+X Adjusted,1,0,3,Neg,Neg,Neg,N/A
+X Adjusted,1,X,1,Pos,Pos,Pos,N/A
+X Adjusted,1,X,1,Pos,Pos,Neg,N/A
+X Adjusted,1,X,1,Pos,Neg,Pos,N/A
+X Adjusted,1,X,1,Pos,Neg,Neg,N/A
+X Adjusted,1,X,1,Neg,Pos,Pos,N/A
+X Adjusted,1,X,1,Neg,Pos,Neg,N/A
+X Adjusted,1,X,1,Neg,Neg,Pos,N/A
+X Adjusted,1,X,1,Neg,Neg,Neg,N/A
+X Adjusted,1,X,2,Pos,Pos,Pos,N/A
+X Adjusted,1,X,2,Pos,Pos,Neg,N/A
+X Adjusted,1,X,2,Pos,Neg,Pos,N/A
+X Adjusted,1,X,2,Pos,Neg,Neg,N/A
+X Adjusted,1,X,2,Neg,Pos,Pos,N/A
+X Adjusted,1,X,2,Neg,Pos,Neg,N/A
+X Adjusted,1,X,2,Neg,Neg,Pos,N/A
+X Adjusted,1,X,2,Neg,Neg,Neg,N/A
+X Adjusted,1,X,3,Pos,Pos,Pos,N/A
+X Adjusted,1,X,3,Pos,Pos,Neg,N/A
+X Adjusted,1,X,3,Pos,Neg,Pos,N/A
+X Adjusted,1,X,3,Pos,Neg,Neg,N/A
+X Adjusted,1,X,3,Neg,Pos,Pos,N/A
+X Adjusted,1,X,3,Neg,Pos,Neg,N/A
+X Adjusted,1,X,3,Neg,Neg,Pos,N/A
+X Adjusted,1,X,3,Neg,Neg,Neg,N/A
+X Adjusted,1,1,1,Pos,Pos,Pos,N/A
+X Adjusted,1,1,1,Pos,Pos,Neg,N/A
+X Adjusted,1,1,1,Pos,Neg,Pos,N/A
+X Adjusted,1,1,1,Pos,Neg,Neg,N/A
+X Adjusted,1,1,1,Neg,Pos,Pos,N/A
+X Adjusted,1,1,1,Neg,Pos,Neg,N/A
+X Adjusted,1,1,1,Neg,Neg,Pos,N/A
+X Adjusted,1,1,1,Neg,Neg,Neg,N/A
+X Adjusted,1,1,2,Pos,Pos,Pos,N/A
+X Adjusted,1,1,2,Pos,Pos,Neg,N/A
+X Adjusted,1,1,2,Pos,Neg,Pos,N/A
+X Adjusted,1,1,2,Pos,Neg,Neg,N/A
+X Adjusted,1,1,2,Neg,Pos,Pos,N/A
+X Adjusted,1,1,2,Neg,Pos,Neg,N/A
+X Adjusted,1,1,2,Neg,Neg,Pos,N/A
+X Adjusted,1,1,2,Neg,Neg,Neg,N/A
+X Adjusted,1,1,3,Pos,Pos,Pos,N/A
+X Adjusted,1,1,3,Pos,Pos,Neg,N/A
+X Adjusted,1,1,3,Pos,Neg,Pos,N/A
+X Adjusted,1,1,3,Pos,Neg,Neg,N/A
+X Adjusted,1,1,3,Neg,Pos,Pos,N/A
+X Adjusted,1,1,3,Neg,Pos,Neg,N/A
+X Adjusted,1,1,3,Neg,Neg,Pos,N/A
+X Adjusted,1,1,3,Neg,Neg,Neg,N/A
+X Adjusted,2,0,1,Pos,Pos,Pos,N/A
+X Adjusted,2,0,1,Pos,Pos,Neg,N/A
+X Adjusted,2,0,1,Pos,Neg,Pos,N/A
+X Adjusted,2,0,1,Pos,Neg,Neg,N/A
+X Adjusted,2,0,1,Neg,Pos,Pos,N/A
+X Adjusted,2,0,1,Neg,Pos,Neg,N/A
+X Adjusted,2,0,1,Neg,Neg,Pos,N/A
+X Adjusted,2,0,1,Neg,Neg,Neg,N/A
+X Adjusted,2,0,2,Pos,Pos,Pos,N/A
+X Adjusted,2,0,2,Pos,Pos,Neg,N/A
+X Adjusted,2,0,2,Pos,Neg,Pos,N/A
+X Adjusted,2,0,2,Pos,Neg,Neg,N/A
+X Adjusted,2,0,2,Neg,Pos,Pos,N/A
+X Adjusted,2,0,2,Neg,Pos,Neg,N/A
+X Adjusted,2,0,2,Neg,Neg,Pos,N/A
+X Adjusted,2,0,2,Neg,Neg,Neg,N/A
+X Adjusted,2,0,3,Pos,Pos,Pos,N/A
+X Adjusted,2,0,3,Pos,Pos,Neg,N/A
+X Adjusted,2,0,3,Pos,Neg,Pos,N/A
+X Adjusted,2,0,3,Pos,Neg,Neg,N/A
+X Adjusted,2,0,3,Neg,Pos,Pos,N/A
+X Adjusted,2,0,3,Neg,Pos,Neg,N/A
+X Adjusted,2,0,3,Neg,Neg,Pos,N/A
+X Adjusted,2,0,3,Neg,Neg,Neg,N/A
+X Adjusted,2,X,1,Pos,Pos,Pos,N/A
+X Adjusted,2,X,1,Pos,Pos,Neg,N/A
+X Adjusted,2,X,1,Pos,Neg,Pos,N/A
+X Adjusted,2,X,1,Pos,Neg,Neg,N/A
+X Adjusted,2,X,1,Neg,Pos,Pos,N/A
+X Adjusted,2,X,1,Neg,Pos,Neg,N/A
+X Adjusted,2,X,1,Neg,Neg,Pos,N/A
+X Adjusted,2,X,1,Neg,Neg,Neg,N/A
+X Adjusted,2,X,2,Pos,Pos,Pos,N/A
+X Adjusted,2,X,2,Pos,Pos,Neg,N/A
+X Adjusted,2,X,2,Pos,Neg,Pos,N/A
+X Adjusted,2,X,2,Pos,Neg,Neg,N/A
+X Adjusted,2,X,2,Neg,Pos,Pos,N/A
+X Adjusted,2,X,2,Neg,Pos,Neg,N/A
+X Adjusted,2,X,2,Neg,Neg,Pos,N/A
+X Adjusted,2,X,2,Neg,Neg,Neg,N/A
+X Adjusted,2,X,3,Pos,Pos,Pos,N/A
+X Adjusted,2,X,3,Pos,Pos,Neg,N/A
+X Adjusted,2,X,3,Pos,Neg,Pos,N/A
+X Adjusted,2,X,3,Pos,Neg,Neg,N/A
+X Adjusted,2,X,3,Neg,Pos,Pos,N/A
+X Adjusted,2,X,3,Neg,Pos,Neg,N/A
+X Adjusted,2,X,3,Neg,Neg,Pos,N/A
+X Adjusted,2,X,3,Neg,Neg,Neg,N/A
+X Adjusted,2,1,1,Pos,Pos,Pos,N/A
+X Adjusted,2,1,1,Pos,Pos,Neg,N/A
+X Adjusted,2,1,1,Pos,Neg,Pos,N/A
+X Adjusted,2,1,1,Pos,Neg,Neg,N/A
+X Adjusted,2,1,1,Neg,Pos,Pos,N/A
+X Adjusted,2,1,1,Neg,Pos,Neg,N/A
+X Adjusted,2,1,1,Neg,Neg,Pos,N/A
+X Adjusted,2,1,1,Neg,Neg,Neg,N/A
+X Adjusted,2,1,2,Pos,Pos,Pos,N/A
+X Adjusted,2,1,2,Pos,Pos,Neg,N/A
+X Adjusted,2,1,2,Pos,Neg,Pos,N/A
+X Adjusted,2,1,2,Pos,Neg,Neg,N/A
+X Adjusted,2,1,2,Neg,Pos,Pos,N/A
+X Adjusted,2,1,2,Neg,Pos,Neg,N/A
+X Adjusted,2,1,2,Neg,Neg,Pos,N/A
+X Adjusted,2,1,2,Neg,Neg,Neg,N/A
+X Adjusted,2,1,3,Pos,Pos,Pos,N/A
+X Adjusted,2,1,3,Pos,Pos,Neg,N/A
+X Adjusted,2,1,3,Pos,Neg,Pos,N/A
+X Adjusted,2,1,3,Pos,Neg,Neg,N/A
+X Adjusted,2,1,3,Neg,Pos,Pos,N/A
+X Adjusted,2,1,3,Neg,Pos,Neg,N/A
+X Adjusted,2,1,3,Neg,Neg,Pos,N/A
+X Adjusted,2,1,3,Neg,Neg,Neg,N/A
+X Adjusted,3,0,1,Pos,Pos,Pos,N/A
+X Adjusted,3,0,1,Pos,Pos,Neg,N/A
+X Adjusted,3,0,1,Pos,Neg,Pos,N/A
+X Adjusted,3,0,1,Pos,Neg,Neg,N/A
+X Adjusted,3,0,1,Neg,Pos,Pos,N/A
+X Adjusted,3,0,1,Neg,Pos,Neg,N/A
+X Adjusted,3,0,1,Neg,Neg,Pos,N/A
+X Adjusted,3,0,1,Neg,Neg,Neg,N/A
+X Adjusted,3,0,2,Pos,Pos,Pos,N/A
+X Adjusted,3,0,2,Pos,Pos,Neg,N/A
+X Adjusted,3,0,2,Pos,Neg,Pos,N/A
+X Adjusted,3,0,2,Pos,Neg,Neg,N/A
+X Adjusted,3,0,2,Neg,Pos,Pos,N/A
+X Adjusted,3,0,2,Neg,Pos,Neg,N/A
+X Adjusted,3,0,2,Neg,Neg,Pos,N/A
+X Adjusted,3,0,2,Neg,Neg,Neg,N/A
+X Adjusted,3,0,3,Pos,Pos,Pos,N/A
+X Adjusted,3,0,3,Pos,Pos,Neg,N/A
+X Adjusted,3,0,3,Pos,Neg,Pos,N/A
+X Adjusted,3,0,3,Pos,Neg,Neg,N/A
+X Adjusted,3,0,3,Neg,Pos,Pos,N/A
+X Adjusted,3,0,3,Neg,Pos,Neg,N/A
+X Adjusted,3,0,3,Neg,Neg,Pos,N/A
+X Adjusted,3,0,3,Neg,Neg,Neg,N/A
+X Adjusted,3,X,1,Pos,Pos,Pos,N/A
+X Adjusted,3,X,1,Pos,Pos,Neg,N/A
+X Adjusted,3,X,1,Pos,Neg,Pos,N/A
+X Adjusted,3,X,1,Pos,Neg,Neg,N/A
+X Adjusted,3,X,1,Neg,Pos,Pos,N/A
+X Adjusted,3,X,1,Neg,Pos,Neg,N/A
+X Adjusted,3,X,1,Neg,Neg,Pos,N/A
+X Adjusted,3,X,1,Neg,Neg,Neg,N/A
+X Adjusted,3,X,2,Pos,Pos,Pos,N/A
+X Adjusted,3,X,2,Pos,Pos,Neg,N/A
+X Adjusted,3,X,2,Pos,Neg,Pos,N/A
+X Adjusted,3,X,2,Pos,Neg,Neg,N/A
+X Adjusted,3,X,2,Neg,Pos,Pos,N/A
+X Adjusted,3,X,2,Neg,Pos,Neg,N/A
+X Adjusted,3,X,2,Neg,Neg,Pos,N/A
+X Adjusted,3,X,2,Neg,Neg,Neg,N/A
+X Adjusted,3,X,3,Pos,Pos,Pos,N/A
+X Adjusted,3,X,3,Pos,Pos,Neg,N/A
+X Adjusted,3,X,3,Pos,Neg,Pos,N/A
+X Adjusted,3,X,3,Pos,Neg,Neg,N/A
+X Adjusted,3,X,3,Neg,Pos,Pos,N/A
+X Adjusted,3,X,3,Neg,Pos,Neg,N/A
+X Adjusted,3,X,3,Neg,Neg,Pos,N/A
+X Adjusted,3,X,3,Neg,Neg,Neg,N/A
+X Adjusted,3,1,1,Pos,Pos,Pos,N/A
+X Adjusted,3,1,1,Pos,Pos,Neg,N/A
+X Adjusted,3,1,1,Pos,Neg,Pos,N/A
+X Adjusted,3,1,1,Pos,Neg,Neg,N/A
+X Adjusted,3,1,1,Neg,Pos,Pos,N/A
+X Adjusted,3,1,1,Neg,Pos,Neg,N/A
+X Adjusted,3,1,1,Neg,Neg,Pos,N/A
+X Adjusted,3,1,1,Neg,Neg,Neg,N/A
+X Adjusted,3,1,2,Pos,Pos,Pos,N/A
+X Adjusted,3,1,2,Pos,Pos,Neg,N/A
+X Adjusted,3,1,2,Pos,Neg,Pos,N/A
+X Adjusted,3,1,2,Pos,Neg,Neg,N/A
+X Adjusted,3,1,2,Neg,Pos,Pos,N/A
+X Adjusted,3,1,2,Neg,Pos,Neg,N/A
+X Adjusted,3,1,2,Neg,Neg,Pos,N/A
+X Adjusted,3,1,2,Neg,Neg,Neg,N/A
+X Adjusted,3,1,3,Pos,Pos,Pos,N/A
+X Adjusted,3,1,3,Pos,Pos,Neg,N/A
+X Adjusted,3,1,3,Pos,Neg,Pos,N/A
+X Adjusted,3,1,3,Pos,Neg,Neg,N/A
+X Adjusted,3,1,3,Neg,Pos,Pos,N/A
+X Adjusted,3,1,3,Neg,Pos,Neg,N/A
+X Adjusted,3,1,3,Neg,Neg,Pos,N/A
+X Adjusted,3,1,3,Neg,Neg,Neg,N/A
+X Adjusted,0,0,1,Pos,Pos,Pos,N/A
+X Adjusted,0,0,1,Pos,Pos,Neg,N/A
+X Adjusted,0,0,1,Pos,Neg,Pos,N/A
+X Adjusted,0,0,1,Pos,Neg,Neg,N/A
+X Adjusted,0,0,1,Neg,Pos,Pos,N/A
+X Adjusted,0,0,1,Neg,Pos,Neg,N/A
+X Adjusted,0,0,1,Neg,Neg,Pos,N/A
+X Adjusted,0,0,1,Neg,Neg,Neg,N/A
+X Adjusted,0,0,2,Pos,Pos,Pos,N/A
+X Adjusted,0,0,2,Pos,Pos,Neg,N/A
+X Adjusted,0,0,2,Pos,Neg,Pos,N/A
+X Adjusted,0,0,2,Pos,Neg,Neg,N/A
+X Adjusted,0,0,2,Neg,Pos,Pos,N/A
+X Adjusted,0,0,2,Neg,Pos,Neg,N/A
+X Adjusted,0,0,2,Neg,Neg,Pos,N/A
+X Adjusted,0,0,2,Neg,Neg,Neg,N/A
+X Adjusted,0,0,3,Pos,Pos,Pos,N/A
+X Adjusted,0,0,3,Pos,Pos,Neg,N/A
+X Adjusted,0,0,3,Pos,Neg,Pos,N/A
+X Adjusted,0,0,3,Pos,Neg,Neg,N/A
+X Adjusted,0,0,3,Neg,Pos,Pos,N/A
+X Adjusted,0,0,3,Neg,Pos,Neg,N/A
+X Adjusted,0,0,3,Neg,Neg,Pos,N/A
+X Adjusted,0,0,3,Neg,Neg,Neg,N/A
+X Adjusted,0,X,1,Pos,Pos,Pos,N/A
+X Adjusted,0,X,1,Pos,Pos,Neg,N/A
+X Adjusted,0,X,1,Pos,Neg,Pos,N/A
+X Adjusted,0,X,1,Pos,Neg,Neg,N/A
+X Adjusted,0,X,1,Neg,Pos,Pos,N/A
+X Adjusted,0,X,1,Neg,Pos,Neg,N/A
+X Adjusted,0,X,1,Neg,Neg,Pos,N/A
+X Adjusted,0,X,1,Neg,Neg,Neg,N/A
+X Adjusted,0,X,2,Pos,Pos,Pos,N/A
+X Adjusted,0,X,2,Pos,Pos,Neg,N/A
+X Adjusted,0,X,2,Pos,Neg,Pos,N/A
+X Adjusted,0,X,2,Pos,Neg,Neg,N/A
+X Adjusted,0,X,2,Neg,Pos,Pos,N/A
+X Adjusted,0,X,2,Neg,Pos,Neg,N/A
+X Adjusted,0,X,2,Neg,Neg,Pos,N/A
+X Adjusted,0,X,2,Neg,Neg,Neg,N/A
+X Adjusted,0,X,3,Pos,Pos,Pos,N/A
+X Adjusted,0,X,3,Pos,Pos,Neg,N/A
+X Adjusted,0,X,3,Pos,Neg,Pos,N/A
+X Adjusted,0,X,3,Pos,Neg,Neg,N/A
+X Adjusted,0,X,3,Neg,Pos,Pos,N/A
+X Adjusted,0,X,3,Neg,Pos,Neg,N/A
+X Adjusted,0,X,3,Neg,Neg,Pos,N/A
+X Adjusted,0,X,3,Neg,Neg,Neg,N/A
+X Adjusted,0,1,1,Pos,Pos,Pos,N/A
+X Adjusted,0,1,1,Pos,Pos,Neg,N/A
+X Adjusted,0,1,1,Pos,Neg,Pos,N/A
+X Adjusted,0,1,1,Pos,Neg,Neg,N/A
+X Adjusted,0,1,1,Neg,Pos,Pos,N/A
+X Adjusted,0,1,1,Neg,Pos,Neg,N/A
+X Adjusted,0,1,1,Neg,Neg,Pos,N/A
+X Adjusted,0,1,1,Neg,Neg,Neg,N/A
+X Adjusted,0,1,2,Pos,Pos,Pos,N/A
+X Adjusted,0,1,2,Pos,Pos,Neg,N/A
+X Adjusted,0,1,2,Pos,Neg,Pos,N/A
+X Adjusted,0,1,2,Pos,Neg,Neg,N/A
+X Adjusted,0,1,2,Neg,Pos,Pos,N/A
+X Adjusted,0,1,2,Neg,Pos,Neg,N/A
+X Adjusted,0,1,2,Neg,Neg,Pos,N/A
+X Adjusted,0,1,2,Neg,Neg,Neg,N/A
+X Adjusted,0,1,3,Pos,Pos,Pos,N/A
+X Adjusted,0,1,3,Pos,Pos,Neg,N/A
+X Adjusted,0,1,3,Pos,Neg,Pos,N/A
+X Adjusted,0,1,3,Pos,Neg,Neg,N/A
+X Adjusted,0,1,3,Neg,Pos,Pos,N/A
+X Adjusted,0,1,3,Neg,Pos,Neg,N/A
+X Adjusted,0,1,3,Neg,Neg,Pos,N/A
+X Adjusted,0,1,3,Neg,Neg,Neg,N/A
+X Adjusted,X Adjusted,0,1,Pos,Pos,Pos,N/A
+X Adjusted,X Adjusted,0,1,Pos,Pos,Neg,N/A
+X Adjusted,X Adjusted,0,1,Pos,Neg,Pos,N/A
+X Adjusted,X Adjusted,0,1,Pos,Neg,Neg,N/A
+X Adjusted,X Adjusted,0,1,Neg,Pos,Pos,N/A
+X Adjusted,X Adjusted,0,1,Neg,Pos,Neg,N/A
+X Adjusted,X Adjusted,0,1,Neg,Neg,Pos,N/A
+X Adjusted,X Adjusted,0,1,Neg,Neg,Neg,N/A
+X Adjusted,X Adjusted,0,2,Pos,Pos,Pos,N/A
+X Adjusted,X Adjusted,0,2,Pos,Pos,Neg,N/A
+X Adjusted,X Adjusted,0,2,Pos,Neg,Pos,N/A
+X Adjusted,X Adjusted,0,2,Pos,Neg,Neg,N/A
+X Adjusted,X Adjusted,0,2,Neg,Pos,Pos,N/A
+X Adjusted,X Adjusted,0,2,Neg,Pos,Neg,N/A
+X Adjusted,X Adjusted,0,2,Neg,Neg,Pos,N/A
+X Adjusted,X Adjusted,0,2,Neg,Neg,Neg,N/A
+X Adjusted,X Adjusted,0,3,Pos,Pos,Pos,N/A
+X Adjusted,X Adjusted,0,3,Pos,Pos,Neg,N/A
+X Adjusted,X Adjusted,0,3,Pos,Neg,Pos,N/A
+X Adjusted,X Adjusted,0,3,Pos,Neg,Neg,N/A
+X Adjusted,X Adjusted,0,3,Neg,Pos,Pos,N/A
+X Adjusted,X Adjusted,0,3,Neg,Pos,Neg,N/A
+X Adjusted,X Adjusted,0,3,Neg,Neg,Pos,N/A
+X Adjusted,X Adjusted,0,3,Neg,Neg,Neg,N/A
+X Adjusted,X Adjusted,X,1,Pos,Pos,Pos,N/A
+X Adjusted,X Adjusted,X,1,Pos,Pos,Neg,N/A
+X Adjusted,X Adjusted,X,1,Pos,Neg,Pos,N/A
+X Adjusted,X Adjusted,X,1,Pos,Neg,Neg,N/A
+X Adjusted,X Adjusted,X,1,Neg,Pos,Pos,N/A
+X Adjusted,X Adjusted,X,1,Neg,Pos,Neg,N/A
+X Adjusted,X Adjusted,X,1,Neg,Neg,Pos,N/A
+X Adjusted,X Adjusted,X,1,Neg,Neg,Neg,N/A
+X Adjusted,X Adjusted,X,2,Pos,Pos,Pos,N/A
+X Adjusted,X Adjusted,X,2,Pos,Pos,Neg,N/A
+X Adjusted,X Adjusted,X,2,Pos,Neg,Pos,N/A
+X Adjusted,X Adjusted,X,2,Pos,Neg,Neg,N/A
+X Adjusted,X Adjusted,X,2,Neg,Pos,Pos,N/A
+X Adjusted,X Adjusted,X,2,Neg,Pos,Neg,N/A
+X Adjusted,X Adjusted,X,2,Neg,Neg,Pos,N/A
+X Adjusted,X Adjusted,X,2,Neg,Neg,Neg,N/A
+X Adjusted,X Adjusted,X,3,Pos,Pos,Pos,N/A
+X Adjusted,X Adjusted,X,3,Pos,Pos,Neg,N/A
+X Adjusted,X Adjusted,X,3,Pos,Neg,Pos,N/A
+X Adjusted,X Adjusted,X,3,Pos,Neg,Neg,N/A
+X Adjusted,X Adjusted,X,3,Neg,Pos,Pos,N/A
+X Adjusted,X Adjusted,X,3,Neg,Pos,Neg,N/A
+X Adjusted,X Adjusted,X,3,Neg,Neg,Pos,N/A
+X Adjusted,X Adjusted,X,3,Neg,Neg,Neg,N/A
+X Adjusted,X Adjusted,1,1,Pos,Pos,Pos,N/A
+X Adjusted,X Adjusted,1,1,Pos,Pos,Neg,N/A
+X Adjusted,X Adjusted,1,1,Pos,Neg,Pos,N/A
+X Adjusted,X Adjusted,1,1,Pos,Neg,Neg,N/A
+X Adjusted,X Adjusted,1,1,Neg,Pos,Pos,N/A
+X Adjusted,X Adjusted,1,1,Neg,Pos,Neg,N/A
+X Adjusted,X Adjusted,1,1,Neg,Neg,Pos,N/A
+X Adjusted,X Adjusted,1,1,Neg,Neg,Neg,N/A
+X Adjusted,X Adjusted,1,2,Pos,Pos,Pos,N/A
+X Adjusted,X Adjusted,1,2,Pos,Pos,Neg,N/A
+X Adjusted,X Adjusted,1,2,Pos,Neg,Pos,N/A
+X Adjusted,X Adjusted,1,2,Pos,Neg,Neg,N/A
+X Adjusted,X Adjusted,1,2,Neg,Pos,Pos,N/A
+X Adjusted,X Adjusted,1,2,Neg,Pos,Neg,N/A
+X Adjusted,X Adjusted,1,2,Neg,Neg,Pos,N/A
+X Adjusted,X Adjusted,1,2,Neg,Neg,Neg,N/A
+X Adjusted,X Adjusted,1,3,Pos,Pos,Pos,N/A
+X Adjusted,X Adjusted,1,3,Pos,Pos,Neg,N/A
+X Adjusted,X Adjusted,1,3,Pos,Neg,Pos,N/A
+X Adjusted,X Adjusted,1,3,Pos,Neg,Neg,N/A
+X Adjusted,X Adjusted,1,3,Neg,Pos,Pos,N/A
+X Adjusted,X Adjusted,1,3,Neg,Pos,Neg,N/A
+X Adjusted,X Adjusted,1,3,Neg,Neg,Pos,N/A
+X Adjusted,X Adjusted,1,3,Neg,Neg,Neg,N/A
+1mic,1,0,1,Pos,Pos,Pos,<11
+1mic,1,0,1,Pos,Pos,Pos,>=11
+1mic,1,0,1,Pos,Pos,Neg,<11
+1mic,1,0,1,Pos,Pos,Neg,>=11
+1mic,1,0,1,Pos,Neg,Pos,<11
+1mic,1,0,1,Pos,Neg,Pos,>=11
+1mic,1,0,1,Pos,Neg,Neg,<11
+1mic,1,0,1,Pos,Neg,Neg,>=11
+1mic,1,0,1,Neg,Pos,Pos,<11
+1mic,1,0,1,Neg,Pos,Pos,>=11
+1mic,1,0,1,Neg,Pos,Neg,<11
+1mic,1,0,1,Neg,Pos,Neg,>=11
+1mic,1,0,1,Neg,Neg,Pos,<11
+1mic,1,0,1,Neg,Neg,Pos,>=11
+1mic,1,0,1,Neg,Neg,Neg,<11
+1mic,1,0,1,Neg,Neg,Neg,>=11
+1mic,1,0,2,Pos,Pos,Pos,<11
+1mic,1,0,2,Pos,Pos,Pos,>=11
+1mic,1,0,2,Pos,Pos,Neg,<11
+1mic,1,0,2,Pos,Pos,Neg,>=11
+1mic,1,0,2,Pos,Neg,Pos,<11
+1mic,1,0,2,Pos,Neg,Pos,>=11
+1mic,1,0,2,Pos,Neg,Neg,<11
+1mic,1,0,2,Pos,Neg,Neg,>=11
+1mic,1,0,2,Neg,Pos,Pos,<11
+1mic,1,0,2,Neg,Pos,Pos,>=11
+1mic,1,0,2,Neg,Pos,Neg,<11
+1mic,1,0,2,Neg,Pos,Neg,>=11
+1mic,1,0,2,Neg,Neg,Pos,<11
+1mic,1,0,2,Neg,Neg,Pos,>=11
+1mic,1,0,2,Neg,Neg,Neg,<11
+1mic,1,0,2,Neg,Neg,Neg,>=11
+1mic,1,0,3,Pos,Pos,Pos,<11
+1mic,1,0,3,Pos,Pos,Pos,>=11
+1mic,1,0,3,Pos,Pos,Neg,<11
+1mic,1,0,3,Pos,Pos,Neg,>=11
+1mic,1,0,3,Pos,Neg,Pos,<11
+1mic,1,0,3,Pos,Neg,Pos,>=11
+1mic,1,0,3,Pos,Neg,Neg,<11
+1mic,1,0,3,Pos,Neg,Neg,>=11
+1mic,1,0,3,Neg,Pos,Pos,<11
+1mic,1,0,3,Neg,Pos,Pos,>=11
+1mic,1,0,3,Neg,Pos,Neg,<11
+1mic,1,0,3,Neg,Pos,Neg,>=11
+1mic,1,0,3,Neg,Neg,Pos,<11
+1mic,1,0,3,Neg,Neg,Pos,>=11
+1mic,1,0,3,Neg,Neg,Neg,<11
+1mic,1,0,3,Neg,Neg,Neg,>=11
+1mic,1,X,1,Pos,Pos,Pos,<11
+1mic,1,X,1,Pos,Pos,Pos,>=11
+1mic,1,X,1,Pos,Pos,Neg,<11
+1mic,1,X,1,Pos,Pos,Neg,>=11
+1mic,1,X,1,Pos,Neg,Pos,<11
+1mic,1,X,1,Pos,Neg,Pos,>=11
+1mic,1,X,1,Pos,Neg,Neg,<11
+1mic,1,X,1,Pos,Neg,Neg,>=11
+1mic,1,X,1,Neg,Pos,Pos,<11
+1mic,1,X,1,Neg,Pos,Pos,>=11
+1mic,1,X,1,Neg,Pos,Neg,<11
+1mic,1,X,1,Neg,Pos,Neg,>=11
+1mic,1,X,1,Neg,Neg,Pos,<11
+1mic,1,X,1,Neg,Neg,Pos,>=11
+1mic,1,X,1,Neg,Neg,Neg,<11
+1mic,1,X,1,Neg,Neg,Neg,>=11
+1mic,1,X,2,Pos,Pos,Pos,<11
+1mic,1,X,2,Pos,Pos,Pos,>=11
+1mic,1,X,2,Pos,Pos,Neg,<11
+1mic,1,X,2,Pos,Pos,Neg,>=11
+1mic,1,X,2,Pos,Neg,Pos,<11
+1mic,1,X,2,Pos,Neg,Pos,>=11
+1mic,1,X,2,Pos,Neg,Neg,<11
+1mic,1,X,2,Pos,Neg,Neg,>=11
+1mic,1,X,2,Neg,Pos,Pos,<11
+1mic,1,X,2,Neg,Pos,Pos,>=11
+1mic,1,X,2,Neg,Pos,Neg,<11
+1mic,1,X,2,Neg,Pos,Neg,>=11
+1mic,1,X,2,Neg,Neg,Pos,<11
+1mic,1,X,2,Neg,Neg,Pos,>=11
+1mic,1,X,2,Neg,Neg,Neg,<11
+1mic,1,X,2,Neg,Neg,Neg,>=11
+1mic,1,X,3,Pos,Pos,Pos,<11
+1mic,1,X,3,Pos,Pos,Pos,>=11
+1mic,1,X,3,Pos,Pos,Neg,<11
+1mic,1,X,3,Pos,Pos,Neg,>=11
+1mic,1,X,3,Pos,Neg,Pos,<11
+1mic,1,X,3,Pos,Neg,Pos,>=11
+1mic,1,X,3,Pos,Neg,Neg,<11
+1mic,1,X,3,Pos,Neg,Neg,>=11
+1mic,1,X,3,Neg,Pos,Pos,<11
+1mic,1,X,3,Neg,Pos,Pos,>=11
+1mic,1,X,3,Neg,Pos,Neg,<11
+1mic,1,X,3,Neg,Pos,Neg,>=11
+1mic,1,X,3,Neg,Neg,Pos,<11
+1mic,1,X,3,Neg,Neg,Pos,>=11
+1mic,1,X,3,Neg,Neg,Neg,<11
+1mic,1,X,3,Neg,Neg,Neg,>=11
+1mic,1,1,1,Pos,Pos,Pos,<11
+1mic,1,1,1,Pos,Pos,Pos,>=11
+1mic,1,1,1,Pos,Pos,Neg,<11
+1mic,1,1,1,Pos,Pos,Neg,>=11
+1mic,1,1,1,Pos,Neg,Pos,<11
+1mic,1,1,1,Pos,Neg,Pos,>=11
+1mic,1,1,1,Pos,Neg,Neg,<11
+1mic,1,1,1,Pos,Neg,Neg,>=11
+1mic,1,1,1,Neg,Pos,Pos,<11
+1mic,1,1,1,Neg,Pos,Pos,>=11
+1mic,1,1,1,Neg,Pos,Neg,<11
+1mic,1,1,1,Neg,Pos,Neg,>=11
+1mic,1,1,1,Neg,Neg,Pos,<11
+1mic,1,1,1,Neg,Neg,Pos,>=11
+1mic,1,1,1,Neg,Neg,Neg,<11
+1mic,1,1,1,Neg,Neg,Neg,>=11
+1mic,1,1,2,Pos,Pos,Pos,<11
+1mic,1,1,2,Pos,Pos,Pos,>=11
+1mic,1,1,2,Pos,Pos,Neg,<11
+1mic,1,1,2,Pos,Pos,Neg,>=11
+1mic,1,1,2,Pos,Neg,Pos,<11
+1mic,1,1,2,Pos,Neg,Pos,>=11
+1mic,1,1,2,Pos,Neg,Neg,<11
+1mic,1,1,2,Pos,Neg,Neg,>=11
+1mic,1,1,2,Neg,Pos,Pos,<11
+1mic,1,1,2,Neg,Pos,Pos,>=11
+1mic,1,1,2,Neg,Pos,Neg,<11
+1mic,1,1,2,Neg,Pos,Neg,>=11
+1mic,1,1,2,Neg,Neg,Pos,<11
+1mic,1,1,2,Neg,Neg,Pos,>=11
+1mic,1,1,2,Neg,Neg,Neg,<11
+1mic,1,1,2,Neg,Neg,Neg,>=11
+1mic,1,1,3,Pos,Pos,Pos,<11
+1mic,1,1,3,Pos,Pos,Pos,>=11
+1mic,1,1,3,Pos,Pos,Neg,<11
+1mic,1,1,3,Pos,Pos,Neg,>=11
+1mic,1,1,3,Pos,Neg,Pos,<11
+1mic,1,1,3,Pos,Neg,Pos,>=11
+1mic,1,1,3,Pos,Neg,Neg,<11
+1mic,1,1,3,Pos,Neg,Neg,>=11
+1mic,1,1,3,Neg,Pos,Pos,<11
+1mic,1,1,3,Neg,Pos,Pos,>=11
+1mic,1,1,3,Neg,Pos,Neg,<11
+1mic,1,1,3,Neg,Pos,Neg,>=11
+1mic,1,1,3,Neg,Neg,Pos,<11
+1mic,1,1,3,Neg,Neg,Pos,>=11
+1mic,1,1,3,Neg,Neg,Neg,<11
+1mic,1,1,3,Neg,Neg,Neg,>=11
+1mic,2,0,1,Pos,Pos,Pos,<11
+1mic,2,0,1,Pos,Pos,Pos,>=11
+1mic,2,0,1,Pos,Pos,Neg,<11
+1mic,2,0,1,Pos,Pos,Neg,>=11
+1mic,2,0,1,Pos,Neg,Pos,<11
+1mic,2,0,1,Pos,Neg,Pos,>=11
+1mic,2,0,1,Pos,Neg,Neg,<11
+1mic,2,0,1,Pos,Neg,Neg,>=11
+1mic,2,0,1,Neg,Pos,Pos,<11
+1mic,2,0,1,Neg,Pos,Pos,>=11
+1mic,2,0,1,Neg,Pos,Neg,<11
+1mic,2,0,1,Neg,Pos,Neg,>=11
+1mic,2,0,1,Neg,Neg,Pos,<11
+1mic,2,0,1,Neg,Neg,Pos,>=11
+1mic,2,0,1,Neg,Neg,Neg,<11
+1mic,2,0,1,Neg,Neg,Neg,>=11
+1mic,2,0,2,Pos,Pos,Pos,<11
+1mic,2,0,2,Pos,Pos,Pos,>=11
+1mic,2,0,2,Pos,Pos,Neg,<11
+1mic,2,0,2,Pos,Pos,Neg,>=11
+1mic,2,0,2,Pos,Neg,Pos,<11
+1mic,2,0,2,Pos,Neg,Pos,>=11
+1mic,2,0,2,Pos,Neg,Neg,<11
+1mic,2,0,2,Pos,Neg,Neg,>=11
+1mic,2,0,2,Neg,Pos,Pos,<11
+1mic,2,0,2,Neg,Pos,Pos,>=11
+1mic,2,0,2,Neg,Pos,Neg,<11
+1mic,2,0,2,Neg,Pos,Neg,>=11
+1mic,2,0,2,Neg,Neg,Pos,<11
+1mic,2,0,2,Neg,Neg,Pos,>=11
+1mic,2,0,2,Neg,Neg,Neg,<11
+1mic,2,0,2,Neg,Neg,Neg,>=11
+1mic,2,0,3,Pos,Pos,Pos,<11
+1mic,2,0,3,Pos,Pos,Pos,>=11
+1mic,2,0,3,Pos,Pos,Neg,<11
+1mic,2,0,3,Pos,Pos,Neg,>=11
+1mic,2,0,3,Pos,Neg,Pos,<11
+1mic,2,0,3,Pos,Neg,Pos,>=11
+1mic,2,0,3,Pos,Neg,Neg,<11
+1mic,2,0,3,Pos,Neg,Neg,>=11
+1mic,2,0,3,Neg,Pos,Pos,<11
+1mic,2,0,3,Neg,Pos,Pos,>=11
+1mic,2,0,3,Neg,Pos,Neg,<11
+1mic,2,0,3,Neg,Pos,Neg,>=11
+1mic,2,0,3,Neg,Neg,Pos,<11
+1mic,2,0,3,Neg,Neg,Pos,>=11
+1mic,2,0,3,Neg,Neg,Neg,<11
+1mic,2,0,3,Neg,Neg,Neg,>=11
+1mic,2,X,1,Pos,Pos,Pos,<11
+1mic,2,X,1,Pos,Pos,Pos,>=11
+1mic,2,X,1,Pos,Pos,Neg,<11
+1mic,2,X,1,Pos,Pos,Neg,>=11
+1mic,2,X,1,Pos,Neg,Pos,<11
+1mic,2,X,1,Pos,Neg,Pos,>=11
+1mic,2,X,1,Pos,Neg,Neg,<11
+1mic,2,X,1,Pos,Neg,Neg,>=11
+1mic,2,X,1,Neg,Pos,Pos,<11
+1mic,2,X,1,Neg,Pos,Pos,>=11
+1mic,2,X,1,Neg,Pos,Neg,<11
+1mic,2,X,1,Neg,Pos,Neg,>=11
+1mic,2,X,1,Neg,Neg,Pos,<11
+1mic,2,X,1,Neg,Neg,Pos,>=11
+1mic,2,X,1,Neg,Neg,Neg,<11
+1mic,2,X,1,Neg,Neg,Neg,>=11
+1mic,2,X,2,Pos,Pos,Pos,<11
+1mic,2,X,2,Pos,Pos,Pos,>=11
+1mic,2,X,2,Pos,Pos,Neg,<11
+1mic,2,X,2,Pos,Pos,Neg,>=11
+1mic,2,X,2,Pos,Neg,Pos,<11
+1mic,2,X,2,Pos,Neg,Pos,>=11
+1mic,2,X,2,Pos,Neg,Neg,<11
+1mic,2,X,2,Pos,Neg,Neg,>=11
+1mic,2,X,2,Neg,Pos,Pos,<11
+1mic,2,X,2,Neg,Pos,Pos,>=11
+1mic,2,X,2,Neg,Pos,Neg,<11
+1mic,2,X,2,Neg,Pos,Neg,>=11
+1mic,2,X,2,Neg,Neg,Pos,<11
+1mic,2,X,2,Neg,Neg,Pos,>=11
+1mic,2,X,2,Neg,Neg,Neg,<11
+1mic,2,X,2,Neg,Neg,Neg,>=11
+1mic,2,X,3,Pos,Pos,Pos,<11
+1mic,2,X,3,Pos,Pos,Pos,>=11
+1mic,2,X,3,Pos,Pos,Neg,<11
+1mic,2,X,3,Pos,Pos,Neg,>=11
+1mic,2,X,3,Pos,Neg,Pos,<11
+1mic,2,X,3,Pos,Neg,Pos,>=11
+1mic,2,X,3,Pos,Neg,Neg,<11
+1mic,2,X,3,Pos,Neg,Neg,>=11
+1mic,2,X,3,Neg,Pos,Pos,<11
+1mic,2,X,3,Neg,Pos,Pos,>=11
+1mic,2,X,3,Neg,Pos,Neg,<11
+1mic,2,X,3,Neg,Pos,Neg,>=11
+1mic,2,X,3,Neg,Neg,Pos,<11
+1mic,2,X,3,Neg,Neg,Pos,>=11
+1mic,2,X,3,Neg,Neg,Neg,<11
+1mic,2,X,3,Neg,Neg,Neg,>=11
+1mic,2,1,1,Pos,Pos,Pos,<11
+1mic,2,1,1,Pos,Pos,Pos,>=11
+1mic,2,1,1,Pos,Pos,Neg,<11
+1mic,2,1,1,Pos,Pos,Neg,>=11
+1mic,2,1,1,Pos,Neg,Pos,<11
+1mic,2,1,1,Pos,Neg,Pos,>=11
+1mic,2,1,1,Pos,Neg,Neg,<11
+1mic,2,1,1,Pos,Neg,Neg,>=11
+1mic,2,1,1,Neg,Pos,Pos,<11
+1mic,2,1,1,Neg,Pos,Pos,>=11
+1mic,2,1,1,Neg,Pos,Neg,<11
+1mic,2,1,1,Neg,Pos,Neg,>=11
+1mic,2,1,1,Neg,Neg,Pos,<11
+1mic,2,1,1,Neg,Neg,Pos,>=11
+1mic,2,1,1,Neg,Neg,Neg,<11
+1mic,2,1,1,Neg,Neg,Neg,>=11
+1mic,2,1,2,Pos,Pos,Pos,<11
+1mic,2,1,2,Pos,Pos,Pos,>=11
+1mic,2,1,2,Pos,Pos,Neg,<11
+1mic,2,1,2,Pos,Pos,Neg,>=11
+1mic,2,1,2,Pos,Neg,Pos,<11
+1mic,2,1,2,Pos,Neg,Pos,>=11
+1mic,2,1,2,Pos,Neg,Neg,<11
+1mic,2,1,2,Pos,Neg,Neg,>=11
+1mic,2,1,2,Neg,Pos,Pos,<11
+1mic,2,1,2,Neg,Pos,Pos,>=11
+1mic,2,1,2,Neg,Pos,Neg,<11
+1mic,2,1,2,Neg,Pos,Neg,>=11
+1mic,2,1,2,Neg,Neg,Pos,<11
+1mic,2,1,2,Neg,Neg,Pos,>=11
+1mic,2,1,2,Neg,Neg,Neg,<11
+1mic,2,1,2,Neg,Neg,Neg,>=11
+1mic,2,1,3,Pos,Pos,Pos,<11
+1mic,2,1,3,Pos,Pos,Pos,>=11
+1mic,2,1,3,Pos,Pos,Neg,<11
+1mic,2,1,3,Pos,Pos,Neg,>=11
+1mic,2,1,3,Pos,Neg,Pos,<11
+1mic,2,1,3,Pos,Neg,Pos,>=11
+1mic,2,1,3,Pos,Neg,Neg,<11
+1mic,2,1,3,Pos,Neg,Neg,>=11
+1mic,2,1,3,Neg,Pos,Pos,<11
+1mic,2,1,3,Neg,Pos,Pos,>=11
+1mic,2,1,3,Neg,Pos,Neg,<11
+1mic,2,1,3,Neg,Pos,Neg,>=11
+1mic,2,1,3,Neg,Neg,Pos,<11
+1mic,2,1,3,Neg,Neg,Pos,>=11
+1mic,2,1,3,Neg,Neg,Neg,<11
+1mic,2,1,3,Neg,Neg,Neg,>=11
+1mic,3,0,1,Pos,Pos,Pos,<11
+1mic,3,0,1,Pos,Pos,Pos,>=11
+1mic,3,0,1,Pos,Pos,Neg,<11
+1mic,3,0,1,Pos,Pos,Neg,>=11
+1mic,3,0,1,Pos,Neg,Pos,<11
+1mic,3,0,1,Pos,Neg,Pos,>=11
+1mic,3,0,1,Pos,Neg,Neg,<11
+1mic,3,0,1,Pos,Neg,Neg,>=11
+1mic,3,0,1,Neg,Pos,Pos,<11
+1mic,3,0,1,Neg,Pos,Pos,>=11
+1mic,3,0,1,Neg,Pos,Neg,<11
+1mic,3,0,1,Neg,Pos,Neg,>=11
+1mic,3,0,1,Neg,Neg,Pos,<11
+1mic,3,0,1,Neg,Neg,Pos,>=11
+1mic,3,0,1,Neg,Neg,Neg,<11
+1mic,3,0,1,Neg,Neg,Neg,>=11
+1mic,3,0,2,Pos,Pos,Pos,<11
+1mic,3,0,2,Pos,Pos,Pos,>=11
+1mic,3,0,2,Pos,Pos,Neg,<11
+1mic,3,0,2,Pos,Pos,Neg,>=11
+1mic,3,0,2,Pos,Neg,Pos,<11
+1mic,3,0,2,Pos,Neg,Pos,>=11
+1mic,3,0,2,Pos,Neg,Neg,<11
+1mic,3,0,2,Pos,Neg,Neg,>=11
+1mic,3,0,2,Neg,Pos,Pos,<11
+1mic,3,0,2,Neg,Pos,Pos,>=11
+1mic,3,0,2,Neg,Pos,Neg,<11
+1mic,3,0,2,Neg,Pos,Neg,>=11
+1mic,3,0,2,Neg,Neg,Pos,<11
+1mic,3,0,2,Neg,Neg,Pos,>=11
+1mic,3,0,2,Neg,Neg,Neg,<11
+1mic,3,0,2,Neg,Neg,Neg,>=11
+1mic,3,0,3,Pos,Pos,Pos,<11
+1mic,3,0,3,Pos,Pos,Pos,>=11
+1mic,3,0,3,Pos,Pos,Neg,<11
+1mic,3,0,3,Pos,Pos,Neg,>=11
+1mic,3,0,3,Pos,Neg,Pos,<11
+1mic,3,0,3,Pos,Neg,Pos,>=11
+1mic,3,0,3,Pos,Neg,Neg,<11
+1mic,3,0,3,Pos,Neg,Neg,>=11
+1mic,3,0,3,Neg,Pos,Pos,<11
+1mic,3,0,3,Neg,Pos,Pos,>=11
+1mic,3,0,3,Neg,Pos,Neg,<11
+1mic,3,0,3,Neg,Pos,Neg,>=11
+1mic,3,0,3,Neg,Neg,Pos,<11
+1mic,3,0,3,Neg,Neg,Pos,>=11
+1mic,3,0,3,Neg,Neg,Neg,<11
+1mic,3,0,3,Neg,Neg,Neg,>=11
+1mic,3,X,1,Pos,Pos,Pos,<11
+1mic,3,X,1,Pos,Pos,Pos,>=11
+1mic,3,X,1,Pos,Pos,Neg,<11
+1mic,3,X,1,Pos,Pos,Neg,>=11
+1mic,3,X,1,Pos,Neg,Pos,<11
+1mic,3,X,1,Pos,Neg,Pos,>=11
+1mic,3,X,1,Pos,Neg,Neg,<11
+1mic,3,X,1,Pos,Neg,Neg,>=11
+1mic,3,X,1,Neg,Pos,Pos,<11
+1mic,3,X,1,Neg,Pos,Pos,>=11
+1mic,3,X,1,Neg,Pos,Neg,<11
+1mic,3,X,1,Neg,Pos,Neg,>=11
+1mic,3,X,1,Neg,Neg,Pos,<11
+1mic,3,X,1,Neg,Neg,Pos,>=11
+1mic,3,X,1,Neg,Neg,Neg,<11
+1mic,3,X,1,Neg,Neg,Neg,>=11
+1mic,3,X,2,Pos,Pos,Pos,<11
+1mic,3,X,2,Pos,Pos,Pos,>=11
+1mic,3,X,2,Pos,Pos,Neg,<11
+1mic,3,X,2,Pos,Pos,Neg,>=11
+1mic,3,X,2,Pos,Neg,Pos,<11
+1mic,3,X,2,Pos,Neg,Pos,>=11
+1mic,3,X,2,Pos,Neg,Neg,<11
+1mic,3,X,2,Pos,Neg,Neg,>=11
+1mic,3,X,2,Neg,Pos,Pos,<11
+1mic,3,X,2,Neg,Pos,Pos,>=11
+1mic,3,X,2,Neg,Pos,Neg,<11
+1mic,3,X,2,Neg,Pos,Neg,>=11
+1mic,3,X,2,Neg,Neg,Pos,<11
+1mic,3,X,2,Neg,Neg,Pos,>=11
+1mic,3,X,2,Neg,Neg,Neg,<11
+1mic,3,X,2,Neg,Neg,Neg,>=11
+1mic,3,X,3,Pos,Pos,Pos,<11
+1mic,3,X,3,Pos,Pos,Pos,>=11
+1mic,3,X,3,Pos,Pos,Neg,<11
+1mic,3,X,3,Pos,Pos,Neg,>=11
+1mic,3,X,3,Pos,Neg,Pos,<11
+1mic,3,X,3,Pos,Neg,Pos,>=11
+1mic,3,X,3,Pos,Neg,Neg,<11
+1mic,3,X,3,Pos,Neg,Neg,>=11
+1mic,3,X,3,Neg,Pos,Pos,<11
+1mic,3,X,3,Neg,Pos,Pos,>=11
+1mic,3,X,3,Neg,Pos,Neg,<11
+1mic,3,X,3,Neg,Pos,Neg,>=11
+1mic,3,X,3,Neg,Neg,Pos,<11
+1mic,3,X,3,Neg,Neg,Pos,>=11
+1mic,3,X,3,Neg,Neg,Neg,<11
+1mic,3,X,3,Neg,Neg,Neg,>=11
+1mic,3,1,1,Pos,Pos,Pos,<11
+1mic,3,1,1,Pos,Pos,Pos,>=11
+1mic,3,1,1,Pos,Pos,Neg,<11
+1mic,3,1,1,Pos,Pos,Neg,>=11
+1mic,3,1,1,Pos,Neg,Pos,<11
+1mic,3,1,1,Pos,Neg,Pos,>=11
+1mic,3,1,1,Pos,Neg,Neg,<11
+1mic,3,1,1,Pos,Neg,Neg,>=11
+1mic,3,1,1,Neg,Pos,Pos,<11
+1mic,3,1,1,Neg,Pos,Pos,>=11
+1mic,3,1,1,Neg,Pos,Neg,<11
+1mic,3,1,1,Neg,Pos,Neg,>=11
+1mic,3,1,1,Neg,Neg,Pos,<11
+1mic,3,1,1,Neg,Neg,Pos,>=11
+1mic,3,1,1,Neg,Neg,Neg,<11
+1mic,3,1,1,Neg,Neg,Neg,>=11
+1mic,3,1,2,Pos,Pos,Pos,<11
+1mic,3,1,2,Pos,Pos,Pos,>=11
+1mic,3,1,2,Pos,Pos,Neg,<11
+1mic,3,1,2,Pos,Pos,Neg,>=11
+1mic,3,1,2,Pos,Neg,Pos,<11
+1mic,3,1,2,Pos,Neg,Pos,>=11
+1mic,3,1,2,Pos,Neg,Neg,<11
+1mic,3,1,2,Pos,Neg,Neg,>=11
+1mic,3,1,2,Neg,Pos,Pos,<11
+1mic,3,1,2,Neg,Pos,Pos,>=11
+1mic,3,1,2,Neg,Pos,Neg,<11
+1mic,3,1,2,Neg,Pos,Neg,>=11
+1mic,3,1,2,Neg,Neg,Pos,<11
+1mic,3,1,2,Neg,Neg,Pos,>=11
+1mic,3,1,2,Neg,Neg,Neg,<11
+1mic,3,1,2,Neg,Neg,Neg,>=11
+1mic,3,1,3,Pos,Pos,Pos,<11
+1mic,3,1,3,Pos,Pos,Pos,>=11
+1mic,3,1,3,Pos,Pos,Neg,<11
+1mic,3,1,3,Pos,Pos,Neg,>=11
+1mic,3,1,3,Pos,Neg,Pos,<11
+1mic,3,1,3,Pos,Neg,Pos,>=11
+1mic,3,1,3,Pos,Neg,Neg,<11
+1mic,3,1,3,Pos,Neg,Neg,>=11
+1mic,3,1,3,Neg,Pos,Pos,<11
+1mic,3,1,3,Neg,Pos,Pos,>=11
+1mic,3,1,3,Neg,Pos,Neg,<11
+1mic,3,1,3,Neg,Pos,Neg,>=11
+1mic,3,1,3,Neg,Neg,Pos,<11
+1mic,3,1,3,Neg,Neg,Pos,>=11
+1mic,3,1,3,Neg,Neg,Neg,<11
+1mic,3,1,3,Neg,Neg,Neg,>=11
+1mic,0,0,1,Pos,Pos,Pos,<11
+1mic,0,0,1,Pos,Pos,Pos,>=11
+1mic,0,0,1,Pos,Pos,Neg,<11
+1mic,0,0,1,Pos,Pos,Neg,>=11
+1mic,0,0,1,Pos,Neg,Pos,<11
+1mic,0,0,1,Pos,Neg,Pos,>=11
+1mic,0,0,1,Pos,Neg,Neg,<11
+1mic,0,0,1,Pos,Neg,Neg,>=11
+1mic,0,0,1,Neg,Pos,Pos,<11
+1mic,0,0,1,Neg,Pos,Pos,>=11
+1mic,0,0,1,Neg,Pos,Neg,<11
+1mic,0,0,1,Neg,Pos,Neg,>=11
+1mic,0,0,1,Neg,Neg,Pos,<11
+1mic,0,0,1,Neg,Neg,Pos,>=11
+1mic,0,0,1,Neg,Neg,Neg,<11
+1mic,0,0,1,Neg,Neg,Neg,>=11
+1mic,0,0,2,Pos,Pos,Pos,<11
+1mic,0,0,2,Pos,Pos,Pos,>=11
+1mic,0,0,2,Pos,Pos,Neg,<11
+1mic,0,0,2,Pos,Pos,Neg,>=11
+1mic,0,0,2,Pos,Neg,Pos,<11
+1mic,0,0,2,Pos,Neg,Pos,>=11
+1mic,0,0,2,Pos,Neg,Neg,<11
+1mic,0,0,2,Pos,Neg,Neg,>=11
+1mic,0,0,2,Neg,Pos,Pos,<11
+1mic,0,0,2,Neg,Pos,Pos,>=11
+1mic,0,0,2,Neg,Pos,Neg,<11
+1mic,0,0,2,Neg,Pos,Neg,>=11
+1mic,0,0,2,Neg,Neg,Pos,<11
+1mic,0,0,2,Neg,Neg,Pos,>=11
+1mic,0,0,2,Neg,Neg,Neg,<11
+1mic,0,0,2,Neg,Neg,Neg,>=11
+1mic,0,0,3,Pos,Pos,Pos,<11
+1mic,0,0,3,Pos,Pos,Pos,>=11
+1mic,0,0,3,Pos,Pos,Neg,<11
+1mic,0,0,3,Pos,Pos,Neg,>=11
+1mic,0,0,3,Pos,Neg,Pos,<11
+1mic,0,0,3,Pos,Neg,Pos,>=11
+1mic,0,0,3,Pos,Neg,Neg,<11
+1mic,0,0,3,Pos,Neg,Neg,>=11
+1mic,0,0,3,Neg,Pos,Pos,<11
+1mic,0,0,3,Neg,Pos,Pos,>=11
+1mic,0,0,3,Neg,Pos,Neg,<11
+1mic,0,0,3,Neg,Pos,Neg,>=11
+1mic,0,0,3,Neg,Neg,Pos,<11
+1mic,0,0,3,Neg,Neg,Pos,>=11
+1mic,0,0,3,Neg,Neg,Neg,<11
+1mic,0,0,3,Neg,Neg,Neg,>=11
+1mic,0,X,1,Pos,Pos,Pos,<11
+1mic,0,X,1,Pos,Pos,Pos,>=11
+1mic,0,X,1,Pos,Pos,Neg,<11
+1mic,0,X,1,Pos,Pos,Neg,>=11
+1mic,0,X,1,Pos,Neg,Pos,<11
+1mic,0,X,1,Pos,Neg,Pos,>=11
+1mic,0,X,1,Pos,Neg,Neg,<11
+1mic,0,X,1,Pos,Neg,Neg,>=11
+1mic,0,X,1,Neg,Pos,Pos,<11
+1mic,0,X,1,Neg,Pos,Pos,>=11
+1mic,0,X,1,Neg,Pos,Neg,<11
+1mic,0,X,1,Neg,Pos,Neg,>=11
+1mic,0,X,1,Neg,Neg,Pos,<11
+1mic,0,X,1,Neg,Neg,Pos,>=11
+1mic,0,X,1,Neg,Neg,Neg,<11
+1mic,0,X,1,Neg,Neg,Neg,>=11
+1mic,0,X,2,Pos,Pos,Pos,<11
+1mic,0,X,2,Pos,Pos,Pos,>=11
+1mic,0,X,2,Pos,Pos,Neg,<11
+1mic,0,X,2,Pos,Pos,Neg,>=11
+1mic,0,X,2,Pos,Neg,Pos,<11
+1mic,0,X,2,Pos,Neg,Pos,>=11
+1mic,0,X,2,Pos,Neg,Neg,<11
+1mic,0,X,2,Pos,Neg,Neg,>=11
+1mic,0,X,2,Neg,Pos,Pos,<11
+1mic,0,X,2,Neg,Pos,Pos,>=11
+1mic,0,X,2,Neg,Pos,Neg,<11
+1mic,0,X,2,Neg,Pos,Neg,>=11
+1mic,0,X,2,Neg,Neg,Pos,<11
+1mic,0,X,2,Neg,Neg,Pos,>=11
+1mic,0,X,2,Neg,Neg,Neg,<11
+1mic,0,X,2,Neg,Neg,Neg,>=11
+1mic,0,X,3,Pos,Pos,Pos,<11
+1mic,0,X,3,Pos,Pos,Pos,>=11
+1mic,0,X,3,Pos,Pos,Neg,<11
+1mic,0,X,3,Pos,Pos,Neg,>=11
+1mic,0,X,3,Pos,Neg,Pos,<11
+1mic,0,X,3,Pos,Neg,Pos,>=11
+1mic,0,X,3,Pos,Neg,Neg,<11
+1mic,0,X,3,Pos,Neg,Neg,>=11
+1mic,0,X,3,Neg,Pos,Pos,<11
+1mic,0,X,3,Neg,Pos,Pos,>=11
+1mic,0,X,3,Neg,Pos,Neg,<11
+1mic,0,X,3,Neg,Pos,Neg,>=11
+1mic,0,X,3,Neg,Neg,Pos,<11
+1mic,0,X,3,Neg,Neg,Pos,>=11
+1mic,0,X,3,Neg,Neg,Neg,<11
+1mic,0,X,3,Neg,Neg,Neg,>=11
+1mic,0,1,1,Pos,Pos,Pos,<11
+1mic,0,1,1,Pos,Pos,Pos,>=11
+1mic,0,1,1,Pos,Pos,Neg,<11
+1mic,0,1,1,Pos,Pos,Neg,>=11
+1mic,0,1,1,Pos,Neg,Pos,<11
+1mic,0,1,1,Pos,Neg,Pos,>=11
+1mic,0,1,1,Pos,Neg,Neg,<11
+1mic,0,1,1,Pos,Neg,Neg,>=11
+1mic,0,1,1,Neg,Pos,Pos,<11
+1mic,0,1,1,Neg,Pos,Pos,>=11
+1mic,0,1,1,Neg,Pos,Neg,<11
+1mic,0,1,1,Neg,Pos,Neg,>=11
+1mic,0,1,1,Neg,Neg,Pos,<11
+1mic,0,1,1,Neg,Neg,Pos,>=11
+1mic,0,1,1,Neg,Neg,Neg,<11
+1mic,0,1,1,Neg,Neg,Neg,>=11
+1mic,0,1,2,Pos,Pos,Pos,<11
+1mic,0,1,2,Pos,Pos,Pos,>=11
+1mic,0,1,2,Pos,Pos,Neg,<11
+1mic,0,1,2,Pos,Pos,Neg,>=11
+1mic,0,1,2,Pos,Neg,Pos,<11
+1mic,0,1,2,Pos,Neg,Pos,>=11
+1mic,0,1,2,Pos,Neg,Neg,<11
+1mic,0,1,2,Pos,Neg,Neg,>=11
+1mic,0,1,2,Neg,Pos,Pos,<11
+1mic,0,1,2,Neg,Pos,Pos,>=11
+1mic,0,1,2,Neg,Pos,Neg,<11
+1mic,0,1,2,Neg,Pos,Neg,>=11
+1mic,0,1,2,Neg,Neg,Pos,<11
+1mic,0,1,2,Neg,Neg,Pos,>=11
+1mic,0,1,2,Neg,Neg,Neg,<11
+1mic,0,1,2,Neg,Neg,Neg,>=11
+1mic,0,1,3,Pos,Pos,Pos,<11
+1mic,0,1,3,Pos,Pos,Pos,>=11
+1mic,0,1,3,Pos,Pos,Neg,<11
+1mic,0,1,3,Pos,Pos,Neg,>=11
+1mic,0,1,3,Pos,Neg,Pos,<11
+1mic,0,1,3,Pos,Neg,Pos,>=11
+1mic,0,1,3,Pos,Neg,Neg,<11
+1mic,0,1,3,Pos,Neg,Neg,>=11
+1mic,0,1,3,Neg,Pos,Pos,<11
+1mic,0,1,3,Neg,Pos,Pos,>=11
+1mic,0,1,3,Neg,Pos,Neg,<11
+1mic,0,1,3,Neg,Pos,Neg,>=11
+1mic,0,1,3,Neg,Neg,Pos,<11
+1mic,0,1,3,Neg,Neg,Pos,>=11
+1mic,0,1,3,Neg,Neg,Neg,<11
+1mic,0,1,3,Neg,Neg,Neg,>=11
+1mic,X Adjusted,0,1,Pos,Pos,Pos,<11
+1mic,X Adjusted,0,1,Pos,Pos,Pos,>=11
+1mic,X Adjusted,0,1,Pos,Pos,Neg,<11
+1mic,X Adjusted,0,1,Pos,Pos,Neg,>=11
+1mic,X Adjusted,0,1,Pos,Neg,Pos,<11
+1mic,X Adjusted,0,1,Pos,Neg,Pos,>=11
+1mic,X Adjusted,0,1,Pos,Neg,Neg,<11
+1mic,X Adjusted,0,1,Pos,Neg,Neg,>=11
+1mic,X Adjusted,0,1,Neg,Pos,Pos,<11
+1mic,X Adjusted,0,1,Neg,Pos,Pos,>=11
+1mic,X Adjusted,0,1,Neg,Pos,Neg,<11
+1mic,X Adjusted,0,1,Neg,Pos,Neg,>=11
+1mic,X Adjusted,0,1,Neg,Neg,Pos,<11
+1mic,X Adjusted,0,1,Neg,Neg,Pos,>=11
+1mic,X Adjusted,0,1,Neg,Neg,Neg,<11
+1mic,X Adjusted,0,1,Neg,Neg,Neg,>=11
+1mic,X Adjusted,0,2,Pos,Pos,Pos,<11
+1mic,X Adjusted,0,2,Pos,Pos,Pos,>=11
+1mic,X Adjusted,0,2,Pos,Pos,Neg,<11
+1mic,X Adjusted,0,2,Pos,Pos,Neg,>=11
+1mic,X Adjusted,0,2,Pos,Neg,Pos,<11
+1mic,X Adjusted,0,2,Pos,Neg,Pos,>=11
+1mic,X Adjusted,0,2,Pos,Neg,Neg,<11
+1mic,X Adjusted,0,2,Pos,Neg,Neg,>=11
+1mic,X Adjusted,0,2,Neg,Pos,Pos,<11
+1mic,X Adjusted,0,2,Neg,Pos,Pos,>=11
+1mic,X Adjusted,0,2,Neg,Pos,Neg,<11
+1mic,X Adjusted,0,2,Neg,Pos,Neg,>=11
+1mic,X Adjusted,0,2,Neg,Neg,Pos,<11
+1mic,X Adjusted,0,2,Neg,Neg,Pos,>=11
+1mic,X Adjusted,0,2,Neg,Neg,Neg,<11
+1mic,X Adjusted,0,2,Neg,Neg,Neg,>=11
+1mic,X Adjusted,0,3,Pos,Pos,Pos,<11
+1mic,X Adjusted,0,3,Pos,Pos,Pos,>=11
+1mic,X Adjusted,0,3,Pos,Pos,Neg,<11
+1mic,X Adjusted,0,3,Pos,Pos,Neg,>=11
+1mic,X Adjusted,0,3,Pos,Neg,Pos,<11
+1mic,X Adjusted,0,3,Pos,Neg,Pos,>=11
+1mic,X Adjusted,0,3,Pos,Neg,Neg,<11
+1mic,X Adjusted,0,3,Pos,Neg,Neg,>=11
+1mic,X Adjusted,0,3,Neg,Pos,Pos,<11
+1mic,X Adjusted,0,3,Neg,Pos,Pos,>=11
+1mic,X Adjusted,0,3,Neg,Pos,Neg,<11
+1mic,X Adjusted,0,3,Neg,Pos,Neg,>=11
+1mic,X Adjusted,0,3,Neg,Neg,Pos,<11
+1mic,X Adjusted,0,3,Neg,Neg,Pos,>=11
+1mic,X Adjusted,0,3,Neg,Neg,Neg,<11
+1mic,X Adjusted,0,3,Neg,Neg,Neg,>=11
+1mic,X Adjusted,X,1,Pos,Pos,Pos,<11
+1mic,X Adjusted,X,1,Pos,Pos,Pos,>=11
+1mic,X Adjusted,X,1,Pos,Pos,Neg,<11
+1mic,X Adjusted,X,1,Pos,Pos,Neg,>=11
+1mic,X Adjusted,X,1,Pos,Neg,Pos,<11
+1mic,X Adjusted,X,1,Pos,Neg,Pos,>=11
+1mic,X Adjusted,X,1,Pos,Neg,Neg,<11
+1mic,X Adjusted,X,1,Pos,Neg,Neg,>=11
+1mic,X Adjusted,X,1,Neg,Pos,Pos,<11
+1mic,X Adjusted,X,1,Neg,Pos,Pos,>=11
+1mic,X Adjusted,X,1,Neg,Pos,Neg,<11
+1mic,X Adjusted,X,1,Neg,Pos,Neg,>=11
+1mic,X Adjusted,X,1,Neg,Neg,Pos,<11
+1mic,X Adjusted,X,1,Neg,Neg,Pos,>=11
+1mic,X Adjusted,X,1,Neg,Neg,Neg,<11
+1mic,X Adjusted,X,1,Neg,Neg,Neg,>=11
+1mic,X Adjusted,X,2,Pos,Pos,Pos,<11
+1mic,X Adjusted,X,2,Pos,Pos,Pos,>=11
+1mic,X Adjusted,X,2,Pos,Pos,Neg,<11
+1mic,X Adjusted,X,2,Pos,Pos,Neg,>=11
+1mic,X Adjusted,X,2,Pos,Neg,Pos,<11
+1mic,X Adjusted,X,2,Pos,Neg,Pos,>=11
+1mic,X Adjusted,X,2,Pos,Neg,Neg,<11
+1mic,X Adjusted,X,2,Pos,Neg,Neg,>=11
+1mic,X Adjusted,X,2,Neg,Pos,Pos,<11
+1mic,X Adjusted,X,2,Neg,Pos,Pos,>=11
+1mic,X Adjusted,X,2,Neg,Pos,Neg,<11
+1mic,X Adjusted,X,2,Neg,Pos,Neg,>=11
+1mic,X Adjusted,X,2,Neg,Neg,Pos,<11
+1mic,X Adjusted,X,2,Neg,Neg,Pos,>=11
+1mic,X Adjusted,X,2,Neg,Neg,Neg,<11
+1mic,X Adjusted,X,2,Neg,Neg,Neg,>=11
+1mic,X Adjusted,X,3,Pos,Pos,Pos,<11
+1mic,X Adjusted,X,3,Pos,Pos,Pos,>=11
+1mic,X Adjusted,X,3,Pos,Pos,Neg,<11
+1mic,X Adjusted,X,3,Pos,Pos,Neg,>=11
+1mic,X Adjusted,X,3,Pos,Neg,Pos,<11
+1mic,X Adjusted,X,3,Pos,Neg,Pos,>=11
+1mic,X Adjusted,X,3,Pos,Neg,Neg,<11
+1mic,X Adjusted,X,3,Pos,Neg,Neg,>=11
+1mic,X Adjusted,X,3,Neg,Pos,Pos,<11
+1mic,X Adjusted,X,3,Neg,Pos,Pos,>=11
+1mic,X Adjusted,X,3,Neg,Pos,Neg,<11
+1mic,X Adjusted,X,3,Neg,Pos,Neg,>=11
+1mic,X Adjusted,X,3,Neg,Neg,Pos,<11
+1mic,X Adjusted,X,3,Neg,Neg,Pos,>=11
+1mic,X Adjusted,X,3,Neg,Neg,Neg,<11
+1mic,X Adjusted,X,3,Neg,Neg,Neg,>=11
+1mic,X Adjusted,1,1,Pos,Pos,Pos,<11
+1mic,X Adjusted,1,1,Pos,Pos,Pos,>=11
+1mic,X Adjusted,1,1,Pos,Pos,Neg,<11
+1mic,X Adjusted,1,1,Pos,Pos,Neg,>=11
+1mic,X Adjusted,1,1,Pos,Neg,Pos,<11
+1mic,X Adjusted,1,1,Pos,Neg,Pos,>=11
+1mic,X Adjusted,1,1,Pos,Neg,Neg,<11
+1mic,X Adjusted,1,1,Pos,Neg,Neg,>=11
+1mic,X Adjusted,1,1,Neg,Pos,Pos,<11
+1mic,X Adjusted,1,1,Neg,Pos,Pos,>=11
+1mic,X Adjusted,1,1,Neg,Pos,Neg,<11
+1mic,X Adjusted,1,1,Neg,Pos,Neg,>=11
+1mic,X Adjusted,1,1,Neg,Neg,Pos,<11
+1mic,X Adjusted,1,1,Neg,Neg,Pos,>=11
+1mic,X Adjusted,1,1,Neg,Neg,Neg,<11
+1mic,X Adjusted,1,1,Neg,Neg,Neg,>=11
+1mic,X Adjusted,1,2,Pos,Pos,Pos,<11
+1mic,X Adjusted,1,2,Pos,Pos,Pos,>=11
+1mic,X Adjusted,1,2,Pos,Pos,Neg,<11
+1mic,X Adjusted,1,2,Pos,Pos,Neg,>=11
+1mic,X Adjusted,1,2,Pos,Neg,Pos,<11
+1mic,X Adjusted,1,2,Pos,Neg,Pos,>=11
+1mic,X Adjusted,1,2,Pos,Neg,Neg,<11
+1mic,X Adjusted,1,2,Pos,Neg,Neg,>=11
+1mic,X Adjusted,1,2,Neg,Pos,Pos,<11
+1mic,X Adjusted,1,2,Neg,Pos,Pos,>=11
+1mic,X Adjusted,1,2,Neg,Pos,Neg,<11
+1mic,X Adjusted,1,2,Neg,Pos,Neg,>=11
+1mic,X Adjusted,1,2,Neg,Neg,Pos,<11
+1mic,X Adjusted,1,2,Neg,Neg,Pos,>=11
+1mic,X Adjusted,1,2,Neg,Neg,Neg,<11
+1mic,X Adjusted,1,2,Neg,Neg,Neg,>=11
+1mic,X Adjusted,1,3,Pos,Pos,Pos,<11
+1mic,X Adjusted,1,3,Pos,Pos,Pos,>=11
+1mic,X Adjusted,1,3,Pos,Pos,Neg,<11
+1mic,X Adjusted,1,3,Pos,Pos,Neg,>=11
+1mic,X Adjusted,1,3,Pos,Neg,Pos,<11
+1mic,X Adjusted,1,3,Pos,Neg,Pos,>=11
+1mic,X Adjusted,1,3,Pos,Neg,Neg,<11
+1mic,X Adjusted,1,3,Pos,Neg,Neg,>=11
+1mic,X Adjusted,1,3,Neg,Pos,Pos,<11
+1mic,X Adjusted,1,3,Neg,Pos,Pos,>=11
+1mic,X Adjusted,1,3,Neg,Pos,Neg,<11
+1mic,X Adjusted,1,3,Neg,Pos,Neg,>=11
+1mic,X Adjusted,1,3,Neg,Neg,Pos,<11
+1mic,X Adjusted,1,3,Neg,Neg,Pos,>=11
+1mic,X Adjusted,1,3,Neg,Neg,Neg,<11
+1mic,X Adjusted,1,3,Neg,Neg,Neg,>=11
+1a,1,0,1,Pos,Pos,Pos,<11
+1a,1,0,1,Pos,Pos,Pos,>=11
+1a,1,0,1,Pos,Pos,Neg,<11
+1a,1,0,1,Pos,Pos,Neg,>=11
+1a,1,0,1,Pos,Neg,Pos,<11
+1a,1,0,1,Pos,Neg,Pos,>=11
+1a,1,0,1,Pos,Neg,Neg,<11
+1a,1,0,1,Pos,Neg,Neg,>=11
+1a,1,0,1,Neg,Pos,Pos,<11
+1a,1,0,1,Neg,Pos,Pos,>=11
+1a,1,0,1,Neg,Pos,Neg,<11
+1a,1,0,1,Neg,Pos,Neg,>=11
+1a,1,0,1,Neg,Neg,Pos,<11
+1a,1,0,1,Neg,Neg,Pos,>=11
+1a,1,0,1,Neg,Neg,Neg,<11
+1a,1,0,1,Neg,Neg,Neg,>=11
+1a,1,0,2,Pos,Pos,Pos,<11
+1a,1,0,2,Pos,Pos,Pos,>=11
+1a,1,0,2,Pos,Pos,Neg,<11
+1a,1,0,2,Pos,Pos,Neg,>=11
+1a,1,0,2,Pos,Neg,Pos,<11
+1a,1,0,2,Pos,Neg,Pos,>=11
+1a,1,0,2,Pos,Neg,Neg,<11
+1a,1,0,2,Pos,Neg,Neg,>=11
+1a,1,0,2,Neg,Pos,Pos,<11
+1a,1,0,2,Neg,Pos,Pos,>=11
+1a,1,0,2,Neg,Pos,Neg,<11
+1a,1,0,2,Neg,Pos,Neg,>=11
+1a,1,0,2,Neg,Neg,Pos,<11
+1a,1,0,2,Neg,Neg,Pos,>=11
+1a,1,0,2,Neg,Neg,Neg,<11
+1a,1,0,2,Neg,Neg,Neg,>=11
+1a,1,0,3,Pos,Pos,Pos,<11
+1a,1,0,3,Pos,Pos,Pos,>=11
+1a,1,0,3,Pos,Pos,Neg,<11
+1a,1,0,3,Pos,Pos,Neg,>=11
+1a,1,0,3,Pos,Neg,Pos,<11
+1a,1,0,3,Pos,Neg,Pos,>=11
+1a,1,0,3,Pos,Neg,Neg,<11
+1a,1,0,3,Pos,Neg,Neg,>=11
+1a,1,0,3,Neg,Pos,Pos,<11
+1a,1,0,3,Neg,Pos,Pos,>=11
+1a,1,0,3,Neg,Pos,Neg,<11
+1a,1,0,3,Neg,Pos,Neg,>=11
+1a,1,0,3,Neg,Neg,Pos,<11
+1a,1,0,3,Neg,Neg,Pos,>=11
+1a,1,0,3,Neg,Neg,Neg,<11
+1a,1,0,3,Neg,Neg,Neg,>=11
+1a,1,X,1,Pos,Pos,Pos,<11
+1a,1,X,1,Pos,Pos,Pos,>=11
+1a,1,X,1,Pos,Pos,Neg,<11
+1a,1,X,1,Pos,Pos,Neg,>=11
+1a,1,X,1,Pos,Neg,Pos,<11
+1a,1,X,1,Pos,Neg,Pos,>=11
+1a,1,X,1,Pos,Neg,Neg,<11
+1a,1,X,1,Pos,Neg,Neg,>=11
+1a,1,X,1,Neg,Pos,Pos,<11
+1a,1,X,1,Neg,Pos,Pos,>=11
+1a,1,X,1,Neg,Pos,Neg,<11
+1a,1,X,1,Neg,Pos,Neg,>=11
+1a,1,X,1,Neg,Neg,Pos,<11
+1a,1,X,1,Neg,Neg,Pos,>=11
+1a,1,X,1,Neg,Neg,Neg,<11
+1a,1,X,1,Neg,Neg,Neg,>=11
+1a,1,X,2,Pos,Pos,Pos,<11
+1a,1,X,2,Pos,Pos,Pos,>=11
+1a,1,X,2,Pos,Pos,Neg,<11
+1a,1,X,2,Pos,Pos,Neg,>=11
+1a,1,X,2,Pos,Neg,Pos,<11
+1a,1,X,2,Pos,Neg,Pos,>=11
+1a,1,X,2,Pos,Neg,Neg,<11
+1a,1,X,2,Pos,Neg,Neg,>=11
+1a,1,X,2,Neg,Pos,Pos,<11
+1a,1,X,2,Neg,Pos,Pos,>=11
+1a,1,X,2,Neg,Pos,Neg,<11
+1a,1,X,2,Neg,Pos,Neg,>=11
+1a,1,X,2,Neg,Neg,Pos,<11
+1a,1,X,2,Neg,Neg,Pos,>=11
+1a,1,X,2,Neg,Neg,Neg,<11
+1a,1,X,2,Neg,Neg,Neg,>=11
+1a,1,X,3,Pos,Pos,Pos,<11
+1a,1,X,3,Pos,Pos,Pos,>=11
+1a,1,X,3,Pos,Pos,Neg,<11
+1a,1,X,3,Pos,Pos,Neg,>=11
+1a,1,X,3,Pos,Neg,Pos,<11
+1a,1,X,3,Pos,Neg,Pos,>=11
+1a,1,X,3,Pos,Neg,Neg,<11
+1a,1,X,3,Pos,Neg,Neg,>=11
+1a,1,X,3,Neg,Pos,Pos,<11
+1a,1,X,3,Neg,Pos,Pos,>=11
+1a,1,X,3,Neg,Pos,Neg,<11
+1a,1,X,3,Neg,Pos,Neg,>=11
+1a,1,X,3,Neg,Neg,Pos,<11
+1a,1,X,3,Neg,Neg,Pos,>=11
+1a,1,X,3,Neg,Neg,Neg,<11
+1a,1,X,3,Neg,Neg,Neg,>=11
+1a,1,1,1,Pos,Pos,Pos,<11
+1a,1,1,1,Pos,Pos,Pos,>=11
+1a,1,1,1,Pos,Pos,Neg,<11
+1a,1,1,1,Pos,Pos,Neg,>=11
+1a,1,1,1,Pos,Neg,Pos,<11
+1a,1,1,1,Pos,Neg,Pos,>=11
+1a,1,1,1,Pos,Neg,Neg,<11
+1a,1,1,1,Pos,Neg,Neg,>=11
+1a,1,1,1,Neg,Pos,Pos,<11
+1a,1,1,1,Neg,Pos,Pos,>=11
+1a,1,1,1,Neg,Pos,Neg,<11
+1a,1,1,1,Neg,Pos,Neg,>=11
+1a,1,1,1,Neg,Neg,Pos,<11
+1a,1,1,1,Neg,Neg,Pos,>=11
+1a,1,1,1,Neg,Neg,Neg,<11
+1a,1,1,1,Neg,Neg,Neg,>=11
+1a,1,1,2,Pos,Pos,Pos,<11
+1a,1,1,2,Pos,Pos,Pos,>=11
+1a,1,1,2,Pos,Pos,Neg,<11
+1a,1,1,2,Pos,Pos,Neg,>=11
+1a,1,1,2,Pos,Neg,Pos,<11
+1a,1,1,2,Pos,Neg,Pos,>=11
+1a,1,1,2,Pos,Neg,Neg,<11
+1a,1,1,2,Pos,Neg,Neg,>=11
+1a,1,1,2,Neg,Pos,Pos,<11
+1a,1,1,2,Neg,Pos,Pos,>=11
+1a,1,1,2,Neg,Pos,Neg,<11
+1a,1,1,2,Neg,Pos,Neg,>=11
+1a,1,1,2,Neg,Neg,Pos,<11
+1a,1,1,2,Neg,Neg,Pos,>=11
+1a,1,1,2,Neg,Neg,Neg,<11
+1a,1,1,2,Neg,Neg,Neg,>=11
+1a,1,1,3,Pos,Pos,Pos,<11
+1a,1,1,3,Pos,Pos,Pos,>=11
+1a,1,1,3,Pos,Pos,Neg,<11
+1a,1,1,3,Pos,Pos,Neg,>=11
+1a,1,1,3,Pos,Neg,Pos,<11
+1a,1,1,3,Pos,Neg,Pos,>=11
+1a,1,1,3,Pos,Neg,Neg,<11
+1a,1,1,3,Pos,Neg,Neg,>=11
+1a,1,1,3,Neg,Pos,Pos,<11
+1a,1,1,3,Neg,Pos,Pos,>=11
+1a,1,1,3,Neg,Pos,Neg,<11
+1a,1,1,3,Neg,Pos,Neg,>=11
+1a,1,1,3,Neg,Neg,Pos,<11
+1a,1,1,3,Neg,Neg,Pos,>=11
+1a,1,1,3,Neg,Neg,Neg,<11
+1a,1,1,3,Neg,Neg,Neg,>=11
+1a,2,0,1,Pos,Pos,Pos,<11
+1a,2,0,1,Pos,Pos,Pos,>=11
+1a,2,0,1,Pos,Pos,Neg,<11
+1a,2,0,1,Pos,Pos,Neg,>=11
+1a,2,0,1,Pos,Neg,Pos,<11
+1a,2,0,1,Pos,Neg,Pos,>=11
+1a,2,0,1,Pos,Neg,Neg,<11
+1a,2,0,1,Pos,Neg,Neg,>=11
+1a,2,0,1,Neg,Pos,Pos,<11
+1a,2,0,1,Neg,Pos,Pos,>=11
+1a,2,0,1,Neg,Pos,Neg,<11
+1a,2,0,1,Neg,Pos,Neg,>=11
+1a,2,0,1,Neg,Neg,Pos,<11
+1a,2,0,1,Neg,Neg,Pos,>=11
+1a,2,0,1,Neg,Neg,Neg,<11
+1a,2,0,1,Neg,Neg,Neg,>=11
+1a,2,0,2,Pos,Pos,Pos,<11
+1a,2,0,2,Pos,Pos,Pos,>=11
+1a,2,0,2,Pos,Pos,Neg,<11
+1a,2,0,2,Pos,Pos,Neg,>=11
+1a,2,0,2,Pos,Neg,Pos,<11
+1a,2,0,2,Pos,Neg,Pos,>=11
+1a,2,0,2,Pos,Neg,Neg,<11
+1a,2,0,2,Pos,Neg,Neg,>=11
+1a,2,0,2,Neg,Pos,Pos,<11
+1a,2,0,2,Neg,Pos,Pos,>=11
+1a,2,0,2,Neg,Pos,Neg,<11
+1a,2,0,2,Neg,Pos,Neg,>=11
+1a,2,0,2,Neg,Neg,Pos,<11
+1a,2,0,2,Neg,Neg,Pos,>=11
+1a,2,0,2,Neg,Neg,Neg,<11
+1a,2,0,2,Neg,Neg,Neg,>=11
+1a,2,0,3,Pos,Pos,Pos,<11
+1a,2,0,3,Pos,Pos,Pos,>=11
+1a,2,0,3,Pos,Pos,Neg,<11
+1a,2,0,3,Pos,Pos,Neg,>=11
+1a,2,0,3,Pos,Neg,Pos,<11
+1a,2,0,3,Pos,Neg,Pos,>=11
+1a,2,0,3,Pos,Neg,Neg,<11
+1a,2,0,3,Pos,Neg,Neg,>=11
+1a,2,0,3,Neg,Pos,Pos,<11
+1a,2,0,3,Neg,Pos,Pos,>=11
+1a,2,0,3,Neg,Pos,Neg,<11
+1a,2,0,3,Neg,Pos,Neg,>=11
+1a,2,0,3,Neg,Neg,Pos,<11
+1a,2,0,3,Neg,Neg,Pos,>=11
+1a,2,0,3,Neg,Neg,Neg,<11
+1a,2,0,3,Neg,Neg,Neg,>=11
+1a,2,X,1,Pos,Pos,Pos,<11
+1a,2,X,1,Pos,Pos,Pos,>=11
+1a,2,X,1,Pos,Pos,Neg,<11
+1a,2,X,1,Pos,Pos,Neg,>=11
+1a,2,X,1,Pos,Neg,Pos,<11
+1a,2,X,1,Pos,Neg,Pos,>=11
+1a,2,X,1,Pos,Neg,Neg,<11
+1a,2,X,1,Pos,Neg,Neg,>=11
+1a,2,X,1,Neg,Pos,Pos,<11
+1a,2,X,1,Neg,Pos,Pos,>=11
+1a,2,X,1,Neg,Pos,Neg,<11
+1a,2,X,1,Neg,Pos,Neg,>=11
+1a,2,X,1,Neg,Neg,Pos,<11
+1a,2,X,1,Neg,Neg,Pos,>=11
+1a,2,X,1,Neg,Neg,Neg,<11
+1a,2,X,1,Neg,Neg,Neg,>=11
+1a,2,X,2,Pos,Pos,Pos,<11
+1a,2,X,2,Pos,Pos,Pos,>=11
+1a,2,X,2,Pos,Pos,Neg,<11
+1a,2,X,2,Pos,Pos,Neg,>=11
+1a,2,X,2,Pos,Neg,Pos,<11
+1a,2,X,2,Pos,Neg,Pos,>=11
+1a,2,X,2,Pos,Neg,Neg,<11
+1a,2,X,2,Pos,Neg,Neg,>=11
+1a,2,X,2,Neg,Pos,Pos,<11
+1a,2,X,2,Neg,Pos,Pos,>=11
+1a,2,X,2,Neg,Pos,Neg,<11
+1a,2,X,2,Neg,Pos,Neg,>=11
+1a,2,X,2,Neg,Neg,Pos,<11
+1a,2,X,2,Neg,Neg,Pos,>=11
+1a,2,X,2,Neg,Neg,Neg,<11
+1a,2,X,2,Neg,Neg,Neg,>=11
+1a,2,X,3,Pos,Pos,Pos,<11
+1a,2,X,3,Pos,Pos,Pos,>=11
+1a,2,X,3,Pos,Pos,Neg,<11
+1a,2,X,3,Pos,Pos,Neg,>=11
+1a,2,X,3,Pos,Neg,Pos,<11
+1a,2,X,3,Pos,Neg,Pos,>=11
+1a,2,X,3,Pos,Neg,Neg,<11
+1a,2,X,3,Pos,Neg,Neg,>=11
+1a,2,X,3,Neg,Pos,Pos,<11
+1a,2,X,3,Neg,Pos,Pos,>=11
+1a,2,X,3,Neg,Pos,Neg,<11
+1a,2,X,3,Neg,Pos,Neg,>=11
+1a,2,X,3,Neg,Neg,Pos,<11
+1a,2,X,3,Neg,Neg,Pos,>=11
+1a,2,X,3,Neg,Neg,Neg,<11
+1a,2,X,3,Neg,Neg,Neg,>=11
+1a,2,1,1,Pos,Pos,Pos,<11
+1a,2,1,1,Pos,Pos,Pos,>=11
+1a,2,1,1,Pos,Pos,Neg,<11
+1a,2,1,1,Pos,Pos,Neg,>=11
+1a,2,1,1,Pos,Neg,Pos,<11
+1a,2,1,1,Pos,Neg,Pos,>=11
+1a,2,1,1,Pos,Neg,Neg,<11
+1a,2,1,1,Pos,Neg,Neg,>=11
+1a,2,1,1,Neg,Pos,Pos,<11
+1a,2,1,1,Neg,Pos,Pos,>=11
+1a,2,1,1,Neg,Pos,Neg,<11
+1a,2,1,1,Neg,Pos,Neg,>=11
+1a,2,1,1,Neg,Neg,Pos,<11
+1a,2,1,1,Neg,Neg,Pos,>=11
+1a,2,1,1,Neg,Neg,Neg,<11
+1a,2,1,1,Neg,Neg,Neg,>=11
+1a,2,1,2,Pos,Pos,Pos,<11
+1a,2,1,2,Pos,Pos,Pos,>=11
+1a,2,1,2,Pos,Pos,Neg,<11
+1a,2,1,2,Pos,Pos,Neg,>=11
+1a,2,1,2,Pos,Neg,Pos,<11
+1a,2,1,2,Pos,Neg,Pos,>=11
+1a,2,1,2,Pos,Neg,Neg,<11
+1a,2,1,2,Pos,Neg,Neg,>=11
+1a,2,1,2,Neg,Pos,Pos,<11
+1a,2,1,2,Neg,Pos,Pos,>=11
+1a,2,1,2,Neg,Pos,Neg,<11
+1a,2,1,2,Neg,Pos,Neg,>=11
+1a,2,1,2,Neg,Neg,Pos,<11
+1a,2,1,2,Neg,Neg,Pos,>=11
+1a,2,1,2,Neg,Neg,Neg,<11
+1a,2,1,2,Neg,Neg,Neg,>=11
+1a,2,1,3,Pos,Pos,Pos,<11
+1a,2,1,3,Pos,Pos,Pos,>=11
+1a,2,1,3,Pos,Pos,Neg,<11
+1a,2,1,3,Pos,Pos,Neg,>=11
+1a,2,1,3,Pos,Neg,Pos,<11
+1a,2,1,3,Pos,Neg,Pos,>=11
+1a,2,1,3,Pos,Neg,Neg,<11
+1a,2,1,3,Pos,Neg,Neg,>=11
+1a,2,1,3,Neg,Pos,Pos,<11
+1a,2,1,3,Neg,Pos,Pos,>=11
+1a,2,1,3,Neg,Pos,Neg,<11
+1a,2,1,3,Neg,Pos,Neg,>=11
+1a,2,1,3,Neg,Neg,Pos,<11
+1a,2,1,3,Neg,Neg,Pos,>=11
+1a,2,1,3,Neg,Neg,Neg,<11
+1a,2,1,3,Neg,Neg,Neg,>=11
+1a,3,0,1,Pos,Pos,Pos,<11
+1a,3,0,1,Pos,Pos,Pos,>=11
+1a,3,0,1,Pos,Pos,Neg,<11
+1a,3,0,1,Pos,Pos,Neg,>=11
+1a,3,0,1,Pos,Neg,Pos,<11
+1a,3,0,1,Pos,Neg,Pos,>=11
+1a,3,0,1,Pos,Neg,Neg,<11
+1a,3,0,1,Pos,Neg,Neg,>=11
+1a,3,0,1,Neg,Pos,Pos,<11
+1a,3,0,1,Neg,Pos,Pos,>=11
+1a,3,0,1,Neg,Pos,Neg,<11
+1a,3,0,1,Neg,Pos,Neg,>=11
+1a,3,0,1,Neg,Neg,Pos,<11
+1a,3,0,1,Neg,Neg,Pos,>=11
+1a,3,0,1,Neg,Neg,Neg,<11
+1a,3,0,1,Neg,Neg,Neg,>=11
+1a,3,0,2,Pos,Pos,Pos,<11
+1a,3,0,2,Pos,Pos,Pos,>=11
+1a,3,0,2,Pos,Pos,Neg,<11
+1a,3,0,2,Pos,Pos,Neg,>=11
+1a,3,0,2,Pos,Neg,Pos,<11
+1a,3,0,2,Pos,Neg,Pos,>=11
+1a,3,0,2,Pos,Neg,Neg,<11
+1a,3,0,2,Pos,Neg,Neg,>=11
+1a,3,0,2,Neg,Pos,Pos,<11
+1a,3,0,2,Neg,Pos,Pos,>=11
+1a,3,0,2,Neg,Pos,Neg,<11
+1a,3,0,2,Neg,Pos,Neg,>=11
+1a,3,0,2,Neg,Neg,Pos,<11
+1a,3,0,2,Neg,Neg,Pos,>=11
+1a,3,0,2,Neg,Neg,Neg,<11
+1a,3,0,2,Neg,Neg,Neg,>=11
+1a,3,0,3,Pos,Pos,Pos,<11
+1a,3,0,3,Pos,Pos,Pos,>=11
+1a,3,0,3,Pos,Pos,Neg,<11
+1a,3,0,3,Pos,Pos,Neg,>=11
+1a,3,0,3,Pos,Neg,Pos,<11
+1a,3,0,3,Pos,Neg,Pos,>=11
+1a,3,0,3,Pos,Neg,Neg,<11
+1a,3,0,3,Pos,Neg,Neg,>=11
+1a,3,0,3,Neg,Pos,Pos,<11
+1a,3,0,3,Neg,Pos,Pos,>=11
+1a,3,0,3,Neg,Pos,Neg,<11
+1a,3,0,3,Neg,Pos,Neg,>=11
+1a,3,0,3,Neg,Neg,Pos,<11
+1a,3,0,3,Neg,Neg,Pos,>=11
+1a,3,0,3,Neg,Neg,Neg,<11
+1a,3,0,3,Neg,Neg,Neg,>=11
+1a,3,X,1,Pos,Pos,Pos,<11
+1a,3,X,1,Pos,Pos,Pos,>=11
+1a,3,X,1,Pos,Pos,Neg,<11
+1a,3,X,1,Pos,Pos,Neg,>=11
+1a,3,X,1,Pos,Neg,Pos,<11
+1a,3,X,1,Pos,Neg,Pos,>=11
+1a,3,X,1,Pos,Neg,Neg,<11
+1a,3,X,1,Pos,Neg,Neg,>=11
+1a,3,X,1,Neg,Pos,Pos,<11
+1a,3,X,1,Neg,Pos,Pos,>=11
+1a,3,X,1,Neg,Pos,Neg,<11
+1a,3,X,1,Neg,Pos,Neg,>=11
+1a,3,X,1,Neg,Neg,Pos,<11
+1a,3,X,1,Neg,Neg,Pos,>=11
+1a,3,X,1,Neg,Neg,Neg,<11
+1a,3,X,1,Neg,Neg,Neg,>=11
+1a,3,X,2,Pos,Pos,Pos,<11
+1a,3,X,2,Pos,Pos,Pos,>=11
+1a,3,X,2,Pos,Pos,Neg,<11
+1a,3,X,2,Pos,Pos,Neg,>=11
+1a,3,X,2,Pos,Neg,Pos,<11
+1a,3,X,2,Pos,Neg,Pos,>=11
+1a,3,X,2,Pos,Neg,Neg,<11
+1a,3,X,2,Pos,Neg,Neg,>=11
+1a,3,X,2,Neg,Pos,Pos,<11
+1a,3,X,2,Neg,Pos,Pos,>=11
+1a,3,X,2,Neg,Pos,Neg,<11
+1a,3,X,2,Neg,Pos,Neg,>=11
+1a,3,X,2,Neg,Neg,Pos,<11
+1a,3,X,2,Neg,Neg,Pos,>=11
+1a,3,X,2,Neg,Neg,Neg,<11
+1a,3,X,2,Neg,Neg,Neg,>=11
+1a,3,X,3,Pos,Pos,Pos,<11
+1a,3,X,3,Pos,Pos,Pos,>=11
+1a,3,X,3,Pos,Pos,Neg,<11
+1a,3,X,3,Pos,Pos,Neg,>=11
+1a,3,X,3,Pos,Neg,Pos,<11
+1a,3,X,3,Pos,Neg,Pos,>=11
+1a,3,X,3,Pos,Neg,Neg,<11
+1a,3,X,3,Pos,Neg,Neg,>=11
+1a,3,X,3,Neg,Pos,Pos,<11
+1a,3,X,3,Neg,Pos,Pos,>=11
+1a,3,X,3,Neg,Pos,Neg,<11
+1a,3,X,3,Neg,Pos,Neg,>=11
+1a,3,X,3,Neg,Neg,Pos,<11
+1a,3,X,3,Neg,Neg,Pos,>=11
+1a,3,X,3,Neg,Neg,Neg,<11
+1a,3,X,3,Neg,Neg,Neg,>=11
+1a,3,1,1,Pos,Pos,Pos,<11
+1a,3,1,1,Pos,Pos,Pos,>=11
+1a,3,1,1,Pos,Pos,Neg,<11
+1a,3,1,1,Pos,Pos,Neg,>=11
+1a,3,1,1,Pos,Neg,Pos,<11
+1a,3,1,1,Pos,Neg,Pos,>=11
+1a,3,1,1,Pos,Neg,Neg,<11
+1a,3,1,1,Pos,Neg,Neg,>=11
+1a,3,1,1,Neg,Pos,Pos,<11
+1a,3,1,1,Neg,Pos,Pos,>=11
+1a,3,1,1,Neg,Pos,Neg,<11
+1a,3,1,1,Neg,Pos,Neg,>=11
+1a,3,1,1,Neg,Neg,Pos,<11
+1a,3,1,1,Neg,Neg,Pos,>=11
+1a,3,1,1,Neg,Neg,Neg,<11
+1a,3,1,1,Neg,Neg,Neg,>=11
+1a,3,1,2,Pos,Pos,Pos,<11
+1a,3,1,2,Pos,Pos,Pos,>=11
+1a,3,1,2,Pos,Pos,Neg,<11
+1a,3,1,2,Pos,Pos,Neg,>=11
+1a,3,1,2,Pos,Neg,Pos,<11
+1a,3,1,2,Pos,Neg,Pos,>=11
+1a,3,1,2,Pos,Neg,Neg,<11
+1a,3,1,2,Pos,Neg,Neg,>=11
+1a,3,1,2,Neg,Pos,Pos,<11
+1a,3,1,2,Neg,Pos,Pos,>=11
+1a,3,1,2,Neg,Pos,Neg,<11
+1a,3,1,2,Neg,Pos,Neg,>=11
+1a,3,1,2,Neg,Neg,Pos,<11
+1a,3,1,2,Neg,Neg,Pos,>=11
+1a,3,1,2,Neg,Neg,Neg,<11
+1a,3,1,2,Neg,Neg,Neg,>=11
+1a,3,1,3,Pos,Pos,Pos,<11
+1a,3,1,3,Pos,Pos,Pos,>=11
+1a,3,1,3,Pos,Pos,Neg,<11
+1a,3,1,3,Pos,Pos,Neg,>=11
+1a,3,1,3,Pos,Neg,Pos,<11
+1a,3,1,3,Pos,Neg,Pos,>=11
+1a,3,1,3,Pos,Neg,Neg,<11
+1a,3,1,3,Pos,Neg,Neg,>=11
+1a,3,1,3,Neg,Pos,Pos,<11
+1a,3,1,3,Neg,Pos,Pos,>=11
+1a,3,1,3,Neg,Pos,Neg,<11
+1a,3,1,3,Neg,Pos,Neg,>=11
+1a,3,1,3,Neg,Neg,Pos,<11
+1a,3,1,3,Neg,Neg,Pos,>=11
+1a,3,1,3,Neg,Neg,Neg,<11
+1a,3,1,3,Neg,Neg,Neg,>=11
+1a,0,0,1,Pos,Pos,Pos,<11
+1a,0,0,1,Pos,Pos,Pos,>=11
+1a,0,0,1,Pos,Pos,Neg,<11
+1a,0,0,1,Pos,Pos,Neg,>=11
+1a,0,0,1,Pos,Neg,Pos,<11
+1a,0,0,1,Pos,Neg,Pos,>=11
+1a,0,0,1,Pos,Neg,Neg,<11
+1a,0,0,1,Pos,Neg,Neg,>=11
+1a,0,0,1,Neg,Pos,Pos,<11
+1a,0,0,1,Neg,Pos,Pos,>=11
+1a,0,0,1,Neg,Pos,Neg,<11
+1a,0,0,1,Neg,Pos,Neg,>=11
+1a,0,0,1,Neg,Neg,Pos,<11
+1a,0,0,1,Neg,Neg,Pos,>=11
+1a,0,0,1,Neg,Neg,Neg,<11
+1a,0,0,1,Neg,Neg,Neg,>=11
+1a,0,0,2,Pos,Pos,Pos,<11
+1a,0,0,2,Pos,Pos,Pos,>=11
+1a,0,0,2,Pos,Pos,Neg,<11
+1a,0,0,2,Pos,Pos,Neg,>=11
+1a,0,0,2,Pos,Neg,Pos,<11
+1a,0,0,2,Pos,Neg,Pos,>=11
+1a,0,0,2,Pos,Neg,Neg,<11
+1a,0,0,2,Pos,Neg,Neg,>=11
+1a,0,0,2,Neg,Pos,Pos,<11
+1a,0,0,2,Neg,Pos,Pos,>=11
+1a,0,0,2,Neg,Pos,Neg,<11
+1a,0,0,2,Neg,Pos,Neg,>=11
+1a,0,0,2,Neg,Neg,Pos,<11
+1a,0,0,2,Neg,Neg,Pos,>=11
+1a,0,0,2,Neg,Neg,Neg,<11
+1a,0,0,2,Neg,Neg,Neg,>=11
+1a,0,0,3,Pos,Pos,Pos,<11
+1a,0,0,3,Pos,Pos,Pos,>=11
+1a,0,0,3,Pos,Pos,Neg,<11
+1a,0,0,3,Pos,Pos,Neg,>=11
+1a,0,0,3,Pos,Neg,Pos,<11
+1a,0,0,3,Pos,Neg,Pos,>=11
+1a,0,0,3,Pos,Neg,Neg,<11
+1a,0,0,3,Pos,Neg,Neg,>=11
+1a,0,0,3,Neg,Pos,Pos,<11
+1a,0,0,3,Neg,Pos,Pos,>=11
+1a,0,0,3,Neg,Pos,Neg,<11
+1a,0,0,3,Neg,Pos,Neg,>=11
+1a,0,0,3,Neg,Neg,Pos,<11
+1a,0,0,3,Neg,Neg,Pos,>=11
+1a,0,0,3,Neg,Neg,Neg,<11
+1a,0,0,3,Neg,Neg,Neg,>=11
+1a,0,X,1,Pos,Pos,Pos,<11
+1a,0,X,1,Pos,Pos,Pos,>=11
+1a,0,X,1,Pos,Pos,Neg,<11
+1a,0,X,1,Pos,Pos,Neg,>=11
+1a,0,X,1,Pos,Neg,Pos,<11
+1a,0,X,1,Pos,Neg,Pos,>=11
+1a,0,X,1,Pos,Neg,Neg,<11
+1a,0,X,1,Pos,Neg,Neg,>=11
+1a,0,X,1,Neg,Pos,Pos,<11
+1a,0,X,1,Neg,Pos,Pos,>=11
+1a,0,X,1,Neg,Pos,Neg,<11
+1a,0,X,1,Neg,Pos,Neg,>=11
+1a,0,X,1,Neg,Neg,Pos,<11
+1a,0,X,1,Neg,Neg,Pos,>=11
+1a,0,X,1,Neg,Neg,Neg,<11
+1a,0,X,1,Neg,Neg,Neg,>=11
+1a,0,X,2,Pos,Pos,Pos,<11
+1a,0,X,2,Pos,Pos,Pos,>=11
+1a,0,X,2,Pos,Pos,Neg,<11
+1a,0,X,2,Pos,Pos,Neg,>=11
+1a,0,X,2,Pos,Neg,Pos,<11
+1a,0,X,2,Pos,Neg,Pos,>=11
+1a,0,X,2,Pos,Neg,Neg,<11
+1a,0,X,2,Pos,Neg,Neg,>=11
+1a,0,X,2,Neg,Pos,Pos,<11
+1a,0,X,2,Neg,Pos,Pos,>=11
+1a,0,X,2,Neg,Pos,Neg,<11
+1a,0,X,2,Neg,Pos,Neg,>=11
+1a,0,X,2,Neg,Neg,Pos,<11
+1a,0,X,2,Neg,Neg,Pos,>=11
+1a,0,X,2,Neg,Neg,Neg,<11
+1a,0,X,2,Neg,Neg,Neg,>=11
+1a,0,X,3,Pos,Pos,Pos,<11
+1a,0,X,3,Pos,Pos,Pos,>=11
+1a,0,X,3,Pos,Pos,Neg,<11
+1a,0,X,3,Pos,Pos,Neg,>=11
+1a,0,X,3,Pos,Neg,Pos,<11
+1a,0,X,3,Pos,Neg,Pos,>=11
+1a,0,X,3,Pos,Neg,Neg,<11
+1a,0,X,3,Pos,Neg,Neg,>=11
+1a,0,X,3,Neg,Pos,Pos,<11
+1a,0,X,3,Neg,Pos,Pos,>=11
+1a,0,X,3,Neg,Pos,Neg,<11
+1a,0,X,3,Neg,Pos,Neg,>=11
+1a,0,X,3,Neg,Neg,Pos,<11
+1a,0,X,3,Neg,Neg,Pos,>=11
+1a,0,X,3,Neg,Neg,Neg,<11
+1a,0,X,3,Neg,Neg,Neg,>=11
+1a,0,1,1,Pos,Pos,Pos,<11
+1a,0,1,1,Pos,Pos,Pos,>=11
+1a,0,1,1,Pos,Pos,Neg,<11
+1a,0,1,1,Pos,Pos,Neg,>=11
+1a,0,1,1,Pos,Neg,Pos,<11
+1a,0,1,1,Pos,Neg,Pos,>=11
+1a,0,1,1,Pos,Neg,Neg,<11
+1a,0,1,1,Pos,Neg,Neg,>=11
+1a,0,1,1,Neg,Pos,Pos,<11
+1a,0,1,1,Neg,Pos,Pos,>=11
+1a,0,1,1,Neg,Pos,Neg,<11
+1a,0,1,1,Neg,Pos,Neg,>=11
+1a,0,1,1,Neg,Neg,Pos,<11
+1a,0,1,1,Neg,Neg,Pos,>=11
+1a,0,1,1,Neg,Neg,Neg,<11
+1a,0,1,1,Neg,Neg,Neg,>=11
+1a,0,1,2,Pos,Pos,Pos,<11
+1a,0,1,2,Pos,Pos,Pos,>=11
+1a,0,1,2,Pos,Pos,Neg,<11
+1a,0,1,2,Pos,Pos,Neg,>=11
+1a,0,1,2,Pos,Neg,Pos,<11
+1a,0,1,2,Pos,Neg,Pos,>=11
+1a,0,1,2,Pos,Neg,Neg,<11
+1a,0,1,2,Pos,Neg,Neg,>=11
+1a,0,1,2,Neg,Pos,Pos,<11
+1a,0,1,2,Neg,Pos,Pos,>=11
+1a,0,1,2,Neg,Pos,Neg,<11
+1a,0,1,2,Neg,Pos,Neg,>=11
+1a,0,1,2,Neg,Neg,Pos,<11
+1a,0,1,2,Neg,Neg,Pos,>=11
+1a,0,1,2,Neg,Neg,Neg,<11
+1a,0,1,2,Neg,Neg,Neg,>=11
+1a,0,1,3,Pos,Pos,Pos,<11
+1a,0,1,3,Pos,Pos,Pos,>=11
+1a,0,1,3,Pos,Pos,Neg,<11
+1a,0,1,3,Pos,Pos,Neg,>=11
+1a,0,1,3,Pos,Neg,Pos,<11
+1a,0,1,3,Pos,Neg,Pos,>=11
+1a,0,1,3,Pos,Neg,Neg,<11
+1a,0,1,3,Pos,Neg,Neg,>=11
+1a,0,1,3,Neg,Pos,Pos,<11
+1a,0,1,3,Neg,Pos,Pos,>=11
+1a,0,1,3,Neg,Pos,Neg,<11
+1a,0,1,3,Neg,Pos,Neg,>=11
+1a,0,1,3,Neg,Neg,Pos,<11
+1a,0,1,3,Neg,Neg,Pos,>=11
+1a,0,1,3,Neg,Neg,Neg,<11
+1a,0,1,3,Neg,Neg,Neg,>=11
+1a,X Adjusted,0,1,Pos,Pos,Pos,<11
+1a,X Adjusted,0,1,Pos,Pos,Pos,>=11
+1a,X Adjusted,0,1,Pos,Pos,Neg,<11
+1a,X Adjusted,0,1,Pos,Pos,Neg,>=11
+1a,X Adjusted,0,1,Pos,Neg,Pos,<11
+1a,X Adjusted,0,1,Pos,Neg,Pos,>=11
+1a,X Adjusted,0,1,Pos,Neg,Neg,<11
+1a,X Adjusted,0,1,Pos,Neg,Neg,>=11
+1a,X Adjusted,0,1,Neg,Pos,Pos,<11
+1a,X Adjusted,0,1,Neg,Pos,Pos,>=11
+1a,X Adjusted,0,1,Neg,Pos,Neg,<11
+1a,X Adjusted,0,1,Neg,Pos,Neg,>=11
+1a,X Adjusted,0,1,Neg,Neg,Pos,<11
+1a,X Adjusted,0,1,Neg,Neg,Pos,>=11
+1a,X Adjusted,0,1,Neg,Neg,Neg,<11
+1a,X Adjusted,0,1,Neg,Neg,Neg,>=11
+1a,X Adjusted,0,2,Pos,Pos,Pos,<11
+1a,X Adjusted,0,2,Pos,Pos,Pos,>=11
+1a,X Adjusted,0,2,Pos,Pos,Neg,<11
+1a,X Adjusted,0,2,Pos,Pos,Neg,>=11
+1a,X Adjusted,0,2,Pos,Neg,Pos,<11
+1a,X Adjusted,0,2,Pos,Neg,Pos,>=11
+1a,X Adjusted,0,2,Pos,Neg,Neg,<11
+1a,X Adjusted,0,2,Pos,Neg,Neg,>=11
+1a,X Adjusted,0,2,Neg,Pos,Pos,<11
+1a,X Adjusted,0,2,Neg,Pos,Pos,>=11
+1a,X Adjusted,0,2,Neg,Pos,Neg,<11
+1a,X Adjusted,0,2,Neg,Pos,Neg,>=11
+1a,X Adjusted,0,2,Neg,Neg,Pos,<11
+1a,X Adjusted,0,2,Neg,Neg,Pos,>=11
+1a,X Adjusted,0,2,Neg,Neg,Neg,<11
+1a,X Adjusted,0,2,Neg,Neg,Neg,>=11
+1a,X Adjusted,0,3,Pos,Pos,Pos,<11
+1a,X Adjusted,0,3,Pos,Pos,Pos,>=11
+1a,X Adjusted,0,3,Pos,Pos,Neg,<11
+1a,X Adjusted,0,3,Pos,Pos,Neg,>=11
+1a,X Adjusted,0,3,Pos,Neg,Pos,<11
+1a,X Adjusted,0,3,Pos,Neg,Pos,>=11
+1a,X Adjusted,0,3,Pos,Neg,Neg,<11
+1a,X Adjusted,0,3,Pos,Neg,Neg,>=11
+1a,X Adjusted,0,3,Neg,Pos,Pos,<11
+1a,X Adjusted,0,3,Neg,Pos,Pos,>=11
+1a,X Adjusted,0,3,Neg,Pos,Neg,<11
+1a,X Adjusted,0,3,Neg,Pos,Neg,>=11
+1a,X Adjusted,0,3,Neg,Neg,Pos,<11
+1a,X Adjusted,0,3,Neg,Neg,Pos,>=11
+1a,X Adjusted,0,3,Neg,Neg,Neg,<11
+1a,X Adjusted,0,3,Neg,Neg,Neg,>=11
+1a,X Adjusted,X,1,Pos,Pos,Pos,<11
+1a,X Adjusted,X,1,Pos,Pos,Pos,>=11
+1a,X Adjusted,X,1,Pos,Pos,Neg,<11
+1a,X Adjusted,X,1,Pos,Pos,Neg,>=11
+1a,X Adjusted,X,1,Pos,Neg,Pos,<11
+1a,X Adjusted,X,1,Pos,Neg,Pos,>=11
+1a,X Adjusted,X,1,Pos,Neg,Neg,<11
+1a,X Adjusted,X,1,Pos,Neg,Neg,>=11
+1a,X Adjusted,X,1,Neg,Pos,Pos,<11
+1a,X Adjusted,X,1,Neg,Pos,Pos,>=11
+1a,X Adjusted,X,1,Neg,Pos,Neg,<11
+1a,X Adjusted,X,1,Neg,Pos,Neg,>=11
+1a,X Adjusted,X,1,Neg,Neg,Pos,<11
+1a,X Adjusted,X,1,Neg,Neg,Pos,>=11
+1a,X Adjusted,X,1,Neg,Neg,Neg,<11
+1a,X Adjusted,X,1,Neg,Neg,Neg,>=11
+1a,X Adjusted,X,2,Pos,Pos,Pos,<11
+1a,X Adjusted,X,2,Pos,Pos,Pos,>=11
+1a,X Adjusted,X,2,Pos,Pos,Neg,<11
+1a,X Adjusted,X,2,Pos,Pos,Neg,>=11
+1a,X Adjusted,X,2,Pos,Neg,Pos,<11
+1a,X Adjusted,X,2,Pos,Neg,Pos,>=11
+1a,X Adjusted,X,2,Pos,Neg,Neg,<11
+1a,X Adjusted,X,2,Pos,Neg,Neg,>=11
+1a,X Adjusted,X,2,Neg,Pos,Pos,<11
+1a,X Adjusted,X,2,Neg,Pos,Pos,>=11
+1a,X Adjusted,X,2,Neg,Pos,Neg,<11
+1a,X Adjusted,X,2,Neg,Pos,Neg,>=11
+1a,X Adjusted,X,2,Neg,Neg,Pos,<11
+1a,X Adjusted,X,2,Neg,Neg,Pos,>=11
+1a,X Adjusted,X,2,Neg,Neg,Neg,<11
+1a,X Adjusted,X,2,Neg,Neg,Neg,>=11
+1a,X Adjusted,X,3,Pos,Pos,Pos,<11
+1a,X Adjusted,X,3,Pos,Pos,Pos,>=11
+1a,X Adjusted,X,3,Pos,Pos,Neg,<11
+1a,X Adjusted,X,3,Pos,Pos,Neg,>=11
+1a,X Adjusted,X,3,Pos,Neg,Pos,<11
+1a,X Adjusted,X,3,Pos,Neg,Pos,>=11
+1a,X Adjusted,X,3,Pos,Neg,Neg,<11
+1a,X Adjusted,X,3,Pos,Neg,Neg,>=11
+1a,X Adjusted,X,3,Neg,Pos,Pos,<11
+1a,X Adjusted,X,3,Neg,Pos,Pos,>=11
+1a,X Adjusted,X,3,Neg,Pos,Neg,<11
+1a,X Adjusted,X,3,Neg,Pos,Neg,>=11
+1a,X Adjusted,X,3,Neg,Neg,Pos,<11
+1a,X Adjusted,X,3,Neg,Neg,Pos,>=11
+1a,X Adjusted,X,3,Neg,Neg,Neg,<11
+1a,X Adjusted,X,3,Neg,Neg,Neg,>=11
+1a,X Adjusted,1,1,Pos,Pos,Pos,<11
+1a,X Adjusted,1,1,Pos,Pos,Pos,>=11
+1a,X Adjusted,1,1,Pos,Pos,Neg,<11
+1a,X Adjusted,1,1,Pos,Pos,Neg,>=11
+1a,X Adjusted,1,1,Pos,Neg,Pos,<11
+1a,X Adjusted,1,1,Pos,Neg,Pos,>=11
+1a,X Adjusted,1,1,Pos,Neg,Neg,<11
+1a,X Adjusted,1,1,Pos,Neg,Neg,>=11
+1a,X Adjusted,1,1,Neg,Pos,Pos,<11
+1a,X Adjusted,1,1,Neg,Pos,Pos,>=11
+1a,X Adjusted,1,1,Neg,Pos,Neg,<11
+1a,X Adjusted,1,1,Neg,Pos,Neg,>=11
+1a,X Adjusted,1,1,Neg,Neg,Pos,<11
+1a,X Adjusted,1,1,Neg,Neg,Pos,>=11
+1a,X Adjusted,1,1,Neg,Neg,Neg,<11
+1a,X Adjusted,1,1,Neg,Neg,Neg,>=11
+1a,X Adjusted,1,2,Pos,Pos,Pos,<11
+1a,X Adjusted,1,2,Pos,Pos,Pos,>=11
+1a,X Adjusted,1,2,Pos,Pos,Neg,<11
+1a,X Adjusted,1,2,Pos,Pos,Neg,>=11
+1a,X Adjusted,1,2,Pos,Neg,Pos,<11
+1a,X Adjusted,1,2,Pos,Neg,Pos,>=11
+1a,X Adjusted,1,2,Pos,Neg,Neg,<11
+1a,X Adjusted,1,2,Pos,Neg,Neg,>=11
+1a,X Adjusted,1,2,Neg,Pos,Pos,<11
+1a,X Adjusted,1,2,Neg,Pos,Pos,>=11
+1a,X Adjusted,1,2,Neg,Pos,Neg,<11
+1a,X Adjusted,1,2,Neg,Pos,Neg,>=11
+1a,X Adjusted,1,2,Neg,Neg,Pos,<11
+1a,X Adjusted,1,2,Neg,Neg,Pos,>=11
+1a,X Adjusted,1,2,Neg,Neg,Neg,<11
+1a,X Adjusted,1,2,Neg,Neg,Neg,>=11
+1a,X Adjusted,1,3,Pos,Pos,Pos,<11
+1a,X Adjusted,1,3,Pos,Pos,Pos,>=11
+1a,X Adjusted,1,3,Pos,Pos,Neg,<11
+1a,X Adjusted,1,3,Pos,Pos,Neg,>=11
+1a,X Adjusted,1,3,Pos,Neg,Pos,<11
+1a,X Adjusted,1,3,Pos,Neg,Pos,>=11
+1a,X Adjusted,1,3,Pos,Neg,Neg,<11
+1a,X Adjusted,1,3,Pos,Neg,Neg,>=11
+1a,X Adjusted,1,3,Neg,Pos,Pos,<11
+1a,X Adjusted,1,3,Neg,Pos,Pos,>=11
+1a,X Adjusted,1,3,Neg,Pos,Neg,<11
+1a,X Adjusted,1,3,Neg,Pos,Neg,>=11
+1a,X Adjusted,1,3,Neg,Neg,Pos,<11
+1a,X Adjusted,1,3,Neg,Neg,Pos,>=11
+1a,X Adjusted,1,3,Neg,Neg,Neg,<11
+1a,X Adjusted,1,3,Neg,Neg,Neg,>=11
+1b,1,0,1,Pos,Pos,Pos,<11
+1b,1,0,1,Pos,Pos,Pos,>=11
+1b,1,0,1,Pos,Pos,Neg,<11
+1b,1,0,1,Pos,Pos,Neg,>=11
+1b,1,0,1,Pos,Neg,Pos,<11
+1b,1,0,1,Pos,Neg,Pos,>=11
+1b,1,0,1,Pos,Neg,Neg,<11
+1b,1,0,1,Pos,Neg,Neg,>=11
+1b,1,0,1,Neg,Pos,Pos,<11
+1b,1,0,1,Neg,Pos,Pos,>=11
+1b,1,0,1,Neg,Pos,Neg,<11
+1b,1,0,1,Neg,Pos,Neg,>=11
+1b,1,0,1,Neg,Neg,Pos,<11
+1b,1,0,1,Neg,Neg,Pos,>=11
+1b,1,0,1,Neg,Neg,Neg,<11
+1b,1,0,1,Neg,Neg,Neg,>=11
+1b,1,0,2,Pos,Pos,Pos,<11
+1b,1,0,2,Pos,Pos,Pos,>=11
+1b,1,0,2,Pos,Pos,Neg,<11
+1b,1,0,2,Pos,Pos,Neg,>=11
+1b,1,0,2,Pos,Neg,Pos,<11
+1b,1,0,2,Pos,Neg,Pos,>=11
+1b,1,0,2,Pos,Neg,Neg,<11
+1b,1,0,2,Pos,Neg,Neg,>=11
+1b,1,0,2,Neg,Pos,Pos,<11
+1b,1,0,2,Neg,Pos,Pos,>=11
+1b,1,0,2,Neg,Pos,Neg,<11
+1b,1,0,2,Neg,Pos,Neg,>=11
+1b,1,0,2,Neg,Neg,Pos,<11
+1b,1,0,2,Neg,Neg,Pos,>=11
+1b,1,0,2,Neg,Neg,Neg,<11
+1b,1,0,2,Neg,Neg,Neg,>=11
+1b,1,0,3,Pos,Pos,Pos,<11
+1b,1,0,3,Pos,Pos,Pos,>=11
+1b,1,0,3,Pos,Pos,Neg,<11
+1b,1,0,3,Pos,Pos,Neg,>=11
+1b,1,0,3,Pos,Neg,Pos,<11
+1b,1,0,3,Pos,Neg,Pos,>=11
+1b,1,0,3,Pos,Neg,Neg,<11
+1b,1,0,3,Pos,Neg,Neg,>=11
+1b,1,0,3,Neg,Pos,Pos,<11
+1b,1,0,3,Neg,Pos,Pos,>=11
+1b,1,0,3,Neg,Pos,Neg,<11
+1b,1,0,3,Neg,Pos,Neg,>=11
+1b,1,0,3,Neg,Neg,Pos,<11
+1b,1,0,3,Neg,Neg,Pos,>=11
+1b,1,0,3,Neg,Neg,Neg,<11
+1b,1,0,3,Neg,Neg,Neg,>=11
+1b,1,X,1,Pos,Pos,Pos,<11
+1b,1,X,1,Pos,Pos,Pos,>=11
+1b,1,X,1,Pos,Pos,Neg,<11
+1b,1,X,1,Pos,Pos,Neg,>=11
+1b,1,X,1,Pos,Neg,Pos,<11
+1b,1,X,1,Pos,Neg,Pos,>=11
+1b,1,X,1,Pos,Neg,Neg,<11
+1b,1,X,1,Pos,Neg,Neg,>=11
+1b,1,X,1,Neg,Pos,Pos,<11
+1b,1,X,1,Neg,Pos,Pos,>=11
+1b,1,X,1,Neg,Pos,Neg,<11
+1b,1,X,1,Neg,Pos,Neg,>=11
+1b,1,X,1,Neg,Neg,Pos,<11
+1b,1,X,1,Neg,Neg,Pos,>=11
+1b,1,X,1,Neg,Neg,Neg,<11
+1b,1,X,1,Neg,Neg,Neg,>=11
+1b,1,X,2,Pos,Pos,Pos,<11
+1b,1,X,2,Pos,Pos,Pos,>=11
+1b,1,X,2,Pos,Pos,Neg,<11
+1b,1,X,2,Pos,Pos,Neg,>=11
+1b,1,X,2,Pos,Neg,Pos,<11
+1b,1,X,2,Pos,Neg,Pos,>=11
+1b,1,X,2,Pos,Neg,Neg,<11
+1b,1,X,2,Pos,Neg,Neg,>=11
+1b,1,X,2,Neg,Pos,Pos,<11
+1b,1,X,2,Neg,Pos,Pos,>=11
+1b,1,X,2,Neg,Pos,Neg,<11
+1b,1,X,2,Neg,Pos,Neg,>=11
+1b,1,X,2,Neg,Neg,Pos,<11
+1b,1,X,2,Neg,Neg,Pos,>=11
+1b,1,X,2,Neg,Neg,Neg,<11
+1b,1,X,2,Neg,Neg,Neg,>=11
+1b,1,X,3,Pos,Pos,Pos,<11
+1b,1,X,3,Pos,Pos,Pos,>=11
+1b,1,X,3,Pos,Pos,Neg,<11
+1b,1,X,3,Pos,Pos,Neg,>=11
+1b,1,X,3,Pos,Neg,Pos,<11
+1b,1,X,3,Pos,Neg,Pos,>=11
+1b,1,X,3,Pos,Neg,Neg,<11
+1b,1,X,3,Pos,Neg,Neg,>=11
+1b,1,X,3,Neg,Pos,Pos,<11
+1b,1,X,3,Neg,Pos,Pos,>=11
+1b,1,X,3,Neg,Pos,Neg,<11
+1b,1,X,3,Neg,Pos,Neg,>=11
+1b,1,X,3,Neg,Neg,Pos,<11
+1b,1,X,3,Neg,Neg,Pos,>=11
+1b,1,X,3,Neg,Neg,Neg,<11
+1b,1,X,3,Neg,Neg,Neg,>=11
+1b,1,1,1,Pos,Pos,Pos,<11
+1b,1,1,1,Pos,Pos,Pos,>=11
+1b,1,1,1,Pos,Pos,Neg,<11
+1b,1,1,1,Pos,Pos,Neg,>=11
+1b,1,1,1,Pos,Neg,Pos,<11
+1b,1,1,1,Pos,Neg,Pos,>=11
+1b,1,1,1,Pos,Neg,Neg,<11
+1b,1,1,1,Pos,Neg,Neg,>=11
+1b,1,1,1,Neg,Pos,Pos,<11
+1b,1,1,1,Neg,Pos,Pos,>=11
+1b,1,1,1,Neg,Pos,Neg,<11
+1b,1,1,1,Neg,Pos,Neg,>=11
+1b,1,1,1,Neg,Neg,Pos,<11
+1b,1,1,1,Neg,Neg,Pos,>=11
+1b,1,1,1,Neg,Neg,Neg,<11
+1b,1,1,1,Neg,Neg,Neg,>=11
+1b,1,1,2,Pos,Pos,Pos,<11
+1b,1,1,2,Pos,Pos,Pos,>=11
+1b,1,1,2,Pos,Pos,Neg,<11
+1b,1,1,2,Pos,Pos,Neg,>=11
+1b,1,1,2,Pos,Neg,Pos,<11
+1b,1,1,2,Pos,Neg,Pos,>=11
+1b,1,1,2,Pos,Neg,Neg,<11
+1b,1,1,2,Pos,Neg,Neg,>=11
+1b,1,1,2,Neg,Pos,Pos,<11
+1b,1,1,2,Neg,Pos,Pos,>=11
+1b,1,1,2,Neg,Pos,Neg,<11
+1b,1,1,2,Neg,Pos,Neg,>=11
+1b,1,1,2,Neg,Neg,Pos,<11
+1b,1,1,2,Neg,Neg,Pos,>=11
+1b,1,1,2,Neg,Neg,Neg,<11
+1b,1,1,2,Neg,Neg,Neg,>=11
+1b,1,1,3,Pos,Pos,Pos,<11
+1b,1,1,3,Pos,Pos,Pos,>=11
+1b,1,1,3,Pos,Pos,Neg,<11
+1b,1,1,3,Pos,Pos,Neg,>=11
+1b,1,1,3,Pos,Neg,Pos,<11
+1b,1,1,3,Pos,Neg,Pos,>=11
+1b,1,1,3,Pos,Neg,Neg,<11
+1b,1,1,3,Pos,Neg,Neg,>=11
+1b,1,1,3,Neg,Pos,Pos,<11
+1b,1,1,3,Neg,Pos,Pos,>=11
+1b,1,1,3,Neg,Pos,Neg,<11
+1b,1,1,3,Neg,Pos,Neg,>=11
+1b,1,1,3,Neg,Neg,Pos,<11
+1b,1,1,3,Neg,Neg,Pos,>=11
+1b,1,1,3,Neg,Neg,Neg,<11
+1b,1,1,3,Neg,Neg,Neg,>=11
+1b,2,0,1,Pos,Pos,Pos,<11
+1b,2,0,1,Pos,Pos,Pos,>=11
+1b,2,0,1,Pos,Pos,Neg,<11
+1b,2,0,1,Pos,Pos,Neg,>=11
+1b,2,0,1,Pos,Neg,Pos,<11
+1b,2,0,1,Pos,Neg,Pos,>=11
+1b,2,0,1,Pos,Neg,Neg,<11
+1b,2,0,1,Pos,Neg,Neg,>=11
+1b,2,0,1,Neg,Pos,Pos,<11
+1b,2,0,1,Neg,Pos,Pos,>=11
+1b,2,0,1,Neg,Pos,Neg,<11
+1b,2,0,1,Neg,Pos,Neg,>=11
+1b,2,0,1,Neg,Neg,Pos,<11
+1b,2,0,1,Neg,Neg,Pos,>=11
+1b,2,0,1,Neg,Neg,Neg,<11
+1b,2,0,1,Neg,Neg,Neg,>=11
+1b,2,0,2,Pos,Pos,Pos,<11
+1b,2,0,2,Pos,Pos,Pos,>=11
+1b,2,0,2,Pos,Pos,Neg,<11
+1b,2,0,2,Pos,Pos,Neg,>=11
+1b,2,0,2,Pos,Neg,Pos,<11
+1b,2,0,2,Pos,Neg,Pos,>=11
+1b,2,0,2,Pos,Neg,Neg,<11
+1b,2,0,2,Pos,Neg,Neg,>=11
+1b,2,0,2,Neg,Pos,Pos,<11
+1b,2,0,2,Neg,Pos,Pos,>=11
+1b,2,0,2,Neg,Pos,Neg,<11
+1b,2,0,2,Neg,Pos,Neg,>=11
+1b,2,0,2,Neg,Neg,Pos,<11
+1b,2,0,2,Neg,Neg,Pos,>=11
+1b,2,0,2,Neg,Neg,Neg,<11
+1b,2,0,2,Neg,Neg,Neg,>=11
+1b,2,0,3,Pos,Pos,Pos,<11
+1b,2,0,3,Pos,Pos,Pos,>=11
+1b,2,0,3,Pos,Pos,Neg,<11
+1b,2,0,3,Pos,Pos,Neg,>=11
+1b,2,0,3,Pos,Neg,Pos,<11
+1b,2,0,3,Pos,Neg,Pos,>=11
+1b,2,0,3,Pos,Neg,Neg,<11
+1b,2,0,3,Pos,Neg,Neg,>=11
+1b,2,0,3,Neg,Pos,Pos,<11
+1b,2,0,3,Neg,Pos,Pos,>=11
+1b,2,0,3,Neg,Pos,Neg,<11
+1b,2,0,3,Neg,Pos,Neg,>=11
+1b,2,0,3,Neg,Neg,Pos,<11
+1b,2,0,3,Neg,Neg,Pos,>=11
+1b,2,0,3,Neg,Neg,Neg,<11
+1b,2,0,3,Neg,Neg,Neg,>=11
+1b,2,X,1,Pos,Pos,Pos,<11
+1b,2,X,1,Pos,Pos,Pos,>=11
+1b,2,X,1,Pos,Pos,Neg,<11
+1b,2,X,1,Pos,Pos,Neg,>=11
+1b,2,X,1,Pos,Neg,Pos,<11
+1b,2,X,1,Pos,Neg,Pos,>=11
+1b,2,X,1,Pos,Neg,Neg,<11
+1b,2,X,1,Pos,Neg,Neg,>=11
+1b,2,X,1,Neg,Pos,Pos,<11
+1b,2,X,1,Neg,Pos,Pos,>=11
+1b,2,X,1,Neg,Pos,Neg,<11
+1b,2,X,1,Neg,Pos,Neg,>=11
+1b,2,X,1,Neg,Neg,Pos,<11
+1b,2,X,1,Neg,Neg,Pos,>=11
+1b,2,X,1,Neg,Neg,Neg,<11
+1b,2,X,1,Neg,Neg,Neg,>=11
+1b,2,X,2,Pos,Pos,Pos,<11
+1b,2,X,2,Pos,Pos,Pos,>=11
+1b,2,X,2,Pos,Pos,Neg,<11
+1b,2,X,2,Pos,Pos,Neg,>=11
+1b,2,X,2,Pos,Neg,Pos,<11
+1b,2,X,2,Pos,Neg,Pos,>=11
+1b,2,X,2,Pos,Neg,Neg,<11
+1b,2,X,2,Pos,Neg,Neg,>=11
+1b,2,X,2,Neg,Pos,Pos,<11
+1b,2,X,2,Neg,Pos,Pos,>=11
+1b,2,X,2,Neg,Pos,Neg,<11
+1b,2,X,2,Neg,Pos,Neg,>=11
+1b,2,X,2,Neg,Neg,Pos,<11
+1b,2,X,2,Neg,Neg,Pos,>=11
+1b,2,X,2,Neg,Neg,Neg,<11
+1b,2,X,2,Neg,Neg,Neg,>=11
+1b,2,X,3,Pos,Pos,Pos,<11
+1b,2,X,3,Pos,Pos,Pos,>=11
+1b,2,X,3,Pos,Pos,Neg,<11
+1b,2,X,3,Pos,Pos,Neg,>=11
+1b,2,X,3,Pos,Neg,Pos,<11
+1b,2,X,3,Pos,Neg,Pos,>=11
+1b,2,X,3,Pos,Neg,Neg,<11
+1b,2,X,3,Pos,Neg,Neg,>=11
+1b,2,X,3,Neg,Pos,Pos,<11
+1b,2,X,3,Neg,Pos,Pos,>=11
+1b,2,X,3,Neg,Pos,Neg,<11
+1b,2,X,3,Neg,Pos,Neg,>=11
+1b,2,X,3,Neg,Neg,Pos,<11
+1b,2,X,3,Neg,Neg,Pos,>=11
+1b,2,X,3,Neg,Neg,Neg,<11
+1b,2,X,3,Neg,Neg,Neg,>=11
+1b,2,1,1,Pos,Pos,Pos,<11
+1b,2,1,1,Pos,Pos,Pos,>=11
+1b,2,1,1,Pos,Pos,Neg,<11
+1b,2,1,1,Pos,Pos,Neg,>=11
+1b,2,1,1,Pos,Neg,Pos,<11
+1b,2,1,1,Pos,Neg,Pos,>=11
+1b,2,1,1,Pos,Neg,Neg,<11
+1b,2,1,1,Pos,Neg,Neg,>=11
+1b,2,1,1,Neg,Pos,Pos,<11
+1b,2,1,1,Neg,Pos,Pos,>=11
+1b,2,1,1,Neg,Pos,Neg,<11
+1b,2,1,1,Neg,Pos,Neg,>=11
+1b,2,1,1,Neg,Neg,Pos,<11
+1b,2,1,1,Neg,Neg,Pos,>=11
+1b,2,1,1,Neg,Neg,Neg,<11
+1b,2,1,1,Neg,Neg,Neg,>=11
+1b,2,1,2,Pos,Pos,Pos,<11
+1b,2,1,2,Pos,Pos,Pos,>=11
+1b,2,1,2,Pos,Pos,Neg,<11
+1b,2,1,2,Pos,Pos,Neg,>=11
+1b,2,1,2,Pos,Neg,Pos,<11
+1b,2,1,2,Pos,Neg,Pos,>=11
+1b,2,1,2,Pos,Neg,Neg,<11
+1b,2,1,2,Pos,Neg,Neg,>=11
+1b,2,1,2,Neg,Pos,Pos,<11
+1b,2,1,2,Neg,Pos,Pos,>=11
+1b,2,1,2,Neg,Pos,Neg,<11
+1b,2,1,2,Neg,Pos,Neg,>=11
+1b,2,1,2,Neg,Neg,Pos,<11
+1b,2,1,2,Neg,Neg,Pos,>=11
+1b,2,1,2,Neg,Neg,Neg,<11
+1b,2,1,2,Neg,Neg,Neg,>=11
+1b,2,1,3,Pos,Pos,Pos,<11
+1b,2,1,3,Pos,Pos,Pos,>=11
+1b,2,1,3,Pos,Pos,Neg,<11
+1b,2,1,3,Pos,Pos,Neg,>=11
+1b,2,1,3,Pos,Neg,Pos,<11
+1b,2,1,3,Pos,Neg,Pos,>=11
+1b,2,1,3,Pos,Neg,Neg,<11
+1b,2,1,3,Pos,Neg,Neg,>=11
+1b,2,1,3,Neg,Pos,Pos,<11
+1b,2,1,3,Neg,Pos,Pos,>=11
+1b,2,1,3,Neg,Pos,Neg,<11
+1b,2,1,3,Neg,Pos,Neg,>=11
+1b,2,1,3,Neg,Neg,Pos,<11
+1b,2,1,3,Neg,Neg,Pos,>=11
+1b,2,1,3,Neg,Neg,Neg,<11
+1b,2,1,3,Neg,Neg,Neg,>=11
+1b,3,0,1,Pos,Pos,Pos,<11
+1b,3,0,1,Pos,Pos,Pos,>=11
+1b,3,0,1,Pos,Pos,Neg,<11
+1b,3,0,1,Pos,Pos,Neg,>=11
+1b,3,0,1,Pos,Neg,Pos,<11
+1b,3,0,1,Pos,Neg,Pos,>=11
+1b,3,0,1,Pos,Neg,Neg,<11
+1b,3,0,1,Pos,Neg,Neg,>=11
+1b,3,0,1,Neg,Pos,Pos,<11
+1b,3,0,1,Neg,Pos,Pos,>=11
+1b,3,0,1,Neg,Pos,Neg,<11
+1b,3,0,1,Neg,Pos,Neg,>=11
+1b,3,0,1,Neg,Neg,Pos,<11
+1b,3,0,1,Neg,Neg,Pos,>=11
+1b,3,0,1,Neg,Neg,Neg,<11
+1b,3,0,1,Neg,Neg,Neg,>=11
+1b,3,0,2,Pos,Pos,Pos,<11
+1b,3,0,2,Pos,Pos,Pos,>=11
+1b,3,0,2,Pos,Pos,Neg,<11
+1b,3,0,2,Pos,Pos,Neg,>=11
+1b,3,0,2,Pos,Neg,Pos,<11
+1b,3,0,2,Pos,Neg,Pos,>=11
+1b,3,0,2,Pos,Neg,Neg,<11
+1b,3,0,2,Pos,Neg,Neg,>=11
+1b,3,0,2,Neg,Pos,Pos,<11
+1b,3,0,2,Neg,Pos,Pos,>=11
+1b,3,0,2,Neg,Pos,Neg,<11
+1b,3,0,2,Neg,Pos,Neg,>=11
+1b,3,0,2,Neg,Neg,Pos,<11
+1b,3,0,2,Neg,Neg,Pos,>=11
+1b,3,0,2,Neg,Neg,Neg,<11
+1b,3,0,2,Neg,Neg,Neg,>=11
+1b,3,0,3,Pos,Pos,Pos,<11
+1b,3,0,3,Pos,Pos,Pos,>=11
+1b,3,0,3,Pos,Pos,Neg,<11
+1b,3,0,3,Pos,Pos,Neg,>=11
+1b,3,0,3,Pos,Neg,Pos,<11
+1b,3,0,3,Pos,Neg,Pos,>=11
+1b,3,0,3,Pos,Neg,Neg,<11
+1b,3,0,3,Pos,Neg,Neg,>=11
+1b,3,0,3,Neg,Pos,Pos,<11
+1b,3,0,3,Neg,Pos,Pos,>=11
+1b,3,0,3,Neg,Pos,Neg,<11
+1b,3,0,3,Neg,Pos,Neg,>=11
+1b,3,0,3,Neg,Neg,Pos,<11
+1b,3,0,3,Neg,Neg,Pos,>=11
+1b,3,0,3,Neg,Neg,Neg,<11
+1b,3,0,3,Neg,Neg,Neg,>=11
+1b,3,X,1,Pos,Pos,Pos,<11
+1b,3,X,1,Pos,Pos,Pos,>=11
+1b,3,X,1,Pos,Pos,Neg,<11
+1b,3,X,1,Pos,Pos,Neg,>=11
+1b,3,X,1,Pos,Neg,Pos,<11
+1b,3,X,1,Pos,Neg,Pos,>=11
+1b,3,X,1,Pos,Neg,Neg,<11
+1b,3,X,1,Pos,Neg,Neg,>=11
+1b,3,X,1,Neg,Pos,Pos,<11
+1b,3,X,1,Neg,Pos,Pos,>=11
+1b,3,X,1,Neg,Pos,Neg,<11
+1b,3,X,1,Neg,Pos,Neg,>=11
+1b,3,X,1,Neg,Neg,Pos,<11
+1b,3,X,1,Neg,Neg,Pos,>=11
+1b,3,X,1,Neg,Neg,Neg,<11
+1b,3,X,1,Neg,Neg,Neg,>=11
+1b,3,X,2,Pos,Pos,Pos,<11
+1b,3,X,2,Pos,Pos,Pos,>=11
+1b,3,X,2,Pos,Pos,Neg,<11
+1b,3,X,2,Pos,Pos,Neg,>=11
+1b,3,X,2,Pos,Neg,Pos,<11
+1b,3,X,2,Pos,Neg,Pos,>=11
+1b,3,X,2,Pos,Neg,Neg,<11
+1b,3,X,2,Pos,Neg,Neg,>=11
+1b,3,X,2,Neg,Pos,Pos,<11
+1b,3,X,2,Neg,Pos,Pos,>=11
+1b,3,X,2,Neg,Pos,Neg,<11
+1b,3,X,2,Neg,Pos,Neg,>=11
+1b,3,X,2,Neg,Neg,Pos,<11
+1b,3,X,2,Neg,Neg,Pos,>=11
+1b,3,X,2,Neg,Neg,Neg,<11
+1b,3,X,2,Neg,Neg,Neg,>=11
+1b,3,X,3,Pos,Pos,Pos,<11
+1b,3,X,3,Pos,Pos,Pos,>=11
+1b,3,X,3,Pos,Pos,Neg,<11
+1b,3,X,3,Pos,Pos,Neg,>=11
+1b,3,X,3,Pos,Neg,Pos,<11
+1b,3,X,3,Pos,Neg,Pos,>=11
+1b,3,X,3,Pos,Neg,Neg,<11
+1b,3,X,3,Pos,Neg,Neg,>=11
+1b,3,X,3,Neg,Pos,Pos,<11
+1b,3,X,3,Neg,Pos,Pos,>=11
+1b,3,X,3,Neg,Pos,Neg,<11
+1b,3,X,3,Neg,Pos,Neg,>=11
+1b,3,X,3,Neg,Neg,Pos,<11
+1b,3,X,3,Neg,Neg,Pos,>=11
+1b,3,X,3,Neg,Neg,Neg,<11
+1b,3,X,3,Neg,Neg,Neg,>=11
+1b,3,1,1,Pos,Pos,Pos,<11
+1b,3,1,1,Pos,Pos,Pos,>=11
+1b,3,1,1,Pos,Pos,Neg,<11
+1b,3,1,1,Pos,Pos,Neg,>=11
+1b,3,1,1,Pos,Neg,Pos,<11
+1b,3,1,1,Pos,Neg,Pos,>=11
+1b,3,1,1,Pos,Neg,Neg,<11
+1b,3,1,1,Pos,Neg,Neg,>=11
+1b,3,1,1,Neg,Pos,Pos,<11
+1b,3,1,1,Neg,Pos,Pos,>=11
+1b,3,1,1,Neg,Pos,Neg,<11
+1b,3,1,1,Neg,Pos,Neg,>=11
+1b,3,1,1,Neg,Neg,Pos,<11
+1b,3,1,1,Neg,Neg,Pos,>=11
+1b,3,1,1,Neg,Neg,Neg,<11
+1b,3,1,1,Neg,Neg,Neg,>=11
+1b,3,1,2,Pos,Pos,Pos,<11
+1b,3,1,2,Pos,Pos,Pos,>=11
+1b,3,1,2,Pos,Pos,Neg,<11
+1b,3,1,2,Pos,Pos,Neg,>=11
+1b,3,1,2,Pos,Neg,Pos,<11
+1b,3,1,2,Pos,Neg,Pos,>=11
+1b,3,1,2,Pos,Neg,Neg,<11
+1b,3,1,2,Pos,Neg,Neg,>=11
+1b,3,1,2,Neg,Pos,Pos,<11
+1b,3,1,2,Neg,Pos,Pos,>=11
+1b,3,1,2,Neg,Pos,Neg,<11
+1b,3,1,2,Neg,Pos,Neg,>=11
+1b,3,1,2,Neg,Neg,Pos,<11
+1b,3,1,2,Neg,Neg,Pos,>=11
+1b,3,1,2,Neg,Neg,Neg,<11
+1b,3,1,2,Neg,Neg,Neg,>=11
+1b,3,1,3,Pos,Pos,Pos,<11
+1b,3,1,3,Pos,Pos,Pos,>=11
+1b,3,1,3,Pos,Pos,Neg,<11
+1b,3,1,3,Pos,Pos,Neg,>=11
+1b,3,1,3,Pos,Neg,Pos,<11
+1b,3,1,3,Pos,Neg,Pos,>=11
+1b,3,1,3,Pos,Neg,Neg,<11
+1b,3,1,3,Pos,Neg,Neg,>=11
+1b,3,1,3,Neg,Pos,Pos,<11
+1b,3,1,3,Neg,Pos,Pos,>=11
+1b,3,1,3,Neg,Pos,Neg,<11
+1b,3,1,3,Neg,Pos,Neg,>=11
+1b,3,1,3,Neg,Neg,Pos,<11
+1b,3,1,3,Neg,Neg,Pos,>=11
+1b,3,1,3,Neg,Neg,Neg,<11
+1b,3,1,3,Neg,Neg,Neg,>=11
+1b,0,0,1,Pos,Pos,Pos,<11
+1b,0,0,1,Pos,Pos,Pos,>=11
+1b,0,0,1,Pos,Pos,Neg,<11
+1b,0,0,1,Pos,Pos,Neg,>=11
+1b,0,0,1,Pos,Neg,Pos,<11
+1b,0,0,1,Pos,Neg,Pos,>=11
+1b,0,0,1,Pos,Neg,Neg,<11
+1b,0,0,1,Pos,Neg,Neg,>=11
+1b,0,0,1,Neg,Pos,Pos,<11
+1b,0,0,1,Neg,Pos,Pos,>=11
+1b,0,0,1,Neg,Pos,Neg,<11
+1b,0,0,1,Neg,Pos,Neg,>=11
+1b,0,0,1,Neg,Neg,Pos,<11
+1b,0,0,1,Neg,Neg,Pos,>=11
+1b,0,0,1,Neg,Neg,Neg,<11
+1b,0,0,1,Neg,Neg,Neg,>=11
+1b,0,0,2,Pos,Pos,Pos,<11
+1b,0,0,2,Pos,Pos,Pos,>=11
+1b,0,0,2,Pos,Pos,Neg,<11
+1b,0,0,2,Pos,Pos,Neg,>=11
+1b,0,0,2,Pos,Neg,Pos,<11
+1b,0,0,2,Pos,Neg,Pos,>=11
+1b,0,0,2,Pos,Neg,Neg,<11
+1b,0,0,2,Pos,Neg,Neg,>=11
+1b,0,0,2,Neg,Pos,Pos,<11
+1b,0,0,2,Neg,Pos,Pos,>=11
+1b,0,0,2,Neg,Pos,Neg,<11
+1b,0,0,2,Neg,Pos,Neg,>=11
+1b,0,0,2,Neg,Neg,Pos,<11
+1b,0,0,2,Neg,Neg,Pos,>=11
+1b,0,0,2,Neg,Neg,Neg,<11
+1b,0,0,2,Neg,Neg,Neg,>=11
+1b,0,0,3,Pos,Pos,Pos,<11
+1b,0,0,3,Pos,Pos,Pos,>=11
+1b,0,0,3,Pos,Pos,Neg,<11
+1b,0,0,3,Pos,Pos,Neg,>=11
+1b,0,0,3,Pos,Neg,Pos,<11
+1b,0,0,3,Pos,Neg,Pos,>=11
+1b,0,0,3,Pos,Neg,Neg,<11
+1b,0,0,3,Pos,Neg,Neg,>=11
+1b,0,0,3,Neg,Pos,Pos,<11
+1b,0,0,3,Neg,Pos,Pos,>=11
+1b,0,0,3,Neg,Pos,Neg,<11
+1b,0,0,3,Neg,Pos,Neg,>=11
+1b,0,0,3,Neg,Neg,Pos,<11
+1b,0,0,3,Neg,Neg,Pos,>=11
+1b,0,0,3,Neg,Neg,Neg,<11
+1b,0,0,3,Neg,Neg,Neg,>=11
+1b,0,X,1,Pos,Pos,Pos,<11
+1b,0,X,1,Pos,Pos,Pos,>=11
+1b,0,X,1,Pos,Pos,Neg,<11
+1b,0,X,1,Pos,Pos,Neg,>=11
+1b,0,X,1,Pos,Neg,Pos,<11
+1b,0,X,1,Pos,Neg,Pos,>=11
+1b,0,X,1,Pos,Neg,Neg,<11
+1b,0,X,1,Pos,Neg,Neg,>=11
+1b,0,X,1,Neg,Pos,Pos,<11
+1b,0,X,1,Neg,Pos,Pos,>=11
+1b,0,X,1,Neg,Pos,Neg,<11
+1b,0,X,1,Neg,Pos,Neg,>=11
+1b,0,X,1,Neg,Neg,Pos,<11
+1b,0,X,1,Neg,Neg,Pos,>=11
+1b,0,X,1,Neg,Neg,Neg,<11
+1b,0,X,1,Neg,Neg,Neg,>=11
+1b,0,X,2,Pos,Pos,Pos,<11
+1b,0,X,2,Pos,Pos,Pos,>=11
+1b,0,X,2,Pos,Pos,Neg,<11
+1b,0,X,2,Pos,Pos,Neg,>=11
+1b,0,X,2,Pos,Neg,Pos,<11
+1b,0,X,2,Pos,Neg,Pos,>=11
+1b,0,X,2,Pos,Neg,Neg,<11
+1b,0,X,2,Pos,Neg,Neg,>=11
+1b,0,X,2,Neg,Pos,Pos,<11
+1b,0,X,2,Neg,Pos,Pos,>=11
+1b,0,X,2,Neg,Pos,Neg,<11
+1b,0,X,2,Neg,Pos,Neg,>=11
+1b,0,X,2,Neg,Neg,Pos,<11
+1b,0,X,2,Neg,Neg,Pos,>=11
+1b,0,X,2,Neg,Neg,Neg,<11
+1b,0,X,2,Neg,Neg,Neg,>=11
+1b,0,X,3,Pos,Pos,Pos,<11
+1b,0,X,3,Pos,Pos,Pos,>=11
+1b,0,X,3,Pos,Pos,Neg,<11
+1b,0,X,3,Pos,Pos,Neg,>=11
+1b,0,X,3,Pos,Neg,Pos,<11
+1b,0,X,3,Pos,Neg,Pos,>=11
+1b,0,X,3,Pos,Neg,Neg,<11
+1b,0,X,3,Pos,Neg,Neg,>=11
+1b,0,X,3,Neg,Pos,Pos,<11
+1b,0,X,3,Neg,Pos,Pos,>=11
+1b,0,X,3,Neg,Pos,Neg,<11
+1b,0,X,3,Neg,Pos,Neg,>=11
+1b,0,X,3,Neg,Neg,Pos,<11
+1b,0,X,3,Neg,Neg,Pos,>=11
+1b,0,X,3,Neg,Neg,Neg,<11
+1b,0,X,3,Neg,Neg,Neg,>=11
+1b,0,1,1,Pos,Pos,Pos,<11
+1b,0,1,1,Pos,Pos,Pos,>=11
+1b,0,1,1,Pos,Pos,Neg,<11
+1b,0,1,1,Pos,Pos,Neg,>=11
+1b,0,1,1,Pos,Neg,Pos,<11
+1b,0,1,1,Pos,Neg,Pos,>=11
+1b,0,1,1,Pos,Neg,Neg,<11
+1b,0,1,1,Pos,Neg,Neg,>=11
+1b,0,1,1,Neg,Pos,Pos,<11
+1b,0,1,1,Neg,Pos,Pos,>=11
+1b,0,1,1,Neg,Pos,Neg,<11
+1b,0,1,1,Neg,Pos,Neg,>=11
+1b,0,1,1,Neg,Neg,Pos,<11
+1b,0,1,1,Neg,Neg,Pos,>=11
+1b,0,1,1,Neg,Neg,Neg,<11
+1b,0,1,1,Neg,Neg,Neg,>=11
+1b,0,1,2,Pos,Pos,Pos,<11
+1b,0,1,2,Pos,Pos,Pos,>=11
+1b,0,1,2,Pos,Pos,Neg,<11
+1b,0,1,2,Pos,Pos,Neg,>=11
+1b,0,1,2,Pos,Neg,Pos,<11
+1b,0,1,2,Pos,Neg,Pos,>=11
+1b,0,1,2,Pos,Neg,Neg,<11
+1b,0,1,2,Pos,Neg,Neg,>=11
+1b,0,1,2,Neg,Pos,Pos,<11
+1b,0,1,2,Neg,Pos,Pos,>=11
+1b,0,1,2,Neg,Pos,Neg,<11
+1b,0,1,2,Neg,Pos,Neg,>=11
+1b,0,1,2,Neg,Neg,Pos,<11
+1b,0,1,2,Neg,Neg,Pos,>=11
+1b,0,1,2,Neg,Neg,Neg,<11
+1b,0,1,2,Neg,Neg,Neg,>=11
+1b,0,1,3,Pos,Pos,Pos,<11
+1b,0,1,3,Pos,Pos,Pos,>=11
+1b,0,1,3,Pos,Pos,Neg,<11
+1b,0,1,3,Pos,Pos,Neg,>=11
+1b,0,1,3,Pos,Neg,Pos,<11
+1b,0,1,3,Pos,Neg,Pos,>=11
+1b,0,1,3,Pos,Neg,Neg,<11
+1b,0,1,3,Pos,Neg,Neg,>=11
+1b,0,1,3,Neg,Pos,Pos,<11
+1b,0,1,3,Neg,Pos,Pos,>=11
+1b,0,1,3,Neg,Pos,Neg,<11
+1b,0,1,3,Neg,Pos,Neg,>=11
+1b,0,1,3,Neg,Neg,Pos,<11
+1b,0,1,3,Neg,Neg,Pos,>=11
+1b,0,1,3,Neg,Neg,Neg,<11
+1b,0,1,3,Neg,Neg,Neg,>=11
+1b,X Adjusted,0,1,Pos,Pos,Pos,<11
+1b,X Adjusted,0,1,Pos,Pos,Pos,>=11
+1b,X Adjusted,0,1,Pos,Pos,Neg,<11
+1b,X Adjusted,0,1,Pos,Pos,Neg,>=11
+1b,X Adjusted,0,1,Pos,Neg,Pos,<11
+1b,X Adjusted,0,1,Pos,Neg,Pos,>=11
+1b,X Adjusted,0,1,Pos,Neg,Neg,<11
+1b,X Adjusted,0,1,Pos,Neg,Neg,>=11
+1b,X Adjusted,0,1,Neg,Pos,Pos,<11
+1b,X Adjusted,0,1,Neg,Pos,Pos,>=11
+1b,X Adjusted,0,1,Neg,Pos,Neg,<11
+1b,X Adjusted,0,1,Neg,Pos,Neg,>=11
+1b,X Adjusted,0,1,Neg,Neg,Pos,<11
+1b,X Adjusted,0,1,Neg,Neg,Pos,>=11
+1b,X Adjusted,0,1,Neg,Neg,Neg,<11
+1b,X Adjusted,0,1,Neg,Neg,Neg,>=11
+1b,X Adjusted,0,2,Pos,Pos,Pos,<11
+1b,X Adjusted,0,2,Pos,Pos,Pos,>=11
+1b,X Adjusted,0,2,Pos,Pos,Neg,<11
+1b,X Adjusted,0,2,Pos,Pos,Neg,>=11
+1b,X Adjusted,0,2,Pos,Neg,Pos,<11
+1b,X Adjusted,0,2,Pos,Neg,Pos,>=11
+1b,X Adjusted,0,2,Pos,Neg,Neg,<11
+1b,X Adjusted,0,2,Pos,Neg,Neg,>=11
+1b,X Adjusted,0,2,Neg,Pos,Pos,<11
+1b,X Adjusted,0,2,Neg,Pos,Pos,>=11
+1b,X Adjusted,0,2,Neg,Pos,Neg,<11
+1b,X Adjusted,0,2,Neg,Pos,Neg,>=11
+1b,X Adjusted,0,2,Neg,Neg,Pos,<11
+1b,X Adjusted,0,2,Neg,Neg,Pos,>=11
+1b,X Adjusted,0,2,Neg,Neg,Neg,<11
+1b,X Adjusted,0,2,Neg,Neg,Neg,>=11
+1b,X Adjusted,0,3,Pos,Pos,Pos,<11
+1b,X Adjusted,0,3,Pos,Pos,Pos,>=11
+1b,X Adjusted,0,3,Pos,Pos,Neg,<11
+1b,X Adjusted,0,3,Pos,Pos,Neg,>=11
+1b,X Adjusted,0,3,Pos,Neg,Pos,<11
+1b,X Adjusted,0,3,Pos,Neg,Pos,>=11
+1b,X Adjusted,0,3,Pos,Neg,Neg,<11
+1b,X Adjusted,0,3,Pos,Neg,Neg,>=11
+1b,X Adjusted,0,3,Neg,Pos,Pos,<11
+1b,X Adjusted,0,3,Neg,Pos,Pos,>=11
+1b,X Adjusted,0,3,Neg,Pos,Neg,<11
+1b,X Adjusted,0,3,Neg,Pos,Neg,>=11
+1b,X Adjusted,0,3,Neg,Neg,Pos,<11
+1b,X Adjusted,0,3,Neg,Neg,Pos,>=11
+1b,X Adjusted,0,3,Neg,Neg,Neg,<11
+1b,X Adjusted,0,3,Neg,Neg,Neg,>=11
+1b,X Adjusted,X,1,Pos,Pos,Pos,<11
+1b,X Adjusted,X,1,Pos,Pos,Pos,>=11
+1b,X Adjusted,X,1,Pos,Pos,Neg,<11
+1b,X Adjusted,X,1,Pos,Pos,Neg,>=11
+1b,X Adjusted,X,1,Pos,Neg,Pos,<11
+1b,X Adjusted,X,1,Pos,Neg,Pos,>=11
+1b,X Adjusted,X,1,Pos,Neg,Neg,<11
+1b,X Adjusted,X,1,Pos,Neg,Neg,>=11
+1b,X Adjusted,X,1,Neg,Pos,Pos,<11
+1b,X Adjusted,X,1,Neg,Pos,Pos,>=11
+1b,X Adjusted,X,1,Neg,Pos,Neg,<11
+1b,X Adjusted,X,1,Neg,Pos,Neg,>=11
+1b,X Adjusted,X,1,Neg,Neg,Pos,<11
+1b,X Adjusted,X,1,Neg,Neg,Pos,>=11
+1b,X Adjusted,X,1,Neg,Neg,Neg,<11
+1b,X Adjusted,X,1,Neg,Neg,Neg,>=11
+1b,X Adjusted,X,2,Pos,Pos,Pos,<11
+1b,X Adjusted,X,2,Pos,Pos,Pos,>=11
+1b,X Adjusted,X,2,Pos,Pos,Neg,<11
+1b,X Adjusted,X,2,Pos,Pos,Neg,>=11
+1b,X Adjusted,X,2,Pos,Neg,Pos,<11
+1b,X Adjusted,X,2,Pos,Neg,Pos,>=11
+1b,X Adjusted,X,2,Pos,Neg,Neg,<11
+1b,X Adjusted,X,2,Pos,Neg,Neg,>=11
+1b,X Adjusted,X,2,Neg,Pos,Pos,<11
+1b,X Adjusted,X,2,Neg,Pos,Pos,>=11
+1b,X Adjusted,X,2,Neg,Pos,Neg,<11
+1b,X Adjusted,X,2,Neg,Pos,Neg,>=11
+1b,X Adjusted,X,2,Neg,Neg,Pos,<11
+1b,X Adjusted,X,2,Neg,Neg,Pos,>=11
+1b,X Adjusted,X,2,Neg,Neg,Neg,<11
+1b,X Adjusted,X,2,Neg,Neg,Neg,>=11
+1b,X Adjusted,X,3,Pos,Pos,Pos,<11
+1b,X Adjusted,X,3,Pos,Pos,Pos,>=11
+1b,X Adjusted,X,3,Pos,Pos,Neg,<11
+1b,X Adjusted,X,3,Pos,Pos,Neg,>=11
+1b,X Adjusted,X,3,Pos,Neg,Pos,<11
+1b,X Adjusted,X,3,Pos,Neg,Pos,>=11
+1b,X Adjusted,X,3,Pos,Neg,Neg,<11
+1b,X Adjusted,X,3,Pos,Neg,Neg,>=11
+1b,X Adjusted,X,3,Neg,Pos,Pos,<11
+1b,X Adjusted,X,3,Neg,Pos,Pos,>=11
+1b,X Adjusted,X,3,Neg,Pos,Neg,<11
+1b,X Adjusted,X,3,Neg,Pos,Neg,>=11
+1b,X Adjusted,X,3,Neg,Neg,Pos,<11
+1b,X Adjusted,X,3,Neg,Neg,Pos,>=11
+1b,X Adjusted,X,3,Neg,Neg,Neg,<11
+1b,X Adjusted,X,3,Neg,Neg,Neg,>=11
+1b,X Adjusted,1,1,Pos,Pos,Pos,<11
+1b,X Adjusted,1,1,Pos,Pos,Pos,>=11
+1b,X Adjusted,1,1,Pos,Pos,Neg,<11
+1b,X Adjusted,1,1,Pos,Pos,Neg,>=11
+1b,X Adjusted,1,1,Pos,Neg,Pos,<11
+1b,X Adjusted,1,1,Pos,Neg,Pos,>=11
+1b,X Adjusted,1,1,Pos,Neg,Neg,<11
+1b,X Adjusted,1,1,Pos,Neg,Neg,>=11
+1b,X Adjusted,1,1,Neg,Pos,Pos,<11
+1b,X Adjusted,1,1,Neg,Pos,Pos,>=11
+1b,X Adjusted,1,1,Neg,Pos,Neg,<11
+1b,X Adjusted,1,1,Neg,Pos,Neg,>=11
+1b,X Adjusted,1,1,Neg,Neg,Pos,<11
+1b,X Adjusted,1,1,Neg,Neg,Pos,>=11
+1b,X Adjusted,1,1,Neg,Neg,Neg,<11
+1b,X Adjusted,1,1,Neg,Neg,Neg,>=11
+1b,X Adjusted,1,2,Pos,Pos,Pos,<11
+1b,X Adjusted,1,2,Pos,Pos,Pos,>=11
+1b,X Adjusted,1,2,Pos,Pos,Neg,<11
+1b,X Adjusted,1,2,Pos,Pos,Neg,>=11
+1b,X Adjusted,1,2,Pos,Neg,Pos,<11
+1b,X Adjusted,1,2,Pos,Neg,Pos,>=11
+1b,X Adjusted,1,2,Pos,Neg,Neg,<11
+1b,X Adjusted,1,2,Pos,Neg,Neg,>=11
+1b,X Adjusted,1,2,Neg,Pos,Pos,<11
+1b,X Adjusted,1,2,Neg,Pos,Pos,>=11
+1b,X Adjusted,1,2,Neg,Pos,Neg,<11
+1b,X Adjusted,1,2,Neg,Pos,Neg,>=11
+1b,X Adjusted,1,2,Neg,Neg,Pos,<11
+1b,X Adjusted,1,2,Neg,Neg,Pos,>=11
+1b,X Adjusted,1,2,Neg,Neg,Neg,<11
+1b,X Adjusted,1,2,Neg,Neg,Neg,>=11
+1b,X Adjusted,1,3,Pos,Pos,Pos,<11
+1b,X Adjusted,1,3,Pos,Pos,Pos,>=11
+1b,X Adjusted,1,3,Pos,Pos,Neg,<11
+1b,X Adjusted,1,3,Pos,Pos,Neg,>=11
+1b,X Adjusted,1,3,Pos,Neg,Pos,<11
+1b,X Adjusted,1,3,Pos,Neg,Pos,>=11
+1b,X Adjusted,1,3,Pos,Neg,Neg,<11
+1b,X Adjusted,1,3,Pos,Neg,Neg,>=11
+1b,X Adjusted,1,3,Neg,Pos,Pos,<11
+1b,X Adjusted,1,3,Neg,Pos,Pos,>=11
+1b,X Adjusted,1,3,Neg,Pos,Neg,<11
+1b,X Adjusted,1,3,Neg,Pos,Neg,>=11
+1b,X Adjusted,1,3,Neg,Neg,Pos,<11
+1b,X Adjusted,1,3,Neg,Neg,Pos,>=11
+1b,X Adjusted,1,3,Neg,Neg,Neg,<11
+1b,X Adjusted,1,3,Neg,Neg,Neg,>=11
+1c,1,0,1,Pos,Pos,Pos,<11
+1c,1,0,1,Pos,Pos,Pos,>=11
+1c,1,0,1,Pos,Pos,Neg,<11
+1c,1,0,1,Pos,Pos,Neg,>=11
+1c,1,0,1,Pos,Neg,Pos,<11
+1c,1,0,1,Pos,Neg,Pos,>=11
+1c,1,0,1,Pos,Neg,Neg,<11
+1c,1,0,1,Pos,Neg,Neg,>=11
+1c,1,0,1,Neg,Pos,Pos,<11
+1c,1,0,1,Neg,Pos,Pos,>=11
+1c,1,0,1,Neg,Pos,Neg,<11
+1c,1,0,1,Neg,Pos,Neg,>=11
+1c,1,0,1,Neg,Neg,Pos,<11
+1c,1,0,1,Neg,Neg,Pos,>=11
+1c,1,0,1,Neg,Neg,Neg,<11
+1c,1,0,1,Neg,Neg,Neg,>=11
+1c,1,0,2,Pos,Pos,Pos,<11
+1c,1,0,2,Pos,Pos,Pos,>=11
+1c,1,0,2,Pos,Pos,Neg,<11
+1c,1,0,2,Pos,Pos,Neg,>=11
+1c,1,0,2,Pos,Neg,Pos,<11
+1c,1,0,2,Pos,Neg,Pos,>=11
+1c,1,0,2,Pos,Neg,Neg,<11
+1c,1,0,2,Pos,Neg,Neg,>=11
+1c,1,0,2,Neg,Pos,Pos,<11
+1c,1,0,2,Neg,Pos,Pos,>=11
+1c,1,0,2,Neg,Pos,Neg,<11
+1c,1,0,2,Neg,Pos,Neg,>=11
+1c,1,0,2,Neg,Neg,Pos,<11
+1c,1,0,2,Neg,Neg,Pos,>=11
+1c,1,0,2,Neg,Neg,Neg,<11
+1c,1,0,2,Neg,Neg,Neg,>=11
+1c,1,0,3,Pos,Pos,Pos,<11
+1c,1,0,3,Pos,Pos,Pos,>=11
+1c,1,0,3,Pos,Pos,Neg,<11
+1c,1,0,3,Pos,Pos,Neg,>=11
+1c,1,0,3,Pos,Neg,Pos,<11
+1c,1,0,3,Pos,Neg,Pos,>=11
+1c,1,0,3,Pos,Neg,Neg,<11
+1c,1,0,3,Pos,Neg,Neg,>=11
+1c,1,0,3,Neg,Pos,Pos,<11
+1c,1,0,3,Neg,Pos,Pos,>=11
+1c,1,0,3,Neg,Pos,Neg,<11
+1c,1,0,3,Neg,Pos,Neg,>=11
+1c,1,0,3,Neg,Neg,Pos,<11
+1c,1,0,3,Neg,Neg,Pos,>=11
+1c,1,0,3,Neg,Neg,Neg,<11
+1c,1,0,3,Neg,Neg,Neg,>=11
+1c,1,X,1,Pos,Pos,Pos,<11
+1c,1,X,1,Pos,Pos,Pos,>=11
+1c,1,X,1,Pos,Pos,Neg,<11
+1c,1,X,1,Pos,Pos,Neg,>=11
+1c,1,X,1,Pos,Neg,Pos,<11
+1c,1,X,1,Pos,Neg,Pos,>=11
+1c,1,X,1,Pos,Neg,Neg,<11
+1c,1,X,1,Pos,Neg,Neg,>=11
+1c,1,X,1,Neg,Pos,Pos,<11
+1c,1,X,1,Neg,Pos,Pos,>=11
+1c,1,X,1,Neg,Pos,Neg,<11
+1c,1,X,1,Neg,Pos,Neg,>=11
+1c,1,X,1,Neg,Neg,Pos,<11
+1c,1,X,1,Neg,Neg,Pos,>=11
+1c,1,X,1,Neg,Neg,Neg,<11
+1c,1,X,1,Neg,Neg,Neg,>=11
+1c,1,X,2,Pos,Pos,Pos,<11
+1c,1,X,2,Pos,Pos,Pos,>=11
+1c,1,X,2,Pos,Pos,Neg,<11
+1c,1,X,2,Pos,Pos,Neg,>=11
+1c,1,X,2,Pos,Neg,Pos,<11
+1c,1,X,2,Pos,Neg,Pos,>=11
+1c,1,X,2,Pos,Neg,Neg,<11
+1c,1,X,2,Pos,Neg,Neg,>=11
+1c,1,X,2,Neg,Pos,Pos,<11
+1c,1,X,2,Neg,Pos,Pos,>=11
+1c,1,X,2,Neg,Pos,Neg,<11
+1c,1,X,2,Neg,Pos,Neg,>=11
+1c,1,X,2,Neg,Neg,Pos,<11
+1c,1,X,2,Neg,Neg,Pos,>=11
+1c,1,X,2,Neg,Neg,Neg,<11
+1c,1,X,2,Neg,Neg,Neg,>=11
+1c,1,X,3,Pos,Pos,Pos,<11
+1c,1,X,3,Pos,Pos,Pos,>=11
+1c,1,X,3,Pos,Pos,Neg,<11
+1c,1,X,3,Pos,Pos,Neg,>=11
+1c,1,X,3,Pos,Neg,Pos,<11
+1c,1,X,3,Pos,Neg,Pos,>=11
+1c,1,X,3,Pos,Neg,Neg,<11
+1c,1,X,3,Pos,Neg,Neg,>=11
+1c,1,X,3,Neg,Pos,Pos,<11
+1c,1,X,3,Neg,Pos,Pos,>=11
+1c,1,X,3,Neg,Pos,Neg,<11
+1c,1,X,3,Neg,Pos,Neg,>=11
+1c,1,X,3,Neg,Neg,Pos,<11
+1c,1,X,3,Neg,Neg,Pos,>=11
+1c,1,X,3,Neg,Neg,Neg,<11
+1c,1,X,3,Neg,Neg,Neg,>=11
+1c,1,1,1,Pos,Pos,Pos,<11
+1c,1,1,1,Pos,Pos,Pos,>=11
+1c,1,1,1,Pos,Pos,Neg,<11
+1c,1,1,1,Pos,Pos,Neg,>=11
+1c,1,1,1,Pos,Neg,Pos,<11
+1c,1,1,1,Pos,Neg,Pos,>=11
+1c,1,1,1,Pos,Neg,Neg,<11
+1c,1,1,1,Pos,Neg,Neg,>=11
+1c,1,1,1,Neg,Pos,Pos,<11
+1c,1,1,1,Neg,Pos,Pos,>=11
+1c,1,1,1,Neg,Pos,Neg,<11
+1c,1,1,1,Neg,Pos,Neg,>=11
+1c,1,1,1,Neg,Neg,Pos,<11
+1c,1,1,1,Neg,Neg,Pos,>=11
+1c,1,1,1,Neg,Neg,Neg,<11
+1c,1,1,1,Neg,Neg,Neg,>=11
+1c,1,1,2,Pos,Pos,Pos,<11
+1c,1,1,2,Pos,Pos,Pos,>=11
+1c,1,1,2,Pos,Pos,Neg,<11
+1c,1,1,2,Pos,Pos,Neg,>=11
+1c,1,1,2,Pos,Neg,Pos,<11
+1c,1,1,2,Pos,Neg,Pos,>=11
+1c,1,1,2,Pos,Neg,Neg,<11
+1c,1,1,2,Pos,Neg,Neg,>=11
+1c,1,1,2,Neg,Pos,Pos,<11
+1c,1,1,2,Neg,Pos,Pos,>=11
+1c,1,1,2,Neg,Pos,Neg,<11
+1c,1,1,2,Neg,Pos,Neg,>=11
+1c,1,1,2,Neg,Neg,Pos,<11
+1c,1,1,2,Neg,Neg,Pos,>=11
+1c,1,1,2,Neg,Neg,Neg,<11
+1c,1,1,2,Neg,Neg,Neg,>=11
+1c,1,1,3,Pos,Pos,Pos,<11
+1c,1,1,3,Pos,Pos,Pos,>=11
+1c,1,1,3,Pos,Pos,Neg,<11
+1c,1,1,3,Pos,Pos,Neg,>=11
+1c,1,1,3,Pos,Neg,Pos,<11
+1c,1,1,3,Pos,Neg,Pos,>=11
+1c,1,1,3,Pos,Neg,Neg,<11
+1c,1,1,3,Pos,Neg,Neg,>=11
+1c,1,1,3,Neg,Pos,Pos,<11
+1c,1,1,3,Neg,Pos,Pos,>=11
+1c,1,1,3,Neg,Pos,Neg,<11
+1c,1,1,3,Neg,Pos,Neg,>=11
+1c,1,1,3,Neg,Neg,Pos,<11
+1c,1,1,3,Neg,Neg,Pos,>=11
+1c,1,1,3,Neg,Neg,Neg,<11
+1c,1,1,3,Neg,Neg,Neg,>=11
+1c,2,0,1,Pos,Pos,Pos,<11
+1c,2,0,1,Pos,Pos,Pos,>=11
+1c,2,0,1,Pos,Pos,Neg,<11
+1c,2,0,1,Pos,Pos,Neg,>=11
+1c,2,0,1,Pos,Neg,Pos,<11
+1c,2,0,1,Pos,Neg,Pos,>=11
+1c,2,0,1,Pos,Neg,Neg,<11
+1c,2,0,1,Pos,Neg,Neg,>=11
+1c,2,0,1,Neg,Pos,Pos,<11
+1c,2,0,1,Neg,Pos,Pos,>=11
+1c,2,0,1,Neg,Pos,Neg,<11
+1c,2,0,1,Neg,Pos,Neg,>=11
+1c,2,0,1,Neg,Neg,Pos,<11
+1c,2,0,1,Neg,Neg,Pos,>=11
+1c,2,0,1,Neg,Neg,Neg,<11
+1c,2,0,1,Neg,Neg,Neg,>=11
+1c,2,0,2,Pos,Pos,Pos,<11
+1c,2,0,2,Pos,Pos,Pos,>=11
+1c,2,0,2,Pos,Pos,Neg,<11
+1c,2,0,2,Pos,Pos,Neg,>=11
+1c,2,0,2,Pos,Neg,Pos,<11
+1c,2,0,2,Pos,Neg,Pos,>=11
+1c,2,0,2,Pos,Neg,Neg,<11
+1c,2,0,2,Pos,Neg,Neg,>=11
+1c,2,0,2,Neg,Pos,Pos,<11
+1c,2,0,2,Neg,Pos,Pos,>=11
+1c,2,0,2,Neg,Pos,Neg,<11
+1c,2,0,2,Neg,Pos,Neg,>=11
+1c,2,0,2,Neg,Neg,Pos,<11
+1c,2,0,2,Neg,Neg,Pos,>=11
+1c,2,0,2,Neg,Neg,Neg,<11
+1c,2,0,2,Neg,Neg,Neg,>=11
+1c,2,0,3,Pos,Pos,Pos,<11
+1c,2,0,3,Pos,Pos,Pos,>=11
+1c,2,0,3,Pos,Pos,Neg,<11
+1c,2,0,3,Pos,Pos,Neg,>=11
+1c,2,0,3,Pos,Neg,Pos,<11
+1c,2,0,3,Pos,Neg,Pos,>=11
+1c,2,0,3,Pos,Neg,Neg,<11
+1c,2,0,3,Pos,Neg,Neg,>=11
+1c,2,0,3,Neg,Pos,Pos,<11
+1c,2,0,3,Neg,Pos,Pos,>=11
+1c,2,0,3,Neg,Pos,Neg,<11
+1c,2,0,3,Neg,Pos,Neg,>=11
+1c,2,0,3,Neg,Neg,Pos,<11
+1c,2,0,3,Neg,Neg,Pos,>=11
+1c,2,0,3,Neg,Neg,Neg,<11
+1c,2,0,3,Neg,Neg,Neg,>=11
+1c,2,X,1,Pos,Pos,Pos,<11
+1c,2,X,1,Pos,Pos,Pos,>=11
+1c,2,X,1,Pos,Pos,Neg,<11
+1c,2,X,1,Pos,Pos,Neg,>=11
+1c,2,X,1,Pos,Neg,Pos,<11
+1c,2,X,1,Pos,Neg,Pos,>=11
+1c,2,X,1,Pos,Neg,Neg,<11
+1c,2,X,1,Pos,Neg,Neg,>=11
+1c,2,X,1,Neg,Pos,Pos,<11
+1c,2,X,1,Neg,Pos,Pos,>=11
+1c,2,X,1,Neg,Pos,Neg,<11
+1c,2,X,1,Neg,Pos,Neg,>=11
+1c,2,X,1,Neg,Neg,Pos,<11
+1c,2,X,1,Neg,Neg,Pos,>=11
+1c,2,X,1,Neg,Neg,Neg,<11
+1c,2,X,1,Neg,Neg,Neg,>=11
+1c,2,X,2,Pos,Pos,Pos,<11
+1c,2,X,2,Pos,Pos,Pos,>=11
+1c,2,X,2,Pos,Pos,Neg,<11
+1c,2,X,2,Pos,Pos,Neg,>=11
+1c,2,X,2,Pos,Neg,Pos,<11
+1c,2,X,2,Pos,Neg,Pos,>=11
+1c,2,X,2,Pos,Neg,Neg,<11
+1c,2,X,2,Pos,Neg,Neg,>=11
+1c,2,X,2,Neg,Pos,Pos,<11
+1c,2,X,2,Neg,Pos,Pos,>=11
+1c,2,X,2,Neg,Pos,Neg,<11
+1c,2,X,2,Neg,Pos,Neg,>=11
+1c,2,X,2,Neg,Neg,Pos,<11
+1c,2,X,2,Neg,Neg,Pos,>=11
+1c,2,X,2,Neg,Neg,Neg,<11
+1c,2,X,2,Neg,Neg,Neg,>=11
+1c,2,X,3,Pos,Pos,Pos,<11
+1c,2,X,3,Pos,Pos,Pos,>=11
+1c,2,X,3,Pos,Pos,Neg,<11
+1c,2,X,3,Pos,Pos,Neg,>=11
+1c,2,X,3,Pos,Neg,Pos,<11
+1c,2,X,3,Pos,Neg,Pos,>=11
+1c,2,X,3,Pos,Neg,Neg,<11
+1c,2,X,3,Pos,Neg,Neg,>=11
+1c,2,X,3,Neg,Pos,Pos,<11
+1c,2,X,3,Neg,Pos,Pos,>=11
+1c,2,X,3,Neg,Pos,Neg,<11
+1c,2,X,3,Neg,Pos,Neg,>=11
+1c,2,X,3,Neg,Neg,Pos,<11
+1c,2,X,3,Neg,Neg,Pos,>=11
+1c,2,X,3,Neg,Neg,Neg,<11
+1c,2,X,3,Neg,Neg,Neg,>=11
+1c,2,1,1,Pos,Pos,Pos,<11
+1c,2,1,1,Pos,Pos,Pos,>=11
+1c,2,1,1,Pos,Pos,Neg,<11
+1c,2,1,1,Pos,Pos,Neg,>=11
+1c,2,1,1,Pos,Neg,Pos,<11
+1c,2,1,1,Pos,Neg,Pos,>=11
+1c,2,1,1,Pos,Neg,Neg,<11
+1c,2,1,1,Pos,Neg,Neg,>=11
+1c,2,1,1,Neg,Pos,Pos,<11
+1c,2,1,1,Neg,Pos,Pos,>=11
+1c,2,1,1,Neg,Pos,Neg,<11
+1c,2,1,1,Neg,Pos,Neg,>=11
+1c,2,1,1,Neg,Neg,Pos,<11
+1c,2,1,1,Neg,Neg,Pos,>=11
+1c,2,1,1,Neg,Neg,Neg,<11
+1c,2,1,1,Neg,Neg,Neg,>=11
+1c,2,1,2,Pos,Pos,Pos,<11
+1c,2,1,2,Pos,Pos,Pos,>=11
+1c,2,1,2,Pos,Pos,Neg,<11
+1c,2,1,2,Pos,Pos,Neg,>=11
+1c,2,1,2,Pos,Neg,Pos,<11
+1c,2,1,2,Pos,Neg,Pos,>=11
+1c,2,1,2,Pos,Neg,Neg,<11
+1c,2,1,2,Pos,Neg,Neg,>=11
+1c,2,1,2,Neg,Pos,Pos,<11
+1c,2,1,2,Neg,Pos,Pos,>=11
+1c,2,1,2,Neg,Pos,Neg,<11
+1c,2,1,2,Neg,Pos,Neg,>=11
+1c,2,1,2,Neg,Neg,Pos,<11
+1c,2,1,2,Neg,Neg,Pos,>=11
+1c,2,1,2,Neg,Neg,Neg,<11
+1c,2,1,2,Neg,Neg,Neg,>=11
+1c,2,1,3,Pos,Pos,Pos,<11
+1c,2,1,3,Pos,Pos,Pos,>=11
+1c,2,1,3,Pos,Pos,Neg,<11
+1c,2,1,3,Pos,Pos,Neg,>=11
+1c,2,1,3,Pos,Neg,Pos,<11
+1c,2,1,3,Pos,Neg,Pos,>=11
+1c,2,1,3,Pos,Neg,Neg,<11
+1c,2,1,3,Pos,Neg,Neg,>=11
+1c,2,1,3,Neg,Pos,Pos,<11
+1c,2,1,3,Neg,Pos,Pos,>=11
+1c,2,1,3,Neg,Pos,Neg,<11
+1c,2,1,3,Neg,Pos,Neg,>=11
+1c,2,1,3,Neg,Neg,Pos,<11
+1c,2,1,3,Neg,Neg,Pos,>=11
+1c,2,1,3,Neg,Neg,Neg,<11
+1c,2,1,3,Neg,Neg,Neg,>=11
+1c,3,0,1,Pos,Pos,Pos,<11
+1c,3,0,1,Pos,Pos,Pos,>=11
+1c,3,0,1,Pos,Pos,Neg,<11
+1c,3,0,1,Pos,Pos,Neg,>=11
+1c,3,0,1,Pos,Neg,Pos,<11
+1c,3,0,1,Pos,Neg,Pos,>=11
+1c,3,0,1,Pos,Neg,Neg,<11
+1c,3,0,1,Pos,Neg,Neg,>=11
+1c,3,0,1,Neg,Pos,Pos,<11
+1c,3,0,1,Neg,Pos,Pos,>=11
+1c,3,0,1,Neg,Pos,Neg,<11
+1c,3,0,1,Neg,Pos,Neg,>=11
+1c,3,0,1,Neg,Neg,Pos,<11
+1c,3,0,1,Neg,Neg,Pos,>=11
+1c,3,0,1,Neg,Neg,Neg,<11
+1c,3,0,1,Neg,Neg,Neg,>=11
+1c,3,0,2,Pos,Pos,Pos,<11
+1c,3,0,2,Pos,Pos,Pos,>=11
+1c,3,0,2,Pos,Pos,Neg,<11
+1c,3,0,2,Pos,Pos,Neg,>=11
+1c,3,0,2,Pos,Neg,Pos,<11
+1c,3,0,2,Pos,Neg,Pos,>=11
+1c,3,0,2,Pos,Neg,Neg,<11
+1c,3,0,2,Pos,Neg,Neg,>=11
+1c,3,0,2,Neg,Pos,Pos,<11
+1c,3,0,2,Neg,Pos,Pos,>=11
+1c,3,0,2,Neg,Pos,Neg,<11
+1c,3,0,2,Neg,Pos,Neg,>=11
+1c,3,0,2,Neg,Neg,Pos,<11
+1c,3,0,2,Neg,Neg,Pos,>=11
+1c,3,0,2,Neg,Neg,Neg,<11
+1c,3,0,2,Neg,Neg,Neg,>=11
+1c,3,0,3,Pos,Pos,Pos,<11
+1c,3,0,3,Pos,Pos,Pos,>=11
+1c,3,0,3,Pos,Pos,Neg,<11
+1c,3,0,3,Pos,Pos,Neg,>=11
+1c,3,0,3,Pos,Neg,Pos,<11
+1c,3,0,3,Pos,Neg,Pos,>=11
+1c,3,0,3,Pos,Neg,Neg,<11
+1c,3,0,3,Pos,Neg,Neg,>=11
+1c,3,0,3,Neg,Pos,Pos,<11
+1c,3,0,3,Neg,Pos,Pos,>=11
+1c,3,0,3,Neg,Pos,Neg,<11
+1c,3,0,3,Neg,Pos,Neg,>=11
+1c,3,0,3,Neg,Neg,Pos,<11
+1c,3,0,3,Neg,Neg,Pos,>=11
+1c,3,0,3,Neg,Neg,Neg,<11
+1c,3,0,3,Neg,Neg,Neg,>=11
+1c,3,X,1,Pos,Pos,Pos,<11
+1c,3,X,1,Pos,Pos,Pos,>=11
+1c,3,X,1,Pos,Pos,Neg,<11
+1c,3,X,1,Pos,Pos,Neg,>=11
+1c,3,X,1,Pos,Neg,Pos,<11
+1c,3,X,1,Pos,Neg,Pos,>=11
+1c,3,X,1,Pos,Neg,Neg,<11
+1c,3,X,1,Pos,Neg,Neg,>=11
+1c,3,X,1,Neg,Pos,Pos,<11
+1c,3,X,1,Neg,Pos,Pos,>=11
+1c,3,X,1,Neg,Pos,Neg,<11
+1c,3,X,1,Neg,Pos,Neg,>=11
+1c,3,X,1,Neg,Neg,Pos,<11
+1c,3,X,1,Neg,Neg,Pos,>=11
+1c,3,X,1,Neg,Neg,Neg,<11
+1c,3,X,1,Neg,Neg,Neg,>=11
+1c,3,X,2,Pos,Pos,Pos,<11
+1c,3,X,2,Pos,Pos,Pos,>=11
+1c,3,X,2,Pos,Pos,Neg,<11
+1c,3,X,2,Pos,Pos,Neg,>=11
+1c,3,X,2,Pos,Neg,Pos,<11
+1c,3,X,2,Pos,Neg,Pos,>=11
+1c,3,X,2,Pos,Neg,Neg,<11
+1c,3,X,2,Pos,Neg,Neg,>=11
+1c,3,X,2,Neg,Pos,Pos,<11
+1c,3,X,2,Neg,Pos,Pos,>=11
+1c,3,X,2,Neg,Pos,Neg,<11
+1c,3,X,2,Neg,Pos,Neg,>=11
+1c,3,X,2,Neg,Neg,Pos,<11
+1c,3,X,2,Neg,Neg,Pos,>=11
+1c,3,X,2,Neg,Neg,Neg,<11
+1c,3,X,2,Neg,Neg,Neg,>=11
+1c,3,X,3,Pos,Pos,Pos,<11
+1c,3,X,3,Pos,Pos,Pos,>=11
+1c,3,X,3,Pos,Pos,Neg,<11
+1c,3,X,3,Pos,Pos,Neg,>=11
+1c,3,X,3,Pos,Neg,Pos,<11
+1c,3,X,3,Pos,Neg,Pos,>=11
+1c,3,X,3,Pos,Neg,Neg,<11
+1c,3,X,3,Pos,Neg,Neg,>=11
+1c,3,X,3,Neg,Pos,Pos,<11
+1c,3,X,3,Neg,Pos,Pos,>=11
+1c,3,X,3,Neg,Pos,Neg,<11
+1c,3,X,3,Neg,Pos,Neg,>=11
+1c,3,X,3,Neg,Neg,Pos,<11
+1c,3,X,3,Neg,Neg,Pos,>=11
+1c,3,X,3,Neg,Neg,Neg,<11
+1c,3,X,3,Neg,Neg,Neg,>=11
+1c,3,1,1,Pos,Pos,Pos,<11
+1c,3,1,1,Pos,Pos,Pos,>=11
+1c,3,1,1,Pos,Pos,Neg,<11
+1c,3,1,1,Pos,Pos,Neg,>=11
+1c,3,1,1,Pos,Neg,Pos,<11
+1c,3,1,1,Pos,Neg,Pos,>=11
+1c,3,1,1,Pos,Neg,Neg,<11
+1c,3,1,1,Pos,Neg,Neg,>=11
+1c,3,1,1,Neg,Pos,Pos,<11
+1c,3,1,1,Neg,Pos,Pos,>=11
+1c,3,1,1,Neg,Pos,Neg,<11
+1c,3,1,1,Neg,Pos,Neg,>=11
+1c,3,1,1,Neg,Neg,Pos,<11
+1c,3,1,1,Neg,Neg,Pos,>=11
+1c,3,1,1,Neg,Neg,Neg,<11
+1c,3,1,1,Neg,Neg,Neg,>=11
+1c,3,1,2,Pos,Pos,Pos,<11
+1c,3,1,2,Pos,Pos,Pos,>=11
+1c,3,1,2,Pos,Pos,Neg,<11
+1c,3,1,2,Pos,Pos,Neg,>=11
+1c,3,1,2,Pos,Neg,Pos,<11
+1c,3,1,2,Pos,Neg,Pos,>=11
+1c,3,1,2,Pos,Neg,Neg,<11
+1c,3,1,2,Pos,Neg,Neg,>=11
+1c,3,1,2,Neg,Pos,Pos,<11
+1c,3,1,2,Neg,Pos,Pos,>=11
+1c,3,1,2,Neg,Pos,Neg,<11
+1c,3,1,2,Neg,Pos,Neg,>=11
+1c,3,1,2,Neg,Neg,Pos,<11
+1c,3,1,2,Neg,Neg,Pos,>=11
+1c,3,1,2,Neg,Neg,Neg,<11
+1c,3,1,2,Neg,Neg,Neg,>=11
+1c,3,1,3,Pos,Pos,Pos,<11
+1c,3,1,3,Pos,Pos,Pos,>=11
+1c,3,1,3,Pos,Pos,Neg,<11
+1c,3,1,3,Pos,Pos,Neg,>=11
+1c,3,1,3,Pos,Neg,Pos,<11
+1c,3,1,3,Pos,Neg,Pos,>=11
+1c,3,1,3,Pos,Neg,Neg,<11
+1c,3,1,3,Pos,Neg,Neg,>=11
+1c,3,1,3,Neg,Pos,Pos,<11
+1c,3,1,3,Neg,Pos,Pos,>=11
+1c,3,1,3,Neg,Pos,Neg,<11
+1c,3,1,3,Neg,Pos,Neg,>=11
+1c,3,1,3,Neg,Neg,Pos,<11
+1c,3,1,3,Neg,Neg,Pos,>=11
+1c,3,1,3,Neg,Neg,Neg,<11
+1c,3,1,3,Neg,Neg,Neg,>=11
+1c,0,0,1,Pos,Pos,Pos,<11
+1c,0,0,1,Pos,Pos,Pos,>=11
+1c,0,0,1,Pos,Pos,Neg,<11
+1c,0,0,1,Pos,Pos,Neg,>=11
+1c,0,0,1,Pos,Neg,Pos,<11
+1c,0,0,1,Pos,Neg,Pos,>=11
+1c,0,0,1,Pos,Neg,Neg,<11
+1c,0,0,1,Pos,Neg,Neg,>=11
+1c,0,0,1,Neg,Pos,Pos,<11
+1c,0,0,1,Neg,Pos,Pos,>=11
+1c,0,0,1,Neg,Pos,Neg,<11
+1c,0,0,1,Neg,Pos,Neg,>=11
+1c,0,0,1,Neg,Neg,Pos,<11
+1c,0,0,1,Neg,Neg,Pos,>=11
+1c,0,0,1,Neg,Neg,Neg,<11
+1c,0,0,1,Neg,Neg,Neg,>=11
+1c,0,0,2,Pos,Pos,Pos,<11
+1c,0,0,2,Pos,Pos,Pos,>=11
+1c,0,0,2,Pos,Pos,Neg,<11
+1c,0,0,2,Pos,Pos,Neg,>=11
+1c,0,0,2,Pos,Neg,Pos,<11
+1c,0,0,2,Pos,Neg,Pos,>=11
+1c,0,0,2,Pos,Neg,Neg,<11
+1c,0,0,2,Pos,Neg,Neg,>=11
+1c,0,0,2,Neg,Pos,Pos,<11
+1c,0,0,2,Neg,Pos,Pos,>=11
+1c,0,0,2,Neg,Pos,Neg,<11
+1c,0,0,2,Neg,Pos,Neg,>=11
+1c,0,0,2,Neg,Neg,Pos,<11
+1c,0,0,2,Neg,Neg,Pos,>=11
+1c,0,0,2,Neg,Neg,Neg,<11
+1c,0,0,2,Neg,Neg,Neg,>=11
+1c,0,0,3,Pos,Pos,Pos,<11
+1c,0,0,3,Pos,Pos,Pos,>=11
+1c,0,0,3,Pos,Pos,Neg,<11
+1c,0,0,3,Pos,Pos,Neg,>=11
+1c,0,0,3,Pos,Neg,Pos,<11
+1c,0,0,3,Pos,Neg,Pos,>=11
+1c,0,0,3,Pos,Neg,Neg,<11
+1c,0,0,3,Pos,Neg,Neg,>=11
+1c,0,0,3,Neg,Pos,Pos,<11
+1c,0,0,3,Neg,Pos,Pos,>=11
+1c,0,0,3,Neg,Pos,Neg,<11
+1c,0,0,3,Neg,Pos,Neg,>=11
+1c,0,0,3,Neg,Neg,Pos,<11
+1c,0,0,3,Neg,Neg,Pos,>=11
+1c,0,0,3,Neg,Neg,Neg,<11
+1c,0,0,3,Neg,Neg,Neg,>=11
+1c,0,X,1,Pos,Pos,Pos,<11
+1c,0,X,1,Pos,Pos,Pos,>=11
+1c,0,X,1,Pos,Pos,Neg,<11
+1c,0,X,1,Pos,Pos,Neg,>=11
+1c,0,X,1,Pos,Neg,Pos,<11
+1c,0,X,1,Pos,Neg,Pos,>=11
+1c,0,X,1,Pos,Neg,Neg,<11
+1c,0,X,1,Pos,Neg,Neg,>=11
+1c,0,X,1,Neg,Pos,Pos,<11
+1c,0,X,1,Neg,Pos,Pos,>=11
+1c,0,X,1,Neg,Pos,Neg,<11
+1c,0,X,1,Neg,Pos,Neg,>=11
+1c,0,X,1,Neg,Neg,Pos,<11
+1c,0,X,1,Neg,Neg,Pos,>=11
+1c,0,X,1,Neg,Neg,Neg,<11
+1c,0,X,1,Neg,Neg,Neg,>=11
+1c,0,X,2,Pos,Pos,Pos,<11
+1c,0,X,2,Pos,Pos,Pos,>=11
+1c,0,X,2,Pos,Pos,Neg,<11
+1c,0,X,2,Pos,Pos,Neg,>=11
+1c,0,X,2,Pos,Neg,Pos,<11
+1c,0,X,2,Pos,Neg,Pos,>=11
+1c,0,X,2,Pos,Neg,Neg,<11
+1c,0,X,2,Pos,Neg,Neg,>=11
+1c,0,X,2,Neg,Pos,Pos,<11
+1c,0,X,2,Neg,Pos,Pos,>=11
+1c,0,X,2,Neg,Pos,Neg,<11
+1c,0,X,2,Neg,Pos,Neg,>=11
+1c,0,X,2,Neg,Neg,Pos,<11
+1c,0,X,2,Neg,Neg,Pos,>=11
+1c,0,X,2,Neg,Neg,Neg,<11
+1c,0,X,2,Neg,Neg,Neg,>=11
+1c,0,X,3,Pos,Pos,Pos,<11
+1c,0,X,3,Pos,Pos,Pos,>=11
+1c,0,X,3,Pos,Pos,Neg,<11
+1c,0,X,3,Pos,Pos,Neg,>=11
+1c,0,X,3,Pos,Neg,Pos,<11
+1c,0,X,3,Pos,Neg,Pos,>=11
+1c,0,X,3,Pos,Neg,Neg,<11
+1c,0,X,3,Pos,Neg,Neg,>=11
+1c,0,X,3,Neg,Pos,Pos,<11
+1c,0,X,3,Neg,Pos,Pos,>=11
+1c,0,X,3,Neg,Pos,Neg,<11
+1c,0,X,3,Neg,Pos,Neg,>=11
+1c,0,X,3,Neg,Neg,Pos,<11
+1c,0,X,3,Neg,Neg,Pos,>=11
+1c,0,X,3,Neg,Neg,Neg,<11
+1c,0,X,3,Neg,Neg,Neg,>=11
+1c,0,1,1,Pos,Pos,Pos,<11
+1c,0,1,1,Pos,Pos,Pos,>=11
+1c,0,1,1,Pos,Pos,Neg,<11
+1c,0,1,1,Pos,Pos,Neg,>=11
+1c,0,1,1,Pos,Neg,Pos,<11
+1c,0,1,1,Pos,Neg,Pos,>=11
+1c,0,1,1,Pos,Neg,Neg,<11
+1c,0,1,1,Pos,Neg,Neg,>=11
+1c,0,1,1,Neg,Pos,Pos,<11
+1c,0,1,1,Neg,Pos,Pos,>=11
+1c,0,1,1,Neg,Pos,Neg,<11
+1c,0,1,1,Neg,Pos,Neg,>=11
+1c,0,1,1,Neg,Neg,Pos,<11
+1c,0,1,1,Neg,Neg,Pos,>=11
+1c,0,1,1,Neg,Neg,Neg,<11
+1c,0,1,1,Neg,Neg,Neg,>=11
+1c,0,1,2,Pos,Pos,Pos,<11
+1c,0,1,2,Pos,Pos,Pos,>=11
+1c,0,1,2,Pos,Pos,Neg,<11
+1c,0,1,2,Pos,Pos,Neg,>=11
+1c,0,1,2,Pos,Neg,Pos,<11
+1c,0,1,2,Pos,Neg,Pos,>=11
+1c,0,1,2,Pos,Neg,Neg,<11
+1c,0,1,2,Pos,Neg,Neg,>=11
+1c,0,1,2,Neg,Pos,Pos,<11
+1c,0,1,2,Neg,Pos,Pos,>=11
+1c,0,1,2,Neg,Pos,Neg,<11
+1c,0,1,2,Neg,Pos,Neg,>=11
+1c,0,1,2,Neg,Neg,Pos,<11
+1c,0,1,2,Neg,Neg,Pos,>=11
+1c,0,1,2,Neg,Neg,Neg,<11
+1c,0,1,2,Neg,Neg,Neg,>=11
+1c,0,1,3,Pos,Pos,Pos,<11
+1c,0,1,3,Pos,Pos,Pos,>=11
+1c,0,1,3,Pos,Pos,Neg,<11
+1c,0,1,3,Pos,Pos,Neg,>=11
+1c,0,1,3,Pos,Neg,Pos,<11
+1c,0,1,3,Pos,Neg,Pos,>=11
+1c,0,1,3,Pos,Neg,Neg,<11
+1c,0,1,3,Pos,Neg,Neg,>=11
+1c,0,1,3,Neg,Pos,Pos,<11
+1c,0,1,3,Neg,Pos,Pos,>=11
+1c,0,1,3,Neg,Pos,Neg,<11
+1c,0,1,3,Neg,Pos,Neg,>=11
+1c,0,1,3,Neg,Neg,Pos,<11
+1c,0,1,3,Neg,Neg,Pos,>=11
+1c,0,1,3,Neg,Neg,Neg,<11
+1c,0,1,3,Neg,Neg,Neg,>=11
+1c,X Adjusted,0,1,Pos,Pos,Pos,<11
+1c,X Adjusted,0,1,Pos,Pos,Pos,>=11
+1c,X Adjusted,0,1,Pos,Pos,Neg,<11
+1c,X Adjusted,0,1,Pos,Pos,Neg,>=11
+1c,X Adjusted,0,1,Pos,Neg,Pos,<11
+1c,X Adjusted,0,1,Pos,Neg,Pos,>=11
+1c,X Adjusted,0,1,Pos,Neg,Neg,<11
+1c,X Adjusted,0,1,Pos,Neg,Neg,>=11
+1c,X Adjusted,0,1,Neg,Pos,Pos,<11
+1c,X Adjusted,0,1,Neg,Pos,Pos,>=11
+1c,X Adjusted,0,1,Neg,Pos,Neg,<11
+1c,X Adjusted,0,1,Neg,Pos,Neg,>=11
+1c,X Adjusted,0,1,Neg,Neg,Pos,<11
+1c,X Adjusted,0,1,Neg,Neg,Pos,>=11
+1c,X Adjusted,0,1,Neg,Neg,Neg,<11
+1c,X Adjusted,0,1,Neg,Neg,Neg,>=11
+1c,X Adjusted,0,2,Pos,Pos,Pos,<11
+1c,X Adjusted,0,2,Pos,Pos,Pos,>=11
+1c,X Adjusted,0,2,Pos,Pos,Neg,<11
+1c,X Adjusted,0,2,Pos,Pos,Neg,>=11
+1c,X Adjusted,0,2,Pos,Neg,Pos,<11
+1c,X Adjusted,0,2,Pos,Neg,Pos,>=11
+1c,X Adjusted,0,2,Pos,Neg,Neg,<11
+1c,X Adjusted,0,2,Pos,Neg,Neg,>=11
+1c,X Adjusted,0,2,Neg,Pos,Pos,<11
+1c,X Adjusted,0,2,Neg,Pos,Pos,>=11
+1c,X Adjusted,0,2,Neg,Pos,Neg,<11
+1c,X Adjusted,0,2,Neg,Pos,Neg,>=11
+1c,X Adjusted,0,2,Neg,Neg,Pos,<11
+1c,X Adjusted,0,2,Neg,Neg,Pos,>=11
+1c,X Adjusted,0,2,Neg,Neg,Neg,<11
+1c,X Adjusted,0,2,Neg,Neg,Neg,>=11
+1c,X Adjusted,0,3,Pos,Pos,Pos,<11
+1c,X Adjusted,0,3,Pos,Pos,Pos,>=11
+1c,X Adjusted,0,3,Pos,Pos,Neg,<11
+1c,X Adjusted,0,3,Pos,Pos,Neg,>=11
+1c,X Adjusted,0,3,Pos,Neg,Pos,<11
+1c,X Adjusted,0,3,Pos,Neg,Pos,>=11
+1c,X Adjusted,0,3,Pos,Neg,Neg,<11
+1c,X Adjusted,0,3,Pos,Neg,Neg,>=11
+1c,X Adjusted,0,3,Neg,Pos,Pos,<11
+1c,X Adjusted,0,3,Neg,Pos,Pos,>=11
+1c,X Adjusted,0,3,Neg,Pos,Neg,<11
+1c,X Adjusted,0,3,Neg,Pos,Neg,>=11
+1c,X Adjusted,0,3,Neg,Neg,Pos,<11
+1c,X Adjusted,0,3,Neg,Neg,Pos,>=11
+1c,X Adjusted,0,3,Neg,Neg,Neg,<11
+1c,X Adjusted,0,3,Neg,Neg,Neg,>=11
+1c,X Adjusted,X,1,Pos,Pos,Pos,<11
+1c,X Adjusted,X,1,Pos,Pos,Pos,>=11
+1c,X Adjusted,X,1,Pos,Pos,Neg,<11
+1c,X Adjusted,X,1,Pos,Pos,Neg,>=11
+1c,X Adjusted,X,1,Pos,Neg,Pos,<11
+1c,X Adjusted,X,1,Pos,Neg,Pos,>=11
+1c,X Adjusted,X,1,Pos,Neg,Neg,<11
+1c,X Adjusted,X,1,Pos,Neg,Neg,>=11
+1c,X Adjusted,X,1,Neg,Pos,Pos,<11
+1c,X Adjusted,X,1,Neg,Pos,Pos,>=11
+1c,X Adjusted,X,1,Neg,Pos,Neg,<11
+1c,X Adjusted,X,1,Neg,Pos,Neg,>=11
+1c,X Adjusted,X,1,Neg,Neg,Pos,<11
+1c,X Adjusted,X,1,Neg,Neg,Pos,>=11
+1c,X Adjusted,X,1,Neg,Neg,Neg,<11
+1c,X Adjusted,X,1,Neg,Neg,Neg,>=11
+1c,X Adjusted,X,2,Pos,Pos,Pos,<11
+1c,X Adjusted,X,2,Pos,Pos,Pos,>=11
+1c,X Adjusted,X,2,Pos,Pos,Neg,<11
+1c,X Adjusted,X,2,Pos,Pos,Neg,>=11
+1c,X Adjusted,X,2,Pos,Neg,Pos,<11
+1c,X Adjusted,X,2,Pos,Neg,Pos,>=11
+1c,X Adjusted,X,2,Pos,Neg,Neg,<11
+1c,X Adjusted,X,2,Pos,Neg,Neg,>=11
+1c,X Adjusted,X,2,Neg,Pos,Pos,<11
+1c,X Adjusted,X,2,Neg,Pos,Pos,>=11
+1c,X Adjusted,X,2,Neg,Pos,Neg,<11
+1c,X Adjusted,X,2,Neg,Pos,Neg,>=11
+1c,X Adjusted,X,2,Neg,Neg,Pos,<11
+1c,X Adjusted,X,2,Neg,Neg,Pos,>=11
+1c,X Adjusted,X,2,Neg,Neg,Neg,<11
+1c,X Adjusted,X,2,Neg,Neg,Neg,>=11
+1c,X Adjusted,X,3,Pos,Pos,Pos,<11
+1c,X Adjusted,X,3,Pos,Pos,Pos,>=11
+1c,X Adjusted,X,3,Pos,Pos,Neg,<11
+1c,X Adjusted,X,3,Pos,Pos,Neg,>=11
+1c,X Adjusted,X,3,Pos,Neg,Pos,<11
+1c,X Adjusted,X,3,Pos,Neg,Pos,>=11
+1c,X Adjusted,X,3,Pos,Neg,Neg,<11
+1c,X Adjusted,X,3,Pos,Neg,Neg,>=11
+1c,X Adjusted,X,3,Neg,Pos,Pos,<11
+1c,X Adjusted,X,3,Neg,Pos,Pos,>=11
+1c,X Adjusted,X,3,Neg,Pos,Neg,<11
+1c,X Adjusted,X,3,Neg,Pos,Neg,>=11
+1c,X Adjusted,X,3,Neg,Neg,Pos,<11
+1c,X Adjusted,X,3,Neg,Neg,Pos,>=11
+1c,X Adjusted,X,3,Neg,Neg,Neg,<11
+1c,X Adjusted,X,3,Neg,Neg,Neg,>=11
+1c,X Adjusted,1,1,Pos,Pos,Pos,<11
+1c,X Adjusted,1,1,Pos,Pos,Pos,>=11
+1c,X Adjusted,1,1,Pos,Pos,Neg,<11
+1c,X Adjusted,1,1,Pos,Pos,Neg,>=11
+1c,X Adjusted,1,1,Pos,Neg,Pos,<11
+1c,X Adjusted,1,1,Pos,Neg,Pos,>=11
+1c,X Adjusted,1,1,Pos,Neg,Neg,<11
+1c,X Adjusted,1,1,Pos,Neg,Neg,>=11
+1c,X Adjusted,1,1,Neg,Pos,Pos,<11
+1c,X Adjusted,1,1,Neg,Pos,Pos,>=11
+1c,X Adjusted,1,1,Neg,Pos,Neg,<11
+1c,X Adjusted,1,1,Neg,Pos,Neg,>=11
+1c,X Adjusted,1,1,Neg,Neg,Pos,<11
+1c,X Adjusted,1,1,Neg,Neg,Pos,>=11
+1c,X Adjusted,1,1,Neg,Neg,Neg,<11
+1c,X Adjusted,1,1,Neg,Neg,Neg,>=11
+1c,X Adjusted,1,2,Pos,Pos,Pos,<11
+1c,X Adjusted,1,2,Pos,Pos,Pos,>=11
+1c,X Adjusted,1,2,Pos,Pos,Neg,<11
+1c,X Adjusted,1,2,Pos,Pos,Neg,>=11
+1c,X Adjusted,1,2,Pos,Neg,Pos,<11
+1c,X Adjusted,1,2,Pos,Neg,Pos,>=11
+1c,X Adjusted,1,2,Pos,Neg,Neg,<11
+1c,X Adjusted,1,2,Pos,Neg,Neg,>=11
+1c,X Adjusted,1,2,Neg,Pos,Pos,<11
+1c,X Adjusted,1,2,Neg,Pos,Pos,>=11
+1c,X Adjusted,1,2,Neg,Pos,Neg,<11
+1c,X Adjusted,1,2,Neg,Pos,Neg,>=11
+1c,X Adjusted,1,2,Neg,Neg,Pos,<11
+1c,X Adjusted,1,2,Neg,Neg,Pos,>=11
+1c,X Adjusted,1,2,Neg,Neg,Neg,<11
+1c,X Adjusted,1,2,Neg,Neg,Neg,>=11
+1c,X Adjusted,1,3,Pos,Pos,Pos,<11
+1c,X Adjusted,1,3,Pos,Pos,Pos,>=11
+1c,X Adjusted,1,3,Pos,Pos,Neg,<11
+1c,X Adjusted,1,3,Pos,Pos,Neg,>=11
+1c,X Adjusted,1,3,Pos,Neg,Pos,<11
+1c,X Adjusted,1,3,Pos,Neg,Pos,>=11
+1c,X Adjusted,1,3,Pos,Neg,Neg,<11
+1c,X Adjusted,1,3,Pos,Neg,Neg,>=11
+1c,X Adjusted,1,3,Neg,Pos,Pos,<11
+1c,X Adjusted,1,3,Neg,Pos,Pos,>=11
+1c,X Adjusted,1,3,Neg,Pos,Neg,<11
+1c,X Adjusted,1,3,Neg,Pos,Neg,>=11
+1c,X Adjusted,1,3,Neg,Neg,Pos,<11
+1c,X Adjusted,1,3,Neg,Neg,Pos,>=11
+1c,X Adjusted,1,3,Neg,Neg,Neg,<11
+1c,X Adjusted,1,3,Neg,Neg,Neg,>=11
+2,1,0,1,Pos,Pos,Pos,<11
+2,1,0,1,Pos,Pos,Pos,>=11
+2,1,0,1,Pos,Pos,Neg,<11
+2,1,0,1,Pos,Pos,Neg,>=11
+2,1,0,1,Pos,Neg,Pos,<11
+2,1,0,1,Pos,Neg,Pos,>=11
+2,1,0,1,Pos,Neg,Neg,<11
+2,1,0,1,Pos,Neg,Neg,>=11
+2,1,0,1,Neg,Pos,Pos,<11
+2,1,0,1,Neg,Pos,Pos,>=11
+2,1,0,1,Neg,Pos,Neg,<11
+2,1,0,1,Neg,Pos,Neg,>=11
+2,1,0,1,Neg,Neg,Pos,<11
+2,1,0,1,Neg,Neg,Pos,>=11
+2,1,0,1,Neg,Neg,Neg,<11
+2,1,0,1,Neg,Neg,Neg,>=11
+2,1,0,2,Pos,Pos,Pos,<11
+2,1,0,2,Pos,Pos,Pos,>=11
+2,1,0,2,Pos,Pos,Neg,<11
+2,1,0,2,Pos,Pos,Neg,>=11
+2,1,0,2,Pos,Neg,Pos,<11
+2,1,0,2,Pos,Neg,Pos,>=11
+2,1,0,2,Pos,Neg,Neg,<11
+2,1,0,2,Pos,Neg,Neg,>=11
+2,1,0,2,Neg,Pos,Pos,<11
+2,1,0,2,Neg,Pos,Pos,>=11
+2,1,0,2,Neg,Pos,Neg,<11
+2,1,0,2,Neg,Pos,Neg,>=11
+2,1,0,2,Neg,Neg,Pos,<11
+2,1,0,2,Neg,Neg,Pos,>=11
+2,1,0,2,Neg,Neg,Neg,<11
+2,1,0,2,Neg,Neg,Neg,>=11
+2,1,0,3,Pos,Pos,Pos,<11
+2,1,0,3,Pos,Pos,Pos,>=11
+2,1,0,3,Pos,Pos,Neg,<11
+2,1,0,3,Pos,Pos,Neg,>=11
+2,1,0,3,Pos,Neg,Pos,<11
+2,1,0,3,Pos,Neg,Pos,>=11
+2,1,0,3,Pos,Neg,Neg,<11
+2,1,0,3,Pos,Neg,Neg,>=11
+2,1,0,3,Neg,Pos,Pos,<11
+2,1,0,3,Neg,Pos,Pos,>=11
+2,1,0,3,Neg,Pos,Neg,<11
+2,1,0,3,Neg,Pos,Neg,>=11
+2,1,0,3,Neg,Neg,Pos,<11
+2,1,0,3,Neg,Neg,Pos,>=11
+2,1,0,3,Neg,Neg,Neg,<11
+2,1,0,3,Neg,Neg,Neg,>=11
+2,1,X,1,Pos,Pos,Pos,<11
+2,1,X,1,Pos,Pos,Pos,>=11
+2,1,X,1,Pos,Pos,Neg,<11
+2,1,X,1,Pos,Pos,Neg,>=11
+2,1,X,1,Pos,Neg,Pos,<11
+2,1,X,1,Pos,Neg,Pos,>=11
+2,1,X,1,Pos,Neg,Neg,<11
+2,1,X,1,Pos,Neg,Neg,>=11
+2,1,X,1,Neg,Pos,Pos,<11
+2,1,X,1,Neg,Pos,Pos,>=11
+2,1,X,1,Neg,Pos,Neg,<11
+2,1,X,1,Neg,Pos,Neg,>=11
+2,1,X,1,Neg,Neg,Pos,<11
+2,1,X,1,Neg,Neg,Pos,>=11
+2,1,X,1,Neg,Neg,Neg,<11
+2,1,X,1,Neg,Neg,Neg,>=11
+2,1,X,2,Pos,Pos,Pos,<11
+2,1,X,2,Pos,Pos,Pos,>=11
+2,1,X,2,Pos,Pos,Neg,<11
+2,1,X,2,Pos,Pos,Neg,>=11
+2,1,X,2,Pos,Neg,Pos,<11
+2,1,X,2,Pos,Neg,Pos,>=11
+2,1,X,2,Pos,Neg,Neg,<11
+2,1,X,2,Pos,Neg,Neg,>=11
+2,1,X,2,Neg,Pos,Pos,<11
+2,1,X,2,Neg,Pos,Pos,>=11
+2,1,X,2,Neg,Pos,Neg,<11
+2,1,X,2,Neg,Pos,Neg,>=11
+2,1,X,2,Neg,Neg,Pos,<11
+2,1,X,2,Neg,Neg,Pos,>=11
+2,1,X,2,Neg,Neg,Neg,<11
+2,1,X,2,Neg,Neg,Neg,>=11
+2,1,X,3,Pos,Pos,Pos,<11
+2,1,X,3,Pos,Pos,Pos,>=11
+2,1,X,3,Pos,Pos,Neg,<11
+2,1,X,3,Pos,Pos,Neg,>=11
+2,1,X,3,Pos,Neg,Pos,<11
+2,1,X,3,Pos,Neg,Pos,>=11
+2,1,X,3,Pos,Neg,Neg,<11
+2,1,X,3,Pos,Neg,Neg,>=11
+2,1,X,3,Neg,Pos,Pos,<11
+2,1,X,3,Neg,Pos,Pos,>=11
+2,1,X,3,Neg,Pos,Neg,<11
+2,1,X,3,Neg,Pos,Neg,>=11
+2,1,X,3,Neg,Neg,Pos,<11
+2,1,X,3,Neg,Neg,Pos,>=11
+2,1,X,3,Neg,Neg,Neg,<11
+2,1,X,3,Neg,Neg,Neg,>=11
+2,1,1,1,Pos,Pos,Pos,<11
+2,1,1,1,Pos,Pos,Pos,>=11
+2,1,1,1,Pos,Pos,Neg,<11
+2,1,1,1,Pos,Pos,Neg,>=11
+2,1,1,1,Pos,Neg,Pos,<11
+2,1,1,1,Pos,Neg,Pos,>=11
+2,1,1,1,Pos,Neg,Neg,<11
+2,1,1,1,Pos,Neg,Neg,>=11
+2,1,1,1,Neg,Pos,Pos,<11
+2,1,1,1,Neg,Pos,Pos,>=11
+2,1,1,1,Neg,Pos,Neg,<11
+2,1,1,1,Neg,Pos,Neg,>=11
+2,1,1,1,Neg,Neg,Pos,<11
+2,1,1,1,Neg,Neg,Pos,>=11
+2,1,1,1,Neg,Neg,Neg,<11
+2,1,1,1,Neg,Neg,Neg,>=11
+2,1,1,2,Pos,Pos,Pos,<11
+2,1,1,2,Pos,Pos,Pos,>=11
+2,1,1,2,Pos,Pos,Neg,<11
+2,1,1,2,Pos,Pos,Neg,>=11
+2,1,1,2,Pos,Neg,Pos,<11
+2,1,1,2,Pos,Neg,Pos,>=11
+2,1,1,2,Pos,Neg,Neg,<11
+2,1,1,2,Pos,Neg,Neg,>=11
+2,1,1,2,Neg,Pos,Pos,<11
+2,1,1,2,Neg,Pos,Pos,>=11
+2,1,1,2,Neg,Pos,Neg,<11
+2,1,1,2,Neg,Pos,Neg,>=11
+2,1,1,2,Neg,Neg,Pos,<11
+2,1,1,2,Neg,Neg,Pos,>=11
+2,1,1,2,Neg,Neg,Neg,<11
+2,1,1,2,Neg,Neg,Neg,>=11
+2,1,1,3,Pos,Pos,Pos,<11
+2,1,1,3,Pos,Pos,Pos,>=11
+2,1,1,3,Pos,Pos,Neg,<11
+2,1,1,3,Pos,Pos,Neg,>=11
+2,1,1,3,Pos,Neg,Pos,<11
+2,1,1,3,Pos,Neg,Pos,>=11
+2,1,1,3,Pos,Neg,Neg,<11
+2,1,1,3,Pos,Neg,Neg,>=11
+2,1,1,3,Neg,Pos,Pos,<11
+2,1,1,3,Neg,Pos,Pos,>=11
+2,1,1,3,Neg,Pos,Neg,<11
+2,1,1,3,Neg,Pos,Neg,>=11
+2,1,1,3,Neg,Neg,Pos,<11
+2,1,1,3,Neg,Neg,Pos,>=11
+2,1,1,3,Neg,Neg,Neg,<11
+2,1,1,3,Neg,Neg,Neg,>=11
+2,2,0,1,Pos,Pos,Pos,<11
+2,2,0,1,Pos,Pos,Pos,>=11
+2,2,0,1,Pos,Pos,Neg,<11
+2,2,0,1,Pos,Pos,Neg,>=11
+2,2,0,1,Pos,Neg,Pos,<11
+2,2,0,1,Pos,Neg,Pos,>=11
+2,2,0,1,Pos,Neg,Neg,<11
+2,2,0,1,Pos,Neg,Neg,>=11
+2,2,0,1,Neg,Pos,Pos,<11
+2,2,0,1,Neg,Pos,Pos,>=11
+2,2,0,1,Neg,Pos,Neg,<11
+2,2,0,1,Neg,Pos,Neg,>=11
+2,2,0,1,Neg,Neg,Pos,<11
+2,2,0,1,Neg,Neg,Pos,>=11
+2,2,0,1,Neg,Neg,Neg,<11
+2,2,0,1,Neg,Neg,Neg,>=11
+2,2,0,2,Pos,Pos,Pos,<11
+2,2,0,2,Pos,Pos,Pos,>=11
+2,2,0,2,Pos,Pos,Neg,<11
+2,2,0,2,Pos,Pos,Neg,>=11
+2,2,0,2,Pos,Neg,Pos,<11
+2,2,0,2,Pos,Neg,Pos,>=11
+2,2,0,2,Pos,Neg,Neg,<11
+2,2,0,2,Pos,Neg,Neg,>=11
+2,2,0,2,Neg,Pos,Pos,<11
+2,2,0,2,Neg,Pos,Pos,>=11
+2,2,0,2,Neg,Pos,Neg,<11
+2,2,0,2,Neg,Pos,Neg,>=11
+2,2,0,2,Neg,Neg,Pos,<11
+2,2,0,2,Neg,Neg,Pos,>=11
+2,2,0,2,Neg,Neg,Neg,<11
+2,2,0,2,Neg,Neg,Neg,>=11
+2,2,0,3,Pos,Pos,Pos,<11
+2,2,0,3,Pos,Pos,Pos,>=11
+2,2,0,3,Pos,Pos,Neg,<11
+2,2,0,3,Pos,Pos,Neg,>=11
+2,2,0,3,Pos,Neg,Pos,<11
+2,2,0,3,Pos,Neg,Pos,>=11
+2,2,0,3,Pos,Neg,Neg,<11
+2,2,0,3,Pos,Neg,Neg,>=11
+2,2,0,3,Neg,Pos,Pos,<11
+2,2,0,3,Neg,Pos,Pos,>=11
+2,2,0,3,Neg,Pos,Neg,<11
+2,2,0,3,Neg,Pos,Neg,>=11
+2,2,0,3,Neg,Neg,Pos,<11
+2,2,0,3,Neg,Neg,Pos,>=11
+2,2,0,3,Neg,Neg,Neg,<11
+2,2,0,3,Neg,Neg,Neg,>=11
+2,2,X,1,Pos,Pos,Pos,<11
+2,2,X,1,Pos,Pos,Pos,>=11
+2,2,X,1,Pos,Pos,Neg,<11
+2,2,X,1,Pos,Pos,Neg,>=11
+2,2,X,1,Pos,Neg,Pos,<11
+2,2,X,1,Pos,Neg,Pos,>=11
+2,2,X,1,Pos,Neg,Neg,<11
+2,2,X,1,Pos,Neg,Neg,>=11
+2,2,X,1,Neg,Pos,Pos,<11
+2,2,X,1,Neg,Pos,Pos,>=11
+2,2,X,1,Neg,Pos,Neg,<11
+2,2,X,1,Neg,Pos,Neg,>=11
+2,2,X,1,Neg,Neg,Pos,<11
+2,2,X,1,Neg,Neg,Pos,>=11
+2,2,X,1,Neg,Neg,Neg,<11
+2,2,X,1,Neg,Neg,Neg,>=11
+2,2,X,2,Pos,Pos,Pos,<11
+2,2,X,2,Pos,Pos,Pos,>=11
+2,2,X,2,Pos,Pos,Neg,<11
+2,2,X,2,Pos,Pos,Neg,>=11
+2,2,X,2,Pos,Neg,Pos,<11
+2,2,X,2,Pos,Neg,Pos,>=11
+2,2,X,2,Pos,Neg,Neg,<11
+2,2,X,2,Pos,Neg,Neg,>=11
+2,2,X,2,Neg,Pos,Pos,<11
+2,2,X,2,Neg,Pos,Pos,>=11
+2,2,X,2,Neg,Pos,Neg,<11
+2,2,X,2,Neg,Pos,Neg,>=11
+2,2,X,2,Neg,Neg,Pos,<11
+2,2,X,2,Neg,Neg,Pos,>=11
+2,2,X,2,Neg,Neg,Neg,<11
+2,2,X,2,Neg,Neg,Neg,>=11
+2,2,X,3,Pos,Pos,Pos,<11
+2,2,X,3,Pos,Pos,Pos,>=11
+2,2,X,3,Pos,Pos,Neg,<11
+2,2,X,3,Pos,Pos,Neg,>=11
+2,2,X,3,Pos,Neg,Pos,<11
+2,2,X,3,Pos,Neg,Pos,>=11
+2,2,X,3,Pos,Neg,Neg,<11
+2,2,X,3,Pos,Neg,Neg,>=11
+2,2,X,3,Neg,Pos,Pos,<11
+2,2,X,3,Neg,Pos,Pos,>=11
+2,2,X,3,Neg,Pos,Neg,<11
+2,2,X,3,Neg,Pos,Neg,>=11
+2,2,X,3,Neg,Neg,Pos,<11
+2,2,X,3,Neg,Neg,Pos,>=11
+2,2,X,3,Neg,Neg,Neg,<11
+2,2,X,3,Neg,Neg,Neg,>=11
+2,2,1,1,Pos,Pos,Pos,<11
+2,2,1,1,Pos,Pos,Pos,>=11
+2,2,1,1,Pos,Pos,Neg,<11
+2,2,1,1,Pos,Pos,Neg,>=11
+2,2,1,1,Pos,Neg,Pos,<11
+2,2,1,1,Pos,Neg,Pos,>=11
+2,2,1,1,Pos,Neg,Neg,<11
+2,2,1,1,Pos,Neg,Neg,>=11
+2,2,1,1,Neg,Pos,Pos,<11
+2,2,1,1,Neg,Pos,Pos,>=11
+2,2,1,1,Neg,Pos,Neg,<11
+2,2,1,1,Neg,Pos,Neg,>=11
+2,2,1,1,Neg,Neg,Pos,<11
+2,2,1,1,Neg,Neg,Pos,>=11
+2,2,1,1,Neg,Neg,Neg,<11
+2,2,1,1,Neg,Neg,Neg,>=11
+2,2,1,2,Pos,Pos,Pos,<11
+2,2,1,2,Pos,Pos,Pos,>=11
+2,2,1,2,Pos,Pos,Neg,<11
+2,2,1,2,Pos,Pos,Neg,>=11
+2,2,1,2,Pos,Neg,Pos,<11
+2,2,1,2,Pos,Neg,Pos,>=11
+2,2,1,2,Pos,Neg,Neg,<11
+2,2,1,2,Pos,Neg,Neg,>=11
+2,2,1,2,Neg,Pos,Pos,<11
+2,2,1,2,Neg,Pos,Pos,>=11
+2,2,1,2,Neg,Pos,Neg,<11
+2,2,1,2,Neg,Pos,Neg,>=11
+2,2,1,2,Neg,Neg,Pos,<11
+2,2,1,2,Neg,Neg,Pos,>=11
+2,2,1,2,Neg,Neg,Neg,<11
+2,2,1,2,Neg,Neg,Neg,>=11
+2,2,1,3,Pos,Pos,Pos,<11
+2,2,1,3,Pos,Pos,Pos,>=11
+2,2,1,3,Pos,Pos,Neg,<11
+2,2,1,3,Pos,Pos,Neg,>=11
+2,2,1,3,Pos,Neg,Pos,<11
+2,2,1,3,Pos,Neg,Pos,>=11
+2,2,1,3,Pos,Neg,Neg,<11
+2,2,1,3,Pos,Neg,Neg,>=11
+2,2,1,3,Neg,Pos,Pos,<11
+2,2,1,3,Neg,Pos,Pos,>=11
+2,2,1,3,Neg,Pos,Neg,<11
+2,2,1,3,Neg,Pos,Neg,>=11
+2,2,1,3,Neg,Neg,Pos,<11
+2,2,1,3,Neg,Neg,Pos,>=11
+2,2,1,3,Neg,Neg,Neg,<11
+2,2,1,3,Neg,Neg,Neg,>=11
+2,3,0,1,Pos,Pos,Pos,<11
+2,3,0,1,Pos,Pos,Pos,>=11
+2,3,0,1,Pos,Pos,Neg,<11
+2,3,0,1,Pos,Pos,Neg,>=11
+2,3,0,1,Pos,Neg,Pos,<11
+2,3,0,1,Pos,Neg,Pos,>=11
+2,3,0,1,Pos,Neg,Neg,<11
+2,3,0,1,Pos,Neg,Neg,>=11
+2,3,0,1,Neg,Pos,Pos,<11
+2,3,0,1,Neg,Pos,Pos,>=11
+2,3,0,1,Neg,Pos,Neg,<11
+2,3,0,1,Neg,Pos,Neg,>=11
+2,3,0,1,Neg,Neg,Pos,<11
+2,3,0,1,Neg,Neg,Pos,>=11
+2,3,0,1,Neg,Neg,Neg,<11
+2,3,0,1,Neg,Neg,Neg,>=11
+2,3,0,2,Pos,Pos,Pos,<11
+2,3,0,2,Pos,Pos,Pos,>=11
+2,3,0,2,Pos,Pos,Neg,<11
+2,3,0,2,Pos,Pos,Neg,>=11
+2,3,0,2,Pos,Neg,Pos,<11
+2,3,0,2,Pos,Neg,Pos,>=11
+2,3,0,2,Pos,Neg,Neg,<11
+2,3,0,2,Pos,Neg,Neg,>=11
+2,3,0,2,Neg,Pos,Pos,<11
+2,3,0,2,Neg,Pos,Pos,>=11
+2,3,0,2,Neg,Pos,Neg,<11
+2,3,0,2,Neg,Pos,Neg,>=11
+2,3,0,2,Neg,Neg,Pos,<11
+2,3,0,2,Neg,Neg,Pos,>=11
+2,3,0,2,Neg,Neg,Neg,<11
+2,3,0,2,Neg,Neg,Neg,>=11
+2,3,0,3,Pos,Pos,Pos,<11
+2,3,0,3,Pos,Pos,Pos,>=11
+2,3,0,3,Pos,Pos,Neg,<11
+2,3,0,3,Pos,Pos,Neg,>=11
+2,3,0,3,Pos,Neg,Pos,<11
+2,3,0,3,Pos,Neg,Pos,>=11
+2,3,0,3,Pos,Neg,Neg,<11
+2,3,0,3,Pos,Neg,Neg,>=11
+2,3,0,3,Neg,Pos,Pos,<11
+2,3,0,3,Neg,Pos,Pos,>=11
+2,3,0,3,Neg,Pos,Neg,<11
+2,3,0,3,Neg,Pos,Neg,>=11
+2,3,0,3,Neg,Neg,Pos,<11
+2,3,0,3,Neg,Neg,Pos,>=11
+2,3,0,3,Neg,Neg,Neg,<11
+2,3,0,3,Neg,Neg,Neg,>=11
+2,3,X,1,Pos,Pos,Pos,<11
+2,3,X,1,Pos,Pos,Pos,>=11
+2,3,X,1,Pos,Pos,Neg,<11
+2,3,X,1,Pos,Pos,Neg,>=11
+2,3,X,1,Pos,Neg,Pos,<11
+2,3,X,1,Pos,Neg,Pos,>=11
+2,3,X,1,Pos,Neg,Neg,<11
+2,3,X,1,Pos,Neg,Neg,>=11
+2,3,X,1,Neg,Pos,Pos,<11
+2,3,X,1,Neg,Pos,Pos,>=11
+2,3,X,1,Neg,Pos,Neg,<11
+2,3,X,1,Neg,Pos,Neg,>=11
+2,3,X,1,Neg,Neg,Pos,<11
+2,3,X,1,Neg,Neg,Pos,>=11
+2,3,X,1,Neg,Neg,Neg,<11
+2,3,X,1,Neg,Neg,Neg,>=11
+2,3,X,2,Pos,Pos,Pos,<11
+2,3,X,2,Pos,Pos,Pos,>=11
+2,3,X,2,Pos,Pos,Neg,<11
+2,3,X,2,Pos,Pos,Neg,>=11
+2,3,X,2,Pos,Neg,Pos,<11
+2,3,X,2,Pos,Neg,Pos,>=11
+2,3,X,2,Pos,Neg,Neg,<11
+2,3,X,2,Pos,Neg,Neg,>=11
+2,3,X,2,Neg,Pos,Pos,<11
+2,3,X,2,Neg,Pos,Pos,>=11
+2,3,X,2,Neg,Pos,Neg,<11
+2,3,X,2,Neg,Pos,Neg,>=11
+2,3,X,2,Neg,Neg,Pos,<11
+2,3,X,2,Neg,Neg,Pos,>=11
+2,3,X,2,Neg,Neg,Neg,<11
+2,3,X,2,Neg,Neg,Neg,>=11
+2,3,X,3,Pos,Pos,Pos,<11
+2,3,X,3,Pos,Pos,Pos,>=11
+2,3,X,3,Pos,Pos,Neg,<11
+2,3,X,3,Pos,Pos,Neg,>=11
+2,3,X,3,Pos,Neg,Pos,<11
+2,3,X,3,Pos,Neg,Pos,>=11
+2,3,X,3,Pos,Neg,Neg,<11
+2,3,X,3,Pos,Neg,Neg,>=11
+2,3,X,3,Neg,Pos,Pos,<11
+2,3,X,3,Neg,Pos,Pos,>=11
+2,3,X,3,Neg,Pos,Neg,<11
+2,3,X,3,Neg,Pos,Neg,>=11
+2,3,X,3,Neg,Neg,Pos,<11
+2,3,X,3,Neg,Neg,Pos,>=11
+2,3,X,3,Neg,Neg,Neg,<11
+2,3,X,3,Neg,Neg,Neg,>=11
+2,3,1,1,Pos,Pos,Pos,<11
+2,3,1,1,Pos,Pos,Pos,>=11
+2,3,1,1,Pos,Pos,Neg,<11
+2,3,1,1,Pos,Pos,Neg,>=11
+2,3,1,1,Pos,Neg,Pos,<11
+2,3,1,1,Pos,Neg,Pos,>=11
+2,3,1,1,Pos,Neg,Neg,<11
+2,3,1,1,Pos,Neg,Neg,>=11
+2,3,1,1,Neg,Pos,Pos,<11
+2,3,1,1,Neg,Pos,Pos,>=11
+2,3,1,1,Neg,Pos,Neg,<11
+2,3,1,1,Neg,Pos,Neg,>=11
+2,3,1,1,Neg,Neg,Pos,<11
+2,3,1,1,Neg,Neg,Pos,>=11
+2,3,1,1,Neg,Neg,Neg,<11
+2,3,1,1,Neg,Neg,Neg,>=11
+2,3,1,2,Pos,Pos,Pos,<11
+2,3,1,2,Pos,Pos,Pos,>=11
+2,3,1,2,Pos,Pos,Neg,<11
+2,3,1,2,Pos,Pos,Neg,>=11
+2,3,1,2,Pos,Neg,Pos,<11
+2,3,1,2,Pos,Neg,Pos,>=11
+2,3,1,2,Pos,Neg,Neg,<11
+2,3,1,2,Pos,Neg,Neg,>=11
+2,3,1,2,Neg,Pos,Pos,<11
+2,3,1,2,Neg,Pos,Pos,>=11
+2,3,1,2,Neg,Pos,Neg,<11
+2,3,1,2,Neg,Pos,Neg,>=11
+2,3,1,2,Neg,Neg,Pos,<11
+2,3,1,2,Neg,Neg,Pos,>=11
+2,3,1,2,Neg,Neg,Neg,<11
+2,3,1,2,Neg,Neg,Neg,>=11
+2,3,1,3,Pos,Pos,Pos,<11
+2,3,1,3,Pos,Pos,Pos,>=11
+2,3,1,3,Pos,Pos,Neg,<11
+2,3,1,3,Pos,Pos,Neg,>=11
+2,3,1,3,Pos,Neg,Pos,<11
+2,3,1,3,Pos,Neg,Pos,>=11
+2,3,1,3,Pos,Neg,Neg,<11
+2,3,1,3,Pos,Neg,Neg,>=11
+2,3,1,3,Neg,Pos,Pos,<11
+2,3,1,3,Neg,Pos,Pos,>=11
+2,3,1,3,Neg,Pos,Neg,<11
+2,3,1,3,Neg,Pos,Neg,>=11
+2,3,1,3,Neg,Neg,Pos,<11
+2,3,1,3,Neg,Neg,Pos,>=11
+2,3,1,3,Neg,Neg,Neg,<11
+2,3,1,3,Neg,Neg,Neg,>=11
+2,0,0,1,Pos,Pos,Pos,<11
+2,0,0,1,Pos,Pos,Pos,>=11
+2,0,0,1,Pos,Pos,Neg,<11
+2,0,0,1,Pos,Pos,Neg,>=11
+2,0,0,1,Pos,Neg,Pos,<11
+2,0,0,1,Pos,Neg,Pos,>=11
+2,0,0,1,Pos,Neg,Neg,<11
+2,0,0,1,Pos,Neg,Neg,>=11
+2,0,0,1,Neg,Pos,Pos,<11
+2,0,0,1,Neg,Pos,Pos,>=11
+2,0,0,1,Neg,Pos,Neg,<11
+2,0,0,1,Neg,Pos,Neg,>=11
+2,0,0,1,Neg,Neg,Pos,<11
+2,0,0,1,Neg,Neg,Pos,>=11
+2,0,0,1,Neg,Neg,Neg,<11
+2,0,0,1,Neg,Neg,Neg,>=11
+2,0,0,2,Pos,Pos,Pos,<11
+2,0,0,2,Pos,Pos,Pos,>=11
+2,0,0,2,Pos,Pos,Neg,<11
+2,0,0,2,Pos,Pos,Neg,>=11
+2,0,0,2,Pos,Neg,Pos,<11
+2,0,0,2,Pos,Neg,Pos,>=11
+2,0,0,2,Pos,Neg,Neg,<11
+2,0,0,2,Pos,Neg,Neg,>=11
+2,0,0,2,Neg,Pos,Pos,<11
+2,0,0,2,Neg,Pos,Pos,>=11
+2,0,0,2,Neg,Pos,Neg,<11
+2,0,0,2,Neg,Pos,Neg,>=11
+2,0,0,2,Neg,Neg,Pos,<11
+2,0,0,2,Neg,Neg,Pos,>=11
+2,0,0,2,Neg,Neg,Neg,<11
+2,0,0,2,Neg,Neg,Neg,>=11
+2,0,0,3,Pos,Pos,Pos,<11
+2,0,0,3,Pos,Pos,Pos,>=11
+2,0,0,3,Pos,Pos,Neg,<11
+2,0,0,3,Pos,Pos,Neg,>=11
+2,0,0,3,Pos,Neg,Pos,<11
+2,0,0,3,Pos,Neg,Pos,>=11
+2,0,0,3,Pos,Neg,Neg,<11
+2,0,0,3,Pos,Neg,Neg,>=11
+2,0,0,3,Neg,Pos,Pos,<11
+2,0,0,3,Neg,Pos,Pos,>=11
+2,0,0,3,Neg,Pos,Neg,<11
+2,0,0,3,Neg,Pos,Neg,>=11
+2,0,0,3,Neg,Neg,Pos,<11
+2,0,0,3,Neg,Neg,Pos,>=11
+2,0,0,3,Neg,Neg,Neg,<11
+2,0,0,3,Neg,Neg,Neg,>=11
+2,0,X,1,Pos,Pos,Pos,<11
+2,0,X,1,Pos,Pos,Pos,>=11
+2,0,X,1,Pos,Pos,Neg,<11
+2,0,X,1,Pos,Pos,Neg,>=11
+2,0,X,1,Pos,Neg,Pos,<11
+2,0,X,1,Pos,Neg,Pos,>=11
+2,0,X,1,Pos,Neg,Neg,<11
+2,0,X,1,Pos,Neg,Neg,>=11
+2,0,X,1,Neg,Pos,Pos,<11
+2,0,X,1,Neg,Pos,Pos,>=11
+2,0,X,1,Neg,Pos,Neg,<11
+2,0,X,1,Neg,Pos,Neg,>=11
+2,0,X,1,Neg,Neg,Pos,<11
+2,0,X,1,Neg,Neg,Pos,>=11
+2,0,X,1,Neg,Neg,Neg,<11
+2,0,X,1,Neg,Neg,Neg,>=11
+2,0,X,2,Pos,Pos,Pos,<11
+2,0,X,2,Pos,Pos,Pos,>=11
+2,0,X,2,Pos,Pos,Neg,<11
+2,0,X,2,Pos,Pos,Neg,>=11
+2,0,X,2,Pos,Neg,Pos,<11
+2,0,X,2,Pos,Neg,Pos,>=11
+2,0,X,2,Pos,Neg,Neg,<11
+2,0,X,2,Pos,Neg,Neg,>=11
+2,0,X,2,Neg,Pos,Pos,<11
+2,0,X,2,Neg,Pos,Pos,>=11
+2,0,X,2,Neg,Pos,Neg,<11
+2,0,X,2,Neg,Pos,Neg,>=11
+2,0,X,2,Neg,Neg,Pos,<11
+2,0,X,2,Neg,Neg,Pos,>=11
+2,0,X,2,Neg,Neg,Neg,<11
+2,0,X,2,Neg,Neg,Neg,>=11
+2,0,X,3,Pos,Pos,Pos,<11
+2,0,X,3,Pos,Pos,Pos,>=11
+2,0,X,3,Pos,Pos,Neg,<11
+2,0,X,3,Pos,Pos,Neg,>=11
+2,0,X,3,Pos,Neg,Pos,<11
+2,0,X,3,Pos,Neg,Pos,>=11
+2,0,X,3,Pos,Neg,Neg,<11
+2,0,X,3,Pos,Neg,Neg,>=11
+2,0,X,3,Neg,Pos,Pos,<11
+2,0,X,3,Neg,Pos,Pos,>=11
+2,0,X,3,Neg,Pos,Neg,<11
+2,0,X,3,Neg,Pos,Neg,>=11
+2,0,X,3,Neg,Neg,Pos,<11
+2,0,X,3,Neg,Neg,Pos,>=11
+2,0,X,3,Neg,Neg,Neg,<11
+2,0,X,3,Neg,Neg,Neg,>=11
+2,0,1,1,Pos,Pos,Pos,<11
+2,0,1,1,Pos,Pos,Pos,>=11
+2,0,1,1,Pos,Pos,Neg,<11
+2,0,1,1,Pos,Pos,Neg,>=11
+2,0,1,1,Pos,Neg,Pos,<11
+2,0,1,1,Pos,Neg,Pos,>=11
+2,0,1,1,Pos,Neg,Neg,<11
+2,0,1,1,Pos,Neg,Neg,>=11
+2,0,1,1,Neg,Pos,Pos,<11
+2,0,1,1,Neg,Pos,Pos,>=11
+2,0,1,1,Neg,Pos,Neg,<11
+2,0,1,1,Neg,Pos,Neg,>=11
+2,0,1,1,Neg,Neg,Pos,<11
+2,0,1,1,Neg,Neg,Pos,>=11
+2,0,1,1,Neg,Neg,Neg,<11
+2,0,1,1,Neg,Neg,Neg,>=11
+2,0,1,2,Pos,Pos,Pos,<11
+2,0,1,2,Pos,Pos,Pos,>=11
+2,0,1,2,Pos,Pos,Neg,<11
+2,0,1,2,Pos,Pos,Neg,>=11
+2,0,1,2,Pos,Neg,Pos,<11
+2,0,1,2,Pos,Neg,Pos,>=11
+2,0,1,2,Pos,Neg,Neg,<11
+2,0,1,2,Pos,Neg,Neg,>=11
+2,0,1,2,Neg,Pos,Pos,<11
+2,0,1,2,Neg,Pos,Pos,>=11
+2,0,1,2,Neg,Pos,Neg,<11
+2,0,1,2,Neg,Pos,Neg,>=11
+2,0,1,2,Neg,Neg,Pos,<11
+2,0,1,2,Neg,Neg,Pos,>=11
+2,0,1,2,Neg,Neg,Neg,<11
+2,0,1,2,Neg,Neg,Neg,>=11
+2,0,1,3,Pos,Pos,Pos,<11
+2,0,1,3,Pos,Pos,Pos,>=11
+2,0,1,3,Pos,Pos,Neg,<11
+2,0,1,3,Pos,Pos,Neg,>=11
+2,0,1,3,Pos,Neg,Pos,<11
+2,0,1,3,Pos,Neg,Pos,>=11
+2,0,1,3,Pos,Neg,Neg,<11
+2,0,1,3,Pos,Neg,Neg,>=11
+2,0,1,3,Neg,Pos,Pos,<11
+2,0,1,3,Neg,Pos,Pos,>=11
+2,0,1,3,Neg,Pos,Neg,<11
+2,0,1,3,Neg,Pos,Neg,>=11
+2,0,1,3,Neg,Neg,Pos,<11
+2,0,1,3,Neg,Neg,Pos,>=11
+2,0,1,3,Neg,Neg,Neg,<11
+2,0,1,3,Neg,Neg,Neg,>=11
+2,X Adjusted,0,1,Pos,Pos,Pos,<11
+2,X Adjusted,0,1,Pos,Pos,Pos,>=11
+2,X Adjusted,0,1,Pos,Pos,Neg,<11
+2,X Adjusted,0,1,Pos,Pos,Neg,>=11
+2,X Adjusted,0,1,Pos,Neg,Pos,<11
+2,X Adjusted,0,1,Pos,Neg,Pos,>=11
+2,X Adjusted,0,1,Pos,Neg,Neg,<11
+2,X Adjusted,0,1,Pos,Neg,Neg,>=11
+2,X Adjusted,0,1,Neg,Pos,Pos,<11
+2,X Adjusted,0,1,Neg,Pos,Pos,>=11
+2,X Adjusted,0,1,Neg,Pos,Neg,<11
+2,X Adjusted,0,1,Neg,Pos,Neg,>=11
+2,X Adjusted,0,1,Neg,Neg,Pos,<11
+2,X Adjusted,0,1,Neg,Neg,Pos,>=11
+2,X Adjusted,0,1,Neg,Neg,Neg,<11
+2,X Adjusted,0,1,Neg,Neg,Neg,>=11
+2,X Adjusted,0,2,Pos,Pos,Pos,<11
+2,X Adjusted,0,2,Pos,Pos,Pos,>=11
+2,X Adjusted,0,2,Pos,Pos,Neg,<11
+2,X Adjusted,0,2,Pos,Pos,Neg,>=11
+2,X Adjusted,0,2,Pos,Neg,Pos,<11
+2,X Adjusted,0,2,Pos,Neg,Pos,>=11
+2,X Adjusted,0,2,Pos,Neg,Neg,<11
+2,X Adjusted,0,2,Pos,Neg,Neg,>=11
+2,X Adjusted,0,2,Neg,Pos,Pos,<11
+2,X Adjusted,0,2,Neg,Pos,Pos,>=11
+2,X Adjusted,0,2,Neg,Pos,Neg,<11
+2,X Adjusted,0,2,Neg,Pos,Neg,>=11
+2,X Adjusted,0,2,Neg,Neg,Pos,<11
+2,X Adjusted,0,2,Neg,Neg,Pos,>=11
+2,X Adjusted,0,2,Neg,Neg,Neg,<11
+2,X Adjusted,0,2,Neg,Neg,Neg,>=11
+2,X Adjusted,0,3,Pos,Pos,Pos,<11
+2,X Adjusted,0,3,Pos,Pos,Pos,>=11
+2,X Adjusted,0,3,Pos,Pos,Neg,<11
+2,X Adjusted,0,3,Pos,Pos,Neg,>=11
+2,X Adjusted,0,3,Pos,Neg,Pos,<11
+2,X Adjusted,0,3,Pos,Neg,Pos,>=11
+2,X Adjusted,0,3,Pos,Neg,Neg,<11
+2,X Adjusted,0,3,Pos,Neg,Neg,>=11
+2,X Adjusted,0,3,Neg,Pos,Pos,<11
+2,X Adjusted,0,3,Neg,Pos,Pos,>=11
+2,X Adjusted,0,3,Neg,Pos,Neg,<11
+2,X Adjusted,0,3,Neg,Pos,Neg,>=11
+2,X Adjusted,0,3,Neg,Neg,Pos,<11
+2,X Adjusted,0,3,Neg,Neg,Pos,>=11
+2,X Adjusted,0,3,Neg,Neg,Neg,<11
+2,X Adjusted,0,3,Neg,Neg,Neg,>=11
+2,X Adjusted,X,1,Pos,Pos,Pos,<11
+2,X Adjusted,X,1,Pos,Pos,Pos,>=11
+2,X Adjusted,X,1,Pos,Pos,Neg,<11
+2,X Adjusted,X,1,Pos,Pos,Neg,>=11
+2,X Adjusted,X,1,Pos,Neg,Pos,<11
+2,X Adjusted,X,1,Pos,Neg,Pos,>=11
+2,X Adjusted,X,1,Pos,Neg,Neg,<11
+2,X Adjusted,X,1,Pos,Neg,Neg,>=11
+2,X Adjusted,X,1,Neg,Pos,Pos,<11
+2,X Adjusted,X,1,Neg,Pos,Pos,>=11
+2,X Adjusted,X,1,Neg,Pos,Neg,<11
+2,X Adjusted,X,1,Neg,Pos,Neg,>=11
+2,X Adjusted,X,1,Neg,Neg,Pos,<11
+2,X Adjusted,X,1,Neg,Neg,Pos,>=11
+2,X Adjusted,X,1,Neg,Neg,Neg,<11
+2,X Adjusted,X,1,Neg,Neg,Neg,>=11
+2,X Adjusted,X,2,Pos,Pos,Pos,<11
+2,X Adjusted,X,2,Pos,Pos,Pos,>=11
+2,X Adjusted,X,2,Pos,Pos,Neg,<11
+2,X Adjusted,X,2,Pos,Pos,Neg,>=11
+2,X Adjusted,X,2,Pos,Neg,Pos,<11
+2,X Adjusted,X,2,Pos,Neg,Pos,>=11
+2,X Adjusted,X,2,Pos,Neg,Neg,<11
+2,X Adjusted,X,2,Pos,Neg,Neg,>=11
+2,X Adjusted,X,2,Neg,Pos,Pos,<11
+2,X Adjusted,X,2,Neg,Pos,Pos,>=11
+2,X Adjusted,X,2,Neg,Pos,Neg,<11
+2,X Adjusted,X,2,Neg,Pos,Neg,>=11
+2,X Adjusted,X,2,Neg,Neg,Pos,<11
+2,X Adjusted,X,2,Neg,Neg,Pos,>=11
+2,X Adjusted,X,2,Neg,Neg,Neg,<11
+2,X Adjusted,X,2,Neg,Neg,Neg,>=11
+2,X Adjusted,X,3,Pos,Pos,Pos,<11
+2,X Adjusted,X,3,Pos,Pos,Pos,>=11
+2,X Adjusted,X,3,Pos,Pos,Neg,<11
+2,X Adjusted,X,3,Pos,Pos,Neg,>=11
+2,X Adjusted,X,3,Pos,Neg,Pos,<11
+2,X Adjusted,X,3,Pos,Neg,Pos,>=11
+2,X Adjusted,X,3,Pos,Neg,Neg,<11
+2,X Adjusted,X,3,Pos,Neg,Neg,>=11
+2,X Adjusted,X,3,Neg,Pos,Pos,<11
+2,X Adjusted,X,3,Neg,Pos,Pos,>=11
+2,X Adjusted,X,3,Neg,Pos,Neg,<11
+2,X Adjusted,X,3,Neg,Pos,Neg,>=11
+2,X Adjusted,X,3,Neg,Neg,Pos,<11
+2,X Adjusted,X,3,Neg,Neg,Pos,>=11
+2,X Adjusted,X,3,Neg,Neg,Neg,<11
+2,X Adjusted,X,3,Neg,Neg,Neg,>=11
+2,X Adjusted,1,1,Pos,Pos,Pos,<11
+2,X Adjusted,1,1,Pos,Pos,Pos,>=11
+2,X Adjusted,1,1,Pos,Pos,Neg,<11
+2,X Adjusted,1,1,Pos,Pos,Neg,>=11
+2,X Adjusted,1,1,Pos,Neg,Pos,<11
+2,X Adjusted,1,1,Pos,Neg,Pos,>=11
+2,X Adjusted,1,1,Pos,Neg,Neg,<11
+2,X Adjusted,1,1,Pos,Neg,Neg,>=11
+2,X Adjusted,1,1,Neg,Pos,Pos,<11
+2,X Adjusted,1,1,Neg,Pos,Pos,>=11
+2,X Adjusted,1,1,Neg,Pos,Neg,<11
+2,X Adjusted,1,1,Neg,Pos,Neg,>=11
+2,X Adjusted,1,1,Neg,Neg,Pos,<11
+2,X Adjusted,1,1,Neg,Neg,Pos,>=11
+2,X Adjusted,1,1,Neg,Neg,Neg,<11
+2,X Adjusted,1,1,Neg,Neg,Neg,>=11
+2,X Adjusted,1,2,Pos,Pos,Pos,<11
+2,X Adjusted,1,2,Pos,Pos,Pos,>=11
+2,X Adjusted,1,2,Pos,Pos,Neg,<11
+2,X Adjusted,1,2,Pos,Pos,Neg,>=11
+2,X Adjusted,1,2,Pos,Neg,Pos,<11
+2,X Adjusted,1,2,Pos,Neg,Pos,>=11
+2,X Adjusted,1,2,Pos,Neg,Neg,<11
+2,X Adjusted,1,2,Pos,Neg,Neg,>=11
+2,X Adjusted,1,2,Neg,Pos,Pos,<11
+2,X Adjusted,1,2,Neg,Pos,Pos,>=11
+2,X Adjusted,1,2,Neg,Pos,Neg,<11
+2,X Adjusted,1,2,Neg,Pos,Neg,>=11
+2,X Adjusted,1,2,Neg,Neg,Pos,<11
+2,X Adjusted,1,2,Neg,Neg,Pos,>=11
+2,X Adjusted,1,2,Neg,Neg,Neg,<11
+2,X Adjusted,1,2,Neg,Neg,Neg,>=11
+2,X Adjusted,1,3,Pos,Pos,Pos,<11
+2,X Adjusted,1,3,Pos,Pos,Pos,>=11
+2,X Adjusted,1,3,Pos,Pos,Neg,<11
+2,X Adjusted,1,3,Pos,Pos,Neg,>=11
+2,X Adjusted,1,3,Pos,Neg,Pos,<11
+2,X Adjusted,1,3,Pos,Neg,Pos,>=11
+2,X Adjusted,1,3,Pos,Neg,Neg,<11
+2,X Adjusted,1,3,Pos,Neg,Neg,>=11
+2,X Adjusted,1,3,Neg,Pos,Pos,<11
+2,X Adjusted,1,3,Neg,Pos,Pos,>=11
+2,X Adjusted,1,3,Neg,Pos,Neg,<11
+2,X Adjusted,1,3,Neg,Pos,Neg,>=11
+2,X Adjusted,1,3,Neg,Neg,Pos,<11
+2,X Adjusted,1,3,Neg,Neg,Pos,>=11
+2,X Adjusted,1,3,Neg,Neg,Neg,<11
+2,X Adjusted,1,3,Neg,Neg,Neg,>=11

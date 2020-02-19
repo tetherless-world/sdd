@@ -1,0 +1,17 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+SUBJECT_ID,sio:Identifier,??subject,,,,,,,,,,2,Subject ID,Subject ID
+HADM_ID,sio:Identifier,??admission,,,,,,,??hospital,,,3,Hospital Admission ID,Hospital Admission ID
+ITEMID,sio:Identifier,??item,,,,,,,,,,4,Item ID,Item ID
+CHARTTIME,sio:TimeInstant,??chartevent,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,,,,5,Chart Time,Time at which an observation was made
+VALUE,sio:MeasurementValue,??item,VALUEUOM,,,,,,,,,6,Item Value,Measured value for the concept ID'd in ITEMID
+VALUENUM,sio:MeasurementValue,??item,,,,,,,,,,7,Item Numerical Value,"Same as value but stored numerically, (null if it isn't a number)"
+VALUEUOM,sio:000074,VALUE,,,,,,,,,,8,Value Unit,Unit of Measurement of Value/Valuenum
+FLAG,sio:,??item,,,,,,,,,,9,Flag,Is the value considered abnormal or not
+??hospital,,,,,,"ncit:C16696, envo:00002173, obi:0000844",,,??admission,,,,Hospital,
+??subject,,,,,,sio:Human,sio:SubjectRole,,,,,,Subject,
+??row,,,,,,sio:Row,,,??admission_table,,,,Row,
+??admission,,,,,,ncit:C25385,,,??subject,,,,Admission,
+??item,,,,,,sio:DataItem,,,??subject,,,,Item  ,
+??chartevent,,,,,,sio:Table,,,??item,,,,Chart Event,Temporal event when observation is made
+??admission_table,,,,,,sio:Table,,,??admission,,,,,

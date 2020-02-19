@@ -1,0 +1,6 @@
+T,N,M,Grade,HER2,ER,PR,OncotypeDX
+0,1,0,1,Pos,Pos,Pos,N/A
+0,1,0,1,Pos,Pos,Neg,N/A
+0,1,0,1,Pos,Neg,Pos,N/A
+0,1,0,1,Pos,Neg,Neg,N/A
+0,1,0,1,Neg,Pos,Pos,N/A

@@ -1,0 +1,15 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+SUBJECT_ID,sio:Identifier,??subject,,,,,,,,,,2,Subject ID,Subject ID
+HADM_ID,sio:Identifier,??admission,,,,,,,??hospital,,,3,Hospital Admission ID,Hospital Admission ID
+GENDER,sio:BiologicalSex,??subject,,,,,,,,,,,,
+DOB,,??subject,,,,,,,,,,,,
+DOD,,??subject,,,,,,,,,,,,
+DOD_HOSP,,,,,,,,,,,,,,
+DOD_SSN,,,,,,,,,,,,,,
+EXPIRE_FLAG,,,,,,,,,,,,,,
+??hospital,,,,,,"ncit:C16696, envo:00002173, obi:0000844",,,,,,,Hospital,
+??subject,,,,,,sio:Human,sio:SubjectRole,,,,,,Subject,
+??row,,,,,,sio:Row,,,,,,,Row,
+??admission,,,,,,ncit:C25385,,,,,,,Admission,
+??death,,,,,,"ncit:C28554, uberon:0000071",,,,,,,Death,

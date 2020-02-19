@@ -1,0 +1,1001 @@
+T,N,M,Stage,Age at diagnosis,"Race recode (White, Black, Other)",Sex,Vital status recode (study cutoff used),Month of diagnosis recode,Year of diagnosis,Month of follow-up recode,Year of follow-up recode,Name,HER2,ER,PR,Grade
+T2,N0,M0,IIA,35,White,Female,Alive,January,1989,December,2014,Evanne,HER2+,ER+,PR+,Grade1
+T2,N0,M0,IIA,70,White,Female,Dead,March,1991,July,2008,Tandi,HER2+,ER-,PR+,Grade1
+T2,N0,M0,IIA,49,White,Female,Alive,December,1988,December,2014,Rori,HER2+,ER-,PR+,Grade2
+T2,N0,M0,IIA,78,White,Female,Dead,April,1988,October,1994,Yettie,HER2-,ER-,PR+,Grade2
+T2,N0,M0,IIA,53,White,Female,Dead,December,1991,July,1993,Jennifer,HER2+,ER-,PR-,Grade1
+T2,N0,M0,IIA,65,White,Female,Dead,July,1988,July,2010,Wallis,HER2-,ER-,PR+,Grade3
+T2,N0,M0,IIA,41,White,Female,Dead,December,1990,September,2002,Leonie,HER2-,ER-,PR+,Grade3
+T2,N0,M0,IIA,66,White,Female,Dead,August,1988,April,2007,Lauretta,HER2+,ER-,PR+,Grade1
+T2,N0,M0,IIA,56,White,Female,Alive,August,1988,December,2014,Katuscha,HER2+,ER-,PR+,Grade1
+T2,N0,M0,IIA,74,Black,Female,Dead,July,1990,September,2012,Kelcy,HER2-,ER-,PR-,Grade2
+T2,N0,M0,IIA,35,White,Female,Alive,March,1989,December,2014,Maire,HER2-,ER-,PR+,Grade1
+T2,N0,M0,IIA,41,White,Female,Alive,March,1989,December,2014,Goldia,HER2-,ER-,PR+,Grade3
+T2,N0,M0,IIA,83,White,Female,Dead,August,1990,November,2000,Diane-Marie,HER2-,ER-,PR+,Grade1
+T2,N0,M0,IIA,48,White,Female,Alive,January,1991,December,2014,Nessi,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,68,White,Female,Alive,October,1990,December,2014,Cybelle,HER2+,ER-,PR+,Grade2
+T2,N0,M0,IIA,71,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,August,1988,September,1996,Melisenda,HER2-,ER-,PR-,Grade3
+T2,N0,M0,IIA,83,White,Female,Dead,July,1989,October,2000,Berni,HER2+,ER+,PR-,Grade1
+T2,N0,M0,IIA,66,Black,Female,Dead,December,1990,July,2012,Jodi,HER2-,ER+,PR+,Grade1
+T2,N0,M0,IIA,42,White,Female,Alive,July,1989,December,2014,Raphaela,HER2-,ER+,PR-,Grade1
+T2,N0,M0,IIA,70,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,January,1991,December,2009,Sally,HER2-,ER-,PR-,Grade3
+T2,N0,M0,IIA,81,White,Female,Dead,March,1988,November,1992,Michaelina,HER2-,ER-,PR-,Grade2
+T2,N0,M0,IIA,81,White,Female,Dead,February,1991,September,1993,Maureen,HER2+,ER-,PR-,Grade2
+T2,N0,M0,IIA,74,White,Female,Dead,March,1990,May,2001,Cherida,HER2-,ER+,PR+,Grade2
+T2,N0,M0,IIA,55,White,Female,Dead,November,1989,June,1993,Ruthi,HER2-,ER-,PR-,Grade1
+T2,N0,M0,IIA,51,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,May,1989,December,2014,Tildy,HER2-,ER+,PR-,Grade2
+T2,N0,M0,IIA,38,White,Female,Dead,July,1988,June,1991,Clare,HER2-,ER+,PR+,Grade2
+T2,N0,M0,IIA,49,White,Female,Dead,September,1988,March,2004,Romona,HER2+,ER+,PR-,Grade2
+T2,N0,M0,IIA,64,White,Female,Dead,February,1991,April,2010,Ramona,HER2-,ER+,PR-,Grade2
+T2,N0,M0,IIA,80,White,Female,Dead,November,1988,January,2000,Goldie,HER2+,ER+,PR-,Grade1
+T2,N0,M0,IIA,50,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,December,1990,December,2014,Felicle,HER2+,ER+,PR-,Grade2
+T2,N0,M0,IIA,70,White,Female,Dead,September,1989,June,1992,Celle,HER2-,ER+,PR+,Grade1
+T2,N0,M0,IIA,77,White,Female,Alive,March,1988,November,2011,Lolita,HER2+,ER+,PR+,Grade1
+T2,N0,M0,IIA,84,White,Female,Dead,August,1988,October,1993,Chrysa,HER2+,ER-,PR+,Grade1
+T2,N0,M0,IIA,83,White,Female,Dead,April,1991,August,2006,Laurie,HER2-,ER-,PR-,Grade3
+T2,N0,M0,IIA,36,White,Female,Alive,August,1990,December,2014,Rissa,HER2+,ER-,PR+,Grade3
+T2,N0,M0,IIA,73,White,Female,Dead,July,1988,March,2003,Norene,HER2+,ER-,PR-,Grade1
+T2,N0,M0,IIA,59,White,Female,Alive,May,1990,December,2014,Meriel,HER2+,ER+,PR-,Grade1
+T2,N0,M0,IIA,93,White,Female,Dead,May,1991,June,1993,Shauna,HER2+,ER+,PR-,Grade2
+T2,N0,M0,IIA,41,White,Female,Alive,May,1991,December,2014,Frankie,HER2+,ER+,PR-,Grade1
+T2,N0,M0,IIA,83,White,Male,Dead,October,1988,May,1991,Chandler,HER2-,ER+,PR-,Grade1
+T2,N0,M0,IIA,59,White,Female,Dead,October,1990,December,1991,Stephie,HER2+,ER+,PR+,Grade2
+T2,N0,M0,IIA,46,White,Female,Alive,March,1991,December,2014,Alane,HER2-,ER+,PR+,Grade3
+T2,N0,M0,IIA,59,White,Female,Dead,February,1989,April,1991,Mala,HER2-,ER+,PR-,Grade3
+T2,N0,M0,IIA,72,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,March,1988,January,1993,Sophi,HER2+,ER-,PR+,Grade2
+T2,N0,M0,IIA,52,White,Female,Alive,July,1990,December,2014,Alana,HER2-,ER-,PR-,Grade1
+T2,N0,M0,IIA,71,Black,Female,Alive,October,1990,December,2014,Jenn,HER2+,ER+,PR-,Grade2
+T2,N0,M0,IIA,57,White,Female,Dead,October,1989,April,2007,Twila,HER2+,ER-,PR-,Grade1
+T2,N0,M0,IIA,53,White,Female,Alive,May,1991,December,2014,Clarine,HER2-,ER+,PR-,Grade3
+T2,N0,M0,IIA,61,White,Female,Alive,July,1989,December,2014,Jaleh,HER2-,ER-,PR-,Grade3
+T2,N0,M0,IIA,72,White,Female,Alive,January,1990,December,2014,Sula,HER2+,ER-,PR-,Grade1
+T2,N0,M0,IIA,42,Black,Female,Alive,June,1988,December,2014,Gaynor,HER2+,ER-,PR+,Grade1
+T2,N0,M0,IIA,52,White,Female,Alive,February,1990,November,2014,Laila,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,74,White,Female,Dead,April,1991,July,1998,Bernelle,HER2+,ER-,PR+,Grade2
+T2,N0,M0,IIA,43,White,Female,Dead,May,1990,June,1995,Barbie,HER2-,ER+,PR+,Grade1
+T2,N0,M0,IIA,87,White,Female,Dead,April,1989,March,1999,Kamila,HER2+,ER-,PR-,Grade1
+T2,N0,M0,IIA,46,White,Female,Alive,January,1989,December,2014,Flor,HER2+,ER-,PR-,Grade1
+T2,N0,M0,IIA,50,White,Female,Alive,June,1988,December,2014,Marlie,HER2-,ER+,PR+,Grade3
+T2,N0,M0,IIA,36,Black,Female,Alive,November,1988,December,2014,Violante,HER2+,ER-,PR+,Grade3
+T2,N0,M0,IIA,53,White,Female,Alive,April,1989,December,2014,Mariam,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,29,White,Female,Alive,March,1989,December,2014,Silvie,HER2+,ER-,PR-,Grade1
+T2,N0,M0,IIA,77,White,Female,Dead,July,1991,February,2000,Karine,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,45,Black,Female,Alive,January,1991,December,2014,Darcie,HER2+,ER-,PR+,Grade3
+T2,N0,M0,IIA,82,White,Female,Dead,April,1991,December,1994,Lena,HER2+,ER-,PR+,Grade1
+T2,N0,M0,IIA,70,Black,Female,Dead,November,1989,May,2004,Darb,HER2+,ER+,PR-,Grade2
+T2,N0,M0,IIA,61,Black,Female,Dead,July,1990,February,2002,Cybel,HER2-,ER+,PR+,Grade3
+T2,N0,M0,IIA,78,White,Female,Dead,March,1989,January,1990,Germana,HER2-,ER-,PR-,Grade3
+T2,N0,M0,IIA,81,White,Female,Dead,October,1988,December,1989,Almeta,HER2+,ER-,PR+,Grade2
+T2,N0,M0,IIA,82,White,Female,Dead,November,1988,November,1992,Nicola,HER2-,ER+,PR-,Grade3
+T2,N0,M0,IIA,58,White,Female,Dead,November,1988,November,1998,Breena,HER2-,ER+,PR-,Grade2
+T2,N0,M0,IIA,59,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,June,1990,December,2014,Ivette,HER2-,ER-,PR+,Grade2
+T2,N0,M0,IIA,80,White,Female,Dead,April,1989,April,1997,Millie,HER2-,ER-,PR+,Grade2
+T2,N0,M0,IIA,71,White,Female,Dead,March,1989,September,2003,Gweneth,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,84,White,Female,Dead,October,1991,April,1996,Nikoletta,HER2-,ER-,PR+,Grade2
+T2,N0,M0,IIA,43,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,June,1990,December,2014,Tracy,HER2+,ER-,PR+,Grade3
+T2,N0,M0,IIA,62,White,Female,Dead,March,1990,June,1996,Gera,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,69,Black,Female,Dead,May,1989,March,2003,Luanna,HER2+,ER-,PR-,Grade3
+T2,N0,M0,IIA,79,Black,Female,Dead,January,1990,October,1991,Lorrayne,HER2+,ER-,PR+,Grade3
+T2,N0,M0,IIA,65,White,Female,Dead,May,1988,June,1989,Kissiah,HER2-,ER+,PR+,Grade2
+T2,N0,M0,IIA,82,White,Female,Dead,January,1988,January,1990,Michaella,HER2-,ER-,PR+,Grade2
+T2,N0,M0,IIA,85,White,Female,Dead,June,1990,July,2003,Linet,HER2-,ER-,PR-,Grade2
+T2,N0,M0,IIA,36,White,Female,Dead,October,1990,July,2007,Belle,HER2+,ER+,PR-,Grade2
+T2,N0,M0,IIA,71,White,Female,Dead,May,1989,August,1997,Florida,HER2+,ER+,PR-,Grade2
+T2,N0,M0,IIA,76,White,Female,Dead,May,1991,August,1998,Nicole,HER2+,ER+,PR-,Grade1
+T2,N0,M0,IIA,84,White,Female,Dead,February,1990,January,1996,Lauree,HER2+,ER+,PR+,Grade1
+T2,N0,M0,IIA,40,White,Female,Alive,January,1991,December,2014,Seline,HER2+,ER-,PR+,Grade2
+T2,N0,M0,IIA,45,Black,Female,Alive,March,1991,December,2014,Elane,HER2-,ER-,PR+,Grade2
+T2,N0,M0,IIA,86,White,Female,Dead,September,1989,September,1989,Corinne,HER2-,ER-,PR+,Grade3
+T2,N0,M0,IIA,33,White,Female,Alive,April,1989,February,1992,Gretchen,HER2+,ER+,PR-,Grade2
+T2,N0,M0,IIA,65,White,Female,Dead,April,1991,November,2011,Isabelle,HER2+,ER+,PR-,Grade1
+T2,N0,M0,IIA,67,White,Female,Dead,May,1990,January,1998,Sarina,HER2-,ER-,PR-,Grade3
+T2,N0,M0,IIA,42,White,Female,Alive,June,1991,November,2006,Ingaborg,HER2-,ER+,PR+,Grade1
+T2,N0,M0,IIA,39,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,December,1989,December,2014,Erda,HER2-,ER+,PR+,Grade2
+T2,N0,M0,IIA,44,White,Female,Alive,February,1989,December,2014,Roseline,HER2-,ER+,PR+,Grade1
+T2,N0,M0,IIA,91,White,Female,Dead,July,1990,October,1992,Karie,HER2+,ER+,PR+,Grade2
+T2,N0,M0,IIA,77,White,Female,Dead,April,1988,July,2003,Alix,HER2-,ER-,PR-,Grade2
+T2,N0,M0,IIA,78,White,Female,Dead,August,1990,August,1996,Tiff,HER2+,ER-,PR+,Grade1
+T2,N0,M0,IIA,55,White,Female,Dead,March,1991,November,1992,Lenette,HER2-,ER+,PR-,Grade2
+T2,N0,M0,IIA,43,White,Female,Alive,August,1989,December,2014,Allison,HER2+,ER+,PR-,Grade2
+T2,N0,M0,IIA,66,White,Female,Dead,March,1988,March,1999,Dodi,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,70,White,Female,Dead,April,1989,September,2000,Brena,HER2-,ER-,PR-,Grade2
+T2,N0,M0,IIA,65,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,June,1990,December,2012,Becki,HER2-,ER-,PR+,Grade1
+T2,N0,M0,IIA,40,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,May,1989,November,2014,Harley,HER2+,ER+,PR-,Grade3
+T2,N0,M0,IIA,46,White,Female,Alive,July,1990,November,2014,Karlene,HER2+,ER-,PR-,Grade3
+T2,N0,M0,IIA,80,White,Female,Dead,May,1990,July,2006,Guendolen,HER2-,ER-,PR+,Grade3
+T2,N0,M0,IIA,79,White,Female,Dead,April,1989,July,1995,Aleda,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,71,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,September,1988,May,1990,Gwenneth,HER2+,ER+,PR+,Grade2
+T2,N0,M0,IIA,53,White,Female,Alive,December,1990,December,2014,Lucia,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,79,White,Female,Dead,April,1991,June,1998,Cordy,HER2-,ER-,PR-,Grade2
+T2,N0,M0,IIA,70,White,Female,Dead,April,1988,April,1990,Ada,HER2-,ER-,PR-,Grade1
+T2,N0,M0,IIA,46,White,Female,Alive,January,1989,December,2014,Tate,HER2+,ER-,PR-,Grade2
+T2,N0,M0,IIA,46,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,July,1990,December,2014,Prudence,HER2-,ER+,PR-,Grade2
+T2,N0,M0,IIA,57,Black,Female,Dead,July,1990,April,1992,Samuella,HER2+,ER-,PR-,Grade1
+T2,N0,M0,IIA,76,Black,Female,Dead,May,1988,October,1994,Giacinta,HER2-,ER+,PR+,Grade3
+T2,N0,M0,IIA,38,White,Female,Alive,June,1988,December,2014,Karyn,HER2+,ER+,PR+,Grade2
+T2,N0,M0,IIA,46,White,Female,Dead,January,1991,May,1999,Christean,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,64,White,Female,Dead,March,1989,March,1993,Analiese,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,75,White,Female,Dead,May,1988,June,2000,Millicent,HER2-,ER+,PR+,Grade3
+T2,N0,M0,IIA,80,White,Female,Dead,April,1989,December,1996,Yvonne,HER2-,ER-,PR-,Grade2
+T2,N0,M0,IIA,84,White,Female,Dead,September,1990,May,1992,Aura,HER2+,ER-,PR+,Grade1
+T2,N0,M0,IIA,61,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,April,1991,August,2007,Quintina,HER2-,ER+,PR+,Grade1
+T2,N0,M0,IIA,64,White,Female,Dead,April,1989,December,2010,Lynnette,HER2+,ER-,PR-,Grade2
+T2,N0,M0,IIA,66,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,July,1988,March,1996,Jeni,HER2+,ER+,PR+,Grade2
+T2,N0,M0,IIA,66,White,Female,Dead,October,1990,October,1995,Emlynn,HER2-,ER-,PR+,Grade3
+T2,N0,M0,IIA,45,White,Female,Alive,June,1990,December,2014,Ingaberg,HER2+,ER-,PR-,Grade2
+T2,N0,M0,IIA,47,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,November,1989,December,2014,Seka,HER2-,ER-,PR+,Grade1
+T2,N0,M0,IIA,46,White,Female,Dead,January,1990,April,2010,Canada,HER2+,ER+,PR+,Grade1
+T2,N0,M0,IIA,48,White,Female,Alive,July,1990,December,2014,Tamarra,HER2-,ER+,PR-,Grade3
+T2,N0,M0,IIA,73,White,Female,Dead,May,1991,August,1996,Cristal,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,74,White,Female,Dead,February,1988,April,1996,Antonella,HER2+,ER+,PR+,Grade3
+T2,N0,M0,IIA,67,White,Female,Dead,April,1991,February,2014,Vania,HER2+,ER-,PR-,Grade3
+T2,N0,M0,IIA,62,White,Female,Alive,October,1988,December,2014,Arlen,HER2+,ER+,PR-,Grade3
+T2,N0,M0,IIA,45,Black,Female,Alive,April,1988,December,2014,Doria,HER2-,ER+,PR+,Grade1
+T2,N0,M0,IIA,38,White,Female,Alive,June,1988,December,2014,Dyan,HER2-,ER+,PR-,Grade1
+T2,N0,M0,IIA,40,Black,Female,Dead,May,1988,September,1994,Brier,HER2+,ER-,PR+,Grade3
+T2,N0,M0,IIA,60,White,Female,Dead,July,1988,July,2011,Cherrita,HER2+,ER-,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,44,Black,Female,Dead,January,1988,December,1991,Rora,HER2+,ER+,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,64,White,Female,Dead,February,1988,June,1992,Zahara,HER2+,ER-,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,70,White,Female,Dead,September,1988,October,2002,Cloe,HER2+,ER-,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,89,White,Female,Dead,January,1988,August,1993,Angil,HER2+,ER+,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,68,White,Female,Dead,January,1988,February,1993,Winna,HER2+,ER-,PR+,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,63,White,Female,Alive,January,1988,December,2014,Marnia,HER2+,ER-,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,59,Black,Female,Dead,June,1988,May,1995,Tresa,HER2-,ER-,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,78,White,Female,Dead,April,1988,September,1996,Corrinne,HER2-,ER+,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,87,White,Female,Dead,May,1988,May,1997,Rheba,HER2+,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,61,Black,Female,Dead,July,1988,March,2009,Brandice,HER2-,ER+,PR+,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,80,Black,Female,Dead,March,1988,September,1989,Clovis,HER2-,ER+,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,69,White,Female,Dead,February,1988,February,1993,Ray,HER2-,ER+,PR+,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,69,White,Female,Dead,July,1988,March,2014,Jordain,HER2+,ER+,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,98,White,Female,Dead,February,1988,December,1989,Harriet,HER2-,ER+,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,54,White,Female,Dead,January,1988,February,2002,Kimberlee,HER2+,ER-,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,42,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,June,1988,December,2014,Robinia,HER2-,ER+,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,68,White,Female,Dead,November,1991,June,2009,Liza,HER2-,ER+,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,82,White,Female,Dead,August,1988,January,1997,Laverne,HER2+,ER+,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,85,White,Female,Dead,August,1988,March,1989,Jo-Ann,HER2-,ER-,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,41,White,Female,Alive,October,1989,December,2014,Amabelle,HER2+,ER-,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,43,White,Female,Alive,July,1988,December,2014,Nara,HER2+,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,47,White,Female,Alive,January,1988,December,2014,Lea,HER2-,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,66,White,Female,Dead,June,1988,September,1996,Jackelyn,HER2-,ER-,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,72,White,Female,Dead,March,1988,September,1991,Millisent,HER2+,ER-,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,56,White,Female,Dead,May,1988,October,2004,Cassie,HER2+,ER+,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,82,White,Female,Dead,January,1988,October,1998,Trace,HER2+,ER+,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,61,White,Female,Alive,January,1988,December,2014,Rhonda,HER2-,ER+,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,64,White,Female,Alive,April,1988,December,2014,Dulsea,HER2+,ER-,PR+,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,47,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,November,1988,November,2014,Nada,HER2+,ER+,PR+,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,73,White,Female,Dead,March,1988,April,2002,Valry,HER2+,ER+,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,75,White,Female,Dead,March,1988,November,2004,Joey,HER2+,ER-,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,38,White,Female,Dead,April,1988,March,1997,Channa,HER2+,ER-,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,65,White,Female,Dead,January,1988,November,1994,Milly,HER2-,ER-,PR+,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,62,White,Female,Dead,March,1988,August,2009,Bella,HER2+,ER-,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,79,White,Female,Dead,January,1989,March,1998,Basia,HER2+,ER-,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,41,White,Female,Alive,April,1988,December,2014,Noni,HER2-,ER-,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,68,White,Female,Dead,June,1988,February,1999,Kirsti,HER2-,ER+,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,80,White,Female,Dead,April,1988,September,2002,Idalia,HER2+,ER-,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,44,White,Female,Dead,November,1988,July,1994,Ilka,HER2+,ER-,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,70,White,Female,Dead,June,1988,December,1991,Miriam,HER2+,ER+,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,50,White,Female,Alive,January,1988,December,2014,Romola,HER2+,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,64,White,Female,Dead,May,1988,March,1997,Carolie,HER2-,ER+,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,41,White,Female,Alive,February,1988,December,2014,Edwina,HER2+,ER-,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,77,White,Female,Dead,June,1988,July,1995,Nonah,HER2+,ER-,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,83,White,Female,Dead,February,1988,August,1989,Ciara,HER2+,ER+,PR+,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,79,White,Female,Dead,January,1988,December,1989,Holli,HER2-,ER+,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,83,White,Female,Dead,June,1988,July,1990,Clementine,HER2+,ER+,PR+,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,74,White,Female,Dead,January,1988,November,2013,Fortuna,HER2+,ER+,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,73,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,June,1988,February,2004,Bernie,HER2-,ER+,PR+,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,41,White,Female,Dead,October,1988,August,2006,Kevina,HER2-,ER-,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,65,White,Female,Dead,April,1988,October,1995,Shari,HER2+,ER-,PR-,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,37,White,Female,Alive,May,1988,December,2014,Cat,HER2-,ER-,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,73,Black,Female,Dead,March,1990,January,2001,Gunilla,HER2-,ER+,PR+,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,50,White,Female,Alive,January,1988,December,2014,Trudi,HER2+,ER-,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,81,White,Female,Dead,March,1988,July,1999,Abigael,HER2-,ER-,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,69,White,Female,Dead,June,1988,March,2013,Kyle,HER2+,ER-,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,61,White,Female,Alive,April,1988,December,2014,Teddy,HER2+,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,80,White,Female,Dead,January,1988,March,1989,Adorne,HER2-,ER-,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,76,White,Female,Dead,January,1988,May,1990,Daveta,HER2-,ER+,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,58,White,Female,Alive,January,1989,December,2014,Zabrina,HER2+,ER+,PR+,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,43,White,Female,Alive,January,1988,December,2014,Estelle,HER2-,ER-,PR-,Grade2
+TX Adjusted,NX Adjusted,M0,UNK Stage,38,White,Female,Alive,February,1988,December,2014,Gertruda,HER2+,ER+,PR-,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,69,White,Female,Dead,May,1988,December,2004,Hatty,HER2+,ER-,PR+,Grade1
+TX Adjusted,NX Adjusted,M0,UNK Stage,66,White,Female,Dead,January,1988,May,2001,Olga,HER2-,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,M0,UNK Stage,71,White,Female,Dead,March,1988,December,2003,Callie,HER2-,ER+,PR-,Grade3
+T2,N1,M0,IIB,53,Black,Female,Alive,October,2014,December,2014,Karil,HER2+,ER-,PR-,Grade1
+T2,N1,M0,IIB,65,White,Female,Alive,December,2014,December,2014,Terri,HER2-,ER+,PR-,Grade1
+T2,N1,M0,IIB,65,Black,Female,Alive,September,2013,December,2014,Kacie,HER2+,ER+,PR+,Grade2
+T2,N1,M0,IIB,63,White,Female,Alive,October,2014,December,2014,Maria,HER2-,ER+,PR-,Grade2
+T2,N1,M0,IIB,46,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,May,2012,December,2014,Ivy,HER2+,ER-,PR-,Grade1
+T2,N1,M0,IIB,56,White,Female,Alive,June,2014,December,2014,Daisie,HER2+,ER-,PR+,Grade3
+T2,N1,M0,IIB,63,Black,Female,Alive,September,2014,December,2014,Jobina,HER2+,ER+,PR+,Grade2
+T2,N1,M0,IIB,29,White,Female,Alive,December,2014,December,2014,Federica,HER2-,ER+,PR-,Grade3
+T2,N1,M0,IIB,63,Black,Female,Alive,November,2014,December,2014,Matilda,HER2-,ER+,PR-,Grade3
+T2,N1,M0,IIB,60,White,Female,Alive,October,2014,December,2014,Bambi,HER2+,ER+,PR+,Grade1
+T2,N1,M0,IIB,40,White,Female,Alive,June,2014,December,2014,Wynn,HER2-,ER+,PR-,Grade3
+T2,N1,M0,IIB,74,White,Female,Alive,April,2014,December,2014,Marje,HER2-,ER+,PR+,Grade2
+T2,N1,M0,IIB,64,White,Female,Alive,September,2014,December,2014,Moselle,HER2+,ER-,PR-,Grade2
+T2,N1,M0,IIB,61,White,Female,Alive,November,2014,December,2014,Chere,HER2-,ER+,PR+,Grade2
+T2,N1,M0,IIB,56,Black,Female,Alive,December,2014,December,2014,Elisabeth,HER2+,ER+,PR+,Grade2
+T2,N1,M0,IIB,48,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,December,2014,December,2014,Janina,HER2+,ER+,PR-,Grade2
+T2,N1,M0,IIB,59,Black,Female,Dead,November,2010,January,2013,Didi,HER2-,ER-,PR-,Grade3
+T2,N1,M0,IIB,49,White,Female,Alive,December,2014,December,2014,Zondra,HER2+,ER-,PR+,Grade3
+T2,N1,M0,IIB,38,White,Female,Alive,December,2014,December,2014,Mavra,HER2+,ER+,PR+,Grade3
+T2,N1,M0,IIB,53,White,Female,Alive,December,2014,December,2014,Bliss,HER2+,ER+,PR-,Grade2
+T2,N1,M0,IIB,75,Black,Female,Alive,June,2014,December,2014,Krissy,HER2+,ER+,PR+,Grade2
+T2,N1,M0,IIB,56,Black,Female,Alive,September,2014,December,2014,Susana,HER2+,ER-,PR-,Grade2
+T2,N1,M0,IIB,65,Black,Female,Alive,April,2014,December,2014,Theresina,HER2+,ER+,PR+,Grade3
+T2,N1,M0,IIB,70,White,Female,Alive,September,2014,December,2014,Sabrina,HER2+,ER+,PR+,Grade2
+T2,N1,M0,IIB,72,White,Female,Alive,December,2014,December,2014,Harri,HER2+,ER-,PR-,Grade3
+T2,N1,M0,IIB,43,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,November,2014,December,2014,Cherilyn,HER2-,ER+,PR-,Grade1
+T2,N1,M0,IIB,63,White,Female,Alive,September,2014,December,2014,Loralee,HER2+,ER-,PR-,Grade1
+T2,N1,M0,IIB,37,Black,Female,Alive,October,2014,December,2014,Franciska,HER2+,ER-,PR+,Grade2
+T2,N1,M0,IIB,75,Black,Female,Alive,December,2014,December,2014,Sarita,HER2-,ER+,PR+,Grade1
+T2,N1,M0,IIB,46,White,Female,Alive,September,2014,December,2014,Dorcas,HER2-,ER-,PR+,Grade3
+T2,N1,M0,IIB,58,White,Female,Alive,October,2014,December,2014,Marigold,HER2-,ER-,PR-,Grade1
+T2,N1,M0,IIB,42,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,December,2014,December,2014,Sharity,HER2+,ER-,PR-,Grade1
+T2,N1,M0,IIB,50,White,Female,Alive,October,2014,December,2014,Cassondra,HER2+,ER-,PR+,Grade1
+T2,N1,M0,IIB,64,White,Female,Alive,December,2014,December,2014,Selle,HER2-,ER-,PR-,Grade3
+T2,N1,M0,IIB,56,White,Female,Alive,December,2014,December,2014,Dawna,HER2-,ER+,PR-,Grade1
+T2,N1,M0,IIB,47,White,Female,Alive,July,2014,December,2014,Josepha,HER2-,ER+,PR+,Grade3
+T2,N1,M0,IIB,29,Black,Female,Alive,November,2014,December,2014,Tonie,HER2+,ER+,PR+,Grade2
+T2,N1,M0,IIB,41,Black,Female,Alive,December,2014,December,2014,Sadella,HER2+,ER-,PR-,Grade3
+T2,N1,M0,IIB,85,Black,Female,Alive,October,2014,December,2014,Deni,HER2-,ER+,PR+,Grade3
+T2,N1,M0,IIB,61,White,Female,Alive,October,2014,December,2014,Rosalynd,HER2-,ER+,PR+,Grade1
+T2,N1,M0,IIB,50,Black,Female,Alive,August,2014,December,2014,Bernardine,HER2-,ER-,PR-,Grade1
+T2,N1,M0,IIB,67,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,October,2014,December,2014,Farah,HER2-,ER+,PR+,Grade3
+T2,N1,M0,IIB,57,White,Female,Alive,December,2014,December,2014,Elonore,HER2-,ER-,PR+,Grade1
+T2,N1,M0,IIB,53,White,Female,Alive,December,2014,December,2014,Sher,HER2+,ER-,PR+,Grade3
+T2,N1,M0,IIB,43,Black,Female,Alive,July,2014,December,2014,Mame,HER2-,ER-,PR-,Grade3
+T2,N1,M0,IIB,33,Black,Female,Alive,August,2014,December,2014,Ranice,HER2-,ER+,PR-,Grade2
+T2,N1,M0,IIB,65,White,Female,Alive,December,2014,December,2014,Phillida,HER2+,ER-,PR+,Grade1
+T2,N1,M0,IIB,49,Black,Female,Alive,May,2014,December,2014,Allys,HER2+,ER-,PR-,Grade2
+T2,N1,M0,IIB,40,Black,Female,Alive,November,2014,December,2014,Carmon,HER2+,ER-,PR-,Grade3
+T2,N1,M0,IIB,60,Black,Female,Alive,March,2014,December,2014,Jerry,HER2-,ER+,PR-,Grade2
+T2,N1,M0,IIB,73,Black,Female,Alive,December,2014,December,2014,Corina,HER2-,ER+,PR+,Grade2
+T2,N1,M0,IIB,62,White,Female,Alive,October,2014,December,2014,Dierdre,HER2+,ER+,PR-,Grade2
+T2,N1,M0,IIB,64,White,Female,Alive,December,2014,December,2014,Glad,HER2+,ER+,PR-,Grade3
+T2,N1,M0,IIB,37,White,Female,Alive,October,2014,December,2014,Phaidra,HER2+,ER-,PR-,Grade2
+T2,N1,M0,IIB,73,Black,Female,Alive,December,2014,December,2014,Ninnetta,HER2-,ER+,PR-,Grade3
+T2,N1,M0,IIB,67,Black,Female,Alive,July,2014,December,2014,Kellen,HER2-,ER+,PR-,Grade2
+T2,N1,M0,IIB,43,White,Female,Alive,November,2014,December,2014,Roseann,HER2+,ER-,PR-,Grade1
+T2,N1,M0,IIB,59,Black,Female,Alive,May,2014,December,2014,Catha,HER2-,ER-,PR+,Grade2
+T2,N1,M0,IIB,48,Black,Female,Alive,September,2012,December,2014,Annmarie,HER2-,ER-,PR-,Grade1
+T2,N1,M0,IIB,49,White,Female,Alive,June,2012,December,2014,Antonie,HER2-,ER-,PR+,Grade2
+T2,N1,M0,IIB,68,Black,Female,Alive,December,2012,December,2014,Camilla,HER2-,ER+,PR+,Grade2
+T2,N1,M0,IIB,47,Black,Female,Alive,September,2012,December,2014,Serena,HER2-,ER+,PR+,Grade3
+T2,N1,M0,IIB,60,White,Female,Alive,May,2012,December,2014,Toby,HER2+,ER+,PR-,Grade2
+T2,N1,M0,IIB,31,White,Female,Alive,August,2012,December,2014,Zorine,HER2+,ER+,PR-,Grade3
+T2,N1,M0,IIB,40,Black,Female,Dead,November,2012,January,2014,Rosalia,HER2+,ER+,PR-,Grade3
+T2,N1,M0,IIB,54,Black,Female,Alive,April,2012,December,2014,Priscella,HER2-,ER+,PR-,Grade2
+T2,N1,M0,IIB,86,White,Female,Alive,August,2012,February,2014,Linn,HER2-,ER+,PR+,Grade3
+T2,N1,M0,IIB,64,White,Female,Alive,August,2012,December,2014,Anthea,HER2-,ER-,PR+,Grade3
+T2,N1,M0,IIB,32,Black,Female,Alive,October,2012,December,2014,Lari,HER2-,ER+,PR+,Grade3
+T2,N1,M0,IIB,69,Black,Female,Alive,August,2012,December,2014,Lisette,HER2-,ER+,PR-,Grade1
+T2,N1,M0,IIB,44,White,Female,Alive,September,2012,December,2014,Jennine,HER2-,ER-,PR-,Grade2
+T2,N1,M0,IIB,53,Black,Female,Alive,July,2012,December,2014,Heide,HER2+,ER-,PR-,Grade1
+T2,N1,M0,IIB,62,White,Female,Alive,July,2012,December,2014,Hettie,HER2-,ER+,PR+,Grade1
+T2,N1,M0,IIB,47,Black,Female,Alive,April,2012,December,2014,Luana,HER2+,ER+,PR+,Grade1
+T2,N1,M0,IIB,43,Black,Female,Alive,June,2012,December,2014,Hope,HER2+,ER-,PR+,Grade1
+T2,N1,M0,IIB,55,White,Female,Alive,December,2012,December,2014,Cassandre,HER2+,ER-,PR+,Grade2
+T2,N1,M0,IIB,77,Black,Female,Alive,May,2012,December,2014,Midge,HER2-,ER+,PR+,Grade1
+T2,N1,M0,IIB,62,White,Male,Alive,December,2012,February,2014,Lin,HER2-,ER-,PR+,Grade1
+T2,N1,M0,IIB,68,White,Female,Alive,September,2012,December,2014,Merola,HER2+,ER+,PR-,Grade3
+T2,N1,M0,IIB,48,White,Female,Alive,November,2012,December,2014,Sisile,HER2-,ER-,PR+,Grade1
+T2,N1,M0,IIB,53,White,Female,Alive,December,2012,December,2014,Dedra,HER2+,ER-,PR+,Grade3
+T2,N1,M0,IIB,62,White,Female,Alive,July,2012,December,2014,Bree,HER2+,ER+,PR-,Grade2
+T2,N1,M0,IIB,47,Black,Female,Alive,July,2012,December,2014,Winona,HER2+,ER-,PR+,Grade2
+T2,N1,M0,IIB,55,Black,Female,Alive,December,2012,December,2014,Corabelle,HER2+,ER+,PR+,Grade2
+T2,N1,M0,IIB,68,White,Female,Alive,October,2012,December,2014,Lizzie,HER2-,ER-,PR-,Grade3
+T2,N1,M0,IIB,69,Black,Female,Alive,August,2012,December,2014,Cristie,HER2+,ER-,PR+,Grade1
+T2,N1,M0,IIB,45,White,Female,Alive,October,2012,December,2014,Donnajean,HER2-,ER+,PR+,Grade1
+T2,N1,M0,IIB,64,White,Female,Alive,May,2012,December,2014,Ilise,HER2+,ER-,PR-,Grade3
+T2,N1,M0,IIB,55,Black,Female,Alive,September,2012,December,2014,Laurette,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,89,White,Female,Dead,May,2010,May,2011,Demetris,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,63,White,Female,Alive,August,2010,December,2014,Persis,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,67,White,Female,Alive,March,2010,December,2014,Vanni,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,46,White,Female,Alive,December,2009,February,2011,Frannie,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,86,White,Female,Alive,January,2010,December,2014,Lindie,HER2+,ER+,PR-,Grade2
+T1c,N0,M0,I,55,Unknown,Female,Alive,July,2010,December,2014,Lorenza,HER2+,ER-,PR+,Grade2
+T1c,N0,M0,I,53,White,Female,Alive,September,2010,December,2014,Loria,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,54,White,Female,Alive,October,2010,December,2014,Marcela,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,70,White,Female,Dead,July,2010,January,2011,Petronille,HER2+,ER+,PR+,Grade1
+T1c,N0,M0,I,63,White,Female,Dead,April,2010,November,2014,Gennifer,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,75,White,Female,Alive,June,2010,December,2014,Bobine,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,61,White,Female,Alive,June,2010,December,2014,Carrie,HER2+,ER+,PR-,Grade2
+T1c,N0,M0,I,48,White,Female,Alive,August,2010,December,2014,Corrina,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,82,White,Female,Alive,February,2010,December,2014,Peria,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,66,White,Female,Alive,March,2010,December,2014,Lynett,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,82,White,Female,Alive,August,2010,December,2014,Anatola,HER2+,ER+,PR-,Grade3
+T1c,N0,M0,I,61,White,Female,Alive,June,2010,December,2014,Faunie,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,72,White,Female,Alive,June,2010,December,2014,Vin,HER2-,ER+,PR-,Grade3
+T1c,N0,M0,I,49,White,Female,Alive,March,2010,January,2011,Josy,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,44,White,Female,Alive,May,2010,December,2014,Ketty,HER2+,ER+,PR+,Grade2
+T1c,N0,M0,I,70,White,Female,Alive,April,2010,December,2014,Lucine,HER2+,ER+,PR-,Grade2
+T1c,N0,M0,I,62,White,Female,Alive,January,2010,December,2014,Rivi,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,48,White,Female,Alive,March,2010,December,2012,Vannie,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,70,White,Female,Alive,June,2010,December,2014,Inessa,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,82,White,Female,Alive,February,2010,December,2014,Goldarina,HER2-,ER-,PR-,Grade2
+T1c,N0,M0,I,87,White,Female,Alive,February,2010,July,2010,Marita,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,63,White,Female,Alive,February,2010,December,2014,Madlin,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,26,White,Female,Alive,January,2010,December,2014,Lilla,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,81,White,Female,Alive,February,2010,December,2014,Philippe,HER2+,ER-,PR+,Grade2
+T1c,N0,M0,I,46,White,Female,Alive,April,2010,December,2014,Cati,HER2-,ER-,PR-,Grade1
+T1c,N0,M0,I,67,White,Female,Alive,September,2010,December,2014,Daria,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,65,White,Female,Alive,July,2010,December,2014,Nevsa,HER2-,ER+,PR-,Grade1
+T1c,N0,M0,I,68,White,Female,Alive,October,2010,December,2014,Ranee,HER2+,ER+,PR-,Grade3
+T1c,N0,M0,I,46,White,Female,Alive,October,2010,December,2014,Geraldina,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,44,White,Female,Alive,May,2010,December,2014,Margarethe,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,83,Black,Female,Alive,April,2010,December,2014,Wilone,HER2-,ER+,PR-,Grade2
+T1c,N0,M0,I,76,White,Female,Alive,June,2010,December,2014,Lian,HER2+,ER+,PR-,Grade2
+T1c,N0,M0,I,58,White,Female,Alive,October,2010,December,2014,Genni,HER2+,ER+,PR-,Grade3
+T1c,N0,M0,I,82,White,Female,Alive,May,2010,December,2014,Sylvie,HER2-,ER-,PR-,Grade1
+T1c,N0,M0,I,77,White,Female,Alive,June,2010,December,2014,Rasla,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,58,White,Female,Dead,April,2010,September,2014,Arlee,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,72,White,Female,Alive,July,2010,December,2014,Keren,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,57,White,Female,Alive,April,2010,December,2014,Carmelita,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,38,White,Female,Alive,June,2010,December,2014,Emanuela,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,52,White,Female,Alive,August,2010,December,2014,Mercy,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,50,White,Female,Alive,July,2010,December,2014,Becka,HER2-,ER+,PR-,Grade3
+T1c,N0,M0,I,96,White,Female,Dead,August,2010,June,2012,Carline,HER2+,ER+,PR-,Grade3
+T1c,N0,M0,I,67,White,Female,Alive,June,2010,December,2014,Tomi,HER2-,ER+,PR-,Grade1
+T1c,N0,M0,I,41,White,Female,Alive,June,2010,December,2014,Iolande,HER2+,ER+,PR+,Grade1
+T1c,N0,M0,I,80,White,Female,Alive,January,2010,December,2014,Pauli,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,73,White,Female,Alive,September,2010,December,2014,Kala,HER2-,ER+,PR-,Grade2
+T1c,N0,M0,I,68,White,Female,Alive,October,2010,December,2014,Mireille,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,56,White,Female,Alive,March,2010,December,2014,Sallie,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,66,White,Female,Alive,July,2010,December,2014,Joelle,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,83,White,Female,Alive,June,2010,December,2014,Simonette,HER2+,ER+,PR-,Grade3
+T1c,N0,M0,I,79,White,Female,Alive,January,2010,December,2014,Philippine,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,73,White,Female,Alive,February,2010,December,2014,Zita,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,48,White,Female,Alive,August,2010,December,2014,Kat,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,82,White,Female,Alive,October,2010,December,2014,Dot,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,69,White,Female,Alive,July,2010,December,2014,Danica,HER2+,ER+,PR+,Grade1
+T1c,N0,M0,I,65,White,Female,Alive,March,2010,December,2014,Adelind,HER2-,ER-,PR-,Grade1
+T1c,N0,M0,I,55,White,Female,Alive,December,2010,December,2014,Marcelle,HER2-,ER-,PR+,Grade1
+T1c,N0,M0,I,79,White,Female,Alive,July,2010,December,2014,Marlena,HER2-,ER-,PR-,Grade2
+T1c,N0,M0,I,47,Black,Female,Dead,October,2010,March,2013,Virgie,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,81,White,Female,Dead,January,2010,August,2011,Dacey,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,55,White,Female,Alive,January,2010,December,2014,Wally,HER2-,ER-,PR+,Grade1
+T1c,N0,M0,I,77,White,Female,Alive,August,2010,December,2014,Tomasine,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,64,Black,Female,Alive,June,2010,December,2014,Nelli,HER2+,ER+,PR-,Grade2
+T1c,N0,M0,I,70,White,Female,Alive,October,2010,December,2014,Annabela,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,55,White,Female,Alive,May,2010,December,2014,Juliann,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,62,White,Female,Alive,February,2010,December,2014,Celestina,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,69,White,Female,Alive,July,2010,December,2014,Simona,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,62,White,Female,Alive,December,2010,December,2014,Jocelyn,HER2+,ER+,PR-,Grade3
+T1c,N0,M0,I,51,Black,Female,Alive,April,2010,December,2014,Felisha,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,61,White,Female,Alive,October,2010,December,2014,Shawn,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,50,White,Female,Alive,June,2010,December,2014,Leanor,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,63,White,Female,Alive,May,2010,December,2014,Crystal,HER2+,ER+,PR+,Grade2
+T1c,N0,M0,I,54,White,Female,Alive,August,2010,December,2014,Teri,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,84,White,Female,Dead,February,2010,February,2013,Beverlee,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,46,White,Female,Alive,July,2010,December,2014,Nelia,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,60,Black,Female,Alive,January,2010,December,2014,Maryjane,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,63,White,Female,Alive,June,2010,December,2014,Rochell,HER2-,ER+,PR+,Grade2
+T1c,N0,M0,I,66,White,Female,Alive,May,2010,December,2014,Meridith,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,58,White,Female,Alive,May,2010,December,2014,Melloney,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,45,White,Female,Alive,February,2010,December,2014,Kassie,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,64,Black,Female,Alive,April,2010,December,2014,Joceline,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,44,White,Female,Alive,April,2010,April,2011,Ethelyn,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,85,White,Female,Alive,April,2010,December,2014,Pat,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,69,Black,Female,Alive,February,2010,December,2014,Orelee,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,62,White,Female,Alive,April,2010,December,2014,Agnesse,HER2-,ER+,PR+,Grade2
+T1c,N0,M0,I,63,White,Female,Alive,February,2010,December,2014,Lorilyn,HER2-,ER+,PR-,Grade2
+T1c,N0,M0,I,59,White,Female,Alive,November,2014,December,2014,Faythe,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,54,White,Female,Alive,June,2010,December,2014,Maggi,HER2+,ER+,PR-,Grade3
+T1c,N0,M0,I,51,White,Female,Alive,March,2010,May,2014,Lucina,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,52,White,Female,Dead,May,2010,March,2014,Gabrielle,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,63,White,Female,Alive,May,2010,December,2014,Martynne,HER2+,ER-,PR+,Grade2
+T1c,N0,M0,I,60,White,Female,Alive,September,2010,December,2014,Cody,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,49,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,April,2010,December,2014,Janis,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,55,Black,Female,Alive,March,2010,December,2014,Carmella,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,76,White,Female,Alive,January,2010,December,2014,Kettie,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,48,White,Female,Alive,May,2010,December,2014,Greer,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,79,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,September,2010,December,2014,Cathryn,HER2-,ER+,PR-,Grade1
+T1c,N0,M0,I,49,White,Female,Alive,August,2010,December,2014,Sella,HER2-,ER-,PR-,Grade2
+T1c,N0,M0,I,72,White,Female,Alive,March,2010,December,2014,Shelagh,HER2+,ER-,PR+,Grade2
+T1c,N0,M0,I,45,White,Female,Alive,July,2010,December,2014,Felecia,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,71,White,Female,Alive,October,2010,December,2014,Perri,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,67,White,Female,Alive,March,2010,December,2014,Tally,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,93,White,Female,Alive,September,2010,December,2014,Ariana,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,91,White,Female,Dead,April,2010,May,2011,Maribelle,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,85,White,Female,Alive,October,2010,December,2014,Dyann,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,92,White,Female,Dead,August,2010,January,2014,Kaylyn,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,82,White,Female,Alive,February,2010,December,2014,Kaylee,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,65,White,Female,Alive,January,2010,December,2014,Brook,HER2-,ER-,PR-,Grade2
+T1c,N0,M0,I,65,Black,Female,Alive,December,2010,December,2014,Lana,HER2+,ER+,PR-,Grade3
+T1c,N0,M0,I,77,White,Female,Alive,July,2010,December,2014,Charlott,HER2-,ER-,PR-,Grade1
+T1c,N0,M0,I,89,White,Female,Dead,May,2010,May,2012,Ginger,HER2-,ER-,PR-,Grade1
+T1c,N0,M0,I,55,White,Female,Dead,November,2010,December,2014,Darell,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,45,White,Female,Alive,November,2010,December,2014,Agnese,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,73,White,Female,Alive,May,2010,December,2014,Leone,HER2-,ER+,PR+,Grade2
+T1c,N0,M0,I,59,White,Female,Alive,April,2010,December,2014,Miran,HER2-,ER+,PR+,Grade2
+T1c,N0,M0,I,47,White,Female,Alive,April,2010,December,2014,Brianna,HER2-,ER+,PR-,Grade3
+T1c,N0,M0,I,84,White,Female,Alive,May,2010,December,2014,Letitia,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,67,White,Female,Alive,January,2010,December,2014,Gustie,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,73,White,Female,Alive,February,2010,December,2014,Cassey,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,59,Black,Female,Alive,April,2010,December,2014,Ramonda,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,35,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,January,2010,December,2014,Jessi,HER2+,ER+,PR+,Grade2
+T1c,N0,M0,I,59,White,Female,Alive,January,2010,December,2014,Vinny,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,45,White,Female,Alive,June,2010,December,2014,Dolli,HER2-,ER+,PR+,Grade2
+T1c,N0,M0,I,63,White,Female,Alive,August,2010,December,2014,Letta,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,42,White,Female,Alive,January,2010,November,2012,Rodi,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,56,White,Female,Alive,August,2010,December,2014,Celie,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,75,White,Female,Alive,June,2010,December,2014,Florinda,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,42,White,Female,Alive,June,2010,December,2014,Roshelle,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,79,White,Female,Alive,May,2010,December,2014,Holley,HER2+,ER-,PR+,Grade2
+T1c,N0,M0,I,55,White,Female,Alive,June,2010,December,2014,Susette,HER2+,ER+,PR-,Grade2
+T1c,N0,M0,I,77,White,Female,Dead,July,2010,October,2014,Shirline,HER2-,ER-,PR-,Grade2
+T1c,N0,M0,I,59,White,Female,Alive,June,2010,December,2014,Estel,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,65,Black,Female,Alive,February,2010,December,2014,Christen,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,65,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,February,2010,December,2014,Kyrstin,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,78,White,Female,Alive,August,2010,December,2014,Jada,HER2-,ER+,PR-,Grade2
+T1c,N0,M0,I,48,White,Female,Alive,May,2010,February,2014,La,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,48,White,Female,Alive,April,2010,December,2014,Anna-Diana,HER2-,ER-,PR+,Grade1
+T1c,N0,M0,I,66,White,Female,Alive,June,2010,December,2014,Gussy,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,67,White,Female,Alive,April,2010,December,2014,Wynnie,HER2-,ER-,PR+,Grade1
+T1c,N0,M0,I,80,White,Female,Alive,May,2010,December,2014,Rozele,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,67,White,Female,Alive,July,2010,December,2014,Deloris,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,70,White,Female,Alive,January,2010,December,2014,Annadiane,HER2-,ER-,PR-,Grade2
+T1c,N0,M0,I,78,White,Female,Alive,June,2010,December,2014,Hildagarde,HER2+,ER+,PR-,Grade3
+T1c,N0,M0,I,59,Black,Female,Alive,June,2010,December,2014,Danit,HER2-,ER-,PR-,Grade2
+T1c,N0,M0,I,64,White,Female,Alive,May,2010,November,2010,E'Lane,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,61,White,Female,Alive,May,2010,December,2014,Carlee,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,51,White,Female,Alive,March,2010,December,2014,Marika,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,77,White,Female,Alive,February,2010,December,2014,Philippa,HER2-,ER+,PR-,Grade2
+T1c,N0,M0,I,48,White,Female,Alive,July,2010,December,2014,Renae,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,55,White,Female,Dead,August,2004,July,2009,Krystle,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,47,White,Female,Alive,September,2010,December,2014,Karina,HER2+,ER-,PR+,Grade2
+T1c,N0,M0,I,42,Black,Female,Alive,July,2010,March,2012,Abigail,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,43,White,Female,Alive,December,2007,December,2014,Karoline,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,51,White,Female,Alive,January,2005,December,2014,Jocelyne,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,87,White,Female,Alive,February,2010,December,2014,Julita,HER2+,ER+,PR+,Grade1
+T1c,N0,M0,I,62,White,Female,Alive,November,2009,December,2014,Jemie,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,50,Black,Female,Alive,September,2010,December,2014,Catriona,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,44,White,Female,Alive,June,2010,December,2014,Karalee,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,65,White,Female,Alive,February,2010,December,2014,Mickie,HER2-,ER+,PR+,Grade2
+T1c,N0,M0,I,59,White,Female,Alive,October,2009,December,2014,Jeannette,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,52,White,Female,Alive,March,2010,December,2014,Hermia,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,75,White,Female,Alive,August,2009,December,2014,Natalya,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,73,White,Female,Alive,June,2009,December,2014,Willabella,HER2-,ER+,PR-,Grade3
+T1c,N0,M0,I,55,White,Female,Alive,January,2010,December,2014,Carroll,HER2-,ER-,PR-,Grade2
+T1c,N0,M0,I,76,White,Female,Alive,May,2010,December,2014,Shaylah,HER2-,ER+,PR+,Grade2
+T1c,N0,M0,I,79,White,Female,Alive,May,2009,December,2014,Maya,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,62,White,Female,Alive,February,2010,December,2014,Adina,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,58,White,Female,Dead,April,2010,April,2011,Nicoli,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,62,White,Female,Alive,March,2010,December,2014,Johanna,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,52,White,Female,Alive,January,2010,December,2014,Coraline,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,51,White,Female,Alive,September,2009,December,2014,Robinett,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,48,White,Female,Alive,September,2009,February,2012,Leontine,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,70,White,Female,Alive,July,2010,December,2014,Leigh,HER2+,ER+,PR+,Grade1
+T1c,N0,M0,I,70,White,Female,Alive,December,2009,December,2014,Karissa,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,79,White,Female,Alive,May,2009,December,2014,Lucita,HER2+,ER+,PR-,Grade2
+T1c,N0,M0,I,65,White,Female,Alive,July,2010,December,2014,Prue,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,35,White,Female,Dead,March,2010,July,2013,Betti,HER2+,ER+,PR+,Grade1
+T1c,N0,M0,I,40,White,Female,Alive,September,2010,December,2014,Jojo,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,56,White,Female,Alive,July,2010,December,2014,Vitia,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,80,White,Female,Dead,November,2010,December,2012,Jerrylee,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,79,White,Female,Alive,January,2010,December,2014,Jacky,HER2+,ER+,PR+,Grade2
+T1c,N0,M0,I,81,Black,Female,Alive,September,2009,December,2014,Nelie,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,49,White,Female,Alive,January,2009,December,2014,Hilliary,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,79,White,Female,Alive,July,2010,December,2014,Maddi,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,86,White,Female,Dead,February,2010,February,2013,Jamima,HER2+,ER+,PR-,Grade2
+T1c,N0,M0,I,77,White,Female,Alive,January,2009,December,2014,Eran,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,57,White,Female,Alive,August,2010,December,2014,Sidoney,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,52,Black,Female,Alive,March,2009,December,2014,Marris,HER2-,ER-,PR+,Grade1
+T1c,N0,M0,I,42,White,Female,Alive,May,2010,December,2014,Lurette,HER2-,ER-,PR+,Grade1
+T1c,N0,M0,I,61,White,Female,Alive,December,2009,December,2014,Allie,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,53,White,Female,Alive,August,2010,December,2014,Laurella,HER2-,ER+,PR+,Grade3
+T1c,N0,M0,I,51,Black,Female,Dead,April,2009,December,2011,Eva,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,51,White,Female,Alive,March,2010,June,2011,Rosaline,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,79,White,Female,Alive,March,2009,December,2014,Ibbie,HER2-,ER-,PR-,Grade1
+T1c,N0,M0,I,63,Black,Female,Alive,September,2010,December,2014,Deanna,HER2-,ER-,PR+,Grade1
+T1c,N0,M0,I,67,White,Female,Alive,December,2009,December,2014,Nova,HER2-,ER+,PR-,Grade1
+T1c,N0,M0,I,67,White,Female,Alive,May,2009,December,2014,Cathee,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,56,White,Female,Alive,June,2010,December,2014,Concordia,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,76,White,Female,Dead,May,2009,August,2010,Fernande,HER2+,ER-,PR+,Grade3
+T1c,N0,M0,I,60,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,November,2010,December,2014,Melony,HER2-,ER+,PR-,Grade2
+T1c,N0,M0,I,65,White,Female,Alive,August,2009,December,2014,Queenie,HER2-,ER+,PR+,Grade1
+T1c,N0,M0,I,58,White,Female,Alive,January,2010,December,2014,Charmain,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,69,White,Female,Alive,September,2011,December,2014,Sibyl,HER2+,ER+,PR+,Grade2
+T1c,N0,M0,I,39,Black,Female,Alive,December,2009,September,2014,Mair,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,44,White,Female,Alive,March,2010,July,2010,Enrichetta,HER2+,ER-,PR-,Grade2
+T1c,N0,M0,I,70,White,Female,Alive,March,2010,December,2014,Darla,HER2+,ER+,PR+,Grade1
+T1c,N0,M0,I,22,White,Female,Alive,December,2009,December,2014,Odella,HER2-,ER+,PR-,Grade2
+T1c,N0,M0,I,63,White,Female,Alive,July,2010,December,2014,Remy,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,72,White,Female,Alive,August,2010,December,2014,Yevette,HER2+,ER+,PR+,Grade2
+T1c,N0,M0,I,57,White,Female,Alive,June,2010,December,2014,Kerry,HER2+,ER-,PR+,Grade2
+T1c,N0,M0,I,58,White,Female,Alive,October,2009,December,2014,Nicol,HER2+,ER+,PR+,Grade1
+T1c,N0,M0,I,72,White,Female,Alive,July,2010,December,2014,Poppy,HER2-,ER-,PR+,Grade2
+T1c,N0,M0,I,85,White,Female,Alive,January,2010,December,2014,Taffy,HER2-,ER-,PR+,Grade1
+T1c,N0,M0,I,81,White,Female,Alive,August,2010,December,2014,Lorrie,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,79,White,Female,Alive,June,2009,December,2014,Eleanor,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,44,White,Female,Alive,May,2009,December,2014,Genovera,HER2-,ER-,PR+,Grade1
+T1c,N0,M0,I,49,White,Female,Alive,December,2009,December,2014,Glenine,HER2+,ER+,PR+,Grade1
+T1c,N0,M0,I,71,White,Female,Alive,June,2009,August,2014,Lebbie,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,60,White,Female,Alive,August,2010,December,2014,Nannette,HER2-,ER-,PR-,Grade3
+T1c,N0,M0,I,76,White,Female,Alive,June,2009,December,2014,Mona,HER2-,ER+,PR-,Grade3
+T1c,N0,M0,I,63,White,Female,Alive,June,2010,December,2014,Leanne,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,81,White,Male,Dead,March,2010,June,2010,Hugh,HER2-,ER+,PR-,Grade1
+T1c,N0,M0,I,71,White,Female,Alive,September,2010,December,2014,Kathryn,HER2+,ER-,PR-,Grade1
+T1c,N0,M0,I,48,White,Female,Alive,May,2010,December,2014,Minnie,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,66,White,Female,Alive,August,2009,December,2014,Margarita,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,43,White,Female,Alive,July,2009,December,2014,Natasha,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,65,White,Female,Alive,October,2009,December,2014,Sharon,HER2-,ER-,PR-,Grade1
+T1c,N0,M0,I,71,White,Female,Alive,November,2009,December,2014,Kirby,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,71,White,Female,Alive,October,2009,December,2014,Reggie,HER2+,ER+,PR-,Grade2
+T1c,N0,M0,I,55,White,Female,Alive,May,2009,December,2014,Lisandra,HER2-,ER-,PR-,Grade1
+T1c,N0,M0,I,48,White,Female,Alive,July,2010,December,2014,Maxy,HER2-,ER+,PR-,Grade2
+T1c,N0,M0,I,54,White,Female,Alive,January,2010,December,2014,Jo-Anne,HER2-,ER-,PR+,Grade3
+T1c,N0,M0,I,51,White,Female,Alive,September,2010,December,2014,Kelsi,HER2+,ER-,PR-,Grade3
+T1c,N0,M0,I,81,White,Female,Alive,March,2010,December,2014,Mairead,HER2-,ER+,PR+,Grade2
+T1c,N0,M0,I,43,White,Female,Alive,April,2010,December,2014,Oneida,HER2+,ER+,PR-,Grade1
+T1c,N0,M0,I,78,White,Female,Dead,April,2006,August,2012,Ilyse,HER2+,ER+,PR+,Grade3
+T1c,N0,M0,I,74,White,Female,Alive,October,2009,December,2014,Lyda,HER2-,ER+,PR-,Grade1
+T1c,N0,M0,I,63,White,Female,Alive,February,2010,December,2014,Nertie,HER2+,ER-,PR+,Grade1
+T1c,N0,M0,I,87,White,Female,Dead,February,2009,September,2013,Yoshiko,HER2-,ER-,PR-,Grade1
+T1b,N0,M0,I,33,White,Female,Alive,July,2011,December,2014,Tove,HER2+,ER-,PR-,Grade1
+T1b,N0,M0,I,65,White,Female,Alive,December,2011,December,2014,Jeana,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,83,White,Female,Alive,April,2011,December,2014,Berti,HER2-,ER-,PR+,Grade1
+T1b,N0,M0,I,83,White,Female,Alive,January,2012,December,2014,Rhiamon,HER2-,ER+,PR-,Grade2
+T1b,N0,M0,I,58,White,Female,Alive,July,2011,December,2014,Amity,HER2+,ER+,PR+,Grade1
+T1b,N0,M0,I,56,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,March,2011,December,2014,Tatiana,HER2-,ER-,PR-,Grade3
+T1b,N0,M0,I,54,White,Female,Alive,November,2011,December,2014,Candi,HER2+,ER-,PR+,Grade2
+T1b,N0,M0,I,73,White,Female,Alive,October,2011,December,2014,Luisa,HER2-,ER-,PR-,Grade3
+T1b,N0,M0,I,61,White,Female,Alive,April,2012,December,2014,Mela,HER2-,ER+,PR-,Grade2
+T1b,N0,M0,I,71,White,Female,Alive,September,2011,December,2014,Helsa,HER2-,ER+,PR+,Grade2
+T1b,N0,M0,I,50,White,Female,Alive,July,2012,December,2014,Pooh,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,62,White,Female,Alive,July,2012,December,2014,Emilee,HER2-,ER+,PR+,Grade2
+T1b,N0,M0,I,59,White,Female,Alive,April,2011,December,2014,Leora,HER2-,ER+,PR-,Grade2
+T1b,N0,M0,I,82,White,Female,Alive,March,2012,December,2014,Laurel,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,68,White,Female,Alive,September,2011,December,2014,Rebecka,HER2-,ER-,PR-,Grade2
+T1b,N0,M0,I,59,White,Female,Alive,August,2011,December,2014,Cherlyn,HER2+,ER+,PR-,Grade3
+T1b,N0,M0,I,63,White,Female,Alive,October,2011,December,2014,Cybil,HER2-,ER-,PR+,Grade1
+T1b,N0,M0,I,50,Black,Female,Dead,September,2011,May,2014,Stephanie,HER2+,ER-,PR+,Grade3
+T1b,N0,M0,I,64,Black,Female,Alive,December,2011,August,2013,Megen,HER2-,ER+,PR+,Grade1
+T1b,N0,M0,I,54,White,Female,Alive,March,2012,December,2014,Doro,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,64,Black,Female,Alive,December,2011,December,2014,Eleanore,HER2+,ER+,PR-,Grade1
+T1b,N0,M0,I,56,White,Female,Alive,September,2011,December,2014,Riannon,HER2-,ER-,PR+,Grade2
+T1b,N0,M0,I,62,White,Female,Alive,April,2012,December,2014,Dorolice,HER2-,ER-,PR+,Grade1
+T1b,N0,M0,I,42,White,Female,Alive,March,2012,December,2014,Hally,HER2+,ER-,PR-,Grade1
+T1b,N0,M0,I,67,Black,Female,Alive,January,2012,December,2014,Faydra,HER2-,ER-,PR+,Grade3
+T1b,N0,M0,I,58,White,Female,Alive,March,2011,December,2014,Elaina,HER2-,ER-,PR-,Grade2
+T1b,N0,M0,I,86,White,Female,Alive,March,2012,December,2014,Jo,HER2+,ER+,PR+,Grade1
+T1b,N0,M0,I,61,White,Female,Alive,December,2011,December,2014,Selene,HER2-,ER-,PR-,Grade3
+T1b,N0,M0,I,49,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,September,2011,December,2014,Ronnie,HER2-,ER+,PR-,Grade2
+T1b,N0,M0,I,46,White,Female,Alive,April,2012,December,2014,Michal,HER2+,ER+,PR-,Grade3
+T1b,N0,M0,I,50,Black,Female,Alive,October,2011,December,2014,Rahal,HER2-,ER-,PR+,Grade3
+T1b,N0,M0,I,43,White,Female,Alive,November,2011,December,2014,Rene,HER2-,ER-,PR-,Grade1
+T1b,N0,M0,I,57,White,Female,Dead,May,2012,June,2014,Leesa,HER2-,ER+,PR+,Grade3
+T1b,N0,M0,I,65,Black,Female,Alive,December,2011,December,2014,Berna,HER2-,ER-,PR+,Grade3
+T1b,N0,M0,I,50,White,Female,Alive,August,2011,December,2014,Rosy,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,51,White,Female,Alive,December,2011,December,2014,Nalani,HER2-,ER-,PR-,Grade2
+T1b,N0,M0,I,66,White,Female,Alive,November,2011,December,2014,Jonie,HER2-,ER-,PR-,Grade2
+T1b,N0,M0,I,57,White,Female,Alive,March,2012,December,2014,Gwenn,HER2+,ER+,PR+,Grade3
+T1b,N0,M0,I,74,Black,Female,Dead,November,2011,January,2014,Angele,HER2+,ER-,PR-,Grade1
+T1b,N0,M0,I,57,White,Female,Alive,February,2012,December,2014,Katheleen,HER2-,ER-,PR-,Grade2
+T1b,N0,M0,I,49,White,Female,Alive,September,2011,December,2014,Rubetta,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,54,White,Female,Alive,January,2011,December,2014,Rosanne,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,60,Black,Female,Alive,May,2012,December,2014,Pattie,HER2-,ER+,PR-,Grade1
+T1b,N0,M0,I,63,White,Female,Alive,November,2011,December,2014,Gratia,HER2-,ER-,PR-,Grade1
+T1b,N0,M0,I,55,White,Female,Alive,October,2011,December,2014,Rey,HER2+,ER-,PR+,Grade2
+T1b,N0,M0,I,58,White,Female,Alive,January,2012,December,2014,Cariotta,HER2-,ER+,PR+,Grade3
+T1b,N0,M0,I,77,White,Female,Alive,May,2012,December,2014,Jenette,HER2-,ER-,PR+,Grade2
+T1b,N0,M0,I,71,Black,Female,Alive,November,2011,December,2014,Brande,HER2-,ER+,PR+,Grade1
+T1b,N0,M0,I,62,Black,Female,Alive,November,2011,December,2014,Dix,HER2-,ER+,PR-,Grade2
+T1b,N0,M0,I,55,White,Female,Alive,July,2011,December,2014,Emmy,HER2-,ER+,PR-,Grade3
+T1b,N0,M0,I,58,Black,Female,Alive,November,2011,December,2014,Audie,HER2-,ER-,PR+,Grade2
+T1b,N0,M0,I,57,Black,Female,Alive,June,2012,December,2014,Dita,HER2-,ER-,PR-,Grade1
+T1b,N0,M0,I,47,White,Female,Alive,June,2011,December,2014,Cris,HER2-,ER-,PR-,Grade2
+T1b,N0,M0,I,56,White,Female,Alive,August,2011,December,2014,Phaedra,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,62,White,Female,Alive,December,2011,December,2014,Guillema,HER2+,ER+,PR-,Grade1
+T1b,N0,M0,I,53,White,Female,Alive,December,2011,December,2014,Jenny,HER2+,ER+,PR+,Grade2
+T1b,N0,M0,I,69,Black,Female,Alive,April,2012,December,2014,Arlyn,HER2-,ER-,PR-,Grade1
+T1b,N0,M0,I,85,White,Female,Alive,December,2011,December,2014,Ardyce,HER2-,ER+,PR+,Grade3
+T1b,N0,M0,I,84,White,Female,Alive,October,2011,December,2014,Lilian,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,65,White,Female,Alive,August,2011,December,2014,Leia,HER2-,ER+,PR+,Grade2
+T1b,N0,M0,I,75,White,Female,Alive,July,2011,December,2014,Fleur,HER2-,ER+,PR-,Grade1
+T1b,N0,M0,I,82,White,Female,Alive,December,2011,December,2014,Joyann,HER2-,ER-,PR+,Grade1
+T1b,N0,M0,I,71,White,Female,Alive,June,2011,December,2014,Etheline,HER2+,ER+,PR+,Grade3
+T1b,N0,M0,I,72,White,Female,Alive,December,2011,December,2014,Andromache,HER2+,ER+,PR-,Grade1
+T1b,N0,M0,I,81,White,Female,Alive,March,2012,December,2014,Ruperta,HER2-,ER+,PR+,Grade3
+T1b,N0,M0,I,48,White,Female,Alive,July,2012,December,2014,Johnette,HER2+,ER+,PR-,Grade1
+T1b,N0,M0,I,41,White,Female,Alive,December,2011,December,2014,Maure,HER2+,ER+,PR+,Grade2
+T1b,N0,M0,I,64,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,August,2012,December,2014,Madge,HER2+,ER+,PR+,Grade3
+T1b,N0,M0,I,74,White,Female,Alive,December,2011,December,2014,Carole,HER2-,ER-,PR-,Grade1
+T1b,N0,M0,I,63,White,Female,Alive,November,2011,December,2014,Lianna,HER2+,ER-,PR-,Grade2
+T1b,N0,M0,I,42,Black,Female,Alive,December,2011,December,2014,Noel,HER2-,ER-,PR+,Grade2
+T1b,N0,M0,I,64,White,Female,Alive,June,2012,December,2014,Karmen,HER2-,ER-,PR-,Grade2
+T1b,N0,M0,I,63,White,Female,Alive,September,2011,December,2014,Vivyan,HER2-,ER-,PR+,Grade1
+T1b,N0,M0,I,75,White,Female,Alive,April,2012,December,2014,Joanne,HER2+,ER-,PR+,Grade2
+T1b,N0,M0,I,73,Black,Female,Alive,August,2011,December,2014,Daisi,HER2+,ER+,PR-,Grade2
+T1b,N0,M0,I,41,White,Female,Alive,October,2011,December,2014,Merrile,HER2+,ER+,PR-,Grade2
+T1b,N0,M0,I,45,White,Female,Alive,February,2012,December,2014,Moyra,HER2-,ER-,PR+,Grade1
+T1b,N0,M0,I,46,White,Female,Alive,September,2011,December,2014,Regan,HER2-,ER-,PR+,Grade3
+T1b,N0,M0,I,44,Black,Female,Alive,August,2011,December,2014,Garland,HER2+,ER+,PR-,Grade3
+T1b,N0,M0,I,37,Black,Female,Alive,September,2011,December,2014,Suzzy,HER2+,ER+,PR-,Grade1
+T1b,N0,M0,I,48,White,Female,Alive,December,2011,December,2014,Melita,HER2-,ER+,PR+,Grade2
+T1b,N0,M0,I,71,White,Female,Alive,April,2012,December,2014,Amelina,HER2+,ER-,PR+,Grade1
+T1b,N0,M0,I,69,White,Female,Alive,September,2011,December,2014,Jo Ann,HER2+,ER+,PR-,Grade3
+T1b,N0,M0,I,64,White,Female,Alive,March,2011,December,2014,Chloe,HER2+,ER+,PR+,Grade1
+T1b,N0,M0,I,75,White,Female,Alive,April,2011,December,2014,Olivie,HER2+,ER+,PR+,Grade2
+T1b,N0,M0,I,67,White,Female,Alive,July,2011,December,2014,Saba,HER2+,ER-,PR-,Grade1
+T1b,N0,M0,I,45,White,Female,Alive,April,2012,December,2014,Ruthanne,HER2-,ER+,PR+,Grade2
+T1b,N0,M0,I,52,White,Female,Alive,April,2012,December,2014,Olimpia,HER2+,ER-,PR-,Grade2
+T1b,N0,M0,I,73,White,Female,Alive,July,2011,December,2014,Herminia,HER2-,ER-,PR+,Grade2
+T1b,N0,M0,I,67,White,Female,Alive,April,2012,December,2014,Chrystal,HER2-,ER+,PR+,Grade2
+T1b,N0,M0,I,70,Black,Female,Alive,October,2011,December,2014,Alessandra,HER2-,ER+,PR+,Grade1
+T1b,N0,M0,I,71,White,Female,Alive,September,2011,December,2014,Alberta,HER2+,ER-,PR-,Grade1
+T1b,N0,M0,I,64,White,Female,Alive,March,2011,December,2014,Katherine,HER2+,ER+,PR+,Grade3
+T1b,N0,M0,I,50,White,Female,Alive,November,2011,December,2014,Cathy,HER2-,ER+,PR+,Grade1
+T1b,N0,M0,I,82,White,Female,Alive,October,2011,December,2014,Cissy,HER2+,ER-,PR+,Grade1
+T1b,N0,M0,I,48,White,Female,Alive,October,2011,December,2014,Terrianne,HER2-,ER-,PR-,Grade3
+T1b,N0,M0,I,47,White,Female,Alive,November,2011,December,2014,Bebe,HER2-,ER-,PR+,Grade3
+T1b,N0,M0,I,75,White,Female,Alive,March,2012,December,2014,Ophelie,HER2-,ER-,PR+,Grade3
+T1b,N0,M0,I,49,White,Female,Alive,December,2011,December,2014,Michele,HER2-,ER+,PR-,Grade1
+T1b,N0,M0,I,58,White,Female,Alive,April,2011,December,2014,Jany,HER2-,ER+,PR-,Grade2
+T1b,N0,M0,I,67,White,Female,Dead,November,2011,August,2014,Roberta,HER2-,ER-,PR+,Grade3
+T1b,N0,M0,I,48,White,Male,Alive,June,2011,December,2014,Reynold,HER2-,ER+,PR-,Grade2
+T1b,N0,M0,I,67,White,Female,Alive,September,2011,December,2014,Jennilee,HER2-,ER+,PR+,Grade1
+T1b,N0,M0,I,51,White,Female,Alive,December,2011,December,2014,Daisey,HER2+,ER-,PR+,Grade3
+T1b,N0,M0,I,75,White,Female,Alive,October,2011,December,2014,Corabel,HER2-,ER-,PR+,Grade3
+T1b,N0,M0,I,55,White,Female,Alive,July,2011,December,2014,Corny,HER2+,ER+,PR+,Grade3
+T1b,N0,M0,I,84,White,Female,Alive,November,2011,December,2014,Paula-Grace,HER2+,ER+,PR-,Grade1
+T1b,N0,M0,I,65,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,March,2012,December,2014,Delia,HER2+,ER+,PR+,Grade3
+T1b,N0,M0,I,62,White,Female,Alive,July,2012,December,2014,Glyn,HER2+,ER-,PR+,Grade1
+T1b,N0,M0,I,86,White,Female,Alive,November,2011,December,2014,Kippy,HER2-,ER-,PR-,Grade2
+T1b,N0,M0,I,56,Black,Female,Alive,February,2012,December,2014,Isa,HER2-,ER+,PR-,Grade3
+T1b,N0,M0,I,66,White,Female,Alive,October,2011,December,2014,Juanita,HER2+,ER+,PR+,Grade1
+T1b,N0,M0,I,48,Black,Female,Alive,March,2012,December,2014,Haleigh,HER2+,ER-,PR-,Grade2
+T1b,N0,M0,I,57,White,Female,Alive,November,2011,December,2014,Lyndel,HER2-,ER+,PR-,Grade2
+T1b,N0,M0,I,55,White,Female,Alive,July,2013,December,2014,Tuesday,HER2-,ER+,PR-,Grade3
+T1b,N0,M0,I,44,White,Female,Alive,April,2011,December,2014,Morena,HER2+,ER-,PR+,Grade2
+T1b,N0,M0,I,73,White,Female,Alive,October,2011,December,2014,Annabal,HER2+,ER+,PR+,Grade3
+T1b,N0,M0,I,66,White,Female,Alive,June,2011,December,2014,Torey,HER2+,ER+,PR+,Grade2
+T1b,N0,M0,I,51,White,Female,Alive,April,2011,December,2014,Shell,HER2+,ER+,PR+,Grade3
+T1b,N0,M0,I,40,White,Female,Alive,May,2011,November,2014,Melly,HER2-,ER-,PR+,Grade1
+T1b,N0,M0,I,76,White,Female,Alive,November,2011,December,2014,Enriqueta,HER2+,ER-,PR+,Grade1
+T1b,N0,M0,I,58,White,Female,Alive,April,2011,December,2014,Gwyn,HER2-,ER-,PR+,Grade3
+T1b,N0,M0,I,50,White,Female,Alive,May,2011,December,2014,Dela,HER2+,ER-,PR-,Grade2
+T1b,N0,M0,I,91,White,Female,Alive,July,2011,December,2014,Kelcie,HER2+,ER+,PR+,Grade3
+T1b,N0,M0,I,69,White,Female,Alive,June,2011,December,2014,Noella,HER2-,ER+,PR+,Grade1
+T1b,N0,M0,I,72,White,Female,Alive,January,2011,December,2014,Marsiella,HER2+,ER+,PR-,Grade2
+T1b,N0,M0,I,44,White,Female,Alive,April,2012,December,2014,Louisette,HER2+,ER-,PR+,Grade1
+T1b,N0,M0,I,63,White,Female,Alive,August,2011,December,2014,Gwenni,HER2+,ER+,PR-,Grade2
+T1b,N0,M0,I,68,White,Female,Alive,June,2011,December,2014,Melisa,HER2+,ER-,PR-,Grade2
+T1b,N0,M0,I,67,White,Female,Alive,June,2011,December,2014,Aleen,HER2+,ER-,PR+,Grade3
+T1b,N0,M0,I,77,White,Female,Alive,November,2011,December,2014,Rubia,HER2+,ER-,PR-,Grade3
+T1b,N0,M0,I,66,White,Female,Alive,May,2011,December,2014,Rebeka,HER2-,ER+,PR+,Grade3
+T1b,N0,M0,I,81,White,Female,Alive,December,2011,December,2014,Annelise,HER2+,ER+,PR-,Grade2
+T1b,N0,M0,I,52,White,Female,Alive,February,2012,December,2014,Wilmette,HER2-,ER+,PR-,Grade3
+T1b,N0,M0,I,53,Black,Female,Alive,July,2012,December,2014,Hildegaard,HER2-,ER+,PR+,Grade2
+T1b,N0,M0,I,64,White,Female,Alive,April,2012,December,2014,Norine,HER2-,ER+,PR-,Grade1
+T1b,N0,M0,I,63,White,Female,Alive,April,2012,December,2014,Corette,HER2+,ER+,PR-,Grade3
+T1b,N0,M0,I,74,White,Female,Alive,June,2011,December,2014,Fan,HER2-,ER-,PR-,Grade2
+T1b,N0,M0,I,63,White,Female,Alive,May,2012,December,2014,Sheba,HER2-,ER-,PR-,Grade3
+T1b,N0,M0,I,68,White,Female,Alive,May,2011,December,2014,Maurita,HER2+,ER-,PR-,Grade3
+T1a,N0,M0,I,77,White,Female,Dead,October,1994,August,2001,Jacqueline,HER2+,ER-,PR+,Grade1
+T1a,N0,M0,I,79,White,Female,Dead,May,1994,August,2013,Ricca,HER2+,ER-,PR+,Grade1
+T1a,N0,M0,I,40,White,Female,Alive,March,1992,December,2014,Maudie,HER2+,ER+,PR+,Grade1
+T1a,N0,M0,I,77,White,Female,Dead,January,1995,June,1998,Damita,HER2+,ER-,PR-,Grade3
+T1a,N0,M0,I,58,White,Female,Alive,November,1994,November,2014,Shalna,HER2+,ER-,PR-,Grade1
+T1a,N0,M0,I,82,White,Female,Dead,February,1993,February,1996,Rhodie,HER2-,ER+,PR+,Grade3
+T1a,N0,M0,I,73,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,August,1994,April,2002,Dominica,HER2-,ER-,PR+,Grade3
+T1a,N0,M0,I,45,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,September,1994,December,2014,Maxi,HER2+,ER-,PR-,Grade3
+T1a,N0,M0,I,78,White,Female,Dead,December,1992,February,2011,Lane,HER2+,ER-,PR-,Grade3
+T1a,N0,M0,I,71,White,Female,Alive,June,1994,July,1994,Sianna,HER2+,ER-,PR+,Grade1
+T1a,N0,M0,I,43,White,Female,Alive,April,1995,October,2003,Emmalee,HER2-,ER+,PR-,Grade3
+T1a,N0,M0,I,56,White,Female,Alive,May,1995,December,2014,Judye,HER2-,ER+,PR-,Grade3
+T1a,N0,M0,I,83,White,Female,Dead,November,1992,November,2000,Rozina,HER2+,ER+,PR+,Grade1
+T1a,N0,M0,I,46,White,Female,Alive,July,1994,December,2014,Laverna,HER2-,ER+,PR+,Grade2
+T1a,N0,M0,I,41,White,Female,Alive,February,1995,December,2014,Alejandrina,HER2+,ER-,PR-,Grade1
+T1a,N0,M0,I,72,White,Female,Dead,May,1995,July,2005,Rita,HER2+,ER-,PR+,Grade3
+T1a,N0,M0,I,50,Black,Female,Alive,April,1994,December,2014,Caren,HER2+,ER-,PR+,Grade1
+T1a,N0,M0,I,41,White,Female,Alive,January,1995,December,2014,Lorene,HER2+,ER-,PR-,Grade1
+T1a,N0,M0,I,75,White,Female,Dead,August,1993,February,2008,Jacki,HER2-,ER+,PR+,Grade2
+T1a,N0,M0,I,61,White,Female,Alive,February,1994,December,2014,Ame,HER2+,ER-,PR+,Grade2
+T1a,N0,M0,I,75,White,Female,Dead,June,1992,September,2007,Cleo,HER2+,ER+,PR-,Grade2
+T1a,N0,M0,I,54,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,March,1993,December,2014,Codie,HER2+,ER+,PR+,Grade1
+T1a,N0,M0,I,85,White,Female,Dead,November,1994,February,2009,Aloysia,HER2-,ER-,PR-,Grade1
+T1a,N0,M0,I,47,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,September,1995,February,2002,Darya,HER2+,ER+,PR-,Grade2
+T1a,N0,M0,I,51,White,Female,Alive,December,1992,April,2012,Alys,HER2-,ER-,PR+,Grade1
+T1a,N0,M0,I,83,White,Female,Dead,November,1994,March,1997,Tory,HER2-,ER-,PR+,Grade3
+T1a,N0,M0,I,53,Black,Female,Alive,October,1994,December,2014,Jobi,HER2+,ER-,PR-,Grade3
+T1a,N0,M0,I,67,White,Female,Dead,April,1991,June,2007,Kathlene,HER2+,ER-,PR-,Grade2
+T1a,N0,M0,I,66,White,Female,Dead,January,1991,June,2004,Bird,HER2+,ER+,PR+,Grade1
+T1a,N0,M0,I,39,Black,Female,Alive,July,1990,November,2012,Blythe,HER2-,ER+,PR+,Grade1
+T1a,N0,M0,I,63,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,August,1992,November,2007,Daisy,HER2+,ER-,PR+,Grade1
+T1a,N0,M0,I,69,Black,Female,Dead,July,1991,September,1994,Katrinka,HER2+,ER+,PR-,Grade2
+T1a,N0,M0,I,56,White,Female,Alive,February,1991,December,2014,Gaby,HER2+,ER-,PR-,Grade1
+T1a,N0,M0,I,65,Black,Female,Dead,June,1991,July,1997,Jeniffer,HER2-,ER+,PR+,Grade3
+T1a,N0,M0,I,70,White,Female,Dead,November,1991,April,2008,Rhianna,HER2+,ER+,PR+,Grade2
+T1a,N0,M0,I,79,White,Female,Dead,February,1992,February,2008,Nanni,HER2-,ER-,PR+,Grade2
+T1a,N0,M0,I,71,White,Female,Dead,March,1989,March,2013,Ertha,HER2-,ER-,PR-,Grade2
+T1a,N0,M0,I,45,White,Female,Alive,January,1988,December,2014,Maggie,HER2-,ER-,PR-,Grade3
+T1a,N0,M0,I,44,White,Female,Alive,September,1989,December,2014,Letisha,HER2-,ER-,PR-,Grade2
+T1a,N0,M0,I,61,White,Female,Dead,March,1989,February,1998,Tiena,HER2-,ER-,PR-,Grade1
+T1a,N0,M0,I,55,White,Female,Dead,December,1989,February,2000,Mariquilla,HER2-,ER-,PR+,Grade1
+T1a,N0,M0,I,77,White,Female,Dead,August,1989,July,2011,Eloise,HER2+,ER+,PR+,Grade1
+T1a,N0,M0,I,80,White,Female,Dead,February,1989,June,2010,Lacy,HER2-,ER+,PR-,Grade1
+TX Adjusted,NX Adjusted,MX,UNK Stage,55,White,Female,Dead,March,1997,May,2011,Luce,HER2-,ER+,PR+,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,66,Black,Female,Alive,October,1996,December,2014,Jordan,HER2-,ER+,PR+,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,76,White,Female,Dead,July,1996,January,2012,Rubi,HER2-,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,61,Black,Female,Dead,July,1993,January,2008,Gelya,HER2-,ER+,PR+,Grade1
+TX Adjusted,NX Adjusted,MX,UNK Stage,79,Black,Female,Dead,April,1996,December,2000,Edythe,HER2-,ER+,PR-,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,73,Black,Female,Dead,September,1997,September,2002,Cacilie,HER2+,ER+,PR-,Grade1
+TX Adjusted,NX Adjusted,MX,UNK Stage,90,White,Female,Dead,July,1991,August,1996,Lorette,HER2+,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,51,White,Female,Dead,January,1997,November,2003,Patsy,HER2+,ER-,PR-,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,46,Black,Female,Dead,February,1995,March,1996,Tabina,HER2-,ER+,PR+,Grade2
+TX Adjusted,NX Adjusted,MX,UNK Stage,78,White,Female,Dead,May,1996,May,1997,Alexina,HER2-,ER+,PR+,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,65,White,Female,Dead,October,1996,December,2010,Nitin,HER2+,ER+,PR-,Grade1
+TX Adjusted,NX Adjusted,MX,UNK Stage,50,Black,Female,Alive,May,1994,April,2012,Fina,HER2-,ER-,PR+,Grade2
+TX Adjusted,NX Adjusted,MX,UNK Stage,94,White,Female,Dead,May,1997,May,1997,Austin,HER2-,ER+,PR-,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,54,White,Female,Alive,February,1997,December,2014,Doloritas,HER2-,ER-,PR-,Grade2
+TX Adjusted,NX Adjusted,MX,UNK Stage,75,White,Female,Dead,January,1988,March,1995,Frank,HER2+,ER+,PR+,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,76,White,Female,Dead,February,1996,May,2003,Mel,HER2+,ER-,PR-,Grade1
+TX Adjusted,NX Adjusted,MX,UNK Stage,50,Black,Female,Alive,January,1997,December,2014,Tarra,HER2-,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,83,White,Female,Dead,March,1997,June,2012,Isabeau,HER2-,ER-,PR+,Grade3
+TX Adjusted,NX Adjusted,MX,UNK Stage,38,White,Female,Alive,April,1996,December,2014,Anestassia,HER2+,ER+,PR+,Grade1
+TX Adjusted,NX Adjusted,MX,UNK Stage,85,White,Female,Dead,February,1996,April,1996,Damara,HER2-,ER-,PR+,Grade3
+T4b,N1,M0,IIIB,48,White,Female,Alive,April,2010,December,2014,Alysa,HER2-,ER+,PR-,Grade2
+T4b,N1,M0,IIIB,57,White,Female,Alive,March,2011,December,2014,Kee,HER2+,ER+,PR+,Grade3
+T4b,N1,M0,IIIB,64,White,Female,Alive,April,2010,December,2014,Rhodia,HER2+,ER+,PR-,Grade3
+T4b,N1,M0,IIIB,75,White,Female,Alive,October,2011,December,2014,Mariette,HER2-,ER-,PR+,Grade3
+T4b,N1,M0,IIIB,69,White,Female,Dead,September,2011,June,2013,Emogene,HER2-,ER+,PR+,Grade3
+T4b,N1,M0,IIIB,32,White,Female,Dead,September,2011,August,2013,Teodora,HER2-,ER+,PR-,Grade1
+T4b,N1,M0,IIIB,82,Black,Female,Dead,April,2011,August,2013,Chelsey,HER2+,ER+,PR+,Grade3
+T4b,N1,M0,IIIB,92,White,Female,Dead,August,2011,June,2013,Helge,HER2+,ER+,PR+,Grade3
+T4b,N0,M0,IIIB,65,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,July,1992,May,2014,Lynnett,HER2-,ER-,PR+,Grade3
+T4b,N0,M0,IIIB,54,White,Female,Dead,March,1993,August,1994,Vale,HER2+,ER-,PR-,Grade2
+T4b,N0,M0,IIIB,73,White,Female,Dead,March,1993,May,1997,May,HER2-,ER+,PR+,Grade2
+T4b,N0,M0,IIIB,46,White,Female,Alive,July,1994,December,2014,Margarette,HER2+,ER+,PR-,Grade1
+T2,N2,M0,IIIA,72,White,Female,Alive,January,2010,December,2014,Evangeline,HER2+,ER+,PR+,Grade1
+T2,N2,M0,IIIA,49,White,Female,Alive,April,2010,December,2014,Dalila,HER2+,ER-,PR-,Grade2
+T2,N2,M0,IIIA,47,White,Female,Alive,March,2010,December,2014,Julianna,HER2+,ER-,PR-,Grade1
+T2,N2,M0,IIIA,45,Black,Female,Alive,October,2010,December,2014,Jolie,HER2+,ER-,PR+,Grade1
+T2,N2,M0,IIIA,31,White,Female,Alive,May,2010,December,2014,Hilda,HER2-,ER-,PR-,Grade2
+T2,N2,M0,IIIA,61,White,Female,Alive,June,2010,December,2014,Kassandra,HER2+,ER-,PR-,Grade2
+T2,N2,M0,IIIA,66,White,Female,Dead,January,2010,April,2011,Dodie,HER2+,ER+,PR+,Grade1
+T2,N2,M0,IIIA,36,White,Female,Alive,February,2010,August,2010,Bell,HER2+,ER-,PR+,Grade1
+T2,N2,M0,IIIA,59,White,Female,Alive,April,2010,December,2014,Eulalie,HER2-,ER+,PR+,Grade1
+T2,N2,M0,IIIA,51,White,Female,Alive,January,2010,December,2014,Verla,HER2-,ER-,PR+,Grade3
+T2,N2,M0,IIIA,59,White,Female,Alive,October,2009,December,2014,Velvet,HER2-,ER+,PR-,Grade2
+T2,N2,M0,IIIA,49,White,Female,Dead,April,2010,March,2011,Yalonda,HER2+,ER-,PR+,Grade1
+T2,N2,M0,IIIA,58,White,Female,Alive,March,2010,December,2014,Meghan,HER2-,ER+,PR-,Grade2
+T2,N2,M0,IIIA,33,White,Female,Alive,March,2010,December,2014,Rafaelia,HER2-,ER+,PR-,Grade2
+T2,N2,M0,IIIA,35,Black,Female,Alive,August,2008,December,2014,Dionis,HER2-,ER-,PR+,Grade3
+T2,N2,M0,IIIA,42,White,Female,Dead,January,2010,August,2013,Margaret,HER2-,ER+,PR+,Grade3
+T2,N2,M0,IIIA,65,White,Female,Dead,February,2010,November,2011,Phylys,HER2+,ER-,PR-,Grade3
+T2,N2,M0,IIIA,49,White,Female,Alive,July,2010,December,2014,Merrily,HER2-,ER-,PR-,Grade2
+T2,N2,M0,IIIA,38,Black,Female,Dead,March,2010,June,2013,Jacenta,HER2-,ER-,PR-,Grade1
+T2,N2,M0,IIIA,62,White,Female,Alive,May,2010,December,2014,Germain,HER2-,ER+,PR-,Grade2
+T2,N2,M0,IIIA,90,White,Female,Dead,June,2009,December,2012,Myrtice,HER2-,ER-,PR-,Grade3
+T2,N2,M0,IIIA,45,White,Female,Alive,April,2010,December,2014,Briny,HER2-,ER-,PR-,Grade3
+T2,N2,M0,IIIA,48,White,Female,Alive,December,2009,December,2014,Georgette,HER2+,ER-,PR-,Grade2
+T2,N2,M0,IIIA,67,White,Female,Alive,April,2010,December,2014,Antoinette,HER2-,ER+,PR-,Grade3
+T2,N2,M0,IIIA,61,White,Female,Alive,July,2010,December,2014,Morgana,HER2-,ER+,PR+,Grade3
+T2,N2,M0,IIIA,81,White,Female,Alive,May,2009,December,2014,Alpa,HER2-,ER+,PR-,Grade3
+"Any T, Mets",NX Adjusted,M1,IV,57,White,Female,Dead,October,1995,December,1995,Aloise,HER2+,ER-,PR+,Grade1
+"Any T, Mets",NX Adjusted,M1,IV,79,White,Female,Dead,July,1994,March,1996,Albertina,HER2+,ER-,PR-,Grade1
+"Any T, Mets",NX Adjusted,M1,IV,73,White,Female,Dead,May,1995,August,1996,Querida,HER2-,ER+,PR-,Grade1
+"Any T, Mets",NX Adjusted,M1,IV,63,White,Male,Dead,April,1995,July,1995,Rocky,HER2-,ER+,PR+,Grade1
+"Any T, Mets",NX Adjusted,M1,IV,85,White,Female,Dead,September,1995,November,1995,Latashia,HER2+,ER+,PR+,Grade1
+"Any T, Mets",NX Adjusted,M1,IV,65,White,Female,Dead,November,1995,November,1995,Jandy,HER2-,ER-,PR-,Grade1
+"Any T, Mets",NX Adjusted,M1,IV,68,White,Female,Dead,March,1995,October,1995,Diana,HER2-,ER-,PR-,Grade1
+"Any T, Mets",N2,M1,IV,35,Black,Female,Dead,January,1990,September,1991,Edyth,HER2+,ER+,PR-,Grade1
+"Any T, Mets",N2,M1,IV,64,White,Female,Dead,April,1989,August,1989,Sabine,HER2-,ER+,PR+,Grade1
+"Any T, Mets",N2,M1,IV,59,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,March,1989,February,1990,Ginelle,HER2-,ER-,PR+,Grade3
+"Any T, Mets",N2,M1,IV,72,White,Female,Dead,July,1988,August,1989,Glenda,HER2-,ER-,PR-,Grade2
+"Any T, Mets",N2,M1,IV,77,White,Female,Dead,February,1988,February,1998,Georgeanna,HER2-,ER-,PR-,Grade3
+T3,N0,M0,IIB,81,White,Female,Dead,July,2011,February,2012,Delaney,HER2-,ER+,PR+,Grade2
+T3,N0,M0,IIB,76,White,Female,Alive,February,2011,December,2014,Mercie,HER2-,ER+,PR-,Grade2
+T3,N0,M0,IIB,71,White,Female,Alive,April,2011,December,2014,Kip,HER2-,ER+,PR+,Grade1
+T3,N0,M0,IIB,59,Black,Female,Alive,July,2012,December,2014,Valery,HER2+,ER+,PR-,Grade1
+T3,N0,M0,IIB,93,White,Female,Alive,January,2012,December,2014,Hilary,HER2-,ER-,PR-,Grade1
+T3,N0,M0,IIB,57,Black,Female,Alive,March,2011,December,2014,Tia,HER2-,ER-,PR+,Grade3
+T3,N0,M0,IIB,72,White,Female,Alive,January,2011,December,2014,Eugenie,HER2-,ER+,PR-,Grade2
+T3,N0,M0,IIB,84,White,Female,Dead,September,2011,April,2014,Onlea,HER2+,ER-,PR-,Grade2
+T3,N0,M0,IIB,55,White,Female,Alive,May,2011,December,2014,Eba,HER2+,ER+,PR-,Grade1
+T3,N0,M0,IIB,79,Black,Female,Dead,March,2012,May,2013,Margalit,HER2-,ER+,PR+,Grade3
+T3,N0,M0,IIB,53,Black,Female,Dead,November,2011,October,2013,Penni,HER2+,ER-,PR+,Grade3
+T3,N0,M0,IIB,46,Black,Female,Alive,May,2011,December,2014,Jemimah,HER2+,ER+,PR-,Grade3
+T3,N0,M0,IIB,77,Black,Female,Dead,October,2011,February,2012,Faustina,HER2+,ER+,PR+,Grade3
+T3,N0,M0,IIB,72,White,Female,Alive,April,2012,December,2014,Odele,HER2-,ER-,PR-,Grade2
+T3,N0,M0,IIB,63,White,Female,Alive,August,2011,December,2014,Fernandina,HER2+,ER-,PR+,Grade3
+T3,N0,M0,IIB,31,White,Female,Alive,November,2011,December,2014,Tabbi,HER2-,ER+,PR-,Grade3
+T1b,N1,M0,IIA,64,Black,Female,Dead,February,1990,July,2012,Tiffy,HER2-,ER+,PR+,Grade3
+T1b,N1,M0,IIA,42,White,Female,Dead,March,1990,September,1993,Katlin,HER2+,ER-,PR+,Grade1
+T1b,N1,M0,IIA,36,White,Female,Dead,July,1990,February,2000,Krystal,HER2+,ER-,PR+,Grade2
+T1b,N1,M0,IIA,47,Black,Female,Dead,March,1990,September,2012,Donna,HER2+,ER-,PR+,Grade1
+T1b,N1,M0,IIA,46,White,Female,Dead,March,1990,November,1992,Angelina,HER2+,ER+,PR-,Grade3
+T1b,N1,M0,IIA,51,White,Female,Alive,February,1990,December,2014,Cordey,HER2-,ER-,PR-,Grade3
+T1b,N1,M0,IIA,56,White,Female,Dead,April,1990,August,2010,Patricia,HER2+,ER+,PR-,Grade3
+T1b,N1,M0,IIA,38,Black,Female,Alive,October,1989,December,2014,Rosaleen,HER2+,ER+,PR-,Grade2
+T1b,N1,M0,IIA,93,White,Female,Dead,July,1990,September,1994,Ilene,HER2-,ER-,PR+,Grade3
+T1b,N1,M0,IIA,61,White,Female,Dead,March,1990,January,2002,Jaymee,HER2+,ER+,PR-,Grade1
+T1b,N1,M0,IIA,46,White,Female,Alive,August,1990,December,2014,Albertine,HER2-,ER-,PR-,Grade3
+T1b,N1,M0,IIA,63,White,Female,Dead,March,1990,October,2001,Ralina,HER2-,ER-,PR+,Grade1
+T1b,N1,M0,IIA,42,Black,Female,Alive,June,1990,December,2014,Gracie,HER2+,ER+,PR-,Grade1
+T1b,N1,M0,IIA,45,White,Female,Dead,October,1990,March,2001,Mamie,HER2-,ER+,PR-,Grade3
+T1b,N1,M0,IIA,47,White,Female,Alive,March,1990,December,2014,Simone,HER2-,ER-,PR-,Grade1
+T1b,N1,M0,IIA,74,White,Female,Dead,October,1990,January,2011,Effie,HER2+,ER-,PR+,Grade2
+T1b,N1,M0,IIA,35,White,Female,Alive,July,1990,December,2014,Rena,HER2+,ER+,PR+,Grade2
+T1b,N1,M0,IIA,46,White,Female,Alive,August,1989,December,2014,Gael,HER2-,ER+,PR+,Grade3
+T1b,N1,M0,IIA,63,White,Female,Dead,April,1988,June,2009,Andriette,HER2-,ER-,PR-,Grade1
+T1b,N1,M0,IIA,36,Black,Female,Dead,January,1988,February,2004,Tamar,HER2-,ER+,PR+,Grade3
+T1b,N1,M0,IIA,78,White,Female,Alive,September,2014,December,2014,Betteanne,HER2-,ER+,PR+,Grade2
+T1b,N1,M0,IIA,64,White,Female,Dead,March,1988,March,2001,Noelle,HER2+,ER-,PR+,Grade3
+T1c,N1,M0,IIA,64,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,January,1989,December,2014,Maureene,HER2-,ER+,PR+,Grade3
+T1c,N1,M0,IIA,82,White,Female,Dead,May,1988,October,1990,Max,HER2+,ER+,PR+,Grade2
+T1c,N1,M0,IIA,66,White,Female,Dead,August,1989,April,2010,Glenn,HER2+,ER-,PR+,Grade2
+T1c,N1,M0,IIA,69,White,Female,Dead,October,1988,August,1992,Jane,HER2-,ER+,PR+,Grade1
+T1c,N1,M0,IIA,66,White,Female,Dead,April,1990,January,2014,Waly,HER2-,ER-,PR-,Grade3
+T1c,N1,M0,IIA,77,White,Female,Dead,October,1988,July,2006,Korry,HER2-,ER-,PR-,Grade1
+T1c,N1,M0,IIA,78,White,Female,Dead,May,1988,August,1994,Pauly,HER2-,ER+,PR+,Grade1
+T1c,N1,M0,IIA,80,White,Female,Dead,December,1988,December,1999,Audry,HER2+,ER+,PR+,Grade1
+T1c,N1,M0,IIA,44,White,Female,Alive,June,1988,December,2014,Malka,HER2-,ER-,PR+,Grade1
+T1c,N1,M0,IIA,61,White,Female,Dead,June,1990,July,1997,Elwina,HER2-,ER+,PR+,Grade3
+T1c,N1,M0,IIA,80,White,Female,Dead,June,1990,May,2001,Peg,HER2-,ER+,PR-,Grade3
+T1c,N1,M0,IIA,60,White,Female,Dead,November,1988,October,2006,Ferne,HER2-,ER+,PR+,Grade2
+T1c,N1,M0,IIA,58,White,Female,Dead,December,1988,October,1994,Oprah,HER2+,ER+,PR+,Grade2
+T1c,N1,M0,IIA,36,White,Female,Alive,August,1988,April,2012,Roana,HER2+,ER+,PR+,Grade3
+T1c,N1,M0,IIA,51,White,Female,Dead,September,1989,May,1992,Aubrie,HER2-,ER-,PR-,Grade1
+T1c,N1,M0,IIA,58,White,Female,Alive,January,1989,December,2014,Gusta,HER2-,ER+,PR+,Grade1
+T1c,N1,M0,IIA,62,White,Female,Dead,August,1988,October,2010,Elaine,HER2+,ER-,PR+,Grade3
+T1c,N1,M0,IIA,73,White,Female,Dead,October,1989,October,1992,Hestia,HER2+,ER+,PR-,Grade3
+T1c,N1,M0,IIA,75,White,Female,Dead,May,1990,December,2003,Kellie,HER2-,ER+,PR+,Grade1
+T1c,N1,M0,IIA,49,White,Female,Dead,February,1990,February,2003,Helli,HER2-,ER-,PR+,Grade1
+T1c,N1,M0,IIA,83,White,Female,Dead,September,1989,February,1995,Norma,HER2-,ER+,PR-,Grade2
+T1c,N1,M0,IIA,75,White,Female,Dead,October,1988,July,2004,Jenna,HER2+,ER-,PR-,Grade1
+T1c,N1,M0,IIA,52,White,Female,Alive,May,1990,December,2014,Dinny,HER2+,ER+,PR-,Grade1
+T1c,N1,M0,IIA,55,White,Female,Dead,August,1990,November,1991,Laurene,HER2+,ER+,PR-,Grade1
+T1c,N1,M0,IIA,57,White,Female,Dead,May,1990,September,2012,Rosemonde,HER2+,ER-,PR+,Grade3
+T1c,N1,M0,IIA,38,White,Female,Alive,January,1989,December,2014,Tera,HER2-,ER+,PR+,Grade2
+T1c,N1,M0,IIA,49,White,Female,Dead,August,1989,June,1993,Stacy,HER2-,ER-,PR+,Grade2
+T1c,N1,M0,IIA,59,White,Female,Dead,September,1988,December,1994,Averil,HER2-,ER+,PR+,Grade1
+T1c,N1,M0,IIA,82,White,Female,Dead,January,1989,March,1989,Meara,HER2-,ER-,PR-,Grade2
+T1c,N1,M0,IIA,40,White,Female,Alive,October,1988,December,2014,Josie,HER2-,ER+,PR-,Grade1
+T1c,N1,M0,IIA,63,White,Female,Dead,October,1988,October,1999,Zsa Zsa,HER2-,ER+,PR+,Grade2
+T1c,N1,M0,IIA,69,White,Female,Dead,October,1988,May,2011,Auguste,HER2-,ER+,PR+,Grade1
+T1c,N1,M0,IIA,42,White,Female,Alive,August,1989,December,2014,Phil,HER2-,ER+,PR-,Grade1
+T1c,N1,M0,IIA,41,White,Female,Alive,October,1989,December,2014,Corinna,HER2+,ER+,PR-,Grade3
+T1c,N1,M0,IIA,61,White,Female,Alive,July,1988,August,2013,Abra,HER2+,ER+,PR+,Grade3
+T1c,N1,M0,IIA,77,White,Female,Dead,August,1988,May,1990,Ajay,HER2-,ER-,PR+,Grade2
+T1c,N1,M0,IIA,32,White,Female,Alive,June,1988,January,2008,Britney,HER2-,ER-,PR-,Grade2
+T1c,N1,M0,IIA,77,White,Female,Dead,June,1989,December,2007,Emmi,HER2-,ER+,PR+,Grade2
+T1c,N1,M0,IIA,58,White,Female,Alive,June,1988,December,2014,Ortensia,HER2+,ER-,PR+,Grade2
+T1c,N1,M0,IIA,56,White,Female,Alive,October,1988,December,2014,Nita,HER2+,ER+,PR-,Grade2
+T1c,N1,M0,IIA,32,White,Female,Dead,October,1988,April,2001,Ardis,HER2+,ER+,PR+,Grade2
+T1c,N1,M0,IIA,75,White,Female,Dead,December,1989,August,1997,Darice,HER2-,ER-,PR-,Grade1
+T1c,N1,M0,IIA,42,White,Female,Alive,April,1988,December,2014,Riki,HER2+,ER+,PR+,Grade2
+T1c,N1,M0,IIA,60,White,Female,Dead,February,1990,June,1991,Mitra,HER2-,ER-,PR+,Grade3
+T1c,N1,M0,IIA,75,White,Female,Dead,June,1988,July,2001,Elyn,HER2+,ER+,PR+,Grade1
+T1c,N1,M0,IIA,43,White,Female,Dead,October,1990,February,2000,Bride,HER2+,ER+,PR+,Grade3
+T1c,N1,M0,IIA,43,White,Female,Alive,March,1988,December,2014,Kelcey,HER2+,ER-,PR+,Grade3
+T1c,N1,M0,IIA,55,White,Female,Alive,January,1989,December,2014,Steffane,HER2-,ER+,PR-,Grade2
+T1c,N1,M0,IIA,57,White,Female,Alive,March,1988,December,2014,Clo,HER2-,ER-,PR-,Grade3
+T1c,N1,M0,IIA,31,White,Female,Alive,February,1988,December,2014,Brietta,HER2+,ER+,PR-,Grade1
+T1c,N1,M0,IIA,40,White,Female,Dead,January,1990,September,1997,Andria,HER2-,ER-,PR+,Grade2
+"Any T, Mets",N1,M1,IV,40,Black,Female,Alive,June,2014,December,2014,Nessy,HER2+,ER+,PR-,Grade3
+"Any T, Mets",N1,M1,IV,79,Black,Female,Alive,May,2013,December,2014,Beatrisa,HER2+,ER-,PR-,Grade3
+"Any T, Mets",N1,M1,IV,61,White,Female,Alive,May,2014,December,2014,Wendi,HER2-,ER+,PR-,Grade2
+"Any T, Mets",N1,M1,IV,62,White,Female,Alive,September,2014,December,2014,Hannah,HER2-,ER-,PR+,Grade3
+"Any T, Mets",N1,M1,IV,25,Black,Female,Alive,October,2014,December,2014,Babita,HER2-,ER+,PR+,Grade1
+"Any T, Mets",N1,M1,IV,53,Black,Female,Alive,November,2014,December,2014,Bettye,HER2-,ER+,PR-,Grade3
+"Any T, Mets",N1,M1,IV,41,Black,Female,Alive,September,2014,December,2014,Marcelline,HER2+,ER+,PR+,Grade1
+"Any T, Mets",N1,M1,IV,56,Black,Female,Alive,September,2014,December,2014,Jori,HER2+,ER-,PR-,Grade3
+"Any T, Mets",N1,M1,IV,51,Black,Male,Alive,August,2014,December,2014,Ty,HER2+,ER-,PR-,Grade1
+"Any T, Mets",N1,M1,IV,55,Black,Female,Alive,October,2014,December,2014,Gerry,HER2-,ER-,PR-,Grade2
+"Any T, Mets",N1,M1,IV,52,White,Female,Alive,December,2014,December,2014,Katy,HER2+,ER+,PR-,Grade3
+"Any T, Mets",N1,M1,IV,71,White,Female,Alive,September,2012,December,2014,Edi,HER2+,ER-,PR+,Grade2
+"Any T, Mets",N1,M1,IV,65,White,Female,Dead,September,2012,November,2012,Cornela,HER2-,ER-,PR-,Grade3
+"Any T, Mets",N1,M1,IV,41,Black,Female,Dead,September,2012,May,2014,Elie,HER2+,ER-,PR-,Grade2
+T4d,N2,M0,IIIB,50,White,Female,Alive,October,2013,December,2014,Petronilla,HER2-,ER+,PR+,Grade1
+T4d,N2,M0,IIIB,48,Black,Female,Dead,December,2013,October,2014,Jillene,HER2+,ER-,PR+,Grade2
+T4d,N2,M0,IIIB,32,White,Female,Alive,January,2014,December,2014,Jasmin,HER2+,ER-,PR+,Grade2
+T2,N3,M0,IIIC,61,White,Female,Alive,November,1989,December,2014,Shoshana,HER2-,ER+,PR+,Grade2
+T2,N3,M0,IIIC,42,White,Female,Dead,June,1990,May,1998,Deena,HER2-,ER-,PR+,Grade3
+T2,N3,M0,IIIC,73,White,Female,Dead,May,1989,October,1996,Agnes,HER2-,ER+,PR+,Grade2
+T2,N3,M0,IIIC,48,White,Female,Dead,December,1988,March,1990,Ivory,HER2+,ER+,PR-,Grade2
+T2,N3,M0,IIIC,65,White,Female,Dead,December,1988,July,2009,Sybil,HER2+,ER+,PR-,Grade2
+T2,N3,M0,IIIC,46,White,Female,Alive,May,1988,December,2014,Kay,HER2-,ER-,PR+,Grade2
+T2,N3,M0,IIIC,47,White,Female,Dead,January,1989,January,1992,Aprilette,HER2-,ER+,PR-,Grade3
+"Any T, Mets",N0,M1,IV,70,White,Female,Dead,July,2014,July,2014,Otha,HER2-,ER-,PR-,Grade3
+"Any T, Mets",N0,M1,IV,83,Black,Female,Dead,September,2014,October,2014,Hali,HER2-,ER-,PR+,Grade3
+"Any T, Mets",N0,M1,IV,48,Black,Female,Alive,September,2014,December,2014,Nathalie,HER2-,ER-,PR-,Grade2
+"Any T, Mets",N0,M1,IV,33,Black,Female,Alive,June,2014,December,2014,Brandie,HER2-,ER-,PR-,Grade2
+"Any T, Mets",N0,M1,IV,58,White,Female,Alive,October,2014,December,2014,Marabel,HER2-,ER-,PR-,Grade1
+"Any T, Mets",N0,M1,IV,59,White,Female,Alive,September,2014,December,2014,Lorri,HER2+,ER+,PR-,Grade3
+T3,N1,M0,IIIA,51,White,Female,Dead,January,1989,August,1989,Andromeda,HER2+,ER+,PR-,Grade3
+T3,N1,M0,IIIA,66,Black,Female,Dead,March,1989,June,1993,Saraann,HER2-,ER+,PR+,Grade2
+T3,N1,M0,IIIA,69,White,Female,Dead,November,1989,September,1993,Christy,HER2+,ER-,PR-,Grade1
+T3,N1,M0,IIIA,86,White,Female,Dead,October,1990,February,1992,Randa,HER2+,ER-,PR-,Grade3
+T3,N1,M0,IIIA,64,White,Female,Alive,November,2014,December,2014,Inger,HER2-,ER-,PR+,Grade3
+T3,N1,M0,IIIA,66,White,Female,Alive,August,2014,December,2014,Debby,HER2-,ER+,PR+,Grade3
+T3,N1,M0,IIIA,34,White,Female,Alive,March,1988,December,2014,Cortney,HER2+,ER+,PR+,Grade2
+T3,N1,M0,IIIA,72,White,Female,Alive,September,2014,December,2014,Klarrisa,HER2-,ER+,PR-,Grade2
+TX Adjusted,N3,M0,IIIC,56,Black,Female,Alive,May,2012,December,2014,Elvira,HER2+,ER-,PR-,Grade1
+T1c,N3,M0,IIIC,35,White,Female,Dead,January,1990,January,1992,Kissee,HER2-,ER-,PR-,Grade1
+T1c,N3,M0,IIIC,44,White,Female,Dead,June,1990,September,1991,Chryste,HER2-,ER+,PR+,Grade1
+T1c,N3,M0,IIIC,72,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,January,1990,September,1993,Alica,HER2-,ER+,PR-,Grade3
+T1c,N3,M0,IIIC,46,Black,Female,Dead,February,1990,August,1993,Rosalie,HER2+,ER-,PR+,Grade1
+T1c,N3,M0,IIIC,45,Black,Female,Dead,February,1990,March,2013,Shirlene,HER2+,ER-,PR+,Grade1
+T3,N2,M0,IIIA,47,White,Female,Alive,February,1990,December,2014,Tiffi,HER2-,ER+,PR+,Grade3
+T3,N2,M0,IIIA,68,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,May,1990,February,1997,Pierrette,HER2-,ER-,PR+,Grade3
+T3,N2,M0,IIIA,48,White,Female,Dead,March,1991,November,1995,Alejandra,HER2+,ER-,PR-,Grade2
+T3,N2,M0,IIIA,36,Black,Female,Dead,March,1991,January,1993,Selestina,HER2+,ER+,PR+,Grade3
+T3,N2,M0,IIIA,78,Black,Female,Dead,September,1990,January,1992,Nicolle,HER2+,ER-,PR+,Grade3
+T3,N2,M0,IIIA,56,White,Female,Dead,October,1988,July,1991,Issy,HER2-,ER+,PR-,Grade1
+T3,N2,M0,IIIA,56,Black,Female,Dead,May,1988,October,1993,Pier,HER2+,ER-,PR+,Grade1
+T3,N2,M0,IIIA,53,White,Female,Dead,February,1988,February,1996,Di,HER2-,ER-,PR-,Grade3
+T3,N2,M0,IIIA,49,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,January,1988,February,1990,Malynda,HER2+,ER+,PR-,Grade2
+T3,N2,M0,IIIA,72,White,Female,Dead,March,1988,July,1996,Nettie,HER2+,ER+,PR-,Grade1
+T3,N2,M0,IIIA,43,White,Female,Dead,February,1988,September,1998,Beatrice,HER2-,ER+,PR+,Grade3
+T3,N2,M0,IIIA,50,Black,Female,Dead,February,1997,November,1999,Charmion,HER2+,ER-,PR+,Grade3
+T3,N2,M0,IIIA,55,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,December,1998,May,2005,Camellia,HER2+,ER+,PR-,Grade3
+"Any T, Mets",N3,M1,IV,38,Black,Female,Dead,August,1996,January,1999,Page,HER2+,ER+,PR-,Grade1
+"Any T, Mets",N3,M1,IV,41,White,Female,Dead,February,1997,November,1998,Brynn,HER2+,ER-,PR-,Grade1
+"Any T, Mets",N3,M1,IV,40,Black,Female,Dead,March,1996,December,1997,Timothea,HER2+,ER+,PR+,Grade1
+"Any T, Mets",N3,M1,IV,60,White,Female,Dead,August,1996,March,1999,Shantee,HER2-,ER+,PR+,Grade3
+"Any T, Mets",N3,M1,IV,47,Black,Female,Dead,August,1996,November,1998,Idaline,HER2+,ER-,PR+,Grade3
+"Any T, Mets",N3,M1,IV,37,White,Female,Dead,May,1996,March,1997,Francisca,HER2-,ER+,PR+,Grade3
+"Any T, Mets",N3,M1,IV,56,Black,Female,Dead,December,1996,June,2000,Kellia,HER2-,ER+,PR+,Grade3
+"Any T, Mets",N3,M1,IV,67,Black,Female,Dead,September,1996,January,1997,Pansie,HER2-,ER-,PR-,Grade2
+T4b,N3,M0,IIIC,78,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,April,1993,August,1997,Clemmy,HER2-,ER-,PR-,Grade3
+T4b,N3,M0,IIIC,58,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,September,1989,July,1991,Ora,HER2-,ER-,PR+,Grade1
+T4b,N2,M0,IIIB,79,White,Female,Dead,December,2003,May,2005,Jaquith,HER2-,ER+,PR-,Grade2
+T4b,N2,M0,IIIB,78,White,Female,Dead,November,2004,November,2014,Vi,HER2+,ER-,PR+,Grade2
+T4b,N2,M0,IIIB,91,White,Female,Dead,June,2004,May,2008,Jacklyn,HER2-,ER+,PR-,Grade2
+TX Adjusted,N2,M0,IIINOS,53,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Alive,February,1993,December,2014,Irene,HER2-,ER-,PR-,Grade2
+TX Adjusted,N2,M0,IIINOS,44,White,Female,Alive,May,1992,December,2014,Gay,HER2-,ER+,PR+,Grade1
+T3,N3,M0,IIIC,61,Black,Female,Alive,December,2014,December,2014,Ventura,HER2+,ER+,PR+,Grade3
+T3,N3,M0,IIIC,44,White,Female,Alive,September,2014,December,2014,Myrna,HER2-,ER+,PR-,Grade2
+T3,N3,M0,IIIC,42,White,Female,Alive,October,2014,December,2014,Carola,HER2+,ER-,PR-,Grade2
+T3,N3,M0,IIIC,73,Black,Female,Alive,February,2012,December,2014,Henka,HER2+,ER-,PR+,Grade3
+T3,N3,M0,IIIC,49,Black,Female,Alive,June,2012,December,2014,Chloris,HER2-,ER+,PR-,Grade2
+T3,N3,M0,IIIC,63,White,Female,Alive,November,2013,December,2014,Winne,HER2-,ER+,PR-,Grade3
+T3,N3,M0,IIIC,62,Black,Female,Alive,February,2014,December,2014,Kimberly,HER2-,ER+,PR-,Grade2
+T1mic,N0,M0,I,47,White,Female,Alive,October,2007,December,2014,Benoite,HER2-,ER+,PR+,Grade1
+T1mic,N0,M0,I,68,Black,Female,Alive,May,2007,December,2014,Candida,HER2-,ER-,PR-,Grade2
+T1mic,N0,M0,I,56,White,Female,Alive,July,2007,March,2009,Kerrill,HER2+,ER+,PR-,Grade2
+T1mic,N0,M0,I,58,White,Female,Alive,May,2007,December,2014,Barbara-Anne,HER2+,ER+,PR-,Grade3
+T1mic,N0,M0,I,52,White,Female,Dead,March,2007,November,2010,Margot,HER2-,ER+,PR-,Grade2
+T1mic,N0,M0,I,51,White,Female,Alive,August,2007,November,2013,Ellissa,HER2+,ER-,PR-,Grade2
+T1mic,N0,M0,I,78,White,Female,Dead,February,2007,December,2007,Junia,HER2-,ER+,PR-,Grade3
+T1mic,N0,M0,I,65,White,Female,Alive,August,2007,December,2014,Kaylil,HER2-,ER-,PR+,Grade2
+T1mic,N0,M0,I,71,White,Female,Alive,August,2007,December,2014,Geneva,HER2-,ER-,PR+,Grade1
+T1mic,N0,M0,I,40,White,Female,Alive,July,2007,December,2014,Kippie,HER2-,ER+,PR+,Grade1
+T1mic,N0,M0,I,52,White,Female,Alive,March,2007,December,2014,Betteann,HER2-,ER-,PR-,Grade3
+T1mic,N0,M0,I,58,White,Female,Alive,September,2007,December,2014,Dona,HER2+,ER+,PR+,Grade2
+T1mic,N0,M0,I,40,White,Female,Alive,March,2007,December,2014,Berte,HER2-,ER-,PR-,Grade3
+T1mic,N0,M0,I,67,White,Female,Alive,February,2007,December,2014,Malorie,HER2-,ER+,PR+,Grade2
+T1c,N2,M0,IIIA,48,White,Female,Alive,July,2011,December,2014,Tarrah,HER2-,ER-,PR+,Grade3
+T1c,N2,M0,IIIA,35,Black,Female,Alive,October,2011,December,2014,Judie,HER2+,ER-,PR-,Grade1
+T1c,N2,M0,IIIA,37,Black,Female,Dead,October,2011,February,2014,Jess,HER2+,ER-,PR+,Grade3
+T1c,N2,M0,IIIA,70,White,Female,Dead,November,2011,August,2014,Harmonie,HER2-,ER-,PR+,Grade1
+T1c,N2,M0,IIIA,44,Black,Female,Alive,December,2011,December,2014,Maggy,HER2+,ER+,PR-,Grade2
+T1c,N2,M0,IIIA,61,White,Female,Alive,July,2012,December,2014,Ethyl,HER2-,ER+,PR+,Grade2
+T1c,N2,M0,IIIA,68,White,Female,Alive,October,2011,December,2014,Joelly,HER2-,ER+,PR-,Grade3
+T1c,N2,M0,IIIA,52,White,Female,Alive,September,2011,December,2014,Willy,HER2+,ER-,PR+,Grade3
+T1c,N2,M0,IIIA,44,White,Female,Alive,January,2011,December,2014,Coral,HER2-,ER+,PR-,Grade3
+T1c,N2,M0,IIIA,58,White,Female,Alive,May,2011,December,2014,Nisa,HER2+,ER-,PR-,Grade1
+T4d,N1,M0,IIIB,88,White,Female,Dead,April,1989,April,1989,Nedi,HER2-,ER-,PR+,Grade1
+T4d,N1,M0,IIIB,66,White,Female,Dead,August,1988,May,2006,Lanny,HER2-,ER-,PR+,Grade1
+T4d,N1,M0,IIIB,46,White,Female,Dead,August,1994,August,1996,Wilow,HER2-,ER-,PR+,Grade1
+T4d,N1,M0,IIIB,57,White,Female,Dead,August,1991,July,2000,Annnora,HER2-,ER+,PR+,Grade2
+T4d,N1,M0,IIIB,94,White,Female,Dead,November,1990,December,1996,Catie,HER2-,ER-,PR-,Grade3
+T4b,NX Adjusted,M0,IIINOS,66,White,Female,Alive,December,2004,December,2014,Vivyanne,HER2-,ER-,PR+,Grade2
+T4b,NX Adjusted,M0,IIINOS,92,"Other (American Indian/AK Native, Asian/Pacific Islander)",Female,Dead,December,2010,May,2012,Taryn,HER2+,ER-,PR-,Grade3
+T1b,N3,M0,IIIC,56,White,Female,Dead,May,2003,June,2004,Katharina,HER2+,ER-,PR-,Grade2
+Tis,N0,M0,0,58,White,Female,Alive,December,2006,December,2014,Jen,HER2+,ER-,PR-,Grade3
+T4c,N2,M0,IIIB,59,Black,Female,Dead,April,2010,February,2011,Del,HER2+,ER-,PR+,Grade3
+T4d,N3,M0,IIIC,74,White,Female,Dead,July,1996,October,1996,Candide,HER2-,ER-,PR-,Grade1
+T4d,N3,M0,IIIC,47,White,Female,Alive,July,1996,December,2014,Laura,HER2-,ER+,PR+,Grade3
+T4d,N3,M0,IIIC,73,White,Female,Dead,September,1995,June,2010,Gabriell,HER2+,ER+,PR+,Grade2
+T1b,N2,M0,IIIA,68,White,Female,Dead,December,1991,May,1994,Candis,HER2+,ER-,PR+,Grade2
+T1b,N2,M0,IIIA,76,White,Female,Dead,November,1991,February,2002,Ilse,HER2+,ER+,PR-,Grade3
+T4a,N0,M0,IIIB,66,White,Female,Alive,April,2010,December,2014,Fayth,HER2-,ER-,PR-,Grade3
+T0,N1,M0,IIA,62,White,Female,Dead,June,2010,August,2011,Wilhelmine,HER2-,ER+,PR-,Grade1
+T4a,N2,M0,IIIB,59,White,Female,Dead,April,2012,December,2014,Georgia,HER2-,ER-,PR-,Grade1
+T1a,N1,M0,IIA,57,White,Female,Alive,August,2002,December,2014,Donelle,HER2-,ER-,PR+,Grade3
+T4d,NX Adjusted,M0,IIINOS,42,White,Female,Dead,May,2004,August,2005,Lyssa,HER2+,ER-,PR+,Grade3
+T4d,N0,M0,IIIB,57,White,Female,Dead,March,1998,January,2004,Van,HER2+,ER+,PR-,Grade1
+T4c,N1,M0,IIIB,85,White,Female,Dead,August,2000,October,2002,Pepita,HER2+,ER+,PR-,Grade3

@@ -1,0 +1,12 @@
+Column,Label,Comment,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,Template
+START,Start,The date the allergy was diagnosed.,sio:StartDate,??timepoint,,YYYY-MM-DD,,,,,,,,
+STOP,Stop,"The date the allergy ended, if applicable",sio:EndDate,??timepoint,,YYYY-MM-DD,,,,,,,,
+PATIENT,Patient Identifier,Foreign key to the Patient.,sio:Identifier,??patient,,UUID,,,,,,,,PATIENT/{PATIENT}
+ENCOUNTER,Encounter Identifier,Foreign key to the Encounter when the allergy was diagnosed.,sio:Identifier,??encounter,,UUID,,,,,,,,ENCOUNTER/{ENCOUNTER}
+CODE,Code,Allergy code from SNOMED-CT,ncit:C25162,??snomedct,,String,,,,,??allergy,,,SNOMED_CT/{CODE}
+DESCRIPTION,Description,Description of the Allergy,sio:Description,??allergy,,String,,,,,,,,
+??patient,Patient,,,,,,,sio:Human,sio:PatientRole,,??encounter,,,
+??encounter,Encounter,,,,,,??timepoint,ncit:C62143,,,,,,
+??timepoint,Timepoint,,,,,,,sio:TimeInterval,,,,,,
+??allergy,Allergy,,,,,,,"efo:0003785, doid:1205, ncit:C114476",,,,,,
+??snomedct,SNOMED-CT,,,,,,,ncit:C49469,,,,,,

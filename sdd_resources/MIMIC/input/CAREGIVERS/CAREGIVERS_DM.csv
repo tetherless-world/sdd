@@ -1,0 +1,8 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+CGID,sio:Identifier,??cg,,,,,,,,,,2,CGID,Care Giver ID
+LABEL,sio:Label,??row,,,,,,,,,,3,Label,Label
+DESCRIPTION,sio:Description,??row,,,,,,,,,,4,Description,Description
+??row,,,,,,sio:Row,,,,,,,Row,Row
+??cg,,,,,,sio:MedicalPractitioner,,,??hospital,,,,Care Giver,Care Giver
+??hospital,,,,,,"ncit:C16696, envo:00002173, obi:0000844",,,,,,,Hospital,Hospital

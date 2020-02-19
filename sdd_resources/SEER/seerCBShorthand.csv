@@ -1,0 +1,84 @@
+Column,Code,Label,Class
+T,0,T0,"cst:T0, ncit:C48719"
+T,1,T1,"cst:T1, ncit:C48720"
+T,1a,T1a,"cst:T1a, ncit:C48721"
+T,1a(m),T1a(m),cst:T1a_m
+T,1a(s),T1a(s),cst:T1a_s
+T,1a1,T1a1,cst:T1a1
+T,1a2,T1a2,cst:T1a2
+T,1b,T1b,"cst:T1b, ncit:C48722"
+T,1b(m),T1b(m),cst:T1b_m
+T,1b(s),T1b(s),cst:T1b_s
+T,1b1,T1b1,cst:T1b1
+T,1b2,T1b2,cst:T1b2
+T,1c,T1c,"cst:T1c, ncit:C48723"
+T,1d,T1d,cst:T1d
+T,1mic,T1mic,"cst:T1mic, ncit:C95805"
+T,1NOS,T1NOS,cst:T1NOS
+T,1NOS(s),T1NOS(s),cst:T1NOS_s
+T,2,T2,"cst:T2, ncit:C48724"
+T,2(m),T2(m),cst:T2_m
+T,2(s),T2(s),cst:T2_s
+T,2a,T2a,"cst: T2a, ncit:C48725"
+T,2a1,T2a1,cst:T2a1
+T,2a2,T2a2,cst:T2a2
+T,2b,T2b,"cst:T2b, ncit:C48726"
+T,2c,T2c,"cst:T2c, ncit:C48727"
+T,2d,T2d,cst:T2d
+T,2NOS,T2NOS,cst:T2NOS
+T,2aNOS,T2aNOS,cst:T2aNOS
+T,3,T3,"cst:T3, ncit:C48728"
+T,3(m),T3(m),cst:T3_m
+T,3(s),T3(s),cst:T3_s
+T,3a,T3a,"cst:T3a, ncit:C48729"
+T,3b,T3b,"cst:T3b, ncit:C48730"
+T,3c,T3c,"cst:T3c, ncit:C48731"
+T,3d,T3d,cst:T3d
+T,3NOS,T3NOS,cst:T3NOS
+T,4,T4,"cst:T4, ncit:C48732"
+T,4a,T4a,"cst:T4a, ncit:C48733"
+T,a,Ta,"cst:Ta, ncit:C96025"
+T,is,Tis,"cst:Tis, ncit:C48738"
+T,X,TX,"cst:TX, ncit:C48737"
+N,0,N0,"cst:N0, ncit:C48705"
+N,0(i-),N0(i-),"cst:N0_iNeg, ncit:C95921"
+N,0(i+),N0(i+),"cst:N0_iPos, ncit:C95922"
+N,1,N1,"cst:N1, ncit:C48706"
+N,1a,N1a,"cst:N1a, ncit:C48707"
+N,1b,N1b,"cst:N1b, ncit:C48708"
+N,1c,N1c,"cst:N1c, ncit:C48709"
+N,1mi,N1mi,"cst:N1mi, ncit:C95955"
+N,1NOS,N1NOS,cst:N1NOS
+N,2,N2,"cst:N2, ncit:C48786"
+N,2a,N2a,"cst:N2a, ncit:C48711"
+N,2b,N2b,"cst:N2b, ncit:C48712"
+N,2c,N2c,"cst:N2c, ncit:C48713"
+N,2NOS,N2NOS,cst:N2NOS
+N,3,N3,"cst:N3, ncit:C48714"
+N,3a,N3a,"cst:N3a, ncit:C48715"
+N,3b,N3b,"cst:N3b, ncit:C48716"
+N,3c,N3c,"cst:N3c, ncit:C48717"
+N,3NOS,N3NOS,cst:N3NOS
+N,4,N4,"cst:N4, ncit:C96026"
+N,X,NX,"cst:NX, ncit:C48718"
+M,0,M0,"cst:M0, ncit:C48699"
+M,0(i-),M0(i-),cst:M0_iNeg
+M,0(i+),M0(i+),cst:M0_iPos
+M,1,M1,"cst:M1, ncit:C48700"
+M,1a,M1a,"cst:M1a, ncit:C48701"
+M,1b,M1b,"cst:M1b, ncit:C48702"
+M,1c,M1c,"cst:M1c, ncit:C48703"
+M,1NOS,M1NOS,cst:M1NOS
+M,X,MX,"cst:MX, ncit:C48704"
+Grade,1,Grade 1 Malignant Neoplasm,"cst:Grade1, ncit:C36039"
+Grade,2,Grade 2 Malignant Neoplasm,"cst:Grade2, ncit:C36040"
+Grade,3,Grade 3 Malignant Neoplasm,"cst:Grade3, ncit:C36042"
+Grade,4,Grade 4 Malignant Neoplasm,"cst:Grade4, ncit:C36045"
+HER2,Pos,HER2 Positive,"cst:HER2_Pos, ncit:C68748"
+HER2,Neg,HER2 Negative,"cst:HER2_Neg, ncit:C68749"
+ER,Pos,ER Positive,"cst:ER_Pos, ncit:C15492"
+ER,Neg,ER Negative,"cst:ER_Neg, ncit:C15493"
+PR,Pos,PR Positive,"cst:PR_Pos, ncit:C15496"
+PR,Neg,PR Negative,"cst:PR_Neg, ncit:C15497"
+Sex,Male,male,sio:Male
+Sex,Female,female,sio:Female

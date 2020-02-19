@@ -1,0 +1,25 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+SUBJECT_ID,sio:Identifier,??subject,,,,,,,,,,2,Subject ID,Subject ID
+HADM_ID,sio:Identifier,??admission,,,,,,,??hospital,,,3,Hospital Admission ID,Hospital Admission ID (unique to hospital)
+ICUSTAY_ID,sio:Identifier,??icustay,,,,,,,,,,4,ICU Stay ID,ICU Stay ID (unique to a patient ICU stay)
+ITEMID,sio:Identifier,??item,,,,,,,,,,5,Item ID,ID for a measurement type made
+CHARTTIME,sio:TimeInterval,??chartevent,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,,,,6,Chart Time,Time at which an observation was made
+STORETIME,sio:TimeInterval,??storeevent,,YYYY-MM-Ddhh:mm:ss^^xsd:dateTime,,,,,,,,7,Store Time,Time at which observation was inputed/stored
+CGID,sio:TimeInterval,??cg,,,,,,,,,,8,CGID,Care Giver ID
+VALUE,sio:MeasurementValue,??item,VALUEUOM,,,,,,,,,9,Item Value,Measured value for the concept ID'd in ITEMID
+VALUENUM,sio:MeasurementValue,??item,,,,,,,,,,10,Item Numerical Value,"Same as value but stored numerically, (null if it isn't a number)"
+VALUEUOM,sio:000074,VALUE,,,,,,,,,,11,Value Unit,Unit of Measurement of Value/Valuenum
+WARNING,cheminf:000506,VALUE,,,,,,,,,,12,Warning,Specifies if a warning for the value was raised
+ERROR,ncit:c43369,??item,,,,,,,,,,13,Error,Records errors that occurred during measurement
+RESULTSTATUS,sio:StatusDescriptor,??item,,,,,,,,,,14,Result Type,Specifies manual/automatic types of measurement
+STOPPED,sio:StatusDescriptor,??item,,,,,,,,,,15,Stopped,Records if measurement was stopped
+??hospital,,,,,,"ncit:C16696, envo:00002173, obi:0000844",,,,,,,Hospital,Hospital
+??subject,,,,,,sio:Human,sio:SubjectRole,,,,,,Subject,Subject
+??row,,,,,,sio:Row,,,,,,,Row,Row
+??admission,,,,,,ncit:C25385,,,,,,,Admission,Admission
+??icustay,,,,,,sio:TimeInterval,,,??subject,,,,Patient's ICU Stay,
+??item,,,,,,sio:DataItem,,,??subject,,,,Data Item,Data on patient
+??chartevent,,,,,,ncit:C25499,,,??item,,,,Chart Event,Temporal event when observation is made
+??storeevent,,,,,,ncit:C25499,,,??item,,,,Store Event,Temporal event when observation is stored
+??cg,,,,,,sio:MedicalPractitioner,,,??subject,,,,Care Giver,

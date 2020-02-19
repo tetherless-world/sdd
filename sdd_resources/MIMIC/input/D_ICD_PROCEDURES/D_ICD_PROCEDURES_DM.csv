@@ -1,0 +1,7 @@
+Column,Attribute,attributeOf,Unit,Format,Time,Entity,Role,Relation,inRelationTo,wasDerivedFrom,wasGeneratedBy,hasPosition,Label,Comment
+ROW_ID,sio:Identifier,??row,,,,,,,,,,1,Row ID,Row ID
+ICD9_CODE,ncit:C25712,??icd9,,,,,,,,,,2,ICD9 Code,Each code corresponds to a single procedural concept. Also known as International Coding Definitions Version 9
+SHORT_TITLE,SIO:000185,,,,,,,,,,,3,Short Title,Title provides a brief definition for the given diagnosis code in ICD9_Code. (Char (50))
+LONG_TITLE,SIO:000185,,,,,,,,,,,4,Long Title,Title provides a brief definition for the given diagnosis code in ICD9_Code. (Char (300))
+??row,,,,,,sio:Row,,,,,,,Row,
+??icd9,,,,,,ncit:C71890,,,,,,,,

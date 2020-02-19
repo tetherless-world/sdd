@@ -1,0 +1,15 @@
+[Prefixes]
+# Specify a file with the prefixes for existing ontologies used in your translation
+prefixes = MIMIC/config/prefixes.txt
+# Specify the base uri to be associated with all triples minted by the script
+base_uri = mimic-kb
+
+[Source Files]
+dictionary = MIMIC/input/ADMISSIONS/ADMISSIONS_DM.csv 
+codebook = MIMIC/input/ADMISSIONS/ADMISSIONS_CB.csv
+code_mappings = code_mappings.csv
+data_file = MIMIC/input/ADMISSIONS/ADMISSIONS.csv
+
+[Output Files]
+out_file = MIMIC/input/ADMISSIONS/ADMISSIONS-kg-out.txt
+query_file = MIMIC/input/ADMISSIONS/ADMISSIONS_q.txt
