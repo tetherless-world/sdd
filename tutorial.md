@@ -48,9 +48,50 @@ layout: main
         </ul>
     </div>
 </nav>
-This is the Tutorial page.
 
-## Setup
+## Setup (Whyis SDD Agent)
+Install Whyis as detailed <a href="http://tetherless-world.github.io/whyis/install">Here</a>.
+
+Clone the Semantic Data Dictionary repository into the /apps directory.
+`cd /apps/ && git clone https://github.com/tetherless-world/SemanticDataDictionary.git`
+
+Change into the Whyis user
+`sudo su - whyis`
+
+Move into the whyis directory
+`cd /apps/whyis`
+
+Load the SDD ontology into Whyis
+`python manage.py load -i /apps/SemanticDataDictionary/sdd-ontology.ttl -f turtle`
+
+Start whyis server in watch mode
+`python manage.py runserver -h 0.0.0.0 --watch`
+
+In your browser, navigate to the Dataset upload page. For example, if the VM is directed to IP address 192.168.66.36, go to:
+`http://192.168.66.36:5000/about?view=new&uri=http:%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset`
+
+Load the data file and the SDD spreadsheet.
+
+Optionally add an image associated with the dataset.
+
+Add a title and description for the dataset.
+
+Add your ORCID.
+
+Once you press submit, the dataset resource page should be loaded.
+
+For the dataset, click Add Attribute, and add a URI space, such as
+`http://purl.org/twc/HEALS/kb/`
+
+For the spreadsheet, add type `Semantic Data Dictionary`
+
+For the data file, click Add Attributem and add a delimiterm such as `,`
+
+Link the data file to the spreadsheet by clicking Add Link, and add a conforms to link to connect the data file to the spreadsheet.
+
+The data should now be annoated and loaded into the Whyis graph.
+
+## Setup (Deprecated)
 
 ### Installation - VM
 
