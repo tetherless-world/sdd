@@ -57,7 +57,7 @@ Install `setlr` using `pip`.
 `pip install setlr`
 
 Installing the `sdd2rdf` package installs the `sdd2setl` command. It's usage documentation can be viewed by the `--help` argument.
-``sdd2setl --help`
+`sdd2setl --help`
 
 Running this command returns the following:
 ```
