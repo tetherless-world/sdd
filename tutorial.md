@@ -49,6 +49,49 @@ layout: main
     </div>
 </nav>
 
+## Setup (Standalone/Command Line)
+Install `sdd2rdf` using `pip`.
+`pip install sdd2rdf`
+
+Install `setlr` using `pip`.
+`pip install setlr`
+
+Installing the `sdd2rdf` package installs the `sdd2setl` command. It's usage documentation can be viewed by the `--help` argument.
+``sdd2setl --help`
+
+Running this command returns the following:
+```
+usage: sdd2setl [-h] [-o OUTPUT] [-f {csv,excel}] [-d DELIMITER]
+                [-s SHEETNAME] [--dataset_uri DATASET_URI]
+                semantic_data_dictionary prefix data_file setl_output
+
+positional arguments:
+  semantic_data_dictionary
+  prefix
+  data_file
+  setl_output
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+  -f {csv,excel}, --format {csv,excel}
+  -d DELIMITER, --delimiter DELIMITER
+  -s SHEETNAME, --sheetname SHEETNAME
+  --dataset_uri DATASET_URI
+```
+
+The standalone `sdd2setl` approach can be tested using the Example Project within the Semantic Data Dictionary repository. Start by cloning the Semantic Data Dictionary repository.
+`git clone https://github.com/tetherless-world/SemanticDataDictionary.git`
+
+Navigate into the Semantic Data Dictionary repo directory.
+`cd SemanticDataDictionary`
+
+Run the sdd2setl command using the existing example project.
+`sdd2setl -o example.trig -f csv -d , ExampleProject/example_sdd.xlsx https://example.com/example/ ExampleProject/input/Data/exampleData.csv example.setl`
+
+Running the above command generates the setl file `example.setl` which can be used to generate the knowledge graph fragment by using setlr.
+`setlr example.setl`
+
 ## Setup (Whyis SDD Agent)
 Install Whyis as detailed <a href="http://tetherless-world.github.io/whyis/install">Here</a>.
 
