@@ -51,12 +51,15 @@ layout: main
 
 ## Setup (Standalone/Command Line)
 Install `sdd2rdf` using `pip`.
+
 `pip install sdd2rdf`
 
 Install `setlr` using `pip`.
+
 `pip install setlr`
 
 Installing the `sdd2rdf` package installs the `sdd2setl` command. It's usage documentation can be viewed by the `--help` argument.
+
 `sdd2setl --help`
 
 Running this command returns the following:
@@ -81,17 +84,21 @@ optional arguments:
 ```
 
 The standalone `sdd2setl` approach can be tested using the Example Project within the Semantic Data Dictionary repository. Start by cloning the Semantic Data Dictionary repository.
+
 `git clone https://github.com/tetherless-world/SemanticDataDictionary.git`
 
 Navigate into the Semantic Data Dictionary repo directory.
+
 `cd SemanticDataDictionary`
 
 Run the sdd2setl command using the existing example project.
+
 `sdd2setl -o example.trig -f csv -d , ExampleProject/example_sdd.xlsx https://example.com/example/ ExampleProject/input/Data/exampleData.csv example.setl`
 
 Running the above command generates the setl file `example.setl`.
 
 The setl file can be used to generate the knowledge graph fragment by using setlr.
+
 `setlr example.setl`
 
 This generates the rdf file `example.trig`.
@@ -100,18 +107,23 @@ This generates the rdf file `example.trig`.
 Install Whyis as detailed <a href="http://tetherless-world.github.io/whyis/install">Here</a>.
 
 Clone the Semantic Data Dictionary repository into the /apps directory.
+
 `cd /apps/ && git clone https://github.com/tetherless-world/SemanticDataDictionary.git`
 
 Change into the Whyis user
+
 `sudo su - whyis`
 
 Move into the whyis directory
+
 `cd /apps/whyis`
 
 Load the SDD ontology into Whyis
+
 `python manage.py load -i /apps/SemanticDataDictionary/sdd-ontology.ttl -f turtle`
 
 Start whyis server in watch mode
+
 `python manage.py runserver -h 0.0.0.0 --watch`
 
 In your browser, navigate to the Dataset upload page. For example, if the VM is directed to IP address 192.168.66.36, go to:
